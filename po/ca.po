@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Botó de ràdio"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Botó"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Deshabilitat."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Seleccionat."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "No seleccionat"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Comprovi el telèfon."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Connecti's mitjançant Bluetooth per revisar i acceptar l'avís legal."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Idiomes entrada"
+
+msgid "IDS_ST_SK_OK"
+msgstr "Acceptar"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Toqui dues vegades per enviar."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Quan podem quedar?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Com va?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Què passa?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Parlem aviat."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Et trucaré més tard."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "On ets?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Trucar-me més tard"
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Parli ara en %s"
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Error de reconeixement de veu"
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Idioma d'entrada de veu"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Automàtica"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "ACCEPTO"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Error de connexió de xarxa"
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Error de xarxa"
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Parli ara"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Idioma"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Error reconeixement."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Error de xarxa"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Mostrant els detalls al telèfon..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "AFEGIR PLANT"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Af plantilla"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Afegeixi plan<br>tilla telèfon."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Somriure"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Entrada de veu"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Emoticona"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Teclat"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Respostes ràpides"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Enviar"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "Signe de mà OK"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Signe de polze amunt"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Signe de polze avall"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Cara somrient amb la boca oberta i ulls contents"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Cara somrient amb la boca oberta i ulls tancats fermament"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Cara somrient amb ulls contents"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Cara somrient amb ulls en forma de cor"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Cara de fer petons amb ulls contents"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Cara amb la llengua fora i fent l'ullet"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Cara enutjada"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Cara d'estupefacció"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Cara plorant"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Cara decebuda però alleujada"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Cara cridant de por"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Cara amb mirada de triomf"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Cara amb mascareta mèdica"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Cara de fer morros"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Cara d'adormit"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Cara de cansament"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Cara de fer petons amb els ulls tancats"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Mostrant detalls del telèfon..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Toqui dues vegades per parlar."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input i l’ús d'un servei de reconeixement de veu"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. Les tecnologies de reconeixement de veu són uncomponent del servei Gear Input. Accepteu que Samsung pot utilitzar un servei de reconeixement de veu (el “Servei de reconeixement de veu”) proporcionat per un tercer, Nuance Communications Inc. (“Nuance”), i reconeixeu i accepteu les condicions següents relatives a l’ús del servei Gear Input.<br>2. Accepteu no enviar cap sol·licitud automatitzada ni registrada al servei Gear Input.<br>3. Accepteu que les paraules que dicteu al servei Gear Input (incloses les gravacions d'àudio d'aquestes paraules, transcripcions associades i fitxers de registre) (“Dades de veu”) seran recollides per Nuance en proporcionar el Servei de reconeixement de veu."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. Consentiu i accepteu que, en proporcionar el Servei de reconeixement de veu, Nuance pot recollir Dades de veu que poden ser utilitzades per Nuance per ajustar, millorar i perfeccionar (a) el Servei de reconeixement de veu i (b) altres productes i serveis de Nuance.<br>5. Reconeixeu i accepteu que les Dades de veu es poden transferir als Estats Units i/o altres països per al seu emmagatzematge, processament i ús per part de Nuance.<br>6. Totes les Dades de veu que proporcioneu romandran confidencials i s'utilitzaran d'acord amb la legislació aplicable, però Nuance pot revelar-les, si escau, per imperatiu legal o normatiu (com ara per ordre judicial o sol·licitud d’una administració pública), si la llei ho requereix o ho autoritza o en cas que un tercer adquireixi o es fusioni amb Nuance."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gear Input utilitza tecnologies de reconeixement de veu proporcionades pel proveïdor de serveis Nuance Communications, Inc. Per tant, la vostra informació de veu s'emmagatzema en un servidor de Nuance (ubicat als Estats Units), i l'ús de Gear Input requereix que accepteu les %sCondicions d'ús de Nuance%s. <br>Nuance es reserva el dret d’utilitzar la vostra entrada de veu per tal de millorar els serveis i desenvolupar noves tecnologies. Nuance també es reserva el dret de proporcionar l’entrada de veu esmentada anteriorment als socis de Nuance. La vostra informació de veu s'emmagatzemarà durant el temps estrictament necessari perquè els objectius abans esmentats es compleixin. Si voleu més informació sobre els serveis de Gear Input, consulteu la %sPolítica de privadesa de Nuance%s. <br>No podeu utilitzar Gear Input si no accepteu l’emmagatzematge i l’ús d'informació tal com s'ha descrit."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Consentiment per al tractament i recollida d'informació"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Servei de reconeixement ocupat"
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Trucar-me més tard."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Toqui per pausa"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "Per tal d'oferir %s, Samsung utilitza els serveis de reconeixement de veu proporcionats per un proveïdor de serveis de tercers, Nuance Communications Inc. (“Nuance”). Nuance recopilarà i emmagatzemarà les gravacions de les paraules que dicti a %s, a fi de proporcionar, millorar i resoldre els problemes del servei de reconeixement de veu a %s. Les Dades recopilades s'emmagatzemaran en un servidor controlat per Nuance als Estats Units, i és possible que es comparteixin amb els associats de Nuance per tal de millorar-ne els serveis."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Quan podem quedar?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "On ets?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Dos cors"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Nas de porc"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Gos"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Gat"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Pollastre"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Balena llençant aigua"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Cara de panda"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Cara de tigre"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Entrada del Gear"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Asseguri's que l'app %s estigui activa al telèfon."
+

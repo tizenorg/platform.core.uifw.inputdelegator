@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Radio button"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Button"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Hindi pinagana."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Napili."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Hindi pinili"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Suriin ang telepono mo."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Kumonekta sa pamaamgitan ng Bluetooth para repasuhin at tanggapin ang abisong legal."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Mga wika ng input"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "I-double tap para ipadala."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Kailan tayo pwedeng magkita?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Kamusta na?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Anong balita?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Usap tayo sa susunod."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Tawagan kita mamaya."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Nasaan ka?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Tawagan ako sa ibang pagkakataon"
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Magsalita na nang %s ngayon."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Hindi nakilala ang boses."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Voice input language"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Awtomatiko"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "SUMANG-AYON"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Error sa koneksyon sa network."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Error sa network."
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Magsalita na"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Wika"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Nabigong kilalanin."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Error sa network"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Ipinapakita ang mga detalye sa telepono mo..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "IDAGDAG ANG TEMPLATE"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Idagdag ang template"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Idagdag ang template sa telepono mo."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Ngiti"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Input na boses"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Emoticon"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Keyboard"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Mabibilis na tugon"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Send"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "Senyas na OK"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Simbolo ng thumbs up"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Simbolo ng thumbs down"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Nakangiting mukha na nakabukas ang bibig at masaya ang mga mata"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Nakangiting mukha na nakabukas ang bibig at nakapikit"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Nakangiting mukha na may masayang mata"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Nakangiting mukha na may mga mata na hugis puso"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Humahalik na mukha na masaya ang mata"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Mukha na nakalabas ang dila at kumikindat"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Galit na mukha"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Nagulat na mukha"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Umiiyak na mukha"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Nadismaya ngunit guminhawang mukha"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Mukhang sumisigaw sa takot"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Mukha ng tagumpay"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Mukha na may medical mask"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Nagtatampong mukha"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Inaantok na mukha"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Pagod na mukha"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Humahalik na mukha na nakapikit"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Ipinapakita mga detalye sa tel. mo..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "I-double tap para magsalita."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input at ang Paggamit ng isang Speech Recognition Service"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. Ang teknolohiya ng speech recognition ay isang bahagi ng serbisyo ng Gear Input.  Tinatanggap mo na maaaring gamitin ang Samsung ng speech recognition service (ang “Speech Recognition Service”) na ipinagkakaloob ng ikatlong partido, Nuance Communications Inc. (“Nuance”), at tinatanggap mo at sumasang-ayon sa sumusunod hinggil sa iyong paggamit ng serbisyo ng Gear Input. <br>2. Sumang-ayon ka na hindi magsusumit ng anumang naka-awtomatiko o nakarekord na mga kahilingan sa serbisyo ng Gear Input. <br>3. Tinatanggap mo na ang mga salita na ididikta mo sa serbisyo ng Gear Input (kabilang ang mga rekording ng audio ng mga natruang salita, kaugnay sa mga transcription a log ng file) (“Speech Data”) ay kokolektahin ng Nuance sa pagkakaloob ng Speech Recognition Service."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. Pinapahintulutan mo at sumsang-ayon na sa pagkakaloob ng Speech Recognition Service, maaaring kumolekta ang Nuance ng Speech Data kung saan ay maaaring gamitin ng Nuance at mga kasosyong ikatlong partido nito para i-tune, pagandahin at pabutihin ang (a) ang Speech Recognition Service at (b) iba pang produkto at serbisyo ng Nuance. <br>5. Tinatanggap mo at sumasang-ayon na ang iyong Speech Data ay maaaring mailipat sa United States at/o iba pang bansa para sa pag-iimbak, pagpoproseso at paggamit ng Nuance at mga ikatlong partidong kasosyo nito. <br>6. Ang anuman at lahat ng Speech Data na iyong pagkakaloob ay mananatiling kumpidensyal at gagamitin nang naaayon sa naaangkop na batas, ngumit maaaring ibunyag ng Nuance, kung talagang kailangan, para matugunan ang mga legal o nasa batas na kinakailangan, tulad ng isang kautusan ng korte o sa isang ahensya ng gobyerno kung kailangan o awtorisado ng batas, o sa isang ikatlong partido kung saan ay kumukuha o sumasanib sa Nuance."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gumagamit ang Gear Input ng mga teknolohiya sa pagkilala ng boses na ipinagkakaloob ng service provider ng ikatlong partido na tinatawag na Nuance Communications, Inc. Kung gayon, ang impormasyon ng iyong boses ay tiyak na nakaimbak sa isang server na pinapatakbo ng Nuance (matatagpuan sa United States), at ang paggamit ng Gear Input ay kinakailangan na sumasang-ayon ka sa %sMga tuntunin at Kondisyon ng Nuance%s. <br>Inilalaan ng Nuance ang karapatan na gamitin ang iyong voice input para sa mga layunin ng pagpapabuti ng mga serbisyo at paglilinang ng mga teknolohya. Nilalaan din ng Nuance ang karapatan na ipagkaloob ang nasabing voice input sa mga kasosyo ng Nuance. Iniimbak ang impormasyon ng iyong voice input hanggang sa magawa na ang mga nasabing layunin. Para sa higit na impormasyon tungkol sa mga serbisyo ng Gear Input, mangyaring basahin ang %sPatakaran sa Privacy ng Nuance%s. <br>Hindi mo magagamit ang Gear Input kung hindi ka sasang-ayon sa pag-iimbak at paggamit ng iyong impormasyon gaya nang inilarawan sa itaas."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Impormasyon ng Kasunduan ng Probisyon"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Busy ang serbisyo ng recognition."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Tawagan mo ako mamaya."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "I-tap para i-pause"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "Upang ihatid ang %s, gumagamit ang Samsung ng mga serbisyo sa pagkilala sa pagsasalita na inihahatid ng isang third party na service provider, ang Nuance Communications Inc. (“Nuance”). Kokolektahin at iiimbak ng Nuance ang mga recording ng mga salitang idinidikta mo sa %s, upang maibigay, mapahusay at makapag-troubleshoot ng mga problema sa serbisyo sa pagkilala sa pagsasalita sa %s. Iiimbak ang nakolektang data sa isang server na kinokontrol ng Nuance sa Estados Unidos, at maaari itong ibahagi sa mga kasosyo ng Nuance upang mapahusay ang mga serbisyo."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Kailan tayo pwedeng magkita?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Nasaan ka na?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Dalawang puso"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Ilong ng baboy"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Aso"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Pusa"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Manok"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Balyenang naglalabas ng tubig"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Mukha ng panda"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Mukha ng tigre"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Input ng Gear"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Tiyakin na tumatakbo ang %s app sa telepono mo."
+

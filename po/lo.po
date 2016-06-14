@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "ປຸ່ມວິທະຍຸ"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "ປຸ່ມ"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "ປິດໃຊ້ງານແລ້ວ."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "ເລືອກແລ້ວ."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "ບໍ່ໄດ້ເລືອກ"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "ກວດເບິ່ງໂທ​ລະ​ສັບຂອງທ່ານ."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "​ເຊື່​ອມຕໍ່​ຜ່ານບລູທູດ​ເພື່ອທົບ​ທວນແລະ​ຍອມຮັບ​ແຈ້ງ​ການ​ທີ່​ຖືກຕ້ອງ​ຕາມ​ກົດໝາຍ."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "ພາສາສຳລັບການປ້ອນຂໍ້ມູນ"
+
+msgid "IDS_ST_SK_OK"
+msgstr "ຕົກລົງ"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "ແຕະສອງຄັ້ງເພື່ອສົ່ງ."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "ພວກເຮົາສາມາດປະຊຸມກັນໄດ້ເມື່ອໃດ?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "ມັນເປັນໄປແນວໃດ?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "ເກີດຫຍັງຂຶ້ນ?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "ຂ້ອຍຈະລົມກັບເຈົ້າໃນໄວໆນີ້ລະ."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "ຂ້ອຍຈະໂທຫາເຈົ້າພາຍຫຼັງ."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "ເຈົ້າຢູ່ໃສ?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "ໂທຫາຂ້ອຍອີກພາຍຫຼັງ."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "ເວົ້າຢູ່ໃນ %s ດຽວນີ້."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "ຈື່ສຽງບໍ່ໄດ້."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "ພາສາປ້ອນດ້ວຍສຽງ"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "ອັດຕະໂນມັດ"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "ເຫັນດີນຳ"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "ການເຊື່ອມຕໍ່ເຄືອຂ່າຍຂັດຂ້ອງ."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "ເຄືອຂ່າຍຂັດຂ້ອງ"
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "ເວົ້າດຽວນີ້"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "ພາສາ"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "ການຈົດຈຳບໍ່ສໍາເລັດ."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "ເຄືອຂ່າຍຂັດຂ້ອງ"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "ກຳລັງສະແດງລາຍລະອຽດເທິງໂທລະສັບ..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "ເພີ່ມເທັມເພລດ"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "ເພີ່ມເທັມເພລດ"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "ເພີ່ມເທັມເພລດໃນໂທລະສັບຂອງທ່ານ."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "ຮອຍຍິ້ມ"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "ການໃສ່ສຽງເຂົ້າໄປ"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "ໄອຄອນອາລົມ"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "ຄີບອດ"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "ຕອບສະໜອງຢ່າງໄວ"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "ສົ່ງ"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "ປ້າຍມືສະແດງຄວາມຕົກລົງ"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "ປ້າຍຍົກໂປ້ຂຶ້ນ"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "ປ້າຍຊີ້ໂປ້ລົງ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າຍິ້ມພ້ອມກັບອ້າປາກ ແລະມີຕາຍິ້ມ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າຍິ້ມພ້ອມກັບອ້າປາກ ແລະຫຼັບຕາສະໜິດ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າຍິ້ມພ້ອມກັບມີຕາຍິ້ມ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າຍິ້ມພ້ອມກັບມີຕາເປັນເຄິ່ງຮູບຫົວໃຈ"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າການຈູບພ້ອມກັບຕາມີຮອຍຍິ້ມ"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າມີລີ້ນແຫຍ່ອອກມາ ແລະຫຍີ້ຕາ"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າໃຈຮ້າຍ"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າຊື່ນບານ"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າຮ້ອງໄຫ້"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "ຜິດຫວັງ ແຕ່ໃບໜ້າຊື່ນບານ"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າແຂກຮ້ອງຢູ່ໃນຄວາມຢ້ານ"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າເບິ່ງທ່າມີໄຊ"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າມີໜ້າກາກແພດ"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າງອນ"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າຢາກນອນ"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າອິດເມື່ອຍ"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "ໃບໜ້າການຈູບພ້ອມກັບຫຼັບຕາ"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "ກຳລັງສະແດງລາຍລະອຽດເທິງໂທລະສັບຂອງທ່ານ..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "ແຕະສອງຄັ້ງເພື່ອເວົ້າ."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "ເກຍ ອິນພຸດ ​ແລະ​ ການ​ນໍາ​ໃຊ້​ບໍ​ລິ​ການ​ການ​​ຮັບ​ຮູ້​ຖ້ອຍຄຳ"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1​. ເຕັກ​ໂນ​ໂລ​ຊີ​ຮັບ​ຮູ້​ຖ້ອຍຄຳ​ເປັນ​ອົງ​ປະ​ກອບ​ຂອງ​ການ​ບໍ​ລິ​ການ ​ເກຍ ອິນພຸດ​.  ທ່ານ​ຮັບ​ຮູ້​ວ່າ ຊໍາຊຸງ ອາດ​ຈະ​ນໍາ​ໃຊ້​ການ​ບໍ​ລິ​ການການ​ຮັບ​ຮູ້​ຖ້ອຍຄຳ (ທີ່ “ການ​ບໍ​ລິ​ການການ​ຮັບຮູ້ຖ້ອຍຄຳ”​) ທີ່ສະ​ຫນອງ​ໂດຍ​ພາກ​ສ່ວນ​ທີ​ສາມ​, Nuance Communications Inc. (“Nuance”​)​, ​​ແລະ​ທ່ານ​ໄດ້​ຮັບ​ຮູ້​ ແລະ​ ເຫັນ​ດີ​ທີ່​ ​ການ​ເຊື່ອມ​ຕໍ່​ດັ່ງ​ຕໍ່​ໄປ​ກັບ​ການ​ນໍາ​ໃຊ້ການ​ບໍ​ລິ​ການ​ ເກຍ ອິນພຸດ ຂອງ​ທ່ານ​. <br>2​. ທ່ານ​ຕົກ​ລົງ​​​ທີ່​ຈະບໍ່​ສົ່ງ​ການ​ຮ້ອງ​ຂໍ​ການ​ບັນ​ທຶກ​​ອັດ​ຕະ​ໂນ​ມັດໃດໆ ຫລື ​ການ​ບັນ​ທຶກ​ກັບ​ການ​ບໍ​ລິ​ການ​​ເກຍ ອິນພຸດ​. <br>3​. ທ່ານ​ໄດ້​ຮັບ​ຮູ້​ວ່າ​ຖ້ອຍ​ຄໍາ​ທີ່​ທ່ານ​ກໍາ​ນົດ​ເອົາກັບ​ການ​ບໍ​ລິ​ການ​ເກຍ ອິນພຸດ (ລວມ​ທັງ​ການ​ບັນ​ທຶກ​ສຽງ​ຂອງຖ້ອຍ​ຄໍາ​​ຕ່າງໆ​ເຊັ່ນ​, ປະໂຫຍກ​ທີ່​ກ່ຽວ​ຂ້ອງ ​ແລະ ​ເຂົ້າ​ສູ່​ລະ​ບົບ​ໄຟ​) (“ຂໍ້​ມູນ​ຖ້ອຍຄຳ​”​) ຈະ​ໄດ້​ຮັບ​ການ​ເກັບ​ກໍາ​ໂດຍ Nuance ໃນ​ການ​ໃຫ້ການ​ບໍ​ລິ​ການການ​ຮັບຮູ້ຖ້ອຍຄຳ​."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4​. ທ່ານ​ຍິນ​ຍອມ​​ແລະ​ຕົກ​ລົງ​ເຫັນ​ດີ​ວ່າ​ໃນ​ການ​ໃຫ້ ການ​ບໍ​ລິ​ການການ​ຮັບຮູ້ຖ້ອຍຄຳ​, Nuance ອາດ​ຈະ​ເກັບ​ກໍາ​ຂໍ້​ມູນ​​ຖ້ອຍຄຳຊຶ່ງ​ອາດ​ຈະ​ຖືກ​ນໍາ​ໃຊ້​ໂດຍ Nuance ແລະ​ຄູ່​ຮ່ວມ​ງານ​ພາກ​ສ່ວນ​ທີ​ສາມ​ເພື່ອການ​ປັບຈູນ​, ເສີມ​ຂະ​ຫຍາຍ ​ແລະ​ ປັບ​ປຸງ (ກ​) ໃຫ້ການ​ບໍ​ລິ​ການການ​ຮັບຮູ້ຖ້ອຍຄຳແລະ (ຂ​) ຜະ​ລິດ​ຕະ​ພັນ​ແລະ​ການ​ບໍ​ລິ​ການ Nuance ອື່ນໆ​. <br>5​. ທ່ານ​ຍອມ​ຮັບ​ແລະ​ຕົກ​ລົງ​ເຫັນ​ດີ​ວ່າ​ຂໍ້​ມູນ​​ຖ້ອຍຄຳຂອງ​ທ່ານ​ອາດ​ຈະ​ໄດ້​ຮັບ​ການ​ຍົກ​ຍ້າຍ​ໄປ​ສະ​ຫະ​ລັດ​ອາ​ເມລິ​ກາ ​ແລະ/ຫລື ​ປະ​ເທດ​ອື່ນ​ໆເພື່ອ​ການ​ເກັບ​ຮັກ​ສາ​, ການ​​ດຳເນີນການ ແລະ​ ການ​ນໍາ​ໃຊ້​ໂດຍ Nuance ແລະ​ຄູ່​ຮ່ວມ​ງານ​ພາກ​ສ່ວນ​ທີ​ສາມ​​. <br>6​. ບາງອັນແລະ​​​ຂໍ້​ມູນການ​ເວົ້າທັງ​ຫມົດທີ່​ທ່ານສະໜອງ​ໃຫ້​ອາດຈະ​ຍັງ​ຄົງ​ເປັນ​ຄວາມ​ລັບ​ແລະ​ຈະ​ຖືກ​ນໍາ​ໃຊ້​ໃຫ້​ສອດ​ຄ່ອງ​ກັບ​ກົດ​ຫມາຍ​ທີ່ໃຊ້ບັງຄັບ​, ແຕ່​ອາດ​ຈະ​ໄດ້​ຮັບ​ການ​ເປີດ​ເຜີຍ​ໂດຍ Nuance​, ຖ້າ​ຫາກ​ວ່າ​ຕ້ອງ​ການ​ເປັນ​ດັ່ງ​ນັ້ນ​, ເພື່ອ​ຕອບ​ສະ​ຫນອງ​ຄວາມ​ຕ້ອງ​ການ​ທາງ​ດ້ານ​ກົດ​ຫມາຍ​ຫຼື​ລະ​ບຽບ​ການ​, ເຊັ່ນ​: ພາຍ​ໃຕ້​ຄໍາ​ສັ່ງ​ສານ​ຫຼື​ກັບ​ອົງ​ການ​ຂອງ​ລັດ​ຖະ​ບານ​ຖ້າ​ຫາກ​ວ່າ​ຕ້ອງ​ການ​ຫຼື​ອະ​ນຸ​ຍາດ​ຕາມ​ກົດ​ຫມາຍ​ຫຼື​ໃຫ້​ເປັນ​ບຸກ​ຄົນ​ທີ​ສາມ​ທີ່ຮຽກຮ້ອງ ຫຼື ຮ່ວມກັນກັບ Nuance​."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "ເກຍ ອິນພຸດ ​ໃຊ້​ເຕັກ​ໂນ​ໂລ​ຊີ​ການ​ຮັບຮູ້ສຽງ​​ທີ່ສະ​ຫນອງ​ໂດຍ​​ຜູ້ໃຫ້ບໍ​ລິ​ການ​ພາກ​ສ່ວນ​ທີ​ສາມທີ່​ເອີ້ນ​ວ່າ Nuance Communications, Inc. ສະ​ນັ້ນ​, ສາລະສົນເທດ​ສຽງ​ຂອງ​ທ່ານ​ໄດ້​ຖືກ​ເກັບ​ຮັກ​ສາ​ໄວ້​ຢ່າງ​ຫລີກ​ລ່ຽງ​ບໍ່​ໄດ້ກັບ​ເຄື່ອງ​​ຂ່າຍທີ່​ດໍາ​ເນີນ​ການ​ໂດຍ Nuance (ຕັ້ງ​ຢູ່​ໃນ​ສະ​ຫະ​ລັດ​ອາ​ເມລິ​ກາ​)​, ​​ແລະ​ການ​ນໍາ​ໃຊ້​ ເກຍ ອິນພຸດຮຽກ​ຮ້ອງ​ໃຫ້​ທ່ານ​ຕົກ​ລົງ​ເຫັນ​ດີ​ກັບ​ %sຂໍ້ກໍານົດ ແລະເງື່ອນໄຂ​ຂອງ Nuance%s. <br>Nuance ສະຫງວນ​ສິດ​ທີ່​ຈະ​ນໍາ​ໃຊ້​ອຸປະກອນ​ປ້ອນ​ສຽງ​ຂອງ​ທ່ານ​ສໍາ​ລັບ​ຈຸດ​ປະ​ສົງ​ຂອງ​ການ​ປັບ​ປຸງ​ການ​ບໍ​ລິ​ການ ​ແລະ​ ການ​ພັດ​ທະ​ນາ​ເຕັກ​ໂນ​ໂລ​ຊີ​​. Nuance ຍັງສະຫງວນສິດທີ່ຈະໃຫ້ໃສ່ສຽງດັງກ່າວກັບຄູ່ຮ່ວມງານ Nuance ໄດ້. ຂໍ້​ມູນ​ອຸປະກອນປ້ອນ​ສຽງ​ຂອງ​ທ່ານ​ໄດ້​ຖືກ​ເກັບ​ຮັກ​ສາ​ໄວ້​ຈົນ​ກ​​ວ່າ​ວັດ​ຖຸ​ປະ​ສົງດັ່ງກ່າວໄດ້​ຮັບ​ຄວາມ​ສໍາ​ເລັດ​. ສໍາ​ລັບ​ຂໍ້​ມູນ​ເພີ່ມ​ເຕີມ​ກ່ຽວ​ກັບ​ການ​ບໍ​ລິ​ການ ​ເກຍ ອິນພຸດ​, ກະ​ລຸ​ນາ​ອ່ານ %sNuance ນະໂຍບາຍການເກັບຮັກສາເປັນສ່ວນຕົວ%s​. <br>ທ່ານ​ບໍ່​ສາ​ມາດ​ໃຊ້​ ເກຍ ອິນພຸດໄດ້ ຖ້າ​ຫາກ​ວ່າ​ທ່ານ​ບໍ່​ເຫັນ​ດີ​ກັບ​ການ​ເກັບ​ຮັກ​ສາ ​ແລະ ​ການ​ນໍາ​ໃຊ້​ຂໍ້​ມູນ​ຂອງ​ທ່ານ​ທີ່​ອະ​ທິ​ບາຍ​ຂ້າງ​ເທິງ​ນີ້​."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "ຂໍ້​ມູນ​ຂໍ້​ຕົກ​ລົງ​ລັດ​ຖະ​ບັນ​ຍັດ"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "ການບໍລິການເລື່ອງການຮັບຮູ້ບໍ່ຫວ່າງ."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "ໂທກັບຫາຂ້ອຍອີກພາຍຫຼັງ."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "ແຕະເພື່ອຢຸດຊົ່ວຄາວ"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "ເພື່ອ​ສະ​ຫນອງ %s​, ຊໍາຊຸງ ນໍາ​ໃຊ້​ ​ບໍ​ລິ​ການການ​ຮັບ​ຮູ້​ຄຳ​ເວົ້າ​ທີ່ໃຫ້​ບໍ​ລິ​ການ​ໂດຍຜູ້ບໍລິການ​ພາກ​ສ່ວນ​ທີ​ສາມ​, Nuance Communications Inc. (“Nuance”). Nuance ຈະ​ເກັບ​ກໍາ​ ແລະ ​ເກັບການບັນ​ທຶກ​ຄໍາ​ເວົ້າ​ຕ່າງໆ​ທີ່​ທ່ານ​ສັ່ງໄປ %s​, ເພື່ອທີ່​ຈະ​ສະ​ຫນອງ​​, ການ​ປັບ​ປຸງ ​ແລະ ​ແກ້​ໄຂ​ບັນ​ຫາ​ຂອງ​ການ​ບໍ​ລິ​ການການ​ຮັບ​ຮູ້​ຄໍາ​ເວົ້າໃນ %s​. ຂໍ້​ມູນທີ່ເກັບ​ກໍາແລ້ວ​ຈະ​ໄດ້​ຮັບ​ການ​ເກັບ​ຮັກ​ສາ​ໄວ້​ໃນເຊີເວີ​ຄວບ​ຄຸມ​ໂດຍ Nuance ຢູ່​ໃນ​ສະ​ຫະ​ລັດ​ອາ​ເມລິ​ກາ​, ແລະ​ອາດ​ຈະ​ໄດ້​ແບ່ງປັນ​ກັບ Nuanceຄູ່​ຮ່ວມ​ງານ​ເພື່ອ​ປັບ​ປຸງ​ການ​ບໍ​ລິ​ການ​."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "ພວກເຮົາສາມາດປະຊຸມກັນໄດ້ເມື່ອໃດ?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "ທ່ານຢູ່ໃສ?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "ຫົວໃຈສອງດວງ"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "ດັງໝູ"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "ໝາ"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "ແມວ"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "ໄກ່"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "ປາວານພົ່ນນໍ້າ"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "ໜ້າໝີແພນດ້າ"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "ໜ້າເສືອ"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "ການປ້ອນຂໍ້ມູນເກຍ"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "ເຮັດໃຫ້ແນ່ໃຈວ່າແອັບ %s ເປີດໃຊ້ງານຢູ່ເທິງໂທລະສັບຂອງທ່ານ."
+

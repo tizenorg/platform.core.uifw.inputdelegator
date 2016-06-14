@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Радио товч"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Товч"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Идэвхгүй болгосон."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Сонгогдсон."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Сонгоогүй"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Утсаа шалгана уу."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Хянахдаа Bluetooth-р холбдж хуулн мэдэгдлг хүлээн авна уу."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Оролтын хэлүүд"
+
+msgid "IDS_ST_SK_OK"
+msgstr "Батлах"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Илгээхдээ давхар товш."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Хэзээ уулзаж болох вэ?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Сонин сайхан юу байна?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Юу байна?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Би тантай удахгүй ярина."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Би дараа залгая."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Та хаана байна вэ?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Дараа залгаарай."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Одоо %s-р ярих"
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Дуу хоолой таньж чадсангүй"
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Дуу хоолойн оролтын хэл"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Автомат"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "ЗӨВШӨӨРНӨ"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Сүлжээний холболтын алдаа"
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Сүлжээний алдаа"
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Одоо ярь"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Хэл"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Танилт болсонгүй."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Сүлжээний алдаа"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Таны утсан дээр дэлгэрэнгүйг харуулж байна..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "ЗАГВАР НЭМ"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Загвар нэм"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Утсан дээрээ загвар нэм."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Инээмсэглэл"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Дуу хоолойн оролт"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Сэтгэл хөдлөлийн тэмдэг"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Гар товчлуур"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Мэдрэгчүүд"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Илгээх"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "OK гэсэн утгатай гарын дохио зангаа"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Эрхий хуруу дээшээ тэмдэг"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Эрхий хуруу доошоо тэмдэг"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Ам нь ангайж, инээмсэглэсэн нүдтэй царай"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Ам нь ангайж, нүдээ тас аньж, инээмсэглэсэн царай"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Инээмсэглэсэн нүдтэй инээмсэглэсэн царай"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Зүрхэн нүдтэй инээмсэглэсэн царай"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Инээмсэглэсэн нүдтэй, үнсэж буй царай"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Хэлээ гаргаж, нэг нүдээ ирмэсэн нүүр"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Ууртай царай"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Цочирдсон царай"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Уйлж буй царай"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Доголон нулимстай царай"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Айж орилж буй царай"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Ялсан дүртэй нүүр"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Эмнэлгийн масктай нүүр"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Хошуугаа унжуулсан царай"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Нойрмог царай"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Ядарсан царай"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Нүдээ аньж, үнсэж буй царай"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Таны ут. дээр дэлг. хар.лж б.а..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Ярихдаа хоёр товш."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input and the Use of a Speech Recognition Service"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. Speech recognition technology is a component of the Gear Input service. You acknowledge that Samsung may utilise a speech recognition service (the “Speech Recognition Service”) provided by a third party, Nuance Communications Inc. (“Nuance”), and you acknowledge and agree to the following in connection with your use of the Gear Input service.<br>2. You agree not to submit any automated or recorded requests to the Gear Input service.<br>3. You acknowledge that the words you dictate to the Gear Input service (including audio recordings of such words, associated transcriptions and log files) (“Speech Data”) will be collected by Nuance in providing the Speech Recognition Service."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. You consent and agree that in providing the Speech Recognition Service, Nuance may collect Speech Data which may be used by Nuance and its third party partners to tune, enhance and improve (a) the Speech Recognition Service and (b) other Nuance products and services.<br>5. You acknowledge and agree that your Speech Data may be transferred to the United States and/or other countries for storage, processing and use by Nuance and its third party partners.<br>6. Any and all Speech Data that you provide will remain confidential and will be used in accordance with applicable law, but may be disclosed by Nuance, if so required, to meet legal or regulatory requirements, such as under a court order or to a government agency if required or authorised by law, or to a third party which acquires or merges with Nuance."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gear Input uses voice recognition technologies provided by a third party service provider called Nuance Communications, Inc. Therefore, your voice information is inevitably stored on a server operated by Nuance (located in the United States), and using Gear Input requires that you agree to the %sTerms and Conditions of Nuance%s. <br>Nuance reserves the right to use your voice input for the purposes of improving services and developing technologies. Nuance also reserves the right to provide the aforementioned voice input to Nuance’s partners. Your voice input information is stored until the aforementioned objectives have been accomplished. For more information about Gear Input services, please read the %sNuance Privacy Policy%s. <br>You cannot use Gear Input if you do not agree to the storage and use of your information as described above."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Information Provision Agreement"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Таних үйлчилгээ завгүй"
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Дараа залгана уу."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Товшоод түр зогс"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "%s үйлчилгээг үзүүлэхийн тулд, гуравдагч талын үйлчилгээ үзүүлэгч Nuance Communications Inc. (“Nuance”)-ийн яриа таних үйлчилгээг Samsung ашигладаг. Nuance таны %s-д хэлж бичүүлсэн үгсийн бичлэгийг үйлчилгээг үзүүлэх, сайжруулах, %s-н яриа таних үйлчилгээнд гарсан асуудлын алдааг эрж олохын тулд цуглуулж, хадгална. Цуглуулсан мэдээллийг АНУ дахь Nuance-н удирддаг серверт хадгалах ба үйлчилгээг сайжруулахын тулд Nuance-н түншүүдтэй хуваалцаж болно."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Бид хэзээ уулзах вэ?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Та хаана байна вэ?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Хоёр зүрх"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Гахайны хоншоор"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Нохой"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Муур"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Тахиа"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Ус цацаж буй халим"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Панданы царай"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Барын нүүр"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Gear-н Оролт"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Утсан дээрээ %s хэрэглүүрийг идэвхжүүлсэн эсэхээ нягтална уу."
+

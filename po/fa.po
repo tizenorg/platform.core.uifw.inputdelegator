@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "دکمه رادیویی"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "دکمه"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "غیرفعال شد."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "انتخاب شد."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "انتخاب نشد"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "تلفن خود را بررسی کنید."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "از طریق بلوتوث متصل شده و اطلاعیه حقوقی را بررسی کنید و بپذیرید."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "زبان‌های ورودی"
+
+msgid "IDS_ST_SK_OK"
+msgstr "تاييد"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "برای ارسال دو بار ضربه بزنید."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "چه وقت می توانیم یکدیگر را ملاقات کنیم؟"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "اوضاع چطور است؟"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "چه خبر؟"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "به زودی صحبت می‌کنیم."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "بعداً تماس می‌گیرم."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "کجا هستید؟"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "بعدا با من تماس بگیرید."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "اکنون به %s صحبت کنید."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "صدا شناسایی نشد."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "زبان ورودی صوتی"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "خودکار"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "موافقم"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "خطای اتصال شبکه رخ داد."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "خطا در شبکه رخ داد."
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "اکنون صحبت کنید"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "زبان"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "شناسایی ناموفق بود."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "خطای شبکه"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "در حال نمایش جزئیات در تلفن..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "افزودن الگو"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "افزودن الگو"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "الگو را به تلفن اضافه کنید."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "لبخند"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "ورودی صدا"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "نماد تصويری"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "صفحه کلید"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "پاسخ های سریع"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "ارسال"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "علامت تأیید با دست"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "علامت شست بالا"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "علامت شست پایین"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "صورت خندان با دهان باز و چشمان خندان"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "صورت خندان با دهان باز و چشمان کاملا بسته"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "صورت خندان با چشمان خندان"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "صورت خندان با چشمان به شکل قلب"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "صورت در حال بوسیدن با چشمان خندان"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "صورت با زبان بیرون آمده به همراه چشمک"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "صورت عصبانی"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "صورت سردرگم"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "صورت گریان"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "صورت ناراحت ولی بی خیال"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "صورت فریاد با ترس"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "صورت با حس پیروزی"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "صورت با ماسک پزشکی"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "صورت با لب و لوچه آویزان"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "صورت خواب آلود"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "صورت خسته"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "صورت در حال بوسیدن با چشمان بسته"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "در حال نمایش جزئیات در تلفن..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "برای صحبت کردن دو بار ضربه بزنید."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input و استفاده از سرویس شناسایی گفتار"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. فناوری شناسایی گفتار به عنوان یکی از اجزای سرویس Gear Input است. شما تأیید می‌کنید که ممکن است سامسونگ از ”سرویس شناسایی گفتار“ توسط ارائه دهنده ثالث به نام Nuance Communications Inc. (“Nuance”) استفاده کند و بدین ترتیب شرایط مربوط به استفاده از سرویس Gear Input را تأیید و با آن موافقت می‌کنید.<br>2. موافقت می‌کنید هیچگونه درخواست خودکار یا ضبط شده‌ای به سرویس Gear Input ارائه نکنید.<br>3. شما تأیید می‌کنید لغاتی که وارد سرویس Gear Input می‌کنید (از جمله ضبط صوتی لغات، نسخه‌های مرتبط و فایل‌های گزارش) (”داده‌های گفتاری“) جهت ارائه سرویس شناسایی گفتار، توسط Nuance جمع‌آوری می‌شود."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. رضایت داشته و موافقت می‌کنید که در ارائه سرویس شناسایی گفتار، Nuance ممکن است داده‌های گفتاری را که توسط وی و شرکای ثالث وی برای تنظیم، پیشرفت و بهبود (الف) سرویس شناسایی گفتار و (ب) سایر محصولات و سرویس‌های Nuance ممکن است استفاده شود، جمع‌آوری کند.<br>5.  تأیید و موافقت می‌کنید که داده‌های گفتاری شما ممکن است به منظور ذخیره‌سازی، پردازش و استفاده توسط Nuance و شرکای ثالث آن به ايالات متحده و/يا سایر کشورها انتقال یابد.<br>6. تمامی داده‌های گفتاری که ارائه می‌کنید محرمانه باقی مانده و مطابق با قانون حاکم از آنها استفاده می‌شود اما ممکن است این اطلاعات به منظور رعایت الزامات قانونی، مثلا به دستور دادگاه یا برای یک نهاد دولتی در صورت لزوم یا با مجوز قانونی، یا برای یک شخص ثالث که Nuance را تملک کرده یا با آن ادغام می شود، توسط Nuance افشا شوند."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gear Input از فناوری‌های شناسایی صوتی که توسط سرویس ثالث به نام Nuance Communications, Inc. ارائه می‌شود، استفاده می‌کند. بنابراین، اطلاعات صوتی شما، ضرورتاً، روي سروری تحت کنترل Nuance (واقع در ايالات متحده) ذخیره می‌شود لذا برای استفاده از Gear Input لازم است %sشرایط و ضوابط Nuance%s را بپذیرید. <br>Nuance این حق را برای خود محفوظ می‌دارد که از ورودی صدای شما به منظور بهبود سرویس‌ها و گسترش فناوری‌ها استفاده کند. Nuance همچنین این حق را دارد که ورودی صدای شما را به شرکای Nuance خود ارائه نماید. اطلاعات ورودی صدای شما تا زمان تحقق اهداف فوق‌الذکر ذخیره می‌مانند. جهت دریافت اطلاعات بيشتر درباره سرویس‌های Gear Input، لطفاً ‎%sسیاست حفظ حریم خصوصی Nuance%s را مطالعه کنید. <br>اگر با ذخيره و استفاده از اطلاعات خود، مطابق آنچه در بالا ذکر شد، موافق نیستید، نمی‌توانید از Gear Input استفاده کنید."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "توافق نامه ارائه اطلاعات"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "سرویس شناسایی مشغول است."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "بعداً با من تماس بگیرید."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "برای مکث ضربه بزنید"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "برای ارائه %s، Samsung از سرویس های تشخیص گفتار ارائه شده توسط ارائه دهنده سرویس شخص ثالث Nuance Communications Inc. (”Nuance“) استفاده می کند. Nuance برای ارائه، بهبود و عیب یابی مشکلات سرویس تشخیص گفتار در %s، ضبط واژه هایی که در %s دیکته می کنید را جمع آوری و ذخیره می کند. داده های جمع آوری شده در سرور کنترل شده توسط Nuance در ایالات متحده را کنترل می کند و برای بهبود سرویس ها، ممکن است با شرکای Nuance به اشتراک بگذارد."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "کی یکدیگر را ملاقات کنیم؟"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "کجایید؟"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "دو قلب"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "بینی خوک"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "سگ"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "گربه"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "جوجه"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "نهنگ فواره ای"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "صورت پاندا"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "صورت ببر"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "ورودی Gear"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "مطمئن شوید برنامه %s در تلفن شما فعال باشد."
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FontInfoTable>
+	<FontInfo id="AT0113" style="R" size="36" />
+	<FontInfo id="AT0113P" style="R" size="36" />
+	<FontInfo id="AT0113D" style="R" size="36" />
+	<FontInfo id="AT0113S" style="R" size="36" />
+	<FontInfo id="AT0114" style="R" size="24" />
+	<FontInfo id="AT0114D" style="R" size="24" />
+	<FontInfo id="AT02111" style="R" size="32" />
+	<FontInfo id="AT02112" style="R" size="32" />
+	<FontInfo id="AT02113" style="R" size="24" />
+	<FontInfo id="AT021" typeface="Gulim" style="R" size="30" />
+	<FontInfo id="AT022" typeface="Gulim" style="R" size="24" />
+	<FontInfo id="AT023" style="M" size="25" />
+	<FontInfo id="AT023P" style="M" size="25" />
+	<FontInfo id="AT023D" style="M" size="25" />
+</FontInfoTable>

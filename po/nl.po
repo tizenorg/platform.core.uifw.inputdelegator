@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Keuzerondje"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Knop"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Uitgeschakeld."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Geselecteerd."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Niet geselecteerd"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Controleer uw telefoon."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Verbind via Bluetooth, en bekijk en accepteer juridische kennisgeving."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Invoertalen"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Tik twee keer om te verzenden."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Wanneer spreken we af?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Hoe gaat het?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Wat is er aan de hand?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Tot gauw."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Ik bel later."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Waar ben je?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Bel me later."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Spreek nu in %s."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Spraakherkenning mislukt."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Invoertaal spraak"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Automatisch"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "AKKOORD"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Netwerkverbindingsfout."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Netwerkfout."
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Nu spreken"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Taal"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Herkenning mislukt."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Netwerkstoring"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacykennisgeving"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice maakt het mogelijk bepaalde functies, zoals S Voice, Gear invoer, Spraakmemo en Zoek mijn auto te bedienen via spraak. Wanneer u S Voice gebruikt, worden uw gesproken opdrachten, uw apparaat-ID en bepaalde andere relevante gegevens, zoals namen van contactpersonen, gegevens van nummers in uw muziekbibliotheek en/of locatiegegevens (als uw GPS is ingeschakeld) verwerkt om de trefzekerheid van de reacties van S Voice op uw verzoeken en de functionaliteit van S Voice te verbeteren. Meer informatie over ons privacybeleid kunt u vinden op https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Details weergeven op uw telefoon..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "SJABL. TOEV."
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Sjabl. toev."
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Voeg sjabloon toe op telef."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Smile"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Spraakinvoer"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Emoticon"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Toetsenbord"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Snelle reacties"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Zenden"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "Handgebaar voor OK"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Teken duimen omhoog"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Teken duimen omlaag"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Glimlachend gezicht met open mond en lachende ogen"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Glimlachend gezicht met open mond en dichtgeknepen ogen"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Glimlachend gezicht met lachende ogen"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Glimlachend gezicht met hartvormige ogen"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Kussend gezicht met glimlachende ogen"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Gezicht met uitgestoken tong en knipoog"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Boos gezicht"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Verbluft gezicht"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Huilend gezicht"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Teleurgesteld maar opgelucht gezicht"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Gezicht schreeuwend van angst"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Gezicht dat triomfantelijk kijkt"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Gezicht met medicinaal masker"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Pruilend gezicht"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Slaperig gezicht"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Moe gezicht"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Kussend gezicht met gesloten ogen"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Details tonen op uw telefoon..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Tik twee keer om te spreken."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input en het gebruik van spraakherkenning"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. Spraakherkenningstechnologie vormt een onderdeel van de dienst Gear Input. U stemt ermee in dat Samsung gebruikmaakt van spraakherkenning (de “Spraakherkenning”) van een derde partij, Nuance Communications, Inc. (“Nuance”), en u erkent en stemt in met de volgende voorwaarden omtrent uw gebruik van de dienst Gear Input.<br>2. U stemt ermee in geen geautomatiseerde of opgenomen aanvragen te sturen naar de dienst Gear Input.<br>3. U erkent dat de woorden die u inspreekt bij gebruik van Gear Input (met inbegrip van geluidsopnamen van zulke woorden, bijbehorende transcripties en logbestanden) (“Spraakgegevens”) door Nuance worden verzameld tijdens het leveren van de dienst Spraakherkenning."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. U stemt ermee in dat Nuance tijdens het leveren van de dienst Spraakherkenning Spraakgegevens verzamelt die door Nuance en haar externe partners kunnen worden gebruikt voor het verfijnen, uitbreiden en verbeteren van (a) de Spraakherkenning en (b) andere producten en diensten van Nuance.<br>5. U erkent en stemt ermee in dat de Spraakgegevens worden verzonden naar de Verenigde Staten en/of andere landen voor opslag, verwerking en gebruik door Nuance en haar externe partners.<br>6. Alle door u verstrekte Spraakgegevens worden vertrouwelijk behandeld en worden gebruikt in overeenstemming met het toepasselijk recht, maar kunnen door Nuance bekend worden gemaakt indien dit noodzakelijk is om te voldoen aan wettelijke of reglementaire vereisten, bijvoorbeeld op gerechtelijk bevel, aan een overheidsinstantie indien dit wettelijk verplicht of voorgeschreven is, of aan een derde partij die Nuance overneemt of met Nuance fuseert."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gear Input maakt gebruik van spraakherkenningstechnologie die wordt geleverd door een externe service provider genaamd Nuance Communications, Inc. Uw spraakgegevens worden bijgevolg opgeslagen op een server die wordt bediend door Nuance (gevestigd in de Verenigde Staten). U dient voor het gebruiken van Gear Input in te stemmen met de %sAlgemene Voorwaarden van Nuance%s.<br>Nuance behoudt zich het recht voor om uw spraakgegevens te gebruiken voor het verbeteren van de diensten en het ontwikkelen van technologieën. Nuance behoudt zich ook het recht voor om de hierboven genoemde spaakgegevens te leveren aan partners van Nuance. Uw spraakgegevens worden opgeslagen tot de hierboven vermelde doelen zijn voltooid. Voor meer informatie over de diensten van Gear Input , gelieve het %sNuance Privacybeleid%s te raadplegen.<br>U kunt Gear Input niet gebruiken als u niet instemt met de opslag en het gebruik van uw gegevens zoals hierboven is beschreven."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Overeenkomst voor het leveren van informatie"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Herkenningsservice bezet."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Bel me later."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Tik voor onderbreken"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "Voor het leveren van %s maakt Samsung gebruik van services voor spraakherkenning die worden geleverd door een externe serviceprovider, Nuance Communications Inc. (“Nuance”). Nuance verzamelt en bewaart de woorden die u inspreekt op %s voor het leveren, verbeteren en oplossen van problemen in de spraakherkenningsservice in %s. Verzamelde gegevens worden opgeslagen op een server in de Verenigde Staten die wordt beheerd door Nuance en kunnen worden gedeeld met partners van Nuance ten behoeve van het verbeteren van services."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Wanneer spreken we af?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Waar ben je?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Twee harten"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Varkensneus"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Hond"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Kat"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Kip"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Spuitende walvis"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Pandagezicht"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Tijgergezicht"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Invoer Gear"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Controleer of de app %s actief is op uw telefoon."
+
