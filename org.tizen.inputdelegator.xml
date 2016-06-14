@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="org.tizen.inputdelegator" version="1.0.0">
+  <profile name="wearable" />
+    <ui-application appid="org.tizen.inputdelegator" exec="/usr/apps/org.tizen.inputdelegator/bin/inputdelegator" type="capp" multiple="true" taskmanage="false" hw-acceleration="use-GL" nodisplay="true" process-pool="true">
+        <icon>w-input-selector.png</icon>
+        <label>inputdelegator</label>
+    </ui-application>
+
+<privileges>
+    <privilege>http://tizen.org/privilege/display</privilege>
+    <privilege>http://tizen.org/privilege/recorder</privilege>
+    <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+</privileges>
+</manifest>

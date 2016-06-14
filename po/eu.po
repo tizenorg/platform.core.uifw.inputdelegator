@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Irratiaren botoia"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Botoia"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Ezgaitu da."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Hautatu da."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Ez da aukeratu"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Egiaztatu telefonoa."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Lege oharra irakurtzeko eta onartzeko, konektatu Bluetooth bidez."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Idazketa hizk."
+
+msgid "IDS_ST_SK_OK"
+msgstr "Ados"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Ukitu bi aldiz bidaltzeko."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Noiz elkar gaitezke?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Nola doa?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Zer moduz?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Laster hitz egingo dugu."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Geroago deituko dizut."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Non zaude?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Deitu geroago"
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Hitz egin %s-(e)z orain"
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Ezin izan da ahotsa hauteman"
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Ahots sarrera hizkuntza"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Automatikoa"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "ADOS"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Sare konexioaren errorea"
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Sarearen errorea"
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Hitz egin orain"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Hizkuntza"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Ezin izan da hautem."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Sareko errorea"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Telefonoan xehetasunak erakusten..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "GEHITU TXANT."
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Gehitu txant."
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Gehitu txant.<br>telefonoan."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Irribarre"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Ahots sarrera"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Emotikonoa"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Teklatua"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Erantzun azkarrak"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Bidali"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "OK zeinua eskuaz"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Hatz lodiak gora zeinua"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Hatz lodiak behera zeinua"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Ahoa irekita duen eta irribarre egiten ari den aurpegia"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Ahoa irekita eta begiak itxita dituen eta irribarre egiten ari den aurpegia"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Irribarre ahoa eta begiak dituen aurpegia"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Bihotz formako begiak dituen eta irribarretsu dagoen aurpegia"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Muxu ematen ari den eta irribarre begiak dituen aurpegia"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Mihia kanpoan eta begi bat itxita dituen aurpegia"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Haserre aurpegia"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Harridura aurpegia"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Negarrez ari den aurpegia"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Desengainu baina lasaitasun aurpegia"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Beldurrez garrasika ari den aurpegia"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Arrakastaren aurpegia"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Medikuaren maskara duen aurpegia"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Mainak egiten ari den aurpegia"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Logura aurpegia"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Neke aurpegia"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Muxu ematen ari den eta begiak itxita dituen aurpegia"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Telefonoan xehetas. erakusten..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Ukitu bi aldiz hitz egiteko."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear teklatua eta Ahotsa hautemateko zerbitzu baten erabilera"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. Gear teklatua zerbitzuak ahotsa hautemateko teknologia erabiltzen du zerbitzuaren osagai gisa. Onartzen duzu Samsung-ek hirugarren batek, Nuance Communications Inc. enpresak (“Nuance”), hornitutako ahotsa hautemateko zerbitzu bat (“Ahotsa hautemateko zerbitzua”) erabil dezakeela. Gainera, Gear teklatua zerbitzua erabiltzean, baldintza hauek ezagutzen eta onartzen dituzu.<br>2. Onartzen duzu ez duzula Gear teklatua zerbitzura makina bidezko eskaerarik edo eskaera grabaturik bidaliko.<br>3. Onartzen duzu, Ahotsa hautemateko zerbitzua ematean, Nuance-k Gear teklatua zerbitzuari diktatzen dizkiozun hitzak (baita hitz horien audio grabaketak, horiekin lotutako transkripzioak eta erregistro fitxategiak ere) (“Ahots datuak”) bilduko dituela."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. Baimentzen eta onartzen duzu, Ahotsa hautemateko zerbitzua ematean, balitekeela Nuance-k Ahots datuak biltzea eta Nuance-k horiek erabiltzea (a) Ahotsa hautemateko zerbitzua eta (b) bestelako Nuance produktuak eta zerbitzuak doitzeko, hobetzeko eta borobiltzeko.<br>5. Aitortzen eta onartzen duzu balitekeela zure Ahots datuak Amerikako Estatu Batuetara edota beste herrialde batzuetara transferitzea, Nuance-k datu horiek gorde, prozesatu eta erabil ditzaten.<br>6. Ematen dituzun Ahots datu guztiak isilpekoak izango dira eta indarrean dauden legeen arabera erabiliko dira. Hala ere, baliteke Nuance-k haiek jakinaraztea legeak edo araudiak betetzeko, adibidez, epaitegiko agindu batek edo administrazio publiko batek hala eskatzen duelako, legeak ahalbidetzen duelako edo  hirugarren batek Nuance erosi edo Nuance-kin bat egin duelako."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gear teklatuak hirugarren zerbitzu hornitzaile baten, Nuance Communications Inc. enpresaren, ahotsa hautemateko teknologia erabiltzen du. Horrenbestez, zure ahots informazioa Nuance-k kudeatzen duen zerbitzari batean gordeko da (Amerikako Estatu Batuetan). Gear teklatua erabiltzeko %sNuance-ren Baldintzak eta zehaztapenak%s onartu beharko dituzu. <br>Nuance-k zure ahots sarrerak zerbitzuak hobetzeko eta teknologia garatzeko helburuarekin erabiltzeko eskubidea erreserbatzen du. Ahots sarrerei buruzko informazioa aipatu helburuak bete arte gordeko da. Gear teklatua zerbitzuei buruzko informaziorik nahi izanez gero, irakurri %sNuance-ren Pribatutasun politika%s. <br>Ezin duzu Gear teklatua erabili, aurreko paragrafoetan adierazitako informazioa biltzea eta hura tratatzea onartzen ez baduzu."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Informazioa tratatzeko eta biltzeko onespena"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Errekonozitze zerbitzua lanpetuta"
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Deitu geroago."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Ukitu pausatzeko"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "%s eskaintzeko, Samsung-ek hirugarren zerbitzu hornitzaile batek, Nuance Communications Inc. (“Nuance”) konpainiak, emandako hizketa ezagutzeko zerbitzuak erabiltzen ditu. Nuance konpainiak %s aplikazioari diktatzen dizkiozun hitzen grabaketak bildu eta gordeko ditu, %s aplikazioaren hizketa ezagutzeko zerbitzua eskaintzeko eta hobetzeko eta horren arazoak konpontzeko. Bildutako datuak Nuance konpainiak Estatu Batuetan kudeatzen duen zerbitzari batean gordeko dira eta baliteke Nuance konpainiaren bazkideekin partekatzea, zerbitzuak hobetzeko."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Noiz elkar gaitezke?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Non zaude?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Bi bihotz"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Txerri sudurra"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Txakurra"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Katua"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Oilaskoa"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Ura botatzen duen balea"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Panda aurpegia"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Tigre aurpegia"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Gear sarrera"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Ziurtatu %s aplikazioa telefonoan aktibo dagoela."
+

@@ -1,0 +1,288 @@
+/*
+ * Copyright (c) 2011 Samsung Electronics Co., Ltd All Rights Reserved
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *	  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ */
+
+#define NORMAL_BG_IMAGE						 "B09_voice_input_panel.png"
+
+#define PROGRESSING_DELAY 0.03
+#define PROGRESS_BG_DESC1( param_name, param_num )								\
+description																	   \
+{																				 \
+	state, "pulse" 0.#param_num;												  \
+	inherit, "default" 0.0;													   \
+	image.normal, "B09_"#param_name"_"#param_num".png";						   \
+}
+
+#define LISTEN_BG_DESC( param_name, param_num )								   \
+description																	   \
+{																				 \
+	state, "wave" 0.#param_num;												   \
+	inherit, "default" 0.0;													   \
+	image.normal, "B09_"#param_name"_"#param_num".png";						   \
+}
+
+#define BUTTON_CIRCLE_STYLE_BG_MIN_MAX_INC 112 112
+#define BUTTON_CIRCLE_STYLE_IMAGE_MIN_MAX_INC 45 45
+#define BUTTON_CIRCLE_STYLE_CONTENT_MIN_MAX_INC 45 45
+#define BUTTON_CIRCLE_STYLE_LEFT_PADDING_MIN_MAX_INC 13 13
+#define BUTTON_CIRCLE_STYLE_RIGHT_PADDING_MIN_MAX_INC 14 14
+
+#define BUTTON_CIRCLE_STYLE_NORMAL_TOP_OFFSET_INC 0 2
+#define BUTTON_CIRCLE_STYLE_NORMAL_BOTTOM_OFFSET_INC -1 1
+#define BUTTON_CIRCLE_STYLE_PRESSED_TOP_OFFSET_INC 0 -2
+#define BUTTON_CIRCLE_STYLE_PRESSED_BOTTOM_OFFSET_INC -1 -3
+
+#define BUTTON_CIRCLE_STYLE_CLIPPER_DEFAULT_COLOR_INC 0 0 0 255
+#define BUTTON_CIRCLE_STYLE_ICON_CLIPPER_PRESSED_COLOR_INC 0 0 0 255
+#define BUTTON_CIRCLE_STYLE_ICON_CLIPPER_DISABLED_COLOR_INC 21 22 25 255
+
+#define BUTTON_CIRCLE_STYLE_NORMAL_COLOR_INC 250 250 250 255
+#define BUTTON_CIRCLE_STYLE_PRESSED_COLOR_INC 250 250 250 255
+#define BUTTON_CIRCLE_STYLE_DISABLED_COLOR_INC 166 167 169 255
+
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+
+//============================================================================
+//============================================================================
+
+/**
+ * Resources
+ *
+ */
+
+/**
+ * Macro
+ *
+ */
+#define BTN_IMAGE()														  \
+part																		 \
+{																			\
+	name, "button_image";													\
+	mouse_events, 1;														 \
+	scale, 1;																\
+	description															  \
+	{																		\
+		state, "default" 0.0;												\
+	}																		\
+	description															  \
+	{																		\
+		state, "clicked" 0.0;												\
+		inherit, "default" 0.0;											  \
+	}																		\
+	description															  \
+	{																		\
+		state, "disabled" 0.0;											   \
+		inherit, "default" 0.0;											  \
+		visible, 1;														  \
+	}																		\
+	description															  \
+	{																		\
+		state, "focused" 0.0;												\
+		inherit, "default" 0.0;											  \
+	}																		\
+}
+
+#define OVER()															   \
+part																		 \
+{																			\
+	name, "over2";														   \
+	type, RECT;															  \
+	mouse_events, 1;														 \
+	repeat_events, 1;														\
+	ignore_flags, ON_HOLD;												   \
+	description															  \
+	{																		\
+		state, "default" 0.0;												\
+		color, 0 0 0 0;													  \
+	}																		\
+	description															  \
+	{																		\
+		state, "disabled" 0.0;											   \
+		inherit,  "default" 0.0;											 \
+		visible, 0;														  \
+	}																		\
+}																			\
+part																		 \
+{																			\
+	name, "over3";														   \
+	type, RECT;															  \
+	mouse_events, 1;														 \
+	repeat_events, 1;														\
+	description															  \
+	{																		\
+		state, "default" 0.0;												\
+		color, 0 0 0 0;													  \
+	}																		\
+	description															  \
+	{																		\
+		state, "clicked" 0.0;												\
+		inherit,  "default" 0.0;											 \
+		visible, 1;														  \
+	}																		\
+}
+
+#define DISABLER()														   \
+part																		 \
+{																			\
+	name, "disabler";														\
+	type, RECT;															  \
+	description															  \
+	{																		\
+		state, "default" 0.0;												\
+		color, 255 255 255 0;												\
+		visible, 0;														  \
+	}																		\
+	description															  \
+	{																		\
+		state, "disabled" 0.0;											   \
+		inherit, "default" 0.0;											  \
+		visible, 1;														  \
+	}																		\
+}
+
+#define PROG_FOCUS														   \
+program																	  \
+{																			\
+	name, "focused";														 \
+	signal, "elm,action,focus";											  \
+	source, "elm";														   \
+	action, STATE_SET "focused" 0.0;										 \
+	target, "button_image";												  \
+}																			\
+program																	  \
+{																			\
+	name, "unfocused";													   \
+	signal, "elm,action,unfocus";											\
+	source, "elm";														   \
+	action, STATE_SET "default" 0.0;										 \
+	target, "button_image";												  \
+}
+
+#define PROG_ENABLE														  \
+program																	  \
+{																			\
+	name: "disable";														 \
+	signal: "elm,state,disabled";											\
+	source: "elm";														   \
+	action: STATE_SET "disabled" 0.0;										\
+	target: "button_image";												  \
+	target: "over2";														 \
+	target: "disabler";													  \
+}																			\
+program																	  \
+{																			\
+	name: "enable";														  \
+	signal: "elm,state,enabled";											 \
+	source: "elm";														   \
+	action: STATE_SET "default" 0.0;										 \
+	target: "button_image";												  \
+	target: "over2";														 \
+	target: "disabler";													  \
+}
+
+#define PROG_CLICK														   \
+program																	  \
+{																			\
+	name: "button_click";													\
+	signal: "mouse,down,1";												  \
+	source: "over2";														 \
+	action: SIGNAL_EMIT "elm,action,press" "";							   \
+	after: "button_click_anim";											  \
+}																			\
+program																	  \
+{																			\
+	name: "button_click_anim";											   \
+	action: STATE_SET "clicked" 0.0;										 \
+	target: "button_image";												  \
+}																			\
+program																	  \
+{																			\
+	name: "button_unclick";												  \
+	signal: "mouse,up,1";													\
+	source: "over2";														 \
+	action: SIGNAL_EMIT "elm,action,unpress" "";							 \
+	after: "button_unclick_anim";											\
+}																			\
+program																	  \
+{																			\
+	name: "button_unclick_anim";											 \
+	action: STATE_SET "default" 0.0;										 \
+	target: "button_image";												  \
+}																			\
+program																	  \
+{																			\
+	name: "button_mouseout_clicked";										 \
+	signal: "mouse,out";													 \
+	source: "over2";														 \
+	script																   \
+	{																		\
+		new st[31];														  \
+		new Float:vl;														\
+		get_state(PART:"button_image", st, 30, vl);						  \
+		if (!strcmp(st, "clicked"))										  \
+		{																	\
+			set_state(PART:"button_image", "visible", 0.0);				  \
+		}																	\
+	}																		\
+}																			\
+program																	  \
+{																			\
+	name: "button_click2";												   \
+	signal: "mouse,down,1";												  \
+	source: "over3";														 \
+	action: STATE_SET "clicked" 0.0;										 \
+	target: "over3";														 \
+	action: SIGNAL_EMIT "elm,action,click" "";							   \
+}																			\
+program																	  \
+{																			\
+	name: "button_unclick2";												 \
+	signal: "mouse,up,1";													\
+	source: "over3";														 \
+	action: STATE_SET "default" 0.0;										 \
+	target: "over3";														 \
+}																			\
+program																	  \
+{																			\
+	name: "button_unclick3";												 \
+	signal: "mouse,up,1";													\
+	source: "over2";														 \
+}
+
+#define VIC_BUTTON()														 \
+group																		\
+{																			\
+	name, "elm/button/base/vic/micbutton";								   \
+	parts																	\
+	{																		\
+		BTN_IMAGE()														  \
+		OVER()															   \
+		DISABLER()														   \
+	}																		\
+	programs																 \
+	{																		\
+		PROG_CLICK														   \
+		PROG_ENABLE														  \
+		PROG_FOCUS														   \
+	}																		\
+}
+
+collections
+{
+	VIC_BUTTON()
+}
