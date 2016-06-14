@@ -1,0 +1,120 @@
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "ကြန္ရက္ အမွား"
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "ကၽြန္ေတာ္တို႔ ဘယ္ေတာ့ ေတြ႔ႏိုင္လဲ?"
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "ခင္ဗ်ား ဘယ္မွာလဲ?"
+
+msgid "IDS_MSG_HEADER_SELECT_TEMPLATE_M_TEXT_HEADER_ABB"
+msgstr "ပံုစံျပား ေရြးပါ"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "အေျခအေန ဘယ္လိုလဲ?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "ဘာျဖစ္ပါသလဲ?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "ခဏေနလွ်င္ ကၽြႏု္ေတာ္ စကားေျပာပါလိမ့္္မည္။"
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "ေနာက္မွ ျပန္ေခၚမည္။"
+
+msgid "IDS_IME_SK_DONE_ABB"
+msgstr "ၿပီးပါၿပီ"
+
+msgid "IDS_IME_OPT_NEXT_ABB"
+msgstr "ေနာက္"
+
+msgid "IDS_IME_OPT_ENTER_ABB"
+msgstr "ျဖည့္သြင္းပါ"
+
+msgid "IDS_IME_BUTTON_SIGN_IN_M_KEYBOARD"
+msgstr "ဆိုင္းအင္"
+
+msgid "IDS_IME_BUTTON_SEND_M_KEYBOARD"
+msgstr "ပို႔ပါ"
+
+msgid "IDS_IME_BUTTON_LOG_IN_M_KEYBOARD"
+msgstr "ေလာ့အင္"
+
+msgid "IDS_IME_BUTTON_JOIN_M_KEYBOARD"
+msgstr "ပါဝင္ပါ"
+
+msgid "IDS_IME_BUTTON_GO_M_KEYBOARD"
+msgstr "သြားပါ"
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "ယခု %s မွာ စကားေျပာပါ။"
+
+msgid "IDS_VTR_BODY_RUSSIAN"
+msgstr "ရုရွား"
+
+msgid "IDS_VTR_BODY_CHINESE"
+msgstr "တရုတ္"
+
+msgid "IDS_IME_BODY_TRYING_TO_RECOGNISE_ING"
+msgstr "မွတ္မိေစရန္ ၾကိဳးစားေနသည္…"
+
+msgid "IDS_IME_BODY_SPEAK_NOW"
+msgstr "ယခုစကားေျပာပါ"
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "အသံကို မွတ္မိႈ မေအာင္ျမင္။"
+
+msgid "IDS_ST_MBODY_GERMAN_ABB"
+msgstr "ဂ်ာမန္"
+
+msgid "IDS_MYTR_BODY_ENGLISH_HUK"
+msgstr "အဂၤလိပ္ (UK)"
+
+msgid "IDS_TR_BODY_SPANISH"
+msgstr "စပိန္စကား"
+
+msgid "IDS_TR_BODY_KOREAN"
+msgstr "ကိုရီးယား"
+
+msgid "IDS_TR_BODY_JAPANESE"
+msgstr "ဂ်ပန္"
+
+msgid "IDS_TR_BODY_ITALIAN"
+msgstr "အီတာလီယန္"
+
+msgid "IDS_TR_BODY_FRENCH"
+msgstr "ျပင္သစ္"
+
+msgid "IDS_TR_BODY_ENGLISH_HUS"
+msgstr "အဂၤလိပ္ (US)"
+
+msgid "IDS_TR_BODY_BRAZILIAN_PORTUGUESE"
+msgstr "ဘရာဇီး ေပၚတူဂီ"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "ကြန္ယက္ခ်ိတ္ဆက္မႈ အမွား။"
+
+msgid "IDS_VOICE_BODY_TAP_MIC"
+msgstr "မိုက္ ႏွိပ္ပါ။"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "အလုိအေလ်ာက္"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Call me later."
+
+msgid "IDS_ST_BODY_DELETE"
+msgstr "ဖ်က္ပစ္ပါ"
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "အသံက ထည့္သြင္းသည့္ ဘာသာစကား"
+
+msgid "IDS_CALL_NPBODY_NO_TEMPLATES_M_TEXT"
+msgstr "ပံုစံျပားမ်ား မရွိပါ"
+
+msgid "IDS_VR_BODY_SPANISH_HLATIN_AMERICA"
+msgstr "စပိန္ (လက္တင္အေမရိက)"
+
+msgid "IDS_DVBH_HEADER_SELECT_METHOD"
+msgstr "နည္းလမ္း ေရြးပါ"
+

@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Ауыстырғыш түйме"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Түйме"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Өшірілген."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Таңдалған."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Таңдалмаған"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Телефоныңызды тексеріңіз."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Құқықтық мәлімдемені қарап, қабылдау үшін Bluetooth арқылы қосылыңыз."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Енгізу тілдері"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Жіберу үшін, екі рет түртіңіз."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Қашан кездесе аламыз?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Қалай болып жатыр?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Не болды?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Сізбен жақ.сөйлесемін."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Кейінірек қоң.шаламын."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Қайдасыз?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Маған кейінірек қоңырау шалу."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Қазір %s сөйлеу."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Дауысы танылмады."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Дауыспен енгізу тілі"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Автоматты түрде"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "КЕЛІСУ"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Желіге қосылу қатесі"
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Желі қателігі"
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Қазір сөйлесу"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Тіл"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Тану сәтсіз болды."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Желі қатесі"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Мәліметтер телефонда көрсетілуде..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "ҮЛГІНІ ҚОСУ"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Үлгіні қосу"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Үлгіні телефонда қосыңыз."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Күлкі"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Дауыс енгізу"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Эмотикон"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Пернетақта"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Жылдам жауаптар"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Жіб."
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "OK қол белгісі"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Жоғары көрсеткен саусақ"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Төмен көрсеткен саусақ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Аузы ашық және көздері күлімсіреген бет"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Аузы ашық және көздері жартылай ашық күлімсіреген бет"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Күлімсіреген көзі бар күлімсіреген бет"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Беті күлімсіреген, көзі бұршақ бет"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Көзі күлімсіреген сүйіп тұрған бет"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Тілі шығарылып тұрған және бір көзі қысылып тұрған бет"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Ашуланған бет"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Таң қалған бет"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Жылаған бет"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Қайғы басқан, бірақ сабырлы бет"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Қорқыныштан айғайлап тұрған бет"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Салтанатпен қарап тұрған бет"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Медикалық маскасы бар бет"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Бұлтиып тұрған бет"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Ұйқылы бет"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Шаршаған бет"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Көзі жабық сүйіп тұрған бет"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Мәлімет телефонда көрсетілуде..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Сөйлеу үшін, екі рет түртіңіз."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input және Сөздерді тану қызметін пайдалану"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. Сөздерді тану технологиясы Gear Input қызметінің құрамдас бөлігі болып табылады.  Сіз Samsung компаниясы, үшінші тарап – Nuance Communications Inc. («Nuance») ұсынған дауысты тану қызметін (бұдан әрі –«Дауысты тану қызметі») пайдалана алатынын растайсыз, әрі сіз Gear Input қызметін пайдалануға байланысты төмендегі берілген шарттарды растайсыз және соған келісесіз.<br>2. Сіз Gear Input қызметіне қандай да бір автоматтандырылған немесе алдын ала жазып алынған сұраныстарды жібермеуге келісесіз.<br>3. Сіз Gear Input қызметіне айтатын сөздерді (соның ішінде мұндай сөздердің аудиожазбалары, түсіндірмелері мен осы жазбалар журналдары) («Сөздік деректер») Сөздерді тану қызметін пайдалану кезінде Nuance корпорациясы жинайтынын растайсыз."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. Сіз Сөздерді тану қызметін пайдалану кезінде Nuance корпорациясы (a) Сөздерді тану қызметін және (b) басқа да Nuance өнімдері мен қызметтерін дәлдеу, жетілдіру және жақсарту үшін Nuance корпорациясы мен оның үшінші тараптағы серіктестері пайдалана алатын Сөз деректерін жинай алатынына келісім бересіз және оны қабылдайсыз.<br>5. Сіз Сөз деректеріңізді Nuance және оның үшінші тараптағы серіктестері сақтау, өңдеу және пайдалану үшін Америка Құрама Штаттарына және/немесе басқа елдерге тасымалдауға болатынын растайсыз және оған келісесіз.<br>6. Сіз берген Сөз деректерінің кез келгені және барлығы құпия сақталады және қолданыстағы заңдарға сәйкес пайдаланылады, бірақ оны Nuance компанияны қажет болған жағдайда заңдық немесе нормативтік талаптарды орындау үшін, мысалы, соттың шешімі бойынша немесе мемлекеттік мекемеге немесе Nuance компаниясын иелігіне алатын немесе онымен бірігетін үшінші тарапқа жариялануы мүмкін."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gear Input қызметі Nuance Communications, Inc. деп аталатын үшінші тарап қызмет провайдерінің дауысты тану технологиясын пайдаланады. Сондықтан дауыстық ақпаратыңыз Nuance (Америка Құрама Штаттарында орналасқан) басқаратын серверде сақталады және Gear Input қызметін пайдалану үшін %sNuance корпорациясының Шарттары мен талаптарына%s келісуіңіз қажет. Nuance жазылған даусыңызды қызметтерді жақсарту және технологияларды дамыту мақсатында пайдалану құқығын сақтайды. <br>Сондай-ақ, Nuance жоғарыда аталған жазылған дауысты Nuance корпорациясының серіктестеріне беру құқығын сақтайды. Сіздің дауыстық ақпаратыңыз жоғарыда аталған мақсаттарға қол жеткізгенге дейін сақталады. Gear Input қызметі туралы қосымша ақпарат алу үшін %sNuance құпиялылық саясатын%s оқыңыз. <br>Жоғарыда сипатталған ақпараттың сақталуы мен пайдаланылуына келіспесеңіз, Gear Input қызметінпайдалана алмайсыз."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Ақпарат беру туралы келісім"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Тану қызметі бос емес."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Кейін қоңырау шалыңыз."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Кідірту үшін түрту"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "%s қамтамасыз ету үшін Samsung ұйымы үшінші тарап қызмет провайдерімен, Nuance Communications Inc. (“Nuance”), қамтамасыз етілетін дауысты тану қызметтерін пайдаланады. %s дауысты тану қызметі мәселелерін шешу, қамтамасыз ету және жетілдіру мақсатында Nuance ұйымы %s қызметіне айтылған сөздер жазбаларын жинап сақтайды. Жиналған деректер Америка Құрама Штаттарындағы Nuance ұйымымен басқарылатын серверде сақталады және қызметтерді жетілдіру үшін Nuance серіктестерімен ортақ пайдаланылуы мүмкін."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Қашан кездесе аламыз?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Қайдасыз?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Екі жүрек"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Шошқа танауы"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Ит"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Мысық"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Тауық"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Сумен атқылайтын кит"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Панда тұмсығы"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Жолбарыс тұмсығы"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Gear енгізу"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "%s қолданбасының телефоныңызда қосулы екеніне көз жеткізіңіз."
+

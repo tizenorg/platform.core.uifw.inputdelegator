@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "ரேடியோ பொத்தான்"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "பொத்தான்"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "செயல்நீக்கப்பட்டது."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "தேர்ந்தெடுக்கப்பட்டது."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "தேர்ந்தெடுக்கப்படாதவை"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "உங்கள் ஃபோனை சரிபார்க்கவும்."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "சட்ட அறிவிப்பை மறுஆய்வு செய்து ஏற்க ப்ளூடூத் வழியாக இணைக்கவும்."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "உள்ளீட்டு மொழி."
+
+msgid "IDS_ST_SK_OK"
+msgstr "சரி"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "சாம்சங் கியர்"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "அனுப்ப, இருமுறை டேப் செய்க."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "நாம் எப்போது சந்திக்கலாம்?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "எப்படி போகிறது?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "என்ன நடக்கிறது?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "விரைவில் உங்களுடன் பேசுகிறேன்."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "உங்களை பிறகு அழைக்கிறேன்."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "நீங்கள் எங்கே இருக்கிறீர்கள்?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "என்னை பின்னர் அழை."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "இப்போது %s மொழியில் பேசுக."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "குரல் கண்டறிதல் தோல்வியுற்றது."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "குரல் உள்ளீட்டு மொழி"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "தானியக்கம்"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "ஏற்கிறேன்"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "நெட்வொர்க் இணைப்பில் பிழை."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "நெட்வொர்க் பிழை."
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "இப்போது பேசவும்"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "மொழி"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "கண்டறிதல் தோல்வியுற்றது."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "நெட்வொர்க் பிழை"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "உங்கள் ஃபோனில் விவரங்களை காட்டுகிறது..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "டெம்ப்ளேட் சேர்."
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "டெம்ப்ளேட் சேர்."
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "ஃபோனில் டெம்ப்ளேட் சேர்."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "புன்னகை"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "குரல் உள்ளீடு"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "எமோடிகான்"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "விசைப்பலகை"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "துரித பதில்கள்"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "அனுப்பு"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "சரி எனும் கை குறியீடு"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "மேல்நோக்கிய கட்டைவிரல்கள் சின்னம்"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "கீழ்நோக்கிய கட்டைவிரல்கள் சின்னம்"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "திறந்த வாய் மற்றும் சிரிக்கும் கண்களுடன் சிரிக்கும் முகம்"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "திறந்த வாய் மற்றும் இறுக்கமாக மூடப்பட்ட கண்களுடன் சிரிக்கும் முகம்"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "சிரிக்கும் கண்களுடன் சிரிக்கும் முகம்"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "இதய வடிவான கண்களுடன் சிரிக்கும் முகம்"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "சிரிக்கும் கண்களுடன் முத்தமிடும் முகம்"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "வெளிநீட்டிய நாக்கு மற்றும் சிமிட்டும் கண்ணுடன் முகம்"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "கோபமான முகம்"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "அதிர்ச்சியூட்டிய முகம்"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "அழுகின்ற முகம்"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "ஏமாற்றமடைந்த ஆனால் தணிந்துவிட்ட முகம்"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "பயத்தில் அலறும் முகம்"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "பெருஞ்சாதனையின் தோற்றத்துடன் முகம்"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "மருத்துவ முகமூடியுடன் முகம்"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "உதட்டைப் பிதுக்கும் முகம்"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "தூக்க முகம்"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "களைப்படைந்த முகம்"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "மூடிய கண்களுடன் முத்தமிடும் முகம்"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "ஃபோனில் விவரங்களை காட்டுகிறது..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "பேச, இருமுறை டேப் செய்யவும்."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "கியர் இன்புட் மற்றும் பேச்சு கண்டறிதல் சேவையைப் பயன்படுத்துதல்"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. பேச்சு கண்டறிதல் தொழில்நுட்பம் என்பது கியர் இன்புட் சேவையின் உட்பொருளாகும்.  Nuance Communications Inc. (“Nuance”) என்கிற மூன்றாம் தரப்பினரால் வழங்கப்படும் பேச்சு கண்டறிதல் சேவையை சாம்சங் (“பேச்சு கண்டறிதல் சேவை”) பயன்படுத்த அங்கீகரிக்கிறீர்கள், கியர் இன்புட் சேவையைப் பயன்படுத்துவது தொடர்பாகப் பின்வருபவற்றை அங்கீகரித்து ஏற்கிறீர்கள். <br>2. கியர் இன்புட் சேவைக்கு எந்த தானியங்கும் அல்லது பதிவுசெய்யப்பட்ட கோரிக்கைகளைச் சேமிக்காமலிருக்க ஒப்புக்கொள்கிறீர்கள். <br>3. கியர் இன்புட் சேவைக்கு நீங்கள் உச்சரிக்கும் சொற்கள் (சொற்கள் அடங்கிய ஆடியோ பதிவுகள், தொடர்புடைய உரைகள் மற்றும் பதிவுக் கோப்புகள் உட்பட) (“பேச்சுத் தரவு”) பேச்சு கண்டறிதல் சேவையை வழங்க Nuance நிறுவனத்தால் சேகரிக்கப்படும் என்பதை அங்கீகரிக்கிறீர்கள்."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. பேச்சு கண்டறிதல் சேவையை வழங்க, Nuance மற்றும் அதன் மூன்றாம் தரப்புக் கூட்டாளர்களால் (a) பேச்சு கண்டறிதல் சேவை மற்றும் (b) பிற Nuance தயாரிப்புகள் மற்றும் சேவைகளை வளப்படுத்த, மேம்படுத்த மற்றும் முன்னேற்ற பேச்சுத் தரவை Nuance சேகரிப்பதற்கு ஒப்புதலளித்து ஏற்கிறீர்கள். <br>5. உங்கள் பேச்சுத் தரவு Nuance மற்றும் அதன் மூன்றாம் தரப்புக் கூட்டாளர்களால் அமெரிக்கா மற்றும்/அல்லது பிற நாடுகளுக்கு சேமிக்க, செயல்படுத்த மற்றும் பயன்படுத்த பரிமாற்றம் செய்யப்படலாம் என்பதை அங்கீகரித்து ஏற்கிறீர்கள். <br>6. நீங்கள் வழங்கும் அனைத்துப் பேச்சுத் தரவும் ரகசியமாக வைக்கப்பட்டு தகுந்த சட்டத்துக்கு உட்பட்டு பயன்படுத்தப்படும், ஆனால் நீதிமன்ற ஆணைப்படியோ அல்லது அரசு நிறுவனத்திற்கு உட்பட்டோ சட்டத்தின்படி தேவைப்பட்டால் அல்லது அங்கீகரிக்கப்பட்டால், சட்டப்படியான அல்லது ஒழுங்குமுறைத் தேவைகளை நிறைவேற்ற Nuance நிறுவனத்தால் வெளியிடப்படலாம், அல்லது Nuance நிறுவனத்தால் கையகப்படுத்தப்பட்ட அல்லது இணைக்கப்பட்ட மூன்றாம் தரப்பு நிறுவனத்தால் வெளியிடப்படலாம்."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "கியர் இன்புட் Nuance Communications, Inc. என்கிற மூன்றாம் தரப்பு சேவை வழங்குநர் வழங்கும் வாய்ஸ் கண்டறிதல் தொழில்நுட்பங்களைப் பயன்படுத்துகிறது. எனவே, உங்கள் குரல் தகவல் Nuance (அமெரிக்காவில் உள்ளது) நிறுவனத்தால் இயக்கப்படும் சேவையகத்தில் சேமிக்கப்பட வேண்டிய நிலை ஏற்படுகிறது, மேலும் கியர் இன்புட்டைப் பயன்படுத்த %sNuance இன் விதிகள் மற்றும் நிபந்தனைகளை%s நீங்கள் ஏற்கவேண்டும். <br>சேவைகளை மேம்படுத்துவதற்கும் தொழில்நுட்பங்களை வடிவமைப்பதற்கும் உங்கள் குரல் உள்ள்ளீட்டைப் பயன்படுத்தும் உரிமை Nuance நிறுவனத்திற்கு உள்ளது. மேற்கூறிய குரல் உள்ளீட்டை Nuance நிறுவனத்தின் கூட்டாளர்களுக்கு வழங்கும் உரிமையும் Nuance நிறுவனத்திற்கு உள்ளது. மேற்கூறிய நோக்கங்கள் செயல்படுத்தப்படும்வரை உங்கள் குரல் தகவல் சேமிக்கப்படும். கியர் இன்புட் சேவைகளைப் பற்றிய மேலும் தகவலுக்கு, %sNuance தனிப்பயன் கொள்கையைப்%s படிக்கவும். <br>சேமித்தல் மற்றும் மேலே விவரிக்கப்பட்ட உங்கள் தகவலைப் பயன்படுத்துதலை நீங்கள் ஏற்காவிட்டால் கியர் இன்புட்டை நீங்கள் பயன்படுத்த முடியாது."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "தகவல் வழங்கல் ஒப்பந்தம்"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "கண்டறிதல் சேவை பிஸியாக உள்ளது."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "என்னை பின்னர் அழைக்கவும்."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "இ.நிறுத்தம் டேப் செய்க"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "%s-ஐ வழங்குவதற்காக, சாம்சங் ஆனது Nuance Communications Inc. (“Nuance”) என்கிற மூன்றாம் தரப்பு சேவை வழங்குநர் வழங்கும் வாய்ஸ் கண்டறிதல் சேவைகளைப் பயன்படுத்துகிறது. %s இன் வாய்ஸ் கண்டறிதல் சேவையை வழங்க, மேம்படுத்த மற்றும் அதன் சிக்கல்களைச் சரிசெய்வதற்காக, %s இல் நீங்கள் கூறும் வார்த்தைகளின் பதிவுகளை Nuance சேகரித்துச் சேமிக்கும். சேகரிக்கப்படும் தரவு, அமெரிக்காவில் உள்ள Nuance-ஆல் கட்டுப்படுத்தப்படும் சேவையகத்தில் சேமிக்கப்படும், மேலும் சேவைகளை மேம்படுத்துவதற்காக, Nuance-இன் கூட்டாளர்களுடன் பகிரப்படலாம்."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "எப்போது சந்திக்கலாம்?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "எங்கே இருக்கிறீர்கள்?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "இரண்டு இதயங்கள்"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "பன்றி மூக்கு"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "நாய்"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "பூனை"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "கோழி"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "பீச்சியடிக்கும் திமிங்கிலம்"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "பண்டா முகம்"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "புலி முகம்"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "கியர் உள்ளீடு"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "உங்கள் ஃபோனில் %s பயன்பாடு செயல்படுவதை உறுதிசெய்து கொள்ளவும்."
+

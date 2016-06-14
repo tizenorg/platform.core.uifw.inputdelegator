@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Alternativknap"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Knap"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Deaktiveret."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Valgt."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Ikke valgt"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Tjek din telefon."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Opret forb. via Bluetooth for at gennemgå og acceptere jur. bemærkn."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Inputsprog"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Dobbelttryk for at sende."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Hvornår kan vi mødes?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Hvordan går det?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Hvad sker der?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Vi tales snart ved."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Jeg ringer senere."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Hvor er du?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Ring til mig senere."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Tal på %s nu."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Kunne ikke genkende stemme."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Stemme-inputsprog"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Automatisk"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "ACCEPTER"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Netværksforbindelsesfejl."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Netværksfejl."
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Tal nu"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Sprog"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Genkendelse mislyk."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Netværksfejl"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Meddelelse om beskyttelse af personlige oplysninger"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice giver mulighed for talestyring i forbindelse med visse funktioner, f.eks. S Voice, Gear Input, Stemmenotat og Find min bil. Når du bruger S Voice-funktioner, behandles dine stemmekommandoer, dit enheds-id og visse andre relevante oplysninger, f.eks. navne på kontaktpersoner, oplysninger om sange i dit musikbibliotek og/eller placeringsoplysninger (hvis din GPS er aktiveret) for at forbedre nøjagtigheden af S Voice-svar på dine anmodninger og for at levere S Voice-funktioner. Du kan få mere at vide om vores politikker om beskyttelse af personlige oplysninger på https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Viser oplysninger på din telefon ..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "TILF. SK.LON"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Tilf. sk.lon"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Tilføj skabelon på din tlf."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Smil"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Stemmeinput"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Humørikon"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Tastatur"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Hurtige svar"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Send"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "Håndtegnet OK"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Tommel op"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Tommel ned"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Smilende ansigt med åben mund og smilende øjne"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Smilende ansigt med åben mund og tæt lukkede øjne"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Smilende ansigt med smilende øjne"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Smilende ansigt med hjerteformede øjne"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Kyssende ansigt med smilende øjne"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Ansigt med tungen ud af munden og blinkende øjne"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Vredt ansigt"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Forbavset ansigt"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Grædende ansigt"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Skuffet, men lettet ansigt"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Ansigt, der skriger af angst"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Ansigt med et triumferende udtryk"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Ansigt med lægemaske"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Surmulende ansigt"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Søvnigt ansigt"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Træt ansigt"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Kyssende ansigt med lukkede øjne"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Viser oplysninger på din tlf. ..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Dobbelttryk for at tale."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input og brug af en stemmegenkendelsestjeneste"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. Stemmegenkendelsesteknologi er en komponent af tjenesten Gear Input. Du accepterer, at Samsung kan bruge en stemmegenkendelsestjeneste (“Stemmegenkendelsestjenesten”) leveret af en tredjepart, Nuance Communications, Inc. (“Nuance”), og du accepterer og anerkender følgende i forbindelse med din brug af tjenesten Gear Input.<br>2. Du accepterer ikke at sende nogle automatiserede eller optagede anmodninger til tjenesten Gear Input.<br>3. Du accepterer, at de ord, du dikterer til tjenesten Gear Input (herunder lydoptagelser af sådanne ord, associerede transskriptioner og logfiler) (“Stemmedata”) vil blive indsamlet af Nuance ved levering af Stemmegenkendelsestjenesten."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. Du indvilger i og accepterer, at ved at udbyde Stemmegenkendelsestjenesten, kan Nuance indsamle stemmedata, der kan bruges af Nuance og dets tredjeparter til at justere, forbedre og udvikle (a) Stemmegenkendelsestjenesten og (b) andre Nuance-produkter og -tjenester.<br>5. Du anerkender og accepterer, at Nuance eller dets tredjepartspartnere kan overføre dine stemmedata til USA og/eller andre lande til opbevaring, behandling eller brug.<br>6. Alle stemmedata, som du leverer, vil forblive fortrolige og brugt i overensstemmelse med gældende lovgivning, men kan, såfremt det kræves, fremlægges af Nuance for at opfylde juridiske eller regulatoriske krav, såsom ved en retskendelse, eller til en statslig myndighed, såfremt det kræves eller bemyndiges af lovgivningen, eller til en tredjepart, der overtager eller fusionerer med Nuance."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gear Input bruger stemmegenkendelsesteknologier leveret af en tredjepartsleverandør med navnet Nuance Communications, Inc. Derfor er dine stemmeinformationer nødvendigvis gemt på en server, der drives af Nuance (der har adresse i USA), og brug af Gear Input kræver, at du accepterer %sVilkårene og betingelserne for Nuance%s. <br>Nuance forbeholder sig ret til at anvende dit stemmeinput til forbedring af tjenester og udvikling af teknologier. Nuance forbeholder sig også ret til at levere det førnævnte stemmeinput til Nuances partnere. Dine stemmeinputinformationer er gemt, indtil førnævnte mål er opnået. For yderligere oplysninger om tjenesten Gear Input bedes du læse %sNuances fortrolighedspolitik%s. <br>Du kan ikke anvende Gear Input, hvis du ikke accepterer levering og brug af dine informationer beskrevet herover."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Aftale om informationslevering"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Genkendelsestjeneste optaget."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Ring til mig senere."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Tryk for at pause"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "For at levere %s, bruger Samsung talegenkendelsestjenester, der leveres af en tredjepartstjenesteudbyder, Nuance Communications Inc. (“Nuance”). Nuance indsamler og gemmer optagelser af de ord du dikterer til %s, for at kunne levere, forbedre og foretage fejlfinding af problemer med talegenkendelsestjenesten i %s. Indsamlede data vil blive gemt på en server, der kontrolleres af Nuance i USA, og kan deles med Nuances partnere for at forbedre tjenester."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Hvornår kan vi mødes?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Hvor er du?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "To hjerter"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Grisetryne"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Hund"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Kat"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Kylling"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Hval, der blæser damp"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Pandaansigt"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Tigeransigt"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Gear-input"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Sørg for, at appen %s er aktiv på telefonen."
+

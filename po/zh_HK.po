@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "收音機按鈕"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "按鈕"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "已停用。"
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "已選擇。"
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "未選擇"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "檢查您的手機。"
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "透過藍牙連接以查看並接受法律通告。"
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "輸入語言"
+
+msgid "IDS_ST_SK_OK"
+msgstr "確定"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "輕觸兩下以發送。"
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "幾點可以碰面？"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "近來好嗎？"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "怎麼了？"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "稍後回覆。"
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "待會回電。"
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "您在哪裡？"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "稍後致電我。"
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "現在說%s。"
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "無法識別語音。"
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "語音輸入語言"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "自動"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "同意"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "網絡連接錯誤。"
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "網絡故障。"
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "現在請說"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "語言"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "識別失敗。"
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "網絡錯誤"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "隱私聲明"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "三星 S Voice 可讓您通過語音控制某些功能，例如：S Voice、Gear Input、語音備忘錄和尋找我的汽車。當您使用 S Voice 功能時，就會對您的語音命令、裝置 ID 和其他相關資料進行處理，例如：聯絡人姓名、音樂庫中的歌曲資料和/或位置資料 (如果您開啟 GPS)，藉以改善 S Voice 在回應您的要求時的正確性以及提供 S Voice 功能。如要了解隱私保護措施的更多相關資料，請前往 https://account.samsung.com/membership/pp。"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "隱私聲明"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "三星 S Voice 可讓您通過語音控制某些功能，例如：S Voice、Gear Input、語音備忘錄和尋找我的汽車。當您使用 S Voice 功能時，就會對您的語音命令、裝置 ID 和其他相關資料進行處理，例如：聯絡人姓名、音樂庫中的歌曲資料和/或位置資料 (如果您開啟 GPS)，藉以改善 S Voice 在回應您的要求時的正確性以及提供 S Voice 功能。如要了解隱私保護措施的更多相關資料，請前往 https://account.samsung.com/membership/pp。"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "正在手機上顯示詳細資料..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "加入範本"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "加入範本"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "在手機上加入範本。"
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "微笑"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "語音輸入"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "表情符號"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "鍵盤"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "快速回應"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "發送"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "OK 手勢"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "拇指向上標記"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "拇指向下標記"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "張開嘴巴和眼睛笑眯眯的微笑臉"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "張開嘴巴和眼睛緊密的微笑臉"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "眼睛笑眯眯的微笑臉"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "帶心形眼睛的微笑臉"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "眼睛笑眯眯的親親臉"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "伸出舌頭和眨眼的臉"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "生氣的臉"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "驚訝的臉"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "哭泣中的人臉"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "失望但釋然的臉"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "恐懼尖叫的臉"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "洋洋自得的臉"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "戴著口罩的臉"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "撅著嘴的臉"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "昏昏欲睡的臉"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "疲憊的臉"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "閉著眼睛的親親臉"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "正在手機上顯示詳細資料..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "輕觸兩下以說話。"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input 及語音識別服務"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. 語音識別技術爲 Gear Input 服務的一部分。您確認三星會使用由第三方 Nuance Communications Inc.（以下簡稱「Nuance」）提供的語音識別服務（以下簡稱「語音識別服務」）及您確認並同意以下和您使用 Gear Input 服務有關的條款。<br>2. 您同意不會提交任何自動或錄音的要求至 Gear Input 服務。<br>3. 您確認您向 Gear Input 服務口述的字句（包括這些字句的錄音，相關的轉錄和日誌文件）（以下簡稱為「語音數據」會被 Nuance 收集作提供語音識別服務之用。"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. 您同意 Nuance 為提供語音識別服務，得以收集語言數據作使用，或由其第三方合作夥伴作調整、加強及改進 (a) 語音識別服務及 (b) 其他 Nuance 產品及服務。<br>5. 您確認並同意您的語音數據會轉移至美國及/或其他國家，由 Nuance 及其第三方合作夥伴作儲存、處理及使用。<br>6. 您提供的任何及全部語音數據會保持機密，在符合適用法律下使用。但在有需要下可能會由 Nuance 公開，以符合法律或規管要求（如根據法院命令）或在法律要求下須符合政府機關的要求，或向會收購 Nuance 或與其合併的第三方發佈。"
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gear Input 使用由第三方服務提供者，名為 Nuance Communications, Inc. 提供的語音識別服務技術。因此，您的語音資料無可避色地會儲存在由 Nuance 操作的伺服器內（位於美國），且您需要同意 %sNuance 條款與細則%s以使用 Gear Input。<br>Nuance 保留使用您的語音輸入作改善服務及發展技術的一切權利。Nuance 同時保留向其第三方合作夥伴提供上述語音輸入的一切權利。您的語音輸入會被保留直至上述目的成功達成。欲獲取 Gear Input 服務的詳細資料，請參閱 %sNuance 隱私政策%s。<br>如不同意上述的資料儲存與使用條款，則無法使用 Gear Input。"
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "資料提供協議"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "識別服務忙碌。"
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "稍後致電我。"
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "輕觸以暫停"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "為提供 %s，Samsung 使用由第三方服務供應商 Nuance Communications Inc. (「Nuance」) 所提供的語音辨識服務。Nuance 將收集並儲存您向 %s 口述字句的錄音，以提供、改善及疑難排解 %s 中之語音辨識服務的問題。收集的資料將儲存於位在美國由 Nuance 控制的伺服器，且可能分享給 Nuance 的合作夥伴以便改善服務。"
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "幾點可以碰面？"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "您在哪裡？"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "兩顆心"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "豬鼻子"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "狗"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "貓"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "小雞"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "噴水鯨魚"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "熊貓臉"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "虎臉"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Gear 輸入"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "請確保 %s 應用程式已在手機上啟動。"
+

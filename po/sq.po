@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Butoni i radios"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Butoni"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Paaftësuar."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Përzgjedhur."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Nuk është përzgjedhur"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Kontrollo telefonin."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Lidhu nëpërmjet Bluetooth për të parë dhe pranuar njoftimin ligjor."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Gjuhët e hyrjes"
+
+msgid "IDS_ST_SK_OK"
+msgstr "Ok"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Dy-trokit për të dërguar."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Kur mund të takohemi?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Si po shkon?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Ç'kemi?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Flasim më vonë."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Të marr më vonë."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Ku je?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Më telefono më vonë."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Fol tani në %s."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Dështova të njoh zërin."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Gjuha e hyrjes zanore"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Automatik"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "PRANOJ"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Gabim në lidhjet me rrjetin."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Gabim rrjeti."
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Fol tani"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Gjuha"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Njohja dështoi."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Gabim rrjeti"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Duke treguar hollësitë në telefon..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "SHTO SHABLLON"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Shto shabllon"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Shto shabllon në telefon."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Buzëqeshje"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Futja e zërit"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Emotikon"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Butona"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Përgjigje të shpejta"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Dërgo"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "Shenja OK me dorë"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Shenjë miratimi"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Shenjë mosmiratimi"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Fytyrë që buzëqesh me gojën të hapur dhe sy të qeshur"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Fytyrë që buzëqesh me gojën të hapur dhe sy të mbyllur fort"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Fytyrë që buzëqesh me sy të qeshur"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Fytyrë që buzëqesh me sy në formë zemre"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Fytyrë që puth me sy të qeshur"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Fytyrë me gjuhën përjashta dhe sy të shkelur"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Fytyrë e zemëruar"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Fytyrë e mrekulluar"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Fytyrë që qan"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Fytyrë e pakënaqur por e çliruar"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Fytyrë që ulërin nga frika"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Fytyrë me pamje triumfi"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Fytyrë me maskë higjienike"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Fytyrë buzëvarur"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Fytyrë e përgjumur"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Fytyrë e lodhur"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Fytyrë që puth me sytë mbyllur"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Po tregoj hollësitë në telefon..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Dy-trokit për të folur."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input dhe përdorimi i Shërbimit të Njohjes së të Folurit"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. Teknologjia e njohjes së të folurit është një pjesë përbërëse e shërbimit Gear Input. Ju pranoni se Samsung mund të përdorë një shërbim të njohjes së të folurit (“Shërbimi i Njohjes së të Folurit”) i mundësuar nga një palë e tretë, Nuance Communications, Inc. (“Nuance”), dhe ju pranoni sa më poshtë vijon në lidhje me përdorimin tuaj të shërbimit të Gear Input.<br>2. Ju pranoni të mos dërgoni kërkesa të automatizuara ose të regjistruara te shërbimi i Gear Input.<br>3. Ju pranoni se fjalët që diktoni te shërbimi i Gear Input (duke përfshirë regjistrimet audio të këtyre fjalëve, transkriptimet e shoqëruara dhe skedarët e regjistrit) (“Të Dhëna të të Folurit”) do të mblidhen nga Nuance gjatë ofrimit të Shërbimit të Njohjes së të Folurit."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. Ju lejoni dhe pranoni se duke ofruar Shërbimin e Njohjes së të Folurit, Nuance mund të mbledhë të Dhëna të të Folurit të cilat mund të përdoren nga Nuance dhe palët e treta për të rregulluar, përmirësuar, përforcuar dhe përditësuar (a) Shërbimin e Njohjes së të Folurit dhe (b) produktet e shërbimet e tjera të Nuance.<br>5. Ju pranoni se të Dhënat tuaja të të Folurit  mund të dërgohen në Shtetet e Bashkuara dhe/ose shtetet e tjera për ruajtje, përpunim dhe përdorim nga Nuance dhe partnerëve të saj palë të treta.<br>6. Çdo e dhënë dhe të gjitha të Dhënat e të Folurit që jepni do të mbeten të fshehta dhe do të përdoren në përputhje me ligjin e zbatueshëm, por mund të përhapen nga Nuance, nëse kërkohet një gjë e tillë, për të përmbushur kërkesat ligjore ose rregullatore, të tilla si një urdhër gjykate ose nga një agjenci shtetërore nëse kërkohet ose autorizohet sipas ligjit, apo një pale të tretë e cila e blen apo shkrihet me Nuance."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gear Input  përdor teknologjitë e njohjes zanore të mundësuara nga një ofrues shërbimi palë e tretë i quajtur Nuance Communications, Inc. Si rrjedhim, informacioni juaj zanor ruhet në mënyrë të pashmangshme në një server të përdorur nga Nuance (që ndodhet në Shtetet e Bashkuara) dhe përdorimi i Gear Input  kërkon që të pranoni %sTermat dhe Kushtet e Nuance%s. <br>Nuance ruan të drejtën për të përdorur pajisjen e hyrjes së zërit për qëllime të përmirësimit të shërbimit dhe zhvillimit  të teknologjive. Gjithashtu, Nuance ruan të drejtën t’u mundësojë zërin tuaj partnerëve të Nuance. Informacioni i zërit tuaj ruhet derisa objektivat e përmendur më sipër të jenë arritur. Për më shumë informacione mbi shërbimet e Gear Input, ju lutemi lexoni %sPolitikën e Privatësisë së Nuance%s. <br>Ju nuk mund ta përdorni Gear Input nëse nuk bini dakord për ruajtjen dhe përdorimin  e informacionit tuaj siç përshkruhet më sipër."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Marrëveshja për Dhënien e Informacionit"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Shërbimi i njohjes është i zënë."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Më thirr më vonë."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Trokit për pauzë"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "Për të ofruar %s, Samsung përdor shërbime të njohjes së të folurit, të siguruara nga një ofrues shërbimi palë e tretë, Nuance Communications Inc. (“Nuance”). Nuance do të mbledhë dhe magazinojë regjistrimet e fjalëve që ti dikton te %s, për të ofruar, përmirësuar dhe mënjanuar problemet me shërbimin e njohjes së të folurit në %s. Të dhënat e mbledhura do të magazinohen në një server të kontrolluar nga Nuance në Shtetet e Bashkuara dhe mund të përbashkohen me partnerët e Nuance për të përmirësuar shërbimet."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Kur mund të takohemi?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Ku je ti?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Dy zemra"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Noçkë derri"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Qen"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Mace"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Pulë"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Balenë shfryrëse"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Fytyrë pande"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Fytyrë tigri"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Futja në Gear"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Sigurohu që app-i %s është aktiv në telefon."
+

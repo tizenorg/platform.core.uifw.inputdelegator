@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Buton radio"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Buton"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "S-a dezactivat."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Selectată."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Neselectat"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Verificaţi pe telefon."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Conectaţi-vă prin Bluetooth pt. a citi şi accepta notificarea legală."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Limbi tastatură"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Atingeţi de două ori pentru a trimite."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Când ne putem întâlni?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Cum merge treaba?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Ce s-a întâmplat?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Mai vorbim."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Te sun mai târziu."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Unde eşti?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Apelaţi-mă mai târziu."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Vorbiţi în %s acum."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Imposibil de recunoscut vocea"
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Limbă introducere vocală"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Automat"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "ACCEPT"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Eroare la conectarea la reţea"
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Eroare reţea"
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Vorbiţi acum"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Limbă"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Recun. nu a reuşit."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Eroare de reţea"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Se afişează detaliile pe telefon..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "AD. ŞABLON"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Ad. şablon"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Ad. şablonul pe telefon."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Zâmbet"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Introducere vocală"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Emoticon"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Tastatură"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Răspunsuri rapide"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Trim."
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "Mână făcând semnul OK"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Semn aprobare"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Semn dezaprobare"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Faţă zâmbind cu gura deschisă şi ochi zâmbitori"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Faţă zâmbind cu gura deschisă şi ochi strâns închişi"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Faţă zâmbind cu ochi zâmbitori"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Faţă zâmbind cu ochi în formă de inimă"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Faţă care sărută cu ochi zâmbitori"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Faţă cu limba scoasă făcând cu ochiul"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Faţă mânioasă"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Faţă uimită"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Faţă plângând"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Faţă dezamăgită dar uşurată"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Faţă ţipând de frică"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Faţă triumfătoare"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Faţă cu mască medicală"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Faţă îmbufnată"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Faţă adormită"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Faţă obosită"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Faţă care sărută cu ochii închişi"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Se afiş. detaliile pe telefon..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Atingeţi de două ori pentru a vorbi."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input şi utilizarea unui Serviciu de recunoaştere a vorbirii"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. Tehnologia de recunoaştere a vorbirii este o parte a serviciului Gear Input. Luaţi act de faptul că Samsung poate utiliza un serviciu de recunoaştere a vorbirii („Serviciul de recunoaştere a vorbirii”) furnizat de o terţă parte, Nuance Communications Inc. („Nuance”), şi confirmaţi şi sunteţi de acord cu următoarele prevederi în legătură cu utilizarea serviciului Gear Input.<br>2. Sunteţi de accord să nu trimiteţi solicitări automate sau înregistrate serviciului Gear Input.<br>3. Luaţi act de faptul că acele cuvinte pe care le dictaţi serviciului Gear Input (inclusiv înregistrările audio ale respectivelor cuvinte, transcrierile şi fişierele jurnal asociate) („Datele vocale”) vor fi colectate de Nuance ca parte a furnizării Serviciului de recunoaştere a vorbirii."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. Sunteţi de accord şi acceptaţi că, prin furnizarea Serviciului de recunoaştere a vorbirii, Nuance poate colecta Date vocale ce pot fi utilizate de Nuance şi de partenerii săi terţă parte pentru a regal şi a îmbunătăţi (a) Serviciul de recunoaştere a vorbirii şi (b) alte produse şi servicii Nuance.<br>5. Confirmaţi şi sunteţi de accord că Datele dvs. vocale pot fi transferate în Statele Unite ale Americii şi/sau în alte ţări pentru stocarea, procesarea şi utilizarea de către Nuance şi de către partenerii săi terţă parte.<br>6. Oricare şi toate aceste Date vocale pe care le furnizaţi vor rămâne confidenţiale şi vor fi utilizate conform legislaţiei aplicabile, dar pot fi dezvăluite de Nuance, dacă este necesar, pentru a respecta cerinţele legale sau de reglementare, cum ar fi în baza unei decizii judecătoreşti ori unei instituţii guvernamentale, dacă acest lucru este impus sau permis prin lege, ori unei terţe părţi care achiziţionează sau fuzionează cu Nuance."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gear Input utilizează tehnologii de recunoaştere a vorbirii oferite de un furnizor de servicii terţă parte numit Nuance Communications, Inc. Prin urmare, informaţiile dvs. vocale sunt stocate inevitabil pe un server administrat de Nuance (aflat în Statele Unite ale Americii), iar pentru a utiliza Gear Input, trebuie să acceptaţi %sTermenii şi condiţiile Nuance%s.<br>Nuance îşi rezervă dreptul de a utiliza introducerea dvs. vocală pentru a îmbunătăţi serviciile şi a dezvolta tehnologii. De asemenea, Nuance îşi rezervă dreptul de a furniza introducerea vocală menţionată mai sus către partenerii Nuance. Informaţiile de introducere vocală sunt stocate până la atingerea obiectivelor sus-menţionate. Pentru mai multe detalii privind serviciul Gear Input, citiţi %sPolitica de confidenţialitate Nuance%s.<br>Nu puteţi utiliza Gear Input dacă nu sunteţi de acord cu stocarea şi utilizarea informaţiilor dvs. conform descrierii de mai sus."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Acord privind furnizarea informaţiilor"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Serviciu de recunoaştere ocupat"
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Sunaţi-mă mai târziu."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Ating. pt. a întrer."
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "Pentru a furniza %s, Samsung foloseşte servicii de recunoaştere a vorbirii oferite de un furnizor de servicii terţ, Nuance Communications Inc. („Nuance”). Nuance va colecta şi va stoca înregistrări ale cuvintelor pe care le dictaţi %s, pentru a oferi, îmbunătăţi şi soluţiona probleme ale serviciului de recunoaştere a vorbirii din %s. Datele colectate vor fi stocate pe un server controlat de Nuance în Statele Unite şi pot fi partajate cu partenerii Nuance în scopul îmbunătăţirii serviciilor."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Când ne putem întâlni?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Unde sunteţi?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Două inimi"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Rât"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Câine"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Pisică"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Pui"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Balenă care aruncă o coloană de apă"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Cap de urs panda"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Cap de tigru"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Introducere prin dispozitivul Gear"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Asiguraţi-vă că aplicaţia %s este activă pe telefon."
+
