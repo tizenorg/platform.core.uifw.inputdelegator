@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "रेडिओ बटण"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "बटण"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "अक्षम केले."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "निवडलेले."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "निवडलेले नाही."
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "आपला फोन तपासा."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "कायदेशीर नोटिसचे पुनरावलोकन करण्‍यासाठी आणि स्‍वीकारण्‍यासाठी ब्‍लुटूथद्वारे कनेक्‍ट करा."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "निविष्‍ट भाषा"
+
+msgid "IDS_ST_SK_OK"
+msgstr "ठीक"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "सॅमसंग गिअर"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "संदेश पाठविण्यासाठी दोनदा टॅप करा."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "आपण कधी भेटायचे आहे?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "कसे चालू आहे?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "कसे आहात?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "मी लवकरच आपल्याशी बोलेन."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "मी आपल्‍याला नंतर कॉल करेन."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "आपण कोठे आहात?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "मला नंतर कॉल करा."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "आता %s मध्ये बोला."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "व्हॉइस शोधण्‍यात अयशस्वी."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "आवाज निविष्ट भाषा"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "स्वयंचलित"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "सहमत आहे"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "नेटवर्क जोडण्यात त्रूटि."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "नेटवर्क त्रुटी."
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "आता बोला"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "भाषा"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "ओळख अयशस्‍वी झाली."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "नेटवर्क त्रुटी"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "आपल्या फोनवर तपशील दर्शवत आहे..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "टेम्प्लेट जोडा"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "टेम्प्लेट जोडा"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "आपल्या फोनमध्ये टेम्प्लेट जोडा."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "हास्य"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "आवाज निविष्ट"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "इमोटीकॉन"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "कीबोर्ड"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "जलद प्रतिसाद"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "पाठवा"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "ठीक हाताचे चिन्ह"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "वर असलेल्या अंगठ्याचे चिन्ह"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "खाली असलेल्या अंगठ्याचे चिन्ह"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "उघडे तोंड आणि हसर्‍या डोळ्यांसह हसणारा चेहरा"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "उघडे तोंड आणि घट्ट मिटलेल्या डोळ्यांसह हसणारा चेहरा"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "हसणार्‍या डोळ्यांसह हसणारा चेहरा"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "हृदयाचा आकार असलेल्या डोळ्यांचा चेहरा"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "हसर्‍या डोळ्यांसह चुंबन देणारा चेहरा"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "बाहेर अटकलेली जीभ आणि चमचमणारे डोळे असलेला चेहरा"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "रागीट चेहरा"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "चकीतपणाचा चेहरा"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "रडणारा चेहरा"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "निराश परंतु सुटकेच्या नि:श्वासाचा चेहरा"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "भितीने घाबरलेला चेहरा"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "विजयी चिन्हाचा चेहरा"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "चिकित्सा मास्क असलेला चेहरा"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "तोंड फुगवलेला चेहरा"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "झोपलेला चेहरा"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "थकलेला चेहरा"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "बंद डोळ्यांसह चुंबन देणारा चेहरा"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "आपल्या फोनवर तपशील दर्शवत आहे..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "बोलण्यासाठी दोनदा टॅप करा."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "गिअर इनपुट आणि वाचा ओळख सेवेचा वापर"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. वाचा ओळख तंत्रज्ञान हा गिअर इनपुट सेवेचा भाग आहे.  आपण याची दखल घेता की Samsung तृतीय पक्ष Nuance Communications Inc. (“Nuance”) द्वारा पुरवलेली वाचा ओळख सेवा (“वाचा ओळख सेवा”) वापरु शकते आणि आपण गिअर इनपुट सेवेच्या आपल्या वापरासंदर्भात पुढील बाबींची दखल घेता व त्यांच्याशी सहमत होता. <br>2. आपण यास सहमत होता की आपण गिअर इनपुट सेवेस कोणतीही स्वयंचलित किंवा रेकॉर्ड केलेली विनंती सादर करणार नाही. <br>3. आपण याची दखल घेता की आपण गिअर इनपुट सेवेस आज्ञा देणारे शब्द (अशा शब्दांचे ऑडियो रेकॉर्डिंग, संबंधित ट्रान्सक्रिप्शन आणि लॉग फाईली यांच्या समावेशासह) (“वाचा डेटा”) वाचा ओळख सेवा पुरविताना Nuance द्वारे संकलित केले जातील."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. आपण यास संमती देता आणि सहमत होता की वाचा ओळख सेवा पुरविताना Nuance वाचा डेटा संकलित करु शकतात जो Nuance आणि त्यांच्या तृतीय पक्ष भागीदारांद्वारे (a) वाचा ओळख सेवा आणि (b) इतर Nuance उत्पादने आणि सेवा ट्यून करण्यास आणि सुधारण्यास वापरला जाऊ शकेल. <br>5. आपण याची दखल घेता आणि याच्याशी सहमत होता की आपला वाचा डेटा Nuance आणि त्यांच्या तृतीय पक्ष भागीदारांद्वारे संचय, प्रक्रिया आणि वापरासाठी संयुक्त संस्थाने आणि/किंवा इतर देशांमध्ये स्थानांतरित केला जाऊ शकेल. <br>6. आपण पुरविणारा कोणताही आणि सर्व वाचा डेटा गुप्त राहील आणि लागू कायद्यानुसार वापरला जाईल, पण आवश्यक असल्यास, कायदे किंवा नियामक आवश्यकतांची पूर्तता करण्यासाठी, जसे की कायद्याने आवश्यक आणि प्राधिकृत असल्यास न्यायालयीन किंवा सरकारी संस्थेच्या आदेशाखाली किंवा Nuance चे संपादन करणार्‍या किंवा त्यात विलीन होणार्‍या तृतीय पक्षास, Nuance द्वारे उघड केला जाऊ शकेल."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "गिअर इनपुट Nuance Communications, Inc. नावाच्या तृतीय पक्ष सेवाप्रदात्याद्वारे पुरविलेले आवाज ओळख तंत्रज्ञान वापरते. त्यामुळे आपली आवाज माहिती अटळपणे Nuance द्वारा संचालित सर्व्हरवर (US मध्ये स्थित) साठविली जाते आणि गिअर इनपुट वापरण्यासाठी आपण %sNuance अटी आणि शर्तींशी%s सहमत होणे आवश्यक आहे. <br>सेवा सुधारणे आणि तंत्रज्ञान विकसित करण्याच्या हेतूने आपले आवाज इनपुट वापरण्याचा हक्क Nuance राखून ठेवतात. उपरोक्त आवाज इनपुट Nuance च्या भागीदारांना पुरविण्याचा हक्कदेखील Nuance राखून ठेवतात. आपली आवाज इनपुट माहिती उपरोक्त उद्दिष्ट्ये गाठली जाईपर्यंत साठविली जाते. गिअर इनपुट सेवेविषयी अधिक माहितीसाठी कृपया %sNuance गोपनीयता धोरण%s वाचा. <br>आपल्या माहितीचा वर वर्णन केल्याप्रमाणे संचय आणि वापर यांस आपण सहमत नसल्यास आपण गिअर इनपुट वापरु शकत नाही."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "माहिती प्राविधान करार"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "ओळख सेवा व्यस्त."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "मला नंतर कॉल करा."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "विराम देण्यासाठी टॅप करा"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "%s प्रदान करण्यासाठी, Samsung वाचा ओळख सेवा वापरतात जी या Nuance Communications Inc. (“Nuance”) तृतीय पक्ष सेवा प्रदात्याद्वारे प्रदान केलेली आहे. %s मधील वाचा ओळख सेवा प्रदान करण्यासाठी, सुधारण्यासाठी आणि त्यातील समस्यांचे निराकरण करण्यासाठी आपण %s ला आदेश देणार्‍या शब्दांची रेकॉर्डिंग Nuance संकलित आणि संचयित करतील. संकलित डेटा संयुक्त संस्थानांमध्ये Nuance द्वारे नियंत्रित सर्व्हरवर संचयित केला जाईल आणि सेवा सुधारण्यासाठी Nuance च्या भागीदारांसोबत शेअर केला जाऊ शकेल."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "आपण कधी भेटू शकतो?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "आपण कोठे आहात?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "दोन हृदये"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "डुकराचे नाक"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "कुत्रा"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "मांजर"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "कोंबडी"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "फवारा सोडणारे व्हेल"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "पांडाचा चेहरा"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "वाघाचा चेहरा"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "गिअर निविष्‍ट"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "आपल्या फोनवर %s अनुप्रयोग सक्रिय असल्याची खात्री करा."
+

@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "එක්තේරුම් බොත්තම"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "බොත්තම"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "අක්‍රියයි."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "තෝරන ලදි."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "තෝරා නැත"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "ඔබේ දුරකථනය පිරික්සන්න‍."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "නෛතික දැන්වීම සමාලෝචනය කර පිළිගැනීම සඳහා බ්ලූටූත් ඔස්සේ සම්බන්ධ වන්න."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "ආදාන භාෂා"
+
+msgid "IDS_ST_SK_OK"
+msgstr "හරි"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "සැම්සුං ගියර්"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "යැවීමට දෙවරක් තට්ටු කරන්න."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "අපට හමුවිය හැක්කේ කවදාද?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "කොහොමද එහි වැඩකටයුතු?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "අලුත් තොරතුරු මොනවාද?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "ඔබට ඉක්මනින් කථාකරන්නම්."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "මා ඔබට පසුව අමතන්නම්."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "ඔබ කොහේද?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "මට පසුව අමතන්න."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "%s භාෂාවෙන් දැන් කථා කරන්න."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "හඬ හඳුනාගත නොහැක."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "හඬ කැවීම් භාෂාව"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "ස්වයංක්‍රීය"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "එකඟයි"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "ජාල සම්බන්ධතා දෝෂය."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "ජාල දෝෂයකි."
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "දැන් කථා කරන්න"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "භාෂාව"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "හඳුනාගැනීමට අසමත් විය."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "ජාලයේ දෝෂය"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "ඔබේ දුරකථනයේ විස්තර පෙන්වමින්..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "අච්චුව එක් ක."
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "අච්චුව එක් ක."
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "ඔබේ දුරකථන. අච්චුවක් එක් කර."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "සිනහව"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "හඬ ඇතුල් කිරීම්"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "භාවාත්මක අයිකනය"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "යතුරු පුවරුව"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "යුහු ප්‍රතිචාර"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "යවන්න"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "හරි හස්ත සංකේතය"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "ඉහළට යොමු කෙරුණු මාපටැඟිල්ල"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "පහළට යොමු කෙරුණු මාපටැඟිල්ල"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "ඇරුණු කටක් හා සිනාසෙන ඇස් සහිත හිනැහෙන මුහුණ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "ඇරුණු කටක් හා තදින් වැසුණු ඇස් සහිත හිනැහෙන මුහුණ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "සිනාසෙන ඇස් සහිත හිනැහෙන මුහුණ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "හදවත් හැඩයේ ඇස් සහිත හිනැහෙන බළල් මුහුණ"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "හිනැහෙන දෑස් සහිත හාදු දෙන මුහුණ"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "ඇසක් ඉගි මරමින් දිව දික් කරන මුහුණ"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "තරහ මුහුණ"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "පුදුමයට පත් මුහුණ"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "හඬන මුහුණ"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "බලාපොරොත්තු කඩ වී හිත හදාගත් මුහුණ"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "බියෙන් කෑ ගසන මුහුණ"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "අභිමානය හගවන මුහුණ"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "සෞඛ්‍ය ආවරණයක් පැළඳි මුහුණ"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "තොල් නෙරවන මුහුණ"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "නිදිබර මුහුණ"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "විඩාපත් මුහුණ"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "දැස් වසා හාදු දෙන මුහුණ"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "ඔබේ දුරකථනයේ විස්තර පෙන්වමින්..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "කථා කිරීමට දෙවරක් තට්ටු කරන්න."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "ගියර් ආදානය සහ කථන හඳුනාගැනීමේ සේවාව භාවිත කිරීම"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. කථන හැඳුනුම් තාක්ෂණය ගියර් ආදානය සේවාවේ සංරචකයක් වේ.  ඔබ සැම්සුං විසින් තෙවන පාර්ශ්වයක් වන Nuance Communications Inc. (“Nuance“), විසින් සපයනු ලබන කථන හැඳුනුම් සේවාවක් (“කථන හැඳුනුම් සේවාව“) උපයෝජනය කරනු ලැබිය හැකි බව පිළිගන්නා අතර ඔබගේ ගියර් ආදානය සේවාව භාවිතය සමග මේ සම්බන්ධතාව සඳහා එය පිළිගන්නා ඔබ ඊට එකඟ වන්නෙහිය. <br>2. ගියර් ආදානය සේවාවට ස්වයංක්‍රීයනය කළ හෝ තැටිගත කළ ඉල්ලීම් ඉදිරිපත් නොකිරීමට ඔබ එකඟ වන්නෙහිය. <br>3. ඔබ ගියර් ආදානය සේවාවට උච්චාරණය කරන වචන (එම වචනවල ශ්‍රව්‍ය තැටිගත කිරීම්, ආශ්‍රිත ලේඛනගත කිරීම් සහ ලොග් සටහන් ගොනු ඇතුළත්ව) (“කථන දත්ත“) කථන හැඳුනුම් සේවාව සැපයීමේදී Nuance විසින් එක්රැස් කරනු ලැබිය හැකි බව ඔබ පිළිගන්නෙහිය."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. කථන හැඳුනුම් සේවාව සැපයීමේදී, Nuance විසින් Nuance සහ එහි තෙවන පාර්ශ්ව හවුල්කරුවන් සුසර කිරීම, වැඩිදියුණු කිරීම සහ වර්ධනය කිරීම (අ) කථන හැඳුනුම් සේවාව සහ (ආ) අනෙකුත් Nuance නිෂ්පාදන සහ සේවාවන්, සඳහා භාවිත කරනු ලැබිය හැකි කථන දත්ත එක්රැස් කරනු ලැබිය හැකි බව පිළිගන්නා ඔබ ඊට එකඟ වන්නෙහිය. <br>5. ගබඩාකරණය, සැකසුම්කරණය සහ Nuance සහ එහි තේවන පාර්ශ්ව හවුල්කරුවන් විසින් භාවිතය සඳහා ඔබගේ කථන දත්ත එක්සත් ජනපදය සහ/හෝ වෙනත් රටවල් කරා මාරු කරනු ලැබිය හැකි බව පිළිගන්නා ඔබ ඊට එකඟ වන්නෙහිය. <br>6. ඔබ විසින් සපයනු ලබන කවර හෝ සහ සියලු කථන දත්ත රහස්‍ය ලෙස පවත්වා ගනු ලබන අතර අදාළ නීතියට අනුකූලව භාවිත කරනු ඇත, නමුත් එසේ කිරීම අවශ්‍ය වන්නේ නම්, අධිකරණ නියෝගයක් යටතේ හෝ අවශ්‍ය කරන හෝ නීතිය මගින් ඉඩදී ඇති රාජ්‍ය නියෝජිතායතනයකට, හෝ Nuance, සමග අත්කර ගැනීම් සහ ඒකාබද්ධ කිරීම් සහිත තෙවන පාර්ශ්වයකට වැනි නෛතික හෝ නියාමන අවශ්‍යතා සපුරාලීමට, Nuance විසින් හෙලිදරව් කිරීම කළ හැක්කේය."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "ගියර් ආදානය Nuance Communications, Inc. නමින් හඳුන්වනු ලබන තෙවන පාර්ශ්ව සේවා සැපයුම්කරුවෙකු විසින් සපයන ලද හඬ හඳුනාගැනීමේ තාක්ෂණය භාවිත කරයි. එම නිසා, ඔබගේ හඬ තොරතුරු Nuance (එක්සත් ජනපදයේ පිහිටා ඇති) විසින් මෙහෙයවනු ලබන සේවාදායකයක අනිවාර්යයෙන් ගබඩා කරනු ලැබේ, තවද ගියර් ආදානය භාවිත කිරීම ඔබ %sNuance හි නියමයන් සහ කොන්දේසි %s වලට එකඟවීම අවශ්‍ය කරයි. <br>Nuance විසින් සේවාවන් වැඩිදියුණු කිරීමේ සහ තාක්ෂණයන් සංවර්ධනය කිරීමේ අරමුණු සඳහා ඔබගේ හඬ ආදානය භාවිත කිරීමේ අයිතිවාසිකම රඳවා ගනී. Nuance විසින් එමෙන්ම Nuance හවුල්කරුවන් සමග කළින් සඳහන් කළ හඬ ආදාන සැපයීමේ අයිතිවාසිකම ද රඳවා ගනී. කළින් සඳහන් කළ පරමාර්ථ අත්කර ගන්නා තුරු ඔබගේ හඬ ආදාන ගබඩා කර තැබෙනු ඇත. ගියර් ආදානය සේවා පිළිබඳ වැඩිදුර තොරතුරු සඳහා, කරුණාකර %sNuance පෞද්ගලිකත්ව ප්‍රතිපත්තිය%s කියවන්න. <br>ඉහතින් විස්තර කළ පරිදි ඔබගේ තොරතුරු ගබඩා කිරීම සහ භාවිතය සඳහා ඔබ එකඟ නොවන්නේ නම්, ඔබට ගියර් ආදානය භාවිත කළ නොහැකිය."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "තොරතුරු සම්පාදනය කිරීමේ ගිවිසුම"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "හඳුනාගැනීමේ සේවාව කාර්ය බහුලයි."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "පසුව මා අමතන්න."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "රැඳවීමට තට්ටු කරන්න"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "%sසැපයීම පිණිස, සැම්සුං විසින් තෙවන පාර්ශ්ව සේවා සැපයුම්කරුවෙකු වන, Nuance Communications Inc. (“Nuance”) විසින් සපයනු ලබන කථන හැඳුනුම් සේවාව භාවිත කරයි. Nuance විසින් ඔබ %sවෙත උච්චාරණය කරන වචනවල පටිගත කිරීම් රැස් කිරීම සහ ගබඩා කිරීම කරනු ඇත, ඒ %sහි කථන හැඳුනුම් සේවාව සැපයීමට, වැඩිදියුණු කිරීමට, සහ එහි ගැටළු ආවේක්ෂණය කිරීම පිණිසය. රැස් කළ දත්ත එක්සත් ජනපදයෙහි පිහිටි Nuance විසින් පාලනය කරනු ලබන සේවාදායකයක් මත ගබඩා කෙරෙනු ඇති අතර, Nuanceහි හවුල්කරුවන් සමග සේවාව දියුණු කිරීම සඳහා බෙදාහදාගනු ඇත."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "අපට හමුවිය හැක්කේ කවදාද?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "ඔබ කොහේද?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "දෙ හද"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "සූකර නැහැය"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "සුනඛයා"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "බළලා"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "කුකුළු මස්"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "දිය විදින තල්මසා"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "පැන්ඩා මුහුණ"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "ව්‍යාඝ්‍ර මුහුණ"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "ගියර් ආදානය"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "%s යෙදුම ඔබේ දුරකථනයේ සක්‍රිය වන බවට වග බලා ගන්න."
+

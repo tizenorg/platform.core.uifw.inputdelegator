@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Optionsfeld"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Taste"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Deaktiviert."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Ausgewählt."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Nicht ausgewählt"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Überprüfen Sie Ihr Telefon."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Lesen und Akzeptieren Sie die rechtlichen Hinweise über Bluetooth."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Eingabesprachen"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Zum Senden zweimal tippen."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Wann können wir uns treffen?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Wie läuft’s?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Was ist los?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Bis bald!"
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Ich rufe Dich später an."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Wo bist du?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Ruf mich später an"
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Jetzt auf %s sprechen."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Fehler bei der Spracherkennung"
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Eingabesprache"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Automatisch"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "ZUSTIMMEN"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Netzwerkverbindungsfehler"
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Netzfehler"
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Sprechen Sie Jetzt."
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Sprache"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Fehler bei Erkennung."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Netzwerkfehler"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Datenschutzhinweis"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice ermöglicht eine Sprachsteuerung bestimmter Funktionen wie S Voice, Gear Input, Sprachmemo und Find My Car. Wenn Sie Funktionen von S Voice nutzen, werden Ihre Geräte-ID und bestimmte andere relevante Informationen, wie etwa die Namen von Kontakten, Angaben zu Titeln in Ihrer Musikbibliothek und/oder Standortinformationen (bei aktivierter GPS-Funktion) verarbeitet, um die Genauigkeit der Reaktion von S Voice auf Ihre Anfragen zu verbessern und Funktionen von S Voice bereitzustellen. Weitere Informationen über unsere Datenschutzpraktiken finden Sie unter https://account.samsung.com/membership/pp."
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Datenschutzhinweis"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice ermöglicht eine Sprachsteuerung bestimmter Funktionen wie S Voice, Gear Input, Sprachmemo und Find My Car. Wenn Sie Funktionen von S Voice nutzen, werden Ihre Geräte-ID und bestimmte andere relevante Informationen, wie etwa die Namen von Kontakten, Angaben zu Titeln in Ihrer Musikbibliothek und/oder Standortinformationen (bei aktivierter GPS-Funktion) verarbeitet, um die Genauigkeit der Reaktion von S Voice auf Ihre Anfragen zu verbessern und Funktionen von S Voice bereitzustellen. Weitere Informationen über unsere Datenschutzpraktiken finden Sie unter https://account.samsung.com/membership/pp."
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Details werden auf Ihrem Telefon angezeigt..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "VORLAGE HZFG."
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Vorlage hzfg."
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Vorlage auf Telefon hzfg."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Smile"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Spracheingabe"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Emoticon"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Tastatur"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Schnellantworten"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Senden"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "Handzeichen für „OK“"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Zeichen für Daumen hoch"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Zeichen für Daumen runter"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Lachendes Gesicht mit offenem Mund und lächelnden Augen"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Lachendes Gesicht mit offenem Mund und zusammengekniffenen Augen"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Lachendes Gesicht mit lächelnden Augen"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Lächelndes Gesicht mit herzförmigen Augen"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Küssendes Gesicht mit lächelnden Augen"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Gesicht mit herausgestreckter Zunge und zwinkerndem Auge"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Verärgertes Gesicht"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Erstauntes Gesicht"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Weinendes Gesicht"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Enttäuschtes aber erleichtertes Gesicht"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Vor Angst erstarrtes Gesicht"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Triumpfierendes Gesicht"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Gesicht mit Schutzmaske"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Schmollendes Gesicht"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Schlafendes Gesicht"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Müdes Gesicht"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Küssendes Gesicht mit geschlossenen Augen"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Details werden angezeigt..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Zum Sprechen zweimal tippen."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input und Nutzung eines Spracherkennungsservices"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. Spracherkennungstechnologie ist Bestandteil des Services Gear Input. Sie bestätigen, dass Samsung einen von einem Drittanbieter, Nuance Communications Inc. („Nuance“), bereitgestellten Spracherkennungsservice (der „Spracherkennungsservice“) verwenden kann, und erklären sich in Bezug auf die Nutzung des Services Gear Input mit folgenden Bedingungen einverstanden.<br>2. Sie erklären sich damit einverstanden, keine automatisierten oder aufgezeichneten Anfragen an den Service Gear Input zu senden.<br>3. Sie erklären sich damit einverstanden, dass die von Ihnen für den Service Gear Input  diktierten Wörter (einschließlich Audioaufnahmen solcher Wörter, dazugehörige Transkriptionen und Protokolldateien) („Sprachdaten“) bei der Erbringung des Spracherkennungsservices von Nuance gesammelt werden."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. Sie erklären sich damit einverstanden, dass Nuance bei der Bereitstellung des Spracherkennungsservices Sprachdaten sammeln darf, die von Nuance und dessen dritten Partnern verwendet werden können, um (a) den Spracherkennungsservice und (b) andere Produkte und Services von Nuance zu verbessern und zu erweitern.<br>5. Sie bestätigen und erklären sich damit einverstanden, dass Ihre Sprachdaten möglicherweise an die Vereinigten Staaten und/oder andere Länder zur Speicherung, Verarbeitung und Nutzung durch Nuance und dessen dritte Partner weitergeleitet werden.<br>6. Sämtliche von Ihnen bereitgestellten Sprachdaten werden vertraulich behandelt und gemäß geltendem Recht verwendet. Sie dürfen jedoch von Nuance, sofern erforderlich, aufgrund eines Gerichtsbeschlusses oder gegenüber einer Regierungsbehörde offengelegt werden, um ggf. gesetzliche oder behördliche Anforderungen zu erfüllen, bzw. gegenüber einem Dritten, der Nuance übernimmt oder mit Nuance fusioniert."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gear Input verwendet Spracherkennungstechnologien, die von dem Drittanbieter Nuance Communications, Inc. bereitgestellt werden. Daher werden Ihre Sprachinformationen zwangsläufig auf einem von Nuance betriebenen Server (mit Standort in den USA) gespeichert, und wenn Sie Gear Input verwenden möchten, müssen Sie den %sGeschäftsbedingungen von Nuance%s zustimmen.<br>Nuance behält sich das Recht vor, Ihre Spracheingaben zur Verbesserung der Services und Entwicklung von Technologien zu verwenden. Ferner behält sich Nuance das Recht vor, die zuvor genannten Spracheingaben für die Partner von Nuance bereitzustellen. Ihre Spracheingabeinformationen werden bis zum Erreichen der vorgenannten Ziele gespeichert. Weitere Informationen über die Dienstleistung von Gear Input finden Sie in der %sNuance-Datenschutzrichtlinie%s.<br>Sie können Gear Input nur verwenden, wenn Sie der Speicherung und Verwendung Ihrer Informationen wie oben beschrieben zustimmen."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Vereinbarung zur Bereitstellung von Informationen"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Erkennungsdienst ausgelastet"
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Rufen Sie mich später an."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Zum Anhalten tippen."
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "Zur Bereitstellung von %s verwendet Samsung von einem Drittanbieter von Diensten, Nuance Communications Inc. („Nuance“), bereitgestellte Spracherkennungsdienste. Nuance erfasst und speichert Aufzeichnungen des %s diktierten Sprachtextes, um die Spracherkennungsdienste in %s bereitzustellen, zu verbessern und Probleme zu beheben. Erfasste Daten werden auf einem Server unter Kontrolle von Nuance in den Vereinigten Staaten gespeichert und möglicherweise zur Verbesserung von Diensten an Partner von Nuance weitergegeben."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Wann treffen wir uns?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Wo sind Sie?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Zwei Herzen"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Schweinenase"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Hund"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Katze"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Huhn"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Blasender Wal"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Pandagesicht"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Tigergesicht"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Gear-Eingabe"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Stellen Sie sicher, dass die %s-App auf Ihrem Telefon aktiv ist."
+

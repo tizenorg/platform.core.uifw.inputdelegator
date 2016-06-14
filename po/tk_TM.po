@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Radio düwmesi"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Düwme"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Öçük."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Saýlandy."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Saýlanmadyk"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Telefonyňyzy barlaň."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Kanuny bildirişi görüp kabul etmek üçin, Bluetooth arkaly birigiň."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Giriziş dilleri"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Ibermek üçin, iki gezek basyň."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Biz haçan duşuşyp bileris?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Ýagdaýlaryň nähili?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Näme boldy?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Men gysga wagtda siziň bilen habarlaşaryn."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Men soňrak jaň ederin."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Sen nirede?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Maňa soňrak jaň ediň."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Häzir %s gepläň"
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Sesi tanap bilmedi."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Ses giriziş dili"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Awtomatiki"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "YLALAŞ"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Ulgam montaj ýalňyşy."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Ulgam näsazlygy"
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Häzir gürle"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Dil"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Tanap bolmady."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Tor ýalňyşlygy"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Telefonyňyzda jikme-jiklik görkezilýär..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "ŞABLON GOŞ"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Şablon goş"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Telefonyňyzda şablon goşuň."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Ýylgyryş"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Sesli giriziş"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Ýüz hereketi"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Klawiatura"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Tiz jogaplar"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Iber"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "Tamam el nyşany"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Baş barmak ýokary belgisi"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Baş barmak aşak belgisi"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Agzy açyk we gözleri gülýän ýylgyrýan ýüz"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Agzy açyk we gözleri gaýym ýumlan ýylgyrýan ýüz"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Ýylgyrýan gözleri bilen ýylgyrýan ýüz"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Ýürek şekilli gözler bilen ýylgyrýan ýüz"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Gözi gülýän öpýän ýüz"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Dilini çykaryp duran we göz gyrpýan ýüz"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Gaharly ýüz"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Geňirgenen ýüz"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Aglaýan ýüz"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Göwniçökgün emma rahat ýüz"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Gorkudan gygyrýan ýüz"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Ýeňiş duýguly ýüz"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Lukmançylyk nikaply ýüz"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Asyk ýüz"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Ukuly ýüz"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Ýadaw ýüz"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Gözleri ýumuk öpýän ýüz"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Telefonda jikme-j görkezilýär..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Gürlemek üçin, iki gezek basyň."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input and the Use of a Speech Recognition Service"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. Speech recognition technology is a component of the Gear Input service. You acknowledge that Samsung may utilise a speech recognition service (the “Speech Recognition Service”) provided by a third party, Nuance Communications Inc. (“Nuance”), and you acknowledge and agree to the following in connection with your use of the Gear Input service.<br>2. You agree not to submit any automated or recorded requests to the Gear Input service.<br>3. You acknowledge that the words you dictate to the Gear Input service (including audio recordings of such words, associated transcriptions and log files) (“Speech Data”) will be collected by Nuance in providing the Speech Recognition Service."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. You consent and agree that in providing the Speech Recognition Service, Nuance may collect Speech Data which may be used by Nuance and its third party partners to tune, enhance and improve (a) the Speech Recognition Service and (b) other Nuance products and services.<br>5. You acknowledge and agree that your Speech Data may be transferred to the United States and/or other countries for storage, processing and use by Nuance and its third party partners.<br>6. Any and all Speech Data that you provide will remain confidential and will be used in accordance with applicable law, but may be disclosed by Nuance, if so required, to meet legal or regulatory requirements, such as under a court order or to a government agency if required or authorised by law, or to a third party which acquires or merges with Nuance."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gear Input uses voice recognition technologies provided by a third party service provider called Nuance Communications, Inc. Therefore, your voice information is inevitably stored on a server operated by Nuance (located in the United States), and using Gear Input requires that you agree to the %sTerms and Conditions of Nuance%s. <br>Nuance reserves the right to use your voice input for the purposes of improving services and developing technologies. Nuance also reserves the right to provide the aforementioned voice input to Nuance’s partners. Your voice input information is stored until the aforementioned objectives have been accomplished. For more information about Gear Input services, please read the %sNuance Privacy Policy%s. <br>You cannot use Gear Input if you do not agree to the storage and use of your information as described above."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Information Provision Agreement"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Tanama hyzmaty meşgul"
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Soň jaň ediň."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Säginmek üçin bas"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "%s üpjün etmek üçin, Samsung üçünji tarap hyzmat üpjün ediji Nuance Communications Inc. (“Nuance“) tarapyndan üpjün edilýän sözleýiş tanamak hyzmatlaryny ulanýar. Nuance siziň %s aýdyp ýazdyrýan sözleriňiziň ýazgylaryny %s bilen sözleýiş tanamak hyzmatlaryny üpjün etmek, gowulandyrmak we problemalaryny çözmek üçin ýygnar we saklar. Ýygnalýan maglumat ABŞ-da Nuance tarapyndan dolandyrylýan serwerde saklanylar we olaryň hyzmatlary gowulandyrmak üçin, Nuance hyzmatdaşlary bilen paýlaşylmagy mümkin."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Haçan görşüp bileris?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Siz nirede?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Iki ýürek"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Doňuz tumşuk"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "It"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Pişik"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Towuk"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Suw pürkýän kit balygy"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Panda ýüzi"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Gaplaňyň ýüzi"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Gear giriziş"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Telefonda %s goýmasy işjeň dursun."
+

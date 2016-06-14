@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Akutė"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Mygtukas"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Išjungta."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Pasirinkta."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Nepasirinkta"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Patikrinkite savo telefoną."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Prisij. per „Bluetooth“ ir peržiūr. bei sutikite su teis. informacija."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Įvesties kalbos"
+
+msgid "IDS_ST_SK_OK"
+msgstr "Gerai"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Bakstelėkite dukart, jei norite siųsti."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Kada galime susitikti?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Kaip sekasi?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Kaip sekasi?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Netrukus pasikalbėsime."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Paskambinsiu vėliau."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Kur esi?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Paskambinkite vėliau."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Dabar kalbėkite %s."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Nepavyko atpažinti balso."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Balso įvesties kalba"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Automatinis"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "SUTINKU"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Jungimosi prie tinklo klaida."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Tinklo klaida."
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Dabar kalbėkite"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Kalba"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Atpažinti nepavyko."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Tinklo klaida"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Išsami informacija rodoma telefone..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "PRID.ŠABLONĄ"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Prid.šabloną"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Pridėkite šabloną telefone."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Šypsena"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Balso įvestis"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Jaustukas"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Klaviatūra"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Greiti atsakymai"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Siųsti"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "Rankos ženklas „Gerai“"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Pakeltų nykščių ženklas"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Nuleistų nykščių ženklas"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Besišypsantis išsižiojęs veidas su besišypsančiomis akimis"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Besišypsantis išsižiojęs veidas su stipriai užmerktomis akimis"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Besišypsantis veidas su besišypsančiomis akimis"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Besišypsantis veidas su širdies formos akimis"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Bučinį siunčiantis veidas besišypsančiomis akimis"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Veidas su iškištu liežuviu ir merkiantis akį"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Piktas veidas"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Nustebęs veidas"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Verkiantis veidas"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Nusivylęs bet palengvėjimą jaučiantis veidas"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Iš baimės klykiantis veidas"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Triumfuojantis veidas"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Veidas su medicinine kauke"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Nepatenkinta veido išraiška"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Mieguistas veidas"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Pavargęs veidas"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Bučinį siunčiantis užsimerkęs veidas"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Išsami inf. rodoma telefone..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Bakstelėkite dukart ir kalbėkite."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input“  ir šnekos atpažinimo paslaugos naudojimas"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. Šnekos atpažinimo technologija yra „Gear Input“ paslaugos dalis. Jūs sutinkate, kad „Samsung“ gali naudoti šnekos atpažinimo paslaugą („Šnekos atpažinimo paslauga“), kurią teikia trečioji šalis, įmonė „Nuance Communications“ („Nuance“), ir naudodami „Gear Input“ paslaugą pripažįstate toliau nurodytas sąlygas ir su jomis sutinkate. <br>2. Jūs sutinkate nepateikti jokių automatizuotų arba įrašytų užklausų „Gear Input“ paslaugai. <br>3. Jūs sutinkate, kad žodžius, kuriuos diktuosite „Gear Input“ paslaugai (įskaitant ir tokių žodžių garso įrašus, transkripciją ir žurnalo failus) („Šnekos duomenys“), surinks „Nuance“, kad galėtų teikti šnekos atpažinimo paslaugą."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. Jūs sutinkate, kad siekdama suteikti šnekos atpažinimo paslaugą „Nuance“ gali rinkti šnekos duomenis, kuriuos „Nuance“ ir jos trečiosios šalies partneriai galės naudoti, kad reguliuotų, gerintų ir tobulintų a) šnekos atpažinimo paslaugą ir b) kitus „Nuance“ produktus ir paslaugas. <br>5. Jūs pripažįstate ir sutinkate, kad šnekos duomenys gali būti persiųsti į JAV ir (arba) kitas šalis ir ten saugomi, apdorojami ir naudojami „Nuance“ ir jos trečiųjų šalių partnerių. <br>6. Bet kurie ir visi jūsų pateikti šnekos duomenys išliks konfidencialūs ir bus naudojami laikantis atitinkamų įstatymų, tačiau „Nuance“ gali juos atskleisti, jei to prireiktų siekiant įgyvendinti teisinius arba reguliavimo reikalavimus, pvz., pagal teismo nutartį arba jei to reikalauja įstatymas arba trečioji šalis, kuri nori įsigyti arba susijungti su „Nuance“."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "„Gear Input“ naudoja šnekos atpažinimo technologijas, kurias teikia trečiosios šalies paslaugų tiekėja „Nuance Communications“. Todėl jūsų šnekos informacija neišvengiamai yra saugoma „Nuance“ (įsikūrusios JAV) valdomame serveryje ir, jei norite naudoti „Gear Input“, turite sutikti su %s„Nuance“ sąlygomis ir nuostatomis%s. <br>„Nuance“ pasilieka teisę naudoti jūsų šnekos įvesties informaciją siekdama tobulinti paslaugas ir plėtoti technologijas. „Nuance“ taip pat pasilieka teisę pateikti anksčiau minėtą šnekos įvesties informaciją „Nuance“ partneriams. Jūsų šnekos įvesties informacija yra laikoma iki tol, kol anksčiau minėti tikslai yra įgyvendinami. Daugiau informacijos apie „Gear Input“ paslaugas galite rasti %s„Nuance“ privatumo politikoje%s. <br>„Gear Input“ naudoti negalite, jei nesutinkate su anksčiau minėtomis informacijos saugojimo ir naudojimo sąlygomis."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Informacijos teikimo sutartis"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Atpažinimo serveris užimtas."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Paskambinkite vėliau."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Bakst. ir pristabd."
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "Tam, kad galėtų teikti %s, „Samsung“ naudoja šnekos atpažinimo paslaugas, kurias teikia trečioji šalis – paslaugų teikėja „Nuance Communications Inc.“ („Nuance“). „Nuance“ rinks ir saugos žodžių, kuriuos diktuosite %s, įrašus, kad %s galėtų teikti šnekos atpažinimo paslaugą, ją gerinti ir spręsti su ja susijusias problemas. Renkami duomenys bus saugomi „Nuance“ valdomame serveryje Jungtinėse Amerikos Valstijose, taip pat gali būti bendrinami su „Nuance“ partneriais siekiant tobulinti paslaugas."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Kada galime susitikti?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Kur esate?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Dvi širdys"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Kiaulės nosis"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Šuo"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Katė"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Viščiukas"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Vandenį purškiantis banginis"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Pandos galva"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Tigro galva"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "„Gear“ įvestis"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Įsitikinkite, kad telefone suaktyvinta %s programa."
+

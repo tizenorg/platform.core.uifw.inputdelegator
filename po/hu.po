@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Választógomb"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Gomb"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Letiltva."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Bejelölve."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Nincs kijelölve"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Nézze meg a telefont."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Bluetooth-kapcsolattal olvassa és fogadja el a jogi nyilatkozatot."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Beviteli nyelvek"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Érintse meg kétszer a küldéshez."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Mikor találkozhatunk?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Hogy vagy?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Mi a helyzet?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Később beszélünk."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Később visszahívom."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Hol vagy?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Hívjon később."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Most beszéljen %s nyelven."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Nem sikerült felismerni a hangot."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Hangbemenet nyelve"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Automatikus"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "ELFOGADOM"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Hálózati kapcsolat hibája."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Hálózati hiba"
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Beszéljen"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Nyelv"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Nem sik. felismerni."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Hálózati hiba"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Részletek megjelenítése a telefonon..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "SABLON H.AD."
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Sablon h.ad."
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Adjon h. sabl.<br>a telefonon."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Mosoly"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Hangbemenet"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Hangulatjelek"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Billentyűzet"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Gyors válaszok"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Küldés"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "OK kézjelzés"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "OK jel"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Nem OK jel"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Nevető arc nyitott szájjal és nevető szemekkel"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Nevető arc nyitott szájjal és szorosra zárt szemekkel"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Nevető arc nevető szemekkel"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Nevető arc szív alakú szemekkel"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Pusziló arc nevető szemekkel"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Kiöltött nyelvű, kacsintó arc"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Mérges arc"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Elképedt arc"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Síró arc"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Csalódott, de ellazult arc"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Félelmében sikoltó arc"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Diadalmas arc"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Orvosi maszkot viselő arc"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Duzzogó arc"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Álmos arc"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Fáradt arc"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Pusziló arc lehunyt szemekkel"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Részl. megjelenít. a telefonon..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Érintse meg kétszer, ha beszélni szeretne."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "A Gear-bevitel és a Beszédfelismerő szolgáltatás használata"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. A beszédfelismerő technológia a Gear-bevitel szolgáltatás részét képezi. Ön beleegyezik abba, hogy a Samsung harmadik fél, a Nuance Communications Inc. (a továbbiakban: „Nuance”) által biztosított beszédfelismerő szolgáltatást (a továbbiakban: „Beszédfelismerő szolgáltatás”) használhat. Ön tudomásul veszi és elfogadja a következőket a Gear-bevitel szolgáltatás Ön általi használatával összefüggésben.<br>2. Ön vállalja, hogy nem továbbít semmilyen automatikus vagy rögzített kérést a Gear-bevitel szolgáltatás felé.<br>3. Ön tudomásul veszi, hogy a Nuance a Beszédfelismerő szolgáltatás nyújtásakor begyűjti az Ön által a Gear-bevitel szolgáltatásnak diktált szavakat (ideértve ezek hangfelvételét, a kapcsolódó átírásokat és naplófájlokat) (a továbbiakban: „Beszédadatok”)."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. Ön hozzájárul és elfogadja, hogy a Nuance a Beszédfelismerő szolgáltatás nyújtásakor Beszédadatokat gyűjthet, amelyeket a Nuance vagy annak külső partnerei felhasználhatnak (a) a Beszédfelismerő szolgáltatás, valamint (b) egyéb Nuance termékek és szolgáltatások hangolásához, továbbfejlesztéséhez és tökéletesítéséhez.<br>5. Ön tudomásul veszi és elfogadja, hogy az Ön Beszédadatait továbbíthatják az Egyesült Államokba és/vagy más országokba a Nuance és külső partnerei általi tárolás, feldolgozás és felhasználás céljára.<br>6. Az Ön által rendelkezésre bocsátott minden Beszédadat kezelése bizalmas, használata pedig a vonatkozó jogszabályoknak megfelelő lesz, a Nuance azonban szükség esetén felfedheti ezeket az adatokat a jogi vagy szabályozási előírások alapján, például ha ezt bírósági határozat rendeli el, a törvény által felhatalmazott kormányzati intézmény igénylésére vagy a Nuance céget megvásároló vagy vele fuzionáló harmadik fél részére."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "A Gear-bevitel szolgáltatás harmadik fél, a Nuance Communications, Inc. által biztosított beszédfelismerő technológiát használ. Ennélfogva a felhasználó beszélt hangadatait a Nuance által működtetett szervereken kell tárolni (ezek az Egyesült Államokban találhatók), és a Gear-bevitel használatához Önnek el kell fogadnia a %sNuance feltételeit%s.<br>A Nuance fenntartja a jogot a felhasználók beszélt hangadatainak felhasználására a szolgáltatások javítására és a technológia fejlesztésére. Továbbá, a Nuance fenntartja a jogot arra, hogy partnerei rendelkezésére bocsássa az említett beszélt hangadatokat. felhasználók beszélt hangadatainak tárolása az említett célok teljesítéséig tart. A Gear-bevitel szolgáltatásról a %sNuance adatvédelmi nyilatkozata%s szolgál további tájékoztatással.<br>Ha nem fogadja el az adatai tárolására és felhasználására vonatkozó fenti rendelkezést, nem használhatja a Gear-bevitel szolgáltatást."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Megállapodás információ rendelkezésre bocsátásáról"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "A felismerési szolgáltatás foglalt."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Hívjon később."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Szünethez érint. meg"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "A(z) %s biztosításához a Samsung egy szolgáltató harmadik fél, a Nuance Communications Inc. („Nuance”) által nyújtott beszédfelismerő szolgáltatásokat használ. A Nuance gyűjti és tárolja az Ön által a(z) %s alkalmazásba mondott szavak felvételét a beszédfelismerő szolgáltatás biztosítása, tökéletesítése és problémái elhárítása érdekében a(z) %s alkalmazásban. A Gyűjtött adatok egy, a Nuance által ellenőrzött szerveren lesznek tárolva az Egyesült Államokban, és a szolgáltatások tökéletesítése érdekében megoszthatók a Nuance partnereivel."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Mikor találkozhatunk?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Hol van most?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Két szív"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Disznóorr"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Kutya"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Macska"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Csirke"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Szökőkutat fújó bálna"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Pandapofa"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Tigrispofa"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Gear-bevitel"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Indítsa el a %s alkalmazást a telefonon."
+
