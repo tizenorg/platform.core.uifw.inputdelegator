@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Butang radio"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Butang"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Dinyahaktifkan."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Dipilih."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Tidak dipilih"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Periksa telefon anda."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Sambung melalui Bluetooth utk semak dan menerima notis undang-undang."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Bahasa input"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Dwiketik untuk menghantar."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Bila kita boleh berjumpa?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Bagaimana sekarang?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Apa khabar?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Berbual lagi kemudian."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Saya akan hubungi anda."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Di manakah anda?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Hubungi saya kemudian."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Berucap dalam %s sekarang."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Gagal mengecam suara."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Bahasa suara input"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Automatik"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "SETUJU"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Ralat sambungan rangkaian."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Ralat rangkaian."
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Cakap sekarang"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Bahasa"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Pengecaman gagal."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Ralat rangkaian"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Menunjukkan butiran pada telefon anda..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "TMBH TMPLAT"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Tmbh templat"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Tmbh templt pd telefon anda."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Senyum"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Suara input"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Emotikon"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Papan kekunci"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Sambutan pantas"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Hantar"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "Isyarat tangan OK"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Tanda bagus"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Tanda tidak bagus"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Muka tersenyum dengan mulut ternganga dan mata tertutup"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Muka tersenyum dengan mulut ternganga dan mata dipejam"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Muka tersenyum dengan mata tersenyum"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Muka tersenyum dengan mata berbentuk hati"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Muka bercium dengan mata tersenyum"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Muka dengan lidah kelu dan mata dikenyit"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Muka marah"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Muka hairan"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Muka menangis"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Muka kecewa tetapi lega"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Muka menjerit ketakutan"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Muka dengan riak kemenangan"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Muka dengan topeng perubatan"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Muka mencebik"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Muka mengantuk"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Muka letih"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Muka bercium dengan mata tertutup"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Tunjuk butiran pd telefon anda..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Dwiketik untuk bercakap."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input dan Penggunaan Perkhidmatan Pengecaman Ucapan"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. Teknologi pengecaman ucapan ialah satu komponen perkhidmatan Gear Input.  Anda mengakui bahawa Samsung boleh menggunakan perkhidmatan pengecaman ucapan (“Perkhidmatan Pengecaman Ucapan”) yang disediakan oleh pihak ketiga, Nuance Communications Inc. (“Nuance”) dan anda mengakui dan bersetuju dengan perkara berikut yang berkaitan dengan penggunaan anda ke atas perkhidmatan Gear Input. <br>2. Anda bersetuju untuk tidak mengemukakan sebarang permintaan automatik atau yang direkodkan ke atas perkhidmatan Gear Input. <br>3. Anda mengakui bahawa perkataan yang anda arahkan kepada perkhidmatan Gear Input (termasuk rakaman audio perkataan tersebut, transkripsi yang berkaitan dan fail log) (“Data Ucapan”) akan dikumpulkan oleh Nuance untuk menyediakan Perkhidmatan Pengecaman Ucapan."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. Anda memberi kebenaran dan bersetuju bahawa dalam memberikan Perkhidmatan Pengecaman Ucapan, Nuance mungkin mengumpulkan Data Ucapan yang mungkin digunakan oleh Nuance dan rakan-rakan kongsi pihak ketiganya untuk menala, meningkatkan dan memperbaiki (a) Perkhidmatan Pengecaman Ucapan dan (b) produk-produk dan perkhidmatan lain Nuance.<br>5. Anda mengakui dan bersetuju bahawa Data Ucapan anda SPmungkin diSPSPpinSPdahkan ke Amerika Syarikat dan/atau negara-negara lain untuk penyimpanan, pemprosesan dan kegunaan Nuance dan rakan-rakan kongsi pihak ketiganya.<br>6. Mana-mana dan semua Data Ucapan yang anda berikan akan sentiasa sulit dan akan digunakan mengikut undang-undang berkaitan tetapi mungkin didedahkan oleh Nuance, jika dikehendaki sedemikian, bagi memenuhi keperluan undang-undang atau peraturan, seperti di bawah perintah mahkamah atau kepada agensi kerajaan jika dikehendaki atau dibenarkan oleh undang-undang, atau kepada pihak ketiga yang membeli atau bergabung dengan Nuance."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gear Input menggunakan teknologi pengecaman suara yang disediakan oleh pembekal perkhidmatan pihak ketiga yang bernama Nuance Communications, Inc. Oleh itu, maklumat suara anda akan disimpan pada pelayan yang dikendalikan oleh Nuance (terletak di Amerika Syarikat), dan penggunaan Gear Input memerlukan anda untuk bersetuju dengan %sTerma dan Syarat Nuance%s. <br>Nuance merizabkan hak untuk menggunakan input suara anda bagi tujuan meningkatkan perkhidmatan dan membangunkan teknologi. Nuance juga berhak untuk memberikan input suara yang dinyatakan di atas kepada rakan kongsi Nuance. Maklumat input suara anda disimpan sehingga objektif yang dinyatakan di atas dicapai. Untuk maklumat lanjut tentang perkhidmatan Gear Input, sila baca %sDasar Keperibadian Nuance%s. <br>Anda tidak boleh menggunakan Gear Input jika anda tidak bersetuju dengan storan dan penggunaan maklumat anda yang dinyatakan di atas."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Perjanjian Peruntukan Maklumat"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Perkhidmatan pengecaman sibuk."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Hubungi saya kemudian."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Ketik untuk dijedakn"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "Untuk menyediakan %s, Samsung menggunakan perkhidmatan pengenalan pertuturan yang disediakan oleh penyedia perkhidmatan pihak ketiga, Nuance Communications Inc. (“Nuance”). Nuance akan mengumpul dan menyimpan rakaman perkataan yang anda rencanakan ke %s, untuk menyediakan, menambah baik dan menyelesaikan masalah perkhidmatan pengenalan pertuturan dalam %s. Data terkumpul akan disimpan pada pelayan yang dikawal oleh Nuance di Amerika Syarikat dan mungkin akan dikongsi dengan rakan kongsi Nuance untuk menambah baik perkhidmatan."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Bila kita boleh berjumpa?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Di manakah anda?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Dua hati"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Hidung khinzir"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Anjing"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Kucing"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Ayam"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Paus menyembur"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Muka panda"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Muka harimau"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Input Gear"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Pastikan aplikasi %s aktif pada telefon anda."
+

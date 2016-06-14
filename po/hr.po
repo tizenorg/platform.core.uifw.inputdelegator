@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Tipka za radio"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Gumb"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Isključeno."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Odabrano."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Nije odabrano"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Provjerite telefon."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Povežite se putem Bluetootha za pregled i prihvać. pravne obavijesti."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Jezici unosa"
+
+msgid "IDS_ST_SK_OK"
+msgstr "U redu"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Dvaput dodirnite za slanje."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Kada ćemo se naći?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Kako si?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Što ima?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Čujemo se uskoro."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Nazvat ću poslije."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Gdje si?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Nazovi poslije."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Sada govorite u %s."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Greška prepoznavanja glasa."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Jezik glasovnog ulaza"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Automatski"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "PRIHVAĆAM"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Greška mrežne veze."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Greška mreže."
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Sad govorite"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Jezik"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Prepozn. neuspješno."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Pogreška mreže"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Prikazivanje detalja na telefonu..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "DODAJ PREDL."
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Dodaj predl."
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Dod. predložak<br>na telefonu."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Osmjeh"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Glas. ulaz"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Smajlić"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Tipkovnica"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Brzi odgovori"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Pošalji"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "Znak ruke koja pokazuje U redu"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Znak palca prema gore"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Znak palca prema dolje"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Nasmiješeno lice s otvorenim ustima i nasmiješenim očima"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Nasmiješeno lice s otvorenim ustima i čvrsto zatvorenim očima"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Nasmiješeno lice s nasmiješenim očima"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Nasmiješeno lice s očima u obliku srca"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Lice u poljupcu s nasmiješenim očima"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Lice s isplaženim jezikom koje namiguje"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Ljuto lice"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Začuđeno lice"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Plačko"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Lice razočaranja, ali i olakšanja"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Lice koje vrišti od straha"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Lice s pobjedonosnim izrazom"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Lice s medicinskom maskom"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Nadureno lice"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Pospano lice"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Umorno lice"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Lice u poljupcu sa zatvorenim očima"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Prikaz detalja na telefonu..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Dvaput dodirnite za govor."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input i korištenje prepoznavanja govora"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. Usluga Gear Input koristi tehnologiju za prepoznavanje govora kao komponentu usluge. Prihvaćate da Gear Input smije koristiti uslugu prepoznavanja govora (“Usluga prepoznavanja govora”) koju pruža treća strana, Nuance Communications Inc. (“Nuance”), te prihvaćate i pristajete na sljedeće uvjete u vezi s vašim korištenjem usluge Gear Input.<br>2. Prihvaćate da nećete slati nikakve automatizirane ili snimljene zahtjeve u uslugu Gear Input.<br>3. Prihvaćate da će riječi koje diktirate usluzi Gear Input (uključujući zvučne snimke takvih riječi, povezane transkripcije i zapisnike) (“Podaci o govoru”) prikupiti Nuance pružajući uslugu prepoznavanja govora."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. Pristajete i prihvaćate da pružajući usluge prepoznavanja govora Nuance smije prikupiti Podatke o govoru koje Nuance i njegovi partneri treće strane smiju koristiti radi podešavanja, poboljšavanja i popravljanja (a) Usluge prepoznavanja govora i (b) drugih proizvoda i usluga tvrtke Nuance.<br>5. Prihvaćate i slažete se da se vaši Podaci o govoru smiju prenositi u Sjedinjene Američke Države i/ili ostale države radi spremanja, obrađivanja i korištenja od strane Nuancea i njegovih partnera trećih strana.<br>6. Bilo kakvi i svi Podaci o govoru koje ponudite povjerljivi su i bit će korišteni u skladu s primjenjivim zakonom, međutim, Nuance ih, po potrebi, smije otkriti radi pravnih ili regulatornih zahtjeva, primjerice temeljem sudskog naloga ili ovlaštenoj vladinoj agenciji ako je to temeljem zakona naloženoa, ili trećoj strani koja preuzima kompaniju Nuance ili se spaja s Nuanceom."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Usluga Gear Input koristi tehnologiju za prepoznavanje govora koju pruža davatelj usluga treće strane, Nuance Communications, Inc. Zato se vaše glasovne informacije moraju pohraniti na poslužitelju kojim upravlja Nuance (u Sjedinjenim Američkim Državama) i za uporabu usluge Gear Input morate pristati na %sUvjete i odredbe tvrtke Nuance%s. <br>Nuance zadržava pravo na korištenje vašeg ulaza glasa u svrhu poboljšanja usluga i razvijanja tehnologija. Nuance isto tako zadržava pravo da svojim partnerima omogući pristup vašem prethodno spomenutom ulazu glasa. Informacije vašeg ulaza glasa bit će pohranjene sve dok se ne postignu prethodno navedeni ciljevi. Za informacije o uslugama Gear Input pročitajte pravila o %sPostavkama privatnosti tvrtke Nuance%s. <br>Ne možete koristiti uslugu Gear Input sve dok ne pristanete na spremanje i korištenje informacija kako je prethodno navedeno."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Ugovor o pristanku na davanje informacija"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Usluga prepoznavanja zauzeta."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Nazovi me poslije."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Dodir. za pauziranje"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "Pri pružanju aplikacije %s Samsung upotrebljava usluge prepoznavanja govora koje pruža davatelj usluga treće strane, Nuance Communications Inc. („Nuance”). Nuance će prikupljati i pohranjivati snimke riječi koje diktirate aplikaciji %s radi pružanja, poboljšanja i rješavanja problema usluge prepoznavanja govora u aplikaciji %s. Prikupljeni podaci pohranit će se na poslužitelju kojim upravlja Nuance u Sjedinjenim Državama, a mogu se podijeliti s partnerima tvrtke Nuance radi poboljšanja usluga."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Kada ćemo se naći?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Gdje si?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Dva srca"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Svinjski nos"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Pas"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Mačka"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Pile"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Kit koji prska vodu"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Lice pande"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Lice tigra"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Unos za Gear"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Provjerite je li aplikacija %s aktivna na vašem telefonu."
+

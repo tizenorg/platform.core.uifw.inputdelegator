@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "ରେଡିଓ ବଟନ୍"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "ବଟନ୍‍"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "ଅକ୍ଷମ ହୋଇଛି"
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "ଚୟନିତ"
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "ମନୋନୀତ ନୁହେଁ"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "ଆପଣଙ୍କ ଫୋନ୍ ଯାଞ୍ଚ କରନ୍ତୁ।"
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "ଆଇନଗତ ସୂଚନା ଗ୍ରହଣ ଏବଂ ସମୀକ୍ଷା ପାଇଁ ବ୍ଲୁଟୁଥ୍ ଦ୍ୱାରା ସଂଯୋଗ କରନ୍ତୁ।"
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "ଇନପୁଟ୍ ଭାଷାଗୁଡିକ"
+
+msgid "IDS_ST_SK_OK"
+msgstr "ଓକେ"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "ସାମସଙ୍ଗ ଗିଅର୍"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "ପ୍ରେରଣ କରିବାକୁ ଦୁଇଥର ଟ୍ୟାପ୍ କରନ୍ତୁ।"
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "ଆମେ କେବେ ମିଶି ପାରିବା?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "କିପରି ଚାଲିଛି?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "କ’ଣ ଚାଲିଛି?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "ମୁଁ ଆପଣଙ୍କ ସହିତ ଖୁବ୍‌ ଶୀଘ୍ର କଥା ହେବି"
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "ମୁଁ ଆପଣଙ୍କୁ ପରେ କଲ୍ କରିବି।"
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "ଆପଣ କେଉଁଠି ଅଛନ୍ତି?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "ମୋତେ ପରେ ଡାକିବେ।"
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "ବର୍ତ୍ତମାନ %sରେ କୁହନ୍ତୁ।"
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "ଭଏସ୍ ଚିହ୍ନଟ କରିବାକୁ ବିଫଳ ହୋଇଛି।"
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "ଭଏସ୍ ଇନପୁଟ୍ ଭାଷା"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "ସ୍ଵତଃସ୍ପୃତ"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "ରାଜି"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "ନେଟୱାର୍କ୍ ସଂଯୋଜନ ତ୍ରୁଟି।"
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "ନେଟୱାର୍କ ତ୍ରୁଟି।"
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "ବର୍ତ୍ତମାନ କୁହନ୍ତୁ"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "ଭାଷା"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "ଚିହ୍ନଟକରଣ ବିଫଳ ହୋଇ.।"
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "ନେଟୱାର୍କ୍ ତ୍ରୁଟି"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "ଆପଣଙ୍କ ଫୋନରେ ବିବରଣୀ ଦେଖାଉଛି..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "ଟେମ୍ପ. ଯୋଡ."
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "ଟେମ୍ପ. ଯୋଡ."
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "ଆପଣଙ୍କ ଫୋନରେ ଟେମ୍ପ. ଯୋଡ.।"
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "ହସ"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "ଭଏସ୍ ଇନପୁଟ୍"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "ଇମୋଟିକନ୍"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "କୀବୋର୍ଡ୍"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "ଦ୍ରୁତ ପ୍ରତିକ୍ରିୟା"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "ପ୍ରେରଣ"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "ଓକେ ଥିବା ହାତ ଚିହ୍ନ"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "ବୁଢ଼ା ଆଙ୍ଗୁଠି ଉପରକୁ ଥିବା ଚିହ୍ନ"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "ବୁଢ଼ା ଆଙ୍ଗୁଠି ତଳକୁ ଥିବା ଚିହ୍ନ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "ପାଟି ଖୋଲା ରହିଥିବା ଏବଂ ହସ ହସ ଆଖି ସହିତ ହସ ହସ ମୁହଁ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "ପାଟି ଖୋଲା ରହିଥିବା ଏବଂ ଆଖି ଜୋରରେ ବନ୍ଦ କରାଯାଇଥିବା ସହିତ ହସ ହସ ମୁହଁ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "ହସ ହସ ଆଖି ସହିତ ହସ ହସ ମୁହଁ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "ହୃଦୟ ଆକୃତି ଆଖି ସହିତ ହସ ହସ ମୁହଁ"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "ହସ ହସ ଆଖିରେ ଜୁମା ଦେଉଥିବା ମୁହଁ"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "ଜିଭ ବାହାରକୁ ବାହାରି ଆସିଥିବା ଏବଂ ୱିକିଂଙ୍ଗ୍ ଆଖିର ମୁହଁ"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "ରାଗୀ ମୁହଁ"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "ବିସ୍ମିତ ମୁହଁ"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "କାନ୍ଦୁଥିବା ମୁହଁ"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "ନିରାଶ କିନ୍ତୁ ଆଶ୍ୱସ୍ତ ମୁହଁ"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "ଭୟରେ ଚିତ୍କାର କରୁଥିବା ମୁହଁ"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "ବିଜୟ ଚାହାଣୀ ସହିତ ମୁହଁ"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "ଡାକ୍ତରୀ ମାସ୍କ୍ ସହିତ ମୁହଁ"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "ବିରକ୍ତ ମୁହଁ"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "ତନ୍ଦ୍ରାଛନ୍ନ ମୁଖ"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "କ୍ଲାନ୍ତ ମୁହଁ"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "ଆଖି ବନ୍ଦ କରି ଚୁମା ଦେଉଥିବା ମୁହଁ"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "ଆପଣଙ୍କ ଫୋନ୍ ବିବରଣୀ ଦେଖାଉଛି..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "କହିବାକୁ ଦୁଇଥର ଟ୍ୟାପ୍ କରନ୍ତୁ।"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "ଗିଅର୍‌ ଇନପୁଟ୍‌ ଏବଂ ଏକ ସ୍ପିଚ୍ ଚିହ୍ନଟକରଣ ସେବାର ଉପଭୋଗ"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. ସ୍ପିଚ୍‌ ଚିହ୍ନଟକରଣ ପ୍ରଯୁକ୍ତି ହେଉଛି ଏକ ଗିଅର୍‌ ଇନପୁଟ୍‌ ସେବାର ଏକ ଉପାଦାନ.  ଆପଣ ସ୍ୱୀକାର କରନ୍ତି ଯେ ସାମସଙ୍ଗ ଏକ ତୃତୀୟ ପକ୍ଷର ଯୋଗାଯୋଗଦ୍ୱାରା ପ୍ରଦାନ କରାଯାଇଥିବା ଏକ ସ୍ପିଚ୍‌ ଚିହ୍ନଟକରଣ ସେବା (“ସ୍ପିଚ୍ ଚିହ୍ନଟକରଣ ସେବା”) ବ୍ୟବହାର କରିପାରନ୍ତି, Nuance Communications Inc. (“Nuance”), ଏବଂ ଆପଣ ସ୍ୱୀକାର କରିଛନ୍ତି ଏବଂ ନିମ୍ନଲିଖିତ ଆପଣଙ୍କ ଗିଅର୍‌ ଇନପୁଟ୍‌ ସେବା ବ୍ୟବହାର ସହ ସଂଯୋଗ କରିବାକୁ ରାଜି ହୋଇଛନ୍ତି. <br>2. ଆପଣ ଗିଅର୍‌ ଇନପୁଟ୍‌ ସେବା ପାଇଁ କୌଣସି ସ୍ୱୟକ୍ରିୟ କିମ୍ୱା ରେକର୍ଡ ଅନୁରୋଧ ଉପସ୍ଥାପନା କରିବାକୁ ଆପଣ ରାଜି ନୁହନ୍ତି. <br>3. ଆପଣ ସ୍ୱୀକାର କରନ୍ତି ଯେ ସେହି ଶବ୍ଦ ଯାହାକୁ ଆପଣ ଗିଅର୍‌ ଇନପୁଟ୍‌ ସେବା ପାଇଁ (ଯେଉଁ ଥିରେ ଏପରି ଶବ୍ଦର ଅଡିଓ ରେକର୍ଡିଂ, ସମ୍ୱନ୍ଧୀୟ ଟ୍ରାନ୍ସକ୍ରିପ୍‌ସନ୍ ଏବଂ ଲଗ୍‌ ପାଇଲଗୁଡିକ) (“ସ୍ପିଚ୍ ଡାଟା”) ଅନ୍ତର୍ଭୁକ୍ତ ଅଟେ, ସେହି ସ୍ପିଚ୍ ଚିହ୍ନଟକରଣ ସେବା ପ୍ରଦାନ କରିବାରେ Nuance ଦ୍ୱାରା ଏକତ୍ରିତ କରାଯିବ."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. ସ୍ପିଚ୍ ଚିହ୍ନଟକରଣ ସେବା ପ୍ରଦାନ କରିବାରେ ଆପଣ ଆପଣଙ୍କ ସହମତି ଦିଅନ୍ତି ଏବଂ ସହମତ ଅଛନ୍ତି ଯେ, Nuance ସ୍ପିଚ୍ ଡାଟା ଏକତ୍ରିତ କରି ପାରେ ଯାହାର ବ୍ୟବହାର ନିମ୍ନ ଜିଣିଷକୁ ଅନୁକୂଳ କରିବା ପାଇଁ, ସେଗୁଡିକୁ ବୃଦ୍ଧି ଏବଂ ଉତ୍ତମ କରିବା ପାଇଁ Nuance ଏବଂ ତାହାର ତୃତୀୟ ପକ୍ଷ ଅଂଶୀଦାର ଦ୍ୱାରା ବ୍ୟବହାର କରାଯାଇପାରେ (a) ସ୍ପିଚ୍ ଚିହ୍ନଟକରଣ ସେବା ଏବଂ (b) ଅନ୍ୟ Nuance ଉତ୍ପାଦ ଏବଂ ସେବା. <br>5. ଆପଣ ସ୍ୱୀକାର କରନ୍ତି ଯେ ଏବଂ ଆପଣଙ୍କ ବକୃତ୍ତ ଡାଟା ଅତି ସୂକ୍ଷ ତାରତମ୍ୟ ଏବଂ ତାହାର ତୃତୀୟ ପକ୍ଷର ସହଯୋଗୀଙ୍କର ଦ୍ୱାରା ସଞ୍ଚୟ, ପ୍ରକ୍ରିୟାକରଣ ଏବଂ ବ୍ୟବହାର ପାଇଁ ଯୁକ୍ତରାଷ୍ଟ୍ର ଏବଂ/କିମ୍ୱା Nuance ଅନ୍ୟାନ୍ୟ ଦେଶ ସ୍ଥାନାନ୍ତର କରିବାକୁ ସମ୍ମତ ହୁଅନ୍ତି. <br>6. ଆପଣ ଗୋପନୀୟ ରହିବେ ଏବଂ ଆବଶ୍ୟକୀୟ ଆଇନ ଅନୁଯାୟୀ ବ୍ୟବହାର କରାହେବ, କିନ୍ତୁ Nuance, ଦ୍ୱାରା ପ୍ରକାଶ କରାଯାଇ ପାରେ ଯେକୌଣସି ଏବଂ ସମସ୍ତ ସ୍ପିଚ୍‌ ଡାଟା, ତାହା ଆବଶ୍ୟକ, ଯେପରି ଏକ ଆଇନ ଆଦେଶ ଅଧୀନରେ କିମ୍ୱା ଏକ ସରକାରୀ ସଂସ୍ଥା ଆଇନ କିମ୍ୱା ନିୟନ୍ତ୍ରକ ଆବଶ୍ୟକତା ପୂରଣ କରିବାକୁ ଆବଶ୍ୟକ କିମ୍ୱା ଆଇନ କୃତ୍ତିକ ଅନୁମୋଦିତ ହେବ, ତେବେ ଅର୍ଜନ କିମ୍ୱା ସହ ସଂଯୋଜନ, ଯାହା ଏକ ତୃତୀୟ ପକ୍ଷର Nuance."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "ଗିଅର୍‌ ଇନପୁଟ୍‌ ସାମାନ୍ୟ Nuance Communications, Inc. ନାମରେ ଏକ ତୃତୀୟ ପକ୍ଷ ସେବା ପ୍ରଦାନକାରୀ କର୍ତୃକ ପ୍ରଦତ୍ତ ସ୍ତର ସ୍ୱୀକୃତି ପ୍ରଯୁକ୍ତି ବ୍ୟବହାର କରେ. ଅତେବ, ଆପଣଙ୍କ ଭଏସ୍‌ ଡାଟା ଅବଶ୍ୟମ୍ଭାବୀ ଭାବେ ସାମାନ୍ୟ Nuance (ଯୁକ୍ତରାଷ୍ଟ୍ର ସ୍ଥିତି), ଦ୍ୱାରା ପରିଚାଳିତ ଏକ ସର୍ଭରେ ସଞ୍ଚୟ କରିବା, ଏବଂ ଗିଅର୍‌ ଇନପୁଟ୍‌ ବ୍ୟବହାର କରି ଆପଣ ଯେତେବେଳେ %sNuance ଚୁକ୍ତି ଏବଂ ସର୍ତ୍ତାବଳୀ%s. <br>Nuance ସେବାର ଉନ୍ନତିରେ ଏବଂ ପ୍ରଯୁକ୍ତି ଉନୟନଶୀଳ ଉଦ୍ଦେଶ୍ୟରେ ଆପଣଙ୍କ ଭଏସ୍‌ ଇନପୁଟ୍‌ ବ୍ୟବହାର କରିବାର ଅଧିକାର ସଞ୍ଚୟ କରେ. Nuance ଅଂଶୀଦାରର ସାଥୀଙ୍କୁ ଭଏସ୍‌ ଇନପୁଟ୍‌ ପ୍ରଦାନ କରିବାର ଅଧିକାର ସଞ୍ଚୟ କରେ Nuanceଏହାର ଏହା ଛଡା. ଉପରୋକ୍ତ ଉଦ୍ଦେଶ୍ୟ ସାଧିତ ହେବା ପର୍ଯ୍ୟନ୍ତ ଆପଣଙ୍କ ଭଏସ୍‌ ଇନପୁଟ୍‌ ସଞ୍ଚୟ କରା ହୁଏ. ଗିଅର୍‌ ଇନପୁଟ୍‌ ସେବାଗୁଡିକ ବିଷୟରେ ଅଧିକ ସୂଚନା ପାଇଁ, ଦୟାକରି ପଢନ୍ତୁ %sNuance ଗୋପନୀୟ ନୀତି%s. <br>ଯଦି ଆପଣ ଗିଅର୍‌ ଇନପୁଟ୍‌ ବ୍ୟବହାର ଆପଣ ଷ୍ଟୋରେଜରେ ସମ୍ମତ ହୁଅନ୍ତି ଏବଂ ଉପରେ ବର୍ଣ୍ଣିତ ଭାବେର ଆପଣଙ୍କ ଡାଟା ବ୍ୟବହାର କରିପାରନ୍ତି ନାହିଁ।"
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "ବ୍ୟବସ୍ଥାପନ ଚୁକ୍ତି ସୂଚନା"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "ଚିହ୍ନଟ ସେବା ବ୍ୟସ୍ତ ଅଛି।"
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "ମୋତେ ପରେ କଲ୍ କରନ୍ତୁ।"
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "ବିରତ କରିବାକୁ ଟ୍ୟାପ୍"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "%s ଯୋଗାଇବା ପାଇଁ, ସାମସଙ୍ଗ ତୃତୀୟ ପକ୍ଷ ପ୍ରଦାନକାରୀ, Nuance Communications Inc. (“Nuance”)ଙ୍କ ଦ୍ୱାରା ଯୋଗା ଯାଇଥିବା ସ୍ପିଚ୍ ରିକୋଗନିସନ ସେବା ବ୍ୟବହାର କରେ. %sରେ ସ୍ପିଚ୍ ରିକଗ୍‌ନେସନ ସେବା ଯୋଗାଇବା, ଉନ୍ନତି କରିବା ଓ ସମସ୍ୟାର ସମାଧାନ କରିବା ପାଇଁ ଆପଣ %sକୁ ଡାକିଥିବା ଶଦ୍ଦଗୁଡିକର ରେକର୍ଡିଂ Nuance ସଂଗ୍ରହ ଓ ଷ୍ଟୋର୍ କରିବ. ୟୁନାଇଟେଡ୍ ଷ୍ଟେଟ୍ସରେ ଥିବା Nuance ଦ୍ୱାରା ସଂଗୃହିତ ଡାଟା ଏକ ସର୍ଭରରେ ଷ୍ଟୋର୍ ହେବ, ଓ ସେବାରେ ଉନ୍ନତି ପାଇଁ Nuance ଅଂଶିଦାରମାନଙ୍କ ସହ ଅଂଶିଦାର ହୋଇପାରିବ."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "ଆମେ କେବେ ମିଶି ପାରିବା?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "ଆପଣ କେଉଁଠାରେ ଅଛନ୍ତି?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "ଦୁଇଟି ହୃଦୟ"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "ଘୁଷୁରୀ ନାକ"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "କୁକୁର"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "ବିଲେଇ"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "ଚିକେନ୍"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "ଉପରକୁ ଉଠୁଥିବା ତିମି"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "ପାଣ୍ଡା ମୁହଁ"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "ବାଘ ମୁହଁ"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "ଗିଅର୍‍ ଇନପୁଟ୍"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "%s ଆପ୍ଲିକେସନ୍‌ ଆପଣଙ୍କ ଫୋନରେ ସକ୍ରିୟ ଅଛି ନିଶ୍ଚିତ କରନ୍ତୁ।"
+
