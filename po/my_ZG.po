@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "ေရဒီယို ခလုတ္"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "ခလုတ္"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "ပိတ္ထားသည္။"
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "ေရြးထားေသာ။"
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "ေရြးခ်ယ္မထားေသးပါ"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "သင့္ ဖုန္းကို စစ္ေဆးပါ။"
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "ျပန္ၾကည့္ရန္ ဘလူးတုသ္ မွတဆင့္ခ်ိတ္ဆက္ၿပီး တရားဝင္ ေၾကညာခ်က္ကို လက္ခံပါ။"
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "ထည့္သြင္းရန္ ဘာသာစကားမ်ား"
+
+msgid "IDS_ST_SK_OK"
+msgstr "အုိေက"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "ပို႔ရန္ ႏွစ္ခ်က္ႏွိပ္ပါ။"
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "ကၽြန္ေတာ္တို႔ ဘယ္ေတာ့ ေတြ႔ႏိုင္လဲ?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "အေျခအေန ဘယ္လိုလဲ?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "ဘာျဖစ္ပါသလဲ?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "ခဏေနလွ်င္ ကၽြႏု္ေတာ္ စကားေျပာပါလိမ့္္မည္။"
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "ေနာက္မွ ျပန္ေခၚမည္။"
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "ခင္ဗ်ား ဘယ္မွာလဲ?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "ေနာက္မွျပန္ေခၚပါ။"
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "ယခု %s မွာ စကားေျပာပါ။"
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "အသံကို မွတ္မိႈ မေအာင္ျမင္။"
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "အသံက ထည့္သြင္းသည့္ ဘာသာစကား"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "အလုိအေလ်ာက္"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "သေဘာတူသည္"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "ကြန္ယက္ခ်ိတ္ဆက္မႈ အမွား။"
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "ကြန္ရက္ အမွား"
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "ယခုစကားေျပာပါ"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "ဘာသာစကား"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "အသိအမွတ္ျပဳျခင္း မေအာင္ျမင္ပါ။"
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "ကြန္ယက္အမွား"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "သင့္ကိရိယာတြင္အေသးစိတ္အခ်က္မ်ားျပသေနဆဲ..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "ပုံစံထည့္ပါ"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "ပုံစံထည့္ပါ"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "သင့္ဖုန္းတြင္ပုံစံထည့္ပါ။"
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "ၿပံဳးပါ"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "အသံ ထည့္သြင္းျခင္း"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "အီမုိတီကြန္း"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "ကီးဘုတ္"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "လွ်င္ျမန္ေသာ တံု႔ျပန္မႈမ်ား"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "ပုိ႔ပါ"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "အိုေက လက္သေကၤတပုံစံ"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "လက္မေထာင္ သေကၤတ"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "လက္မေအာက္စိုက္ သေကၤတ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "ပါးစပ္ဟေန၍ အျပံဳးမ်က္စိမ်ားႏွင့္ မ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "ပါးစပ္ဟေန၍ ေစ့ေစ့ပိတ္ထားသည့္ မ်က္စိမ်ားႏွင့္ မ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "ျပံဳးေနေသာမ်က္စိမ်ားႏွင့္ အျပံဳးမ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "အျပံဳး မ်က္ႏွာႏွင့္ ႏွလံုးပံုမ်က္စိမ်ား"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "ျပံဳးေနေသာမ်က္လံုးမ်ားျဖင့္ နမ္းေနသည့္ မ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "မ်က္စျပစ္လ်က္ လွ်ာထုတ္ျပသည့္ မ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "စိတ္ဆိုး မ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "အံ့ၾသ မ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "ငိုေနေသာ မ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "စိတ္ပ်က္ၿပီး သက္သာရာရသြားသည့္ မ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "ေၾကာက္၍ ဟစ္ေအာ္ေနသည့္ မ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "ေအာင္ျမင္မႈျဖင့္ မ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "ႏွာေခါင္းစီးျဖင့္ မ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "စိုက္ၾကည့္ေနသည့္ မ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "အိပ္ခ်င္သည့္ မ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "ေမာပန္းေနသည့္ မ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "မ်က္လံုးပိတ္ထားၿပီး နမ္းေနသည့္ မ်က္ႏွာ"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "အေသးစိတ္အခ်က္မ်ားကိုျပသေနဆဲ..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "စကားေျပာရန္ ႏွစ္ခ်က္ႏွိပ္ပါ။"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear အသြင္း ႏွင့္ အသံ အသိအမွတ္ျပဳျခင္း ၀န္ေဆာင္မႈအသံုးျပဳျခင္း"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "၁။ အသံ အသိအမွတ္ျပဳျခင္းနည္းပညာသည္ Gear အသြင္း ၀န္ေဆာင္မႈ၏ အစိတ္အပိုင္းတစ္ခုျဖစ္သည္။  Gear အသြင္း ၀န္ေဆာင္မႈအား အသံုးျပဳျခင္းႏွင့္ ဆက္လ်ဥ္း၍ Samsung သည္ တတိယအဖြဲ႕အစည္းျဖစ္ေသာာ Nuance Communications Inc. (“Nuance”) မွ ပံ့ပိုးေပးသည့္ အသံ အသိအမွတ္ျပဳျခင္း ၀န္ေဆာင္မႈ (“အသံ အသိအမွတ္ျပဳျခင္း ၀န္ေဆာင္မႈ”) အား အသံုးခ်မည္ကို သင္သိရွိၿပီးျဖစ္သည့္အျပင္ ေအာက္ပါတို႕ကိုလည္း သေဘာတူညီပါသည္။ <br>၂။ Gear အသြင္း ၀န္ေဆာင္မႈသို႕ အလိုအေလ်ာက္ျပဳလုပ္ထားေသာ သို႕မဟုတ္ အသံသြင္းထားေသာ ေတာင္းဆုိမႈမ်ိဳး မျပဳလုပ္ရန္ သေဘာတူညီပါသည္။ <br>၃။ အသံ အသိအမွတ္ျပဳျခင္း ၀န္ေဆာင္မႈအား အသံုးျပဳရာတြင္ Gear အသြင္း ၀န္ေဆာင္မႈသို႕ ေျပာဆုိေသာ သင့္စကားလံုးမ်ား (၄င္း စကားလံုးမ်ား၊ ဆက္စပ္ မွတ္တမ္းႏွင့္ ေနာက္ဆက္တြဲဖိုင္မ်ား၏ အသံသြင္းျခင္းမ်ား အပါအ၀င္) (“အသံ ေဒတာ”)မ်ားကို အသံ အသိအမွတ္ျပဳျခင္း ဝန္ေဆာင္မႈရွိ Nuance မွ စုေဆာင္းျခင္းကို သေဘာတူညီပါသည္။"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "၄။ အသံ အသိအမွတ္ျပဳျခင္း ၀န္ေဆာင္မႈကို အသံုးျပဳရာတြင္ Nuance ျဖင့္ အသံုးျပဳမည့္ Nuance မွ အသံ ေဒတာမ်ားကို စုေဆာင္းၿပီး တတိယ အဖြဲ႕အစည္းမွ (က) အသံ အသိအမွတ္ျပဳျခင္း ၀န္ေဆာင္မႈကို ပိုမိုတိုးတက္ေကာင္းမြန္ေစရန္ ျပဳလုပ္ျခင္းႏွင့္ (ခ) အျခား Nuance ထုတ္ကုန္မ်ားႏွင့္ ၀န္ေဆာင္မႈမ်ား ပိုမိုတိုးတက္ေကာင္းမြန္ေစရန္ ရည္ရြယ္ၿပီး အသံုးျပဳမည္ကို သိရွိၿပီး ခြင့္ျပဳပါသည္။ <br>၅။ သင့္ အသံ ေဒတာမ်ားကို Nuance ႏွင့္ ၄င္း၏ တတိယအဖြဲ႕အစည္း မိတ္ဖက္မ်ားမွ အေမရိကန္ျပည္ေထာင္စုႏွင့္/ သို႕မဟုတ္ အျခားေသာ ႏုိင္ငံမ်ားသို႕ သိမ္းဆည္းျခင္း၊ အသံုးခ်ျခင္းႏွင့္ စနစ္တက်လုပ္ေဆာင္ျခင္းမ်ားမွ ျပဳလုပ္မည္ကို သင္သိရွိသေဘာတူညီပါသည္။ <br>၆။ သင့္ မည္သည့္ အသံ ေဒတာမဆို လံုၿခံဳလွ်ိဳ႕၀ွက္စြာရွိေနမည္ျဖစ္ၿပီး သက္ဆိုင္ရာ ဥပေဒအရသာ အသံုးခ်ခြင့္ရွိပါမည္၊ သို႕ရာတြင္ တရားရံုးအမိန္႕စာ သို႕မဟုတ္ အစိုးရအဖြဲ႕အစည္းတစ္ခုခု၏ လိုအပ္ခ်က္အရ သို႕မဟုတ္ ဥပေဒအရ အာဏာရွိေသာ ပုဂၢိဳလ္ အဖြဲ႕အစည္းမွ သို႕မသုတ္ Nuanceႏွင့္ ပူးေပါင္းရန္ သို႕မဟုတ္ ေတာင္းဆိုေသာ တတိယအဖြဲ႕အစည္းသို႕ အစရွိသျဖင့္ ဥပေဒေရးရာ သို႕မဟုတ္ နည္းဥပေဒတစ္ခုခုအရလိုအပ္ပါက Nuanceမွ ေဖာ္ျပခြင့္ရွိေၾကာင္း သင္ သိရွိနားလည္ သေဘာတူညီပါသည္။"
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gear အသြင္း သည္ Nuance Communications, Inc. ဟုေခၚေသာ တတိယအဖြဲ႕အစည္း ၀န္ေဆာင္မႈေပးသူမွ ပံ့ပိုးေပးသည့္ အသံ အသိအမွတ္ျပဳျခင္းဆိုင္ရာ နည္းပညာကို အသံုးျပဳသည္။ ထို႕ေၾကာင့္၊ သင့္အသံ သတင္းအခ်က္အလက္မ်ားသည္ Nuance (အေမရိကန္ႏုိင္ငံတြင္တည္ရွိသည္) မွ လုပ္ေဆာင္ထားေသာ ဆာဗာတြင္ မေရွာင္လႊဲႏိုင္စြာ သိမ္းထားမည္ျဖစ္ၿပီး၊ Gear အသြင္း အသံုးျပဳရာတြင %sNuance၏ စည္းကမ္းသတ္မွတ္ခ်က္မ်ား%sကို လိုက္နာရန္လိုအပ္သည္။ <br>Nuance တြင္ ပုိမိုေကာင္းမြန္သည့္၀န္ေဆာင္မႈႏွင့္ နည္းပညာမ်ားဖြံ႕ၿဖိဳးတိုးတက္ရန္ ရည္ရြယ္ခ်က္ျဖင့္ သင့္အသံထည့္သြင္းခ်က္မ်ားကို အသံုးျပဳခြင့္ရွိသည္။ အထက္ပါ အသံထည့္သြင္းျခင္းကိုို Nuance၏ မိတ္ဖက္မ်ားကို ပံ့ပိုးေပးႏုိင္ခြင့္လည္း Nuance တြင္ ရွိသည္။ အထက္ပါ ရည္ရြယ္ခ်က္ၿပီးေျမာက္သည္အထိ သင့္အသံထည့္သြင္းျခင္း သတင္းအခ်က္အလက္မ်ားကို သိမ္းဆည္းထားပါလိ္မ့္မည္။ Gear အသြင္း ၀န္ေဆာင္မႈမ်ားကို သိရွိလိုပါက %sNuance သီးသန္႔တည္ရွိေနမွဳ မူ၀ါဒ%sအား ဖတ္ရႈပါ။ <br>အထက္တြင္ ေဖာ္ျပထားသကဲ့သို႕ သင့္အခ်က္အလက္မ်ားကို သံုးရန္ႏွင့္ သိမ္းဆည္းထားရန္ သေဘာမတူညီပါက Gear အသြင္း ကို အသံုးျပဳ၍မရႏုိင္ပါ။"
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "သတင္းအခ်က္အလက္ ပံ့ပိုးျခင္းဆုိင္ရာ သေဘာတူညီခ်က္"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "အသိအမွတ္ျပဳ ဝန္ေဆာင္မႈ မအားပါ။"
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "ေနာက္မွ ေခၚပါ။"
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "ရပ္တန္႔ရန္ ႏွိပ္ပါ"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "%s အားပံ့ပိုးေပးရန္၊ Samsung မွ တြဲဖက္ေဆာင္ရြက္သူ၊ Nuance Communications Inc. (“Nuance”) မွ ပံ့ပိုးထားေသာ အသံအသိအမွတ္ျပဳျခင္း ဝန္ေဆာင္မႈအား အသံုးျပဳပါမည္။ Nuance မွ %s တြင္းသို႔ သင္ေျပာဆိုလိုက္ေသာ စကားလံုးမ်ားအား မွတ္တမ္းတင္သိမ္းဆည္း စုေဆာင္းၿပီး၊ %s ရွိ အသံအသိအမွတ္ျပဳျခင္း ဝန္ေဆာင္မႈ ျပႆနာရွာေဖြျခင္း၊ တုိးတက္ေအာင္ျပဳလုပ္ျခင္းႏွင့္ ပံ့ပိုျခင္းတို႔ကို လုပ္ေဆာင္သြားပါမည္။ စုေဆာင္းမည့္ေဒတာမ်ားအား အေမရိကန္ျပည္ေထာင္စု သမၼတႏိုင္ငံရွိ Nuance တြင္ရွိေတာ ဆာဗာတြင္ စုေဆာင္းသိမ္းဆည္းမည္ျဖစ္ၿပီး၊ ဝန္ေဆာင္မႈ တိုးတက္ေစရန္ Nuance၏တြဲဖက္ေဆာင္ရြက္သူမ်ားအား မွ်ေဝသြားမည္ျဖစ္သည္။"
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "ဘယ္ေတာ့ ေတြ႔ႏိုင္မလဲ?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "ခင္ဗ်ား ဘယ္မွာလဲ?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "ႏွလံုး ႏွစ္ခု"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "ဝက္ႏွာခါင္း"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "ေခြး"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "ေၾကာင္"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "ၾကက္သား"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "ေရပန္းေနေသာ ေဝလငါး"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "ပန္ဒါ မ်က္ႏွာ"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "က်ား မ်က္ႏွာ"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Gear ထည့္သြင္းမႈ"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "သင့္ဖုန္းတြင္ %s အက္ပ္ သက္ဝင္လုပ္ေဆာင္ေနေၾကာင္း ေသခ်ာေစပါ။"
+

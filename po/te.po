@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "రేడియో బటన్"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "బటన్"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "నిలిపివేయబడింది."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "ఎంచుకున్నారు."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "ఎంచుకోలేదు"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "మీ ఫోన్‌ను తనిఖీ చేయండి."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "చట్టపరమైన గమనికను సమీక్షించి, ఆమోదించడానికి బ్లూటూత్‌తో కనెక్ట్ చేయండి."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "ఇన్‌పుట్ భాషలు"
+
+msgid "IDS_ST_SK_OK"
+msgstr "సరే"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "పంపడానికి రెండుసార్లు ట్యాప్ చేయండి."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "మనము ఎప్పుడు కలుద్దాం?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "ఇది ఎలా జరుగుతుంది?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "ఏమి జరుగుతుంది?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "నేను త్వరలో మీతో మాట్లాడుతాను."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "నేను మీకు తర్వాత కాల్ చేస్తాను."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "మీరు ఎక్కడ ఉన్నారు?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "నాకు తర్వాత కాల్ చెయ్యండి."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "ఇప్పుడు %s లో మాట్లాడండి."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "వాయిస్‌ను గుర్తించడం విఫలమైంది."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "వాయిస్ ఇన్‌పుట్ భాష"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "స్వయంచాలకం"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "అంగీకరించి"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "నెట్‌వర్క్ కనెక్షన్ లోపం."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "నెట్వర్క్ లోపం."
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "ఇప్పుడు మాట్లాడండి"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "భాష"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "గుర్తింపు విఫలమైంది."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "నెట్‌వర్క్ దోషం"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "మీ ఫోన్‌లో వివరాలు చూపబడుతున్నాయి..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "టెంప్లేట్‌ను జోడించండి"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "టెంప్లేట్‌ను జోడించండి"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "మీ ఫోన్‌లో టెంప్లేట్‌ను జోడించండి."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "స్మైల్"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "వాయిస్ ఇన్‌పుట్"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "ఎమోటికాన్"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "కీబోర్డు"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "త్వరిత ప్రతిస్పందనలు"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "పంపు"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "సరే చేతి చిహ్నం"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "థంబ్స్ అప్ చిహ్నం"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "థంబ్స్ డౌన్ చిహ్నం"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "తెరిచిన నోరు మరియు నవ్వే కళ్ళతో నవ్వే ముఖం"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "తెరిచిన నోరు మరియు గట్టిగా మూసివ కళ్ళతో నవ్వే ముఖం"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "నవ్వే కళ్లతో నవ్వే ముఖం"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "హృదయం గుర్తు ఉన్న కళ్లతో నవ్వే ముఖం"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "నవ్వే కళ్లతో ముద్దు పెట్టే ముఖం"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "నాలుక బయట పెట్టిన మరియు కన్ను కొడుతున్న ముఖం"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "కోపం ముఖం"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "ఆశ్చర్యపోయిన ముఖం"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "ఏడుస్తున్న ముఖం"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "నిరాసా, కానీ ఉపసమన ముఖం"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "భయంతో పెద్దగా అరిచే ముఖం"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "విజయం ఆకారం ముఖం"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "మెడికల్ మాస్క్ ముఖం"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "బాధాకర ముఖం"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "నిద్ర ముఖం"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "అలసిపోయిన ముఖం"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "మూసిన కళ్లతో ముద్దు పెట్టే ముఖం"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "మీ ఫోన్‌లో వివరాలు చూపబడుతున్నాయి..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "మాట్లాడటానికి రెండుసార్లు ట్యాప్ చేయండి."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "గేర్ ఇన్‌పుట్ మరియు సంభాషణ గుర్తింపు సేవ యొక్క ఉపయోగం"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. సంభాషణ గుర్తింపు టెక్నాలజీ అనేది గేర్ ఇన్‌పుట్ సేవలో ఒక భాగం.  మీరు మూడవ పక్షం, Nuance Communications Inc. (“Nuance”) ద్వారా అందించబడిన సంభాషణ గుర్తింపు సేవని (“సంభాషణ గుర్తింపు సేవ”) స్యామ్‌సంగ్ ఉపయోగించవచ్చని అంగీకరిస్తున్నారు మరియు మీరు మీ గేర్ ఇన్‌పుట్ సేవని ఉపయోగించడానికి కింది వాటిని గుర్తించి, అంగీకరిస్తున్నారు. <br>2. మీరు గేర్ ఇన్‌పుట్ సేవకు ఎటువంటి స్వయంచాలక లేదా రికార్డ్ చేసిన అభ్యర్థనలను సమర్పించకూడదని అంగీకరించారు. <br>3. మీరు సంభాషణ గుర్తింపు సేవని అందించడంలో గేర్ ఇన్‌పుట్ సేవకు (అటువంటి పదాలు యొక్క ఆడియో రికార్డింగ్‌లు, అనుబంధిత లావాదేవీలు మరియు లాగ్ ఫైల్‌లతో సహా) (“సంభాషణ డేటా”) మీరు డిక్టేట్ చేసే పదాలు Nuance ద్వారా సేకరించబడుతుందని అంగీకరిస్తున్నారు."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. మీరు సంభాషణ గుర్తింపు సేవని అందించడానికి సమ్మతిని తెలియజేస్తున్నారు మరియు అంగీకరిస్తున్నారు, Nuance వీటిని ట్యూన్ చేయడానికి, మెరుగుపరచడానికి మరియు అభివృద్ధి చేయడానికి Nuance మరియు దాని మూడవ పక్షం భాగస్వాముల ద్వారా ఉపయోగించబడిన సంభాషణ డేటాని సేకరించవచ్చు (ఎ) సంభాషణ గుర్తింపు సేవ మరియు (బి) ఇతర Nuance ఉత్పత్తులు మరియు సేవలు. <br>5. మీరు Nuance మరియు దీని మూడవ పక్షం భాగస్వాముల ద్వారా నిల్వ, ప్రాసెసింగ్ మరియు ఉపయోగించడం కోసం యునైటెడ్ స్టేట్స్ మరియు/లేదా ఇతర దేశాల్లో మీ సంభాషణ డేటా బదిలీ చేయబడుతుందని మీరు గుర్తించి, అంగీకరిస్తున్నారు. <br>6. మీరు అందించే ఏదైనా మరియు సంభాషణ డేటా మొత్తం గోప్యంగా ఉంటుంది మరియు వర్తించే చట్టం ప్రకారం ఉపయోగించబడుతుంది, కానీ చట్టపరమైన లేదా నియంత్రణ ఆవశ్యకతలను చేరుకోవడానికి చట్టం ప్రకారం లేదా Nuance నుండి కొనుగోలు చేసిన లేదా దానిలో విలీనమైన మూడవ పక్షం ద్వారా అవసమైతే కోర్టు ఆర్డర్ లేదా ప్రభుత్వ ఏజెన్సీ ప్రకారం అవసరమైతే Nuance వెల్లడించవచ్చు."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "గేర్ ఇన్‌పుట్ Nuance Communications, Inc.గా పిలువబడే మూడవ పక్షం సేవ్ ద్వారా అందించబడిన వాయిస్ గుర్తింపు టెక్నాలజీలను ఉపయోగిస్తుంది. కాబట్టి, Nuance (యునైటెడ్ స్టేట్స్‌లో ఉంది) ద్వారా నిర్వహించబడుతున్న సర్వర్‌లో మీ వాయిస్ సమాచారం తప్పనిసరిగా నిల్వ చేయబడుతుంది మరియు గేర్ ఇన్‌పుట్‌ని ఉపయోగించడానికి మీరు %sNuance యొక్క నిబంధనలు మరియు షరతుల%sకి అంగీకరించాలి. <br>సేవలను మెరుగుపరచడం మరియు టెక్నాలజీలను అభివృద్ధి చేయడం కోసం Nuance మీ వాయిస్ ఇన్‌పుట్‌ని ఉపయోగించడానికి హక్కుని కలిగి ఉంటుంది. ఇంకా Nuance యొక్క భాగస్వాములకు పైన పేర్కొన్న వాయిస్ ఇన్‌పుట్‌ని అందించడానికి Nuance హక్కులను కలిగి ఉంటుంది. పైన పేర్కొన్న అంశాలు పూర్తయ్యే వరకు మీ వాయిస్ ఇన్‌పుట్ సమాచారం నిల్వ చేయబడుతుంది. గేర్ ఇన్‌పుట్ సేవల గురించి మరింత సమాచారం కోసం, దయచేసి %sNuance గోప్యత పాలసీ%s చదవండి. <br>మీరు ఎగువ వివరించిన మీ సమాచార నిల్వ మరియు ఉపయోగానికి అంగీకరించకుంటే గేర్ ఇన్‌పుట్‌ని ఉపయోగించలేరు."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "సమాచార కేటాయింపు ఒప్పందం"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "గుర్తింపు సేవ పనిలో ఉంది."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "నాకు తర్వాత కాల్ చేయండి."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "పాజ్ చేయడానికి ట్యాప్ చేయండి"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "%sను అందించడం కోసం, మూడవ పక్ష సేవా ప్రదాత అయిన, Nuance Communications Inc. (“Nuance”) ద్వారా అందించబడే ప్రసంగ గుర్తింపు సేవలను స్యామ్‌సంగ్ ఉపయోగిస్తుంది. Nuance మీరు %sకు చెప్పే పదాల యొక్క రికార్డింగ్‌లను సేకరించి, నిల్వ చేస్తుంది, తద్వారా %sలో ప్రసంగ గుర్తింపు సేవను అందిస్తుంది, మెరుగుపరుస్తుంది మరియు సమస్య పరిష్కారాలను అందిస్తుంది. సేకరించబడిన డేటా, యునైటెడ్ స్టేట్స్‌లో ఉన్న Nuance ద్వారా నియంత్రించబడే సర్వర్‌లో సేవ్ చేయబడుతుంది మరియు సేవలను మెరుగుపరచడం కోసం Nuance యొక్క భాగస్వాములతో భాగస్వామ్యం చేయబడుతుంది."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "మనం ఎప్పుడు కలుద్దాం?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "మీరు ఎక్కడ ఉన్నారు?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "రెండు హృదయాలు"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "పంది ముక్కు"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "కుక్క"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "పిల్లి"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "చికెన్"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "నీళ్లు చిమ్మే తిమింగలం"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "పాండా ముఖం"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "పులి మఖం"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "గేర్ ఇన్‌పుట్"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "మీ ఫోన్‌లో %s అప్లికేషన్ సక్రియంగా ఉన్నట్లు నిర్ధారించుకోండి."
+

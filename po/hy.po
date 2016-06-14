@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Ռադիոկոճակ"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Կոճակ"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Կասեցված է:"
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Ընտրվել է:"
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Չի ընտրվել"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Ստուգեք հեռախոսը:"
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Միացեք Bluetooth-ով, որպեսզի ուսումնասիրեք և ընդունեք իրավ. ծանուցում:"
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Ներած. լեզուներ"
+
+msgid "IDS_ST_SK_OK"
+msgstr "Ընդունել"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Կրկնակի թակեք ուղարկելու համար:"
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Ե՞րբ կարող ենք հանդիպել:"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Գործերդ ո՞նց են:"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Ի՞նչ է պատահել:"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Շուտով կխոսենք:"
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Ձեզ ավելի ուշ կզանգեմ:"
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Որտե՞ղ ես:"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Զանգահարեք ինձ ավելի ուշ:"
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Հիմա խոսեք %s:"
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Չհաջողվեց ճանաչել ձայնը:"
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Ձայնի ներածման լեզու"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Ավտոմատ"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "ՀԱՄԱՁԱՅՆ ԵՄ"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Ցանցային կապակցման սխալ:"
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Ցանցի սխալ:"
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Հիմա խոսեք"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Լեզու"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Չհաջողվեց ճանաչել:"
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Ցանցային սխալ"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Մանրամասները ցուցադրվում են հեռախոսի վրա..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "ԱՎԼՑ. ՁԵՎՆՄՇ"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Ավլց. ձևնմշ"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Ձևնմուշ ավելցրեք հեռախոսում:"
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Ժպիտ"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Ձայնի ներածում"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Էմոցիա"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Ստեղնաշար"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Արագ պատասխաններ"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Ուղկլ"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "OK ձեռքի նշան"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Վերև ուղղված բթամատի նշան"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Ներքև ուղղված բթամատի նշան"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Ժպտացող դեմք՝ բաց բերանով և ժպտացող աչքերով"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Ժպտացող դեմք՝ բաց բերանով և ամուր փակած աչքերով"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Ժպտացող դեմք՝ ժպտացող աչքերով"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Ժպտացող դեմք՝ սրտաձև աչքերով"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Համբուրող դեմք՝ ժպտացող աչքերով"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Լեզուն հանած և աչքով անող դեմք"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Զայրացած դեմք"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Ապշած դեմք"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Լացող դեմք"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Հիասթափված, բայց հանգստացած դեմք"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Վախից ճչացող դեմք"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Հաղթական հայացքով դեմք"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Բժշկական դիմակով դեմք"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Խռոված դեմք"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Քնկոտ դեմք"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Հոգնած դեմք"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Համբուրող դեմք՝ փակ աչքերով"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Մնրմսն ցուցադրում հեռախոսի վրա..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Կրկնակի թակեք խոսելու համար:"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input և Խոսքի ճանաչման ծառայության օգտագործումը"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. Խոսքի ճանաչման տեխնոլոգիան Gear Input ծառայության բաղադրիչ է: Դուք ընդունում եք, որ Samsung-ը կարող է օգտվել խոսքի ճանաչման ծառայությունից («Խոսքի ճանաչման ծառայություն»), որը տրամադրում է երրորդ կողմ հանդիսացող Nuance Communications, Inc. (“Nuance”) ընկերությունը, և Դուք ընդունում եք և համաձայն եք հետևյալին՝ կապված Ձեր կողմից Gear Input ծառայության օգտագործման հետ:<br>2. Դուք համաձայն եք որևէ ավտոմատացված կամ ձայնագրված հարցում չուղարկել Gear Input ծառայությանը:<br>3. Դուք ընդունում եք, որ բառերը, որոնք թելադրում եք Gear Input ծառայությանը (ներառյալ բառերի ձայնագրությունները, դրանց գրառումները և գրանցման ֆայլերը) («Խոսքի տվյալներ») հավաքվելու են Խոսքի ճանաչման ծառայություն մատուցող Nuance ընկերության կողմից:"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. Դուք համաձայն եք և ընդունում եք, որ Nuance-ը Խոսքի ճանաչման ծառայություն մատուցելիս կարող է հավաքել Խոսքի տվյալներ, որոնք Nuance-ը և երրորդ կողմ հանդիսացող իր գործընկերները կարող են օգտագործել, որպեսզի կարգաբերեն, կատարելագործեն ու բարելավեն (ա) Խոսքի ճանաչման ծառայությունը և (բ) Nuance ընկերության այլ արտադրանքներ ու ծառայություններ:<br>5. Դուք ընդունում եք և համաձայն եք, որ Ձեր Խոսքի տվյալները կարող են Nuance-ի և երրորդ կողմ հանդիսացող իր գործընկերների կողմից պահպանման, մշակման և օգտագործման նպատակով փոխանցվել Միացյալ Նահանգներ և (կամ) այլ երկրներ:<br>6. Ձեր կողմից տրամադրած ցանկացած և բոլոր Խոսքի տվյալները կմնան գաղտնի և կօգտագործվեն կիրառելի օրենսդրության համաձայն, բայց կարող են, անհրաժեշտության դեպքում, բացահայտվել Nuance ընկերության կողմից, որպեսզի բավարարվեն իրավական կամ նորմատիվային պահանջները, օրինակ՝ դատարանի կարգադրությամբ կամ կառավարական մարմնի պահանջով, եթե դա պարտադիր է կամ թույլատրված է օրենքով, կամ՝ երրորդ անձի պահանջով, որը ձեռք է բերում Nuance ընկերությունը կամ միավորվում է այդ ընկերության հետ:"
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Gear Input-ն օգտագործում է ձայնի ճանաչման տեխնոլոգիաներ, որոնք տրամադրում է երրորդ կողմ հանդիսացող ծառայության մատակարարը՝ Nuance Communications, Inc. ընկերությունը: Հետևաբար, Ձեր ձայնային տեղեկություններն անխուսափելիորեն պահվում են Nuance-ի կողմից շահագործվող սերվերում (գտնվում է Միացյալ Նահանգներում), և Gear Input-ն օգտագործելու համար պահանջվում է ընդունել %sNuance ընկերության Դրույթները և պայմանները%s: <br>Nuance-ն իրեն իրավունք է վերապահում Ձեր ներմուծած խոսքային տվյալներն օգտագործելու ծառայությունների կատարելագործման և տեխնոլոգիաների մշակման նպատակով: Nuance-ը նաև իրեն իրավունք է վերապահում վերը նշված խոսքային տվյալները տրամադրելու Nuance-ի գործընկերներին: Ձեր ձայնով ներմուծված տեղեկությունները պահվում են այնքան ժամանակ, մինչև իրագործվեն վերոհիշյալ նպատակները: Gear Input ծառայությունների վերաբերյալ լրացուցիչ տեղեկատվություն ստանալու համար ծանոթացեք %sNuance-ի Գաղտնապահության քաղաքականությանը%s: <br>Դուք չեք կարող օգտվել Gear Input-ից, եթե համաձայն չեք Ձեր տեղեկությունների պահպանմանը և օգտագործմանը, ինչպես նկարագրված է վերևում:"
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Տեղեկությունների տրամադրման համաձայնագիր"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Ճանաչման ծառայությունը զբաղված է:"
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Զանգահարեք ինձ ավելի ուշ:"
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Թակել ընդմիջելու հր"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "%s-ը տրամադրելու համար Samsung-ն օգտվում է երրորդ կողմի ծառայություն մատուցողի՝ Nuance Communications Inc.-ի («Nuance») կողմից մատուցած ճանաչման ծառայություններից: Nuance-ը հավաքելու և պահեստավորելու է բառերի ձայնագրությունները, որոնք դուք թելադրում եք %s-ին՝ %s-ում մատուցվող խոսքի ճանաչման ծառայության խնդիրները վերացնելու, ծառայությունը մատուցելու և բարելավելու նպատակով: Հավաքված տվյալները պահեստավորվելու են Nuance-ի կողմից վերահսկվող Միացյալ Նահանգներում գտնվող սերվերի վրա և կարող են համօգտագործվել Nuance-ի գործընկերների հետ՝ ծառայությունները բարելավելու նպատակով:"
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Ե՞րբ կարող ենք հանդիպել:"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Որտե՞ղ ես:"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Երկու սիրտ"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Խոզի դունչ"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Շուն"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Կատու"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Հավ"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Շատրվանող կետ"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Պանդայի երես"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Վագրի երես"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Gear-ի ներածում"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Համոզվեք, որ %s ծրագիրն ակտիվ է հեռախոսում:"
+

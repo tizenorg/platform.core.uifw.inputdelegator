@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "Κουμπί επιλογής"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Κουμπί"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "Απενεργοποιήθηκε."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "Επιλεγμένο."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "Δεν έχει επιλεγεί"
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "Ελέγξτε το τηλέφωνό σας."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "Συνδεθείτε μέσω Bluetooth για αναθ. και αποδοχή της νομικής σημείωσης."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "Γλώσσες εισαγ."
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "Πατήστε δύο φορές για αποστολή."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "Πού μπορούμε να βρεθούμε;"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "Τι κάνεις;"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "Τι συμβαίνει;"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "Θα τα πούμε σύντομα."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "Θα σας καλέσω αργότερα."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "Που είστε;"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "Καλέστε αργότερα."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "Μιλήστε τώρα στα %s."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "Αποτυχία αναγνώρισης φωνής."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "Γλώσσα φωνής εισόδου"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "Αυτόματα"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "ΑΠΟΔΟΧΗ"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "Σφάλμα σύνδεσης δικτύου."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "Σφάλμα δικτύου."
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "Μιλήστε τώρα"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "Γλώσσα"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "Η αναγνώρ. απέτυχε."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "Σφάλμα δικτύου"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "Privacy Notice"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S Voice allows for voice control for certain features such as S Voice, Gear Input, Voice memo and Find My car. When you use S Voice features, your voice commands, your device ID, and certain other relevant information such as contact names, song information in your music library and/or location information (if your GPS is turned on) will be processed in order to improve the accuracy of S Voice response to your requests and to provide S Voice features. You can learn more about our privacy practices at https://account.samsung.com/membership/pp"
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "Εμφάνιση λεπτομερειών στο τηλέφωνό σας..."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "ΠΡΟΣΘ. ΠΡΟΤ."
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "Προσθ. προτ."
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "Προσθ. το πρότ. στο τηλ."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "Χαμόγελο"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "Είσοδος φωνής"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "Emoticon"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "Πληκτρολόγιο"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "Γρήγορες απαντήσεις"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "Αποστ."
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "Σύμβολο «ΟΚ» με το χέρι"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "Σύμβολο επιδοκιμασίας"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "Σύμβολο αποδοκιμασίας"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Πρόσωπο που χαμογελάει με ανοιχτό στόμα και χαμογελαστά μάτια"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Πρόσωπο που χαμογελάει με ανοιχτό στόμα και κλειστά μάτια"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Πρόσωπο που χαμογελάει με χαμογελαστά μάτια"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "Πρόσωπο που χαμογελάει με μάτια σε σχήμα καρδιάς"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "Πρόσωπο που φιλάει με χαμογελαστά μάτια"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "Πρόσωπο που βγάζει γλώσσα και κλείνει το ένα μάτι"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "Θυμωμένο πρόσωπο"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "Έκπληκτο πρόσωπο"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "Πρόσωπο που κλαίει"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "Απογοητευμένο αλλά ανακουφισμένο πρόσωπο"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "Πρόσωπο που ουρλιάζει από φόβο"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "Πρόσωπο με ύφος θριάμβου"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "Πρόσωπο με μάσκα γιατρού"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "Κατσουφιασμένο πρόσωπο"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "Νυσταγμένο πρόσωπο"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "Κουρασμένο πρόσωπο"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "Πρόσωπο που φιλάει με κλειστά μάτια"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "Εμφάν. λεπτομ. στο τηλέφ. σας..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "Πατήστε δύο φορές για να μιλήσετε."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Gear Input καιηχρήσητηςΥπηρεσίαςαναγνώρισηςομιλία"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. ΗαναγνώρισηομιλίαςαποτελείσυστατικόστοιχείοτηςυπηρεσίαςGearInput. Αναγνωρίζετεότιη Samsung μπορείναχρησιμοποιείμιαυπηρεσίααναγνώρισηςομιλίας (“Υπηρεσίααναγνώρισηςομιλίας”) πουπαρέχεταιαπότρίτομέρος, τηνεταιρεία Nuance Communications Inc. (“Nuance”) καιαναγνωρίζετεκαιαποδέχεστε ταακόλουθασεσχέσημετηχρήσητηςυπηρεσίαςGearInput.<br>2. ΑποδέχεστεναμηνυποβάλλετεαυτοματοποιημέναήηχογραφημένααιτήματαπροςτηνυπηρεσίαGearInput.<br>3. ΑναγνωρίζετεότιοιλέξειςπουυπαγορεύετεστηνυπηρεσίαGearInput (συμπεριλαμβανομένωντωνηχογραφήσεωναυτώντωνλέξεωνπουσυνδέονταιμεμεταγραφέςκαιαρχείακαταγραφής) (“Δεδομέναομιλίας”) θασυλλέγονταιαπότη Nuance κατάτηνπαροχήτηςΥπηρεσίαςαναγνώρισηςομιλίας."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. ΣυναινείτεκαιαποδέχεστεότικατάτηνπαροχήτηςΥπηρεσίαςαναγνώρισηςομιλίας, η Nuance μπορείνασυλλέγειΔεδομέναομιλίας ταοποίαμπορούνναχρησιμοποιούνταιαπότη Nuance καιτουςτρίτουςσυνεργάτεςτηςγιατοσυντονισμό, τηνενίσχυσηκαιτηβελτίωση (α) τηςΥπηρεσίαςαναγνώρισηςομιλίαςκαι (β) άλλωνπροϊόντωνκαιυπηρεσιώντης Nuance.<br>5. ΑναγνωρίζετεκαιαποδέχεστεότιταΔεδομέναομιλίαςσαςμπορούνναμεταφέρονταιπροςτιςΗνωμένεςΠολιτείεςή/καιάλλεςχώρεςγιααποθήκευση, επεξεργασίακαιχρήσηαπότη Nuance καιτουςτρίτουςσυνεργάτεςτης.<br>6. ΟποιαδήποτεκαιόλαταΔεδομέναομιλίαςπουπαρέχετεθαπαραμένουνεμπιστευτικάκαιθαχρησιμοποιούνταισύμφωναμετηνισχύουσανομοθεσία, αλλάμπορείνακοινοποιηθούναπότη Nuance, εφόσοναπαιτηθεί, προκειμένουναεκπληρωθούννομικέςήρυθμιστικέςαπαιτήσεις, όπωςβάσειδικαστικήςπαραγγελίαςήπροςμιακυβερνητικήυπηρεσία, ανυφίσταταιαπαίτησηήεξουσιοδότησηβάσεινόμου, ήπροςκάποιοτρίτομέροςπουθαεξαγοράσειτη Nuance ήθασυγχωνευθείμεαυτήν."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "Το Gear Input χρησιμοποιείτεχνολογίεςαναγνώρισηςφωνήςπουπαρέχονταιαπόμιαυπηρεσίαπαροχήςτρίτουμέρους, ηοποίαονομάζεται Nuance Communications, Inc. Επομένως, οιπληροφορίεςφωνήςαποθηκεύονται αναπόφευκτασεδιακομιστήπουδιαχειρίζεταιη Nuance (μεέδρατιςΗνωμένεςΠολιτείες) καιγιαναχρησιμοποιήσετετοGear Input πρέπειναέχετεσυμφωνήσειμετους%sΌρουςκαιπροϋποθέσειςτης Nuance%s.<br>Η Nuance επιφυλάσσεταιτουδικαιώματοςναχρησιμοποιήσειτηνείσοδοφωνήςγιαλόγουςβελτίωσηςτωνυπηρεσιώνκαιανάπτυξηςτωντεχνολογιών. Επίσης, η Nuance επιφυλάσσεταιτουδικαιώματοςναπαράσχειτηνπροαναφερθείσαείσοδοφωνήςστουςσυνεργάτεςτης. Οιπληροφορίεςτηςεισόδουφωνήςαποθηκεύονταιώσπουναεπιτευχθούνοιπροαναφερθέντεςστόχοι. Γιαπερισσότερεςπληροφορίεςσχετικάμε τιςυπηρεσίεςτουGear Input, διαβάστετην%sΠολιτικήαπορρήτουτης Nuance%s.<br>ΔενμπορείτεναχρησιμοποιήσετετοGear Input, εάνδενσυμφωνείτεμετηναποθήκευσηκαιχρήσητωνπληροφοριώνσαςόπωςπεριγράφονταιπαραπάνω."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "Σύμβασηπαροχήςπληροφοριών"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "Η υπηρεσία φωνητικής αναγνώρισης είναι απασχολημένη."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "Καλέστε αργότερα."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "Πάτημα για παύση"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "Για την παροχή του %s, η Samsung χρησιμοποιεί υπηρεσίες αναγνώρισης φωνής που παρέχονται από τρίτο πάροχο υπηρεσιών, τη Nuance Communications Inc. («Nuance»). Η Nuance θα συλλέγει και θα αποθηκεύει ηχογραφήσεις των λέξεων που υπαγορεύετε στο %s, προκειμένου να παρέχει και να βελτιώνει την υπηρεσία αναγνώρισης φωνής και να αντιμετωπίζει τυχόν προβλήματά της στο %s. Τα συλλεγόμενα δεδομένα θα αποθηκεύονται σε διακομιστή υπό τον έλεγχο της Nuance στις Ηνωμένες Πολιτείες και ενδέχεται να κοινοποιούνται στους συνεργάτες της Nuance με σκοπό τη βελτίωση των υπηρεσιών."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "Πού μπορούμε να βρεθούμε;"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "Πού είσαι;"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "Δύο καρδιές"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "Μύτη γουρουνιού"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "Σκύλος"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "Γάτα"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "Κότα"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "Φάλαινα που πετάει νερό"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "Πρόσωπο πάντα"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "Πρόσωπο τίγρης"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Είσοδος Gear"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "Βεβαιωθείτε ότι η εφαρμογή %s είναι ενεργή στο τηλέφωνό σας."
+

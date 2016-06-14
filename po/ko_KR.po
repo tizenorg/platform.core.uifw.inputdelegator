@@ -1,0 +1,258 @@
+msgid "IDS_MSGS_BODY_RADIO_BUTTON"
+msgstr "라디오 버튼"
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "버튼"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "사용할 수 없습니다."
+
+msgid "IDS_MSG_BODY_SELECTED_TTS"
+msgstr "선택하였습니다."
+
+msgid "IDS_MSGS_BODY_NOT_SELECTED_T_TTS"
+msgstr "선택하지 않았습니다."
+
+msgid "WDS_WNOTI_TPOP_CHECK_YOUR_PHONE_ABB"
+msgstr "폰을 확인하세요."
+
+msgid "WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"
+msgstr "법적 고지를 확인하고 수락하려면 블루투스로 연결하세요."
+
+msgid "WDS_IME_HEADER_INPUT_LANGUAGES_ABB"
+msgstr "입력 언어"
+
+msgid "IDS_ST_SK_OK"
+msgstr "확인"
+
+msgid "WDS_STU_BODY_SAMSUNG_GEAR"
+msgstr "Samsung Gear"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"
+msgstr "보내려면 두 번 누르세요."
+
+msgid "IDS_MSG_BODY_WHEN_CAN_WE_MEET_Q_M_TEXT_TEMPLATE"
+msgstr "언제 만날까요?"
+
+msgid "IDS_WMGR_MBODY_HOWS_IT_GOING_Q_M_TEXT_TEMPLATE"
+msgstr "어떻게 지내요?"
+
+msgid "IDS_WMGR_MBODY_WHATS_UP_Q_M_TEXT_TEMPLATE"
+msgstr "무슨 일이에요?"
+
+msgid "IDS_WMGR_MBODY_ILL_TALK_TO_YOU_SOON_M_TEXT_TEMPLATE"
+msgstr "나중에 이야기해요."
+
+msgid "IDS_WMGR_MBODY_ILL_CALL_YOU_LATER_M_TEXT_TEMPLATE"
+msgstr "나중에 전화할게요."
+
+msgid "IDS_MSG_BODY_WHERE_ARE_YOU_Q_M_TEXT_TEMPLATE"
+msgstr "어디에 있나요?"
+
+msgid "IDS_CST_BODY_CALL_ME_LATER"
+msgstr "나중에 전화해 주세요."
+
+msgid "IDS_VTR_BODY_SPEAK_IN_PS_NOW"
+msgstr "지금 %s로 말하세요."
+
+msgid "IDS_IME_BODY_FAILED_TO_RECOGNISE_VOICE"
+msgstr "음성을 인식하지 못하였습니다."
+
+msgid "IDS_VC_HEADER_VOICE_INPUT_LANGUAGE"
+msgstr "음성 입력 언어"
+
+msgid "IDS_VC_BODY_AUTOMATIC"
+msgstr "자동"
+
+msgid "WDS_ST_ACBUTTON_AGREE_ABB"
+msgstr "동의"
+
+msgid "IDS_IME_POP_NETWORK_CONNECTION_ERROR"
+msgstr "네트워크에 연결할 수 없습니다."
+
+msgid "IDS_ST_POP_NETWORK_ERROR"
+msgstr "네트워크 오류가 발생하였습니다."
+
+msgid "WDS_VOICE_NPBODY_SPEAK_NOW_ABB"
+msgstr "지금 말하세요"
+
+msgid "WDS_VOICE_OPT_LANGUAGE_ABB"
+msgstr "언어"
+
+msgid "WDS_VOICE_TPOP_RECOGNITION_FAILED_ABB"
+msgstr "인식하지 못했습니다."
+
+msgid "WDS_VOICE_MBODY_NETWORK_ERROR_ABB"
+msgstr "네트워크 오류"
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_WC1_LEGALPHRASE_CHN_WC1"
+msgstr "개인정보 수집이용 안내"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_LEGALPHRASE_CHN_WC1"
+msgstr "Samsung S보이스를 통해 S보이스, Gear 입력기, 음성 메모 및 내 자동차 찾기와 같은 기능을 음성 제어할 수 있습니다. S보이스 기능 사용 시 귀하의 요청에 대한 S보이스의 응답 정확도를 향상시키고 S보이스 기능을 제공하기 위해 음성 명령, 장치 ID 및 기타 관련 정보 즉, 연락처 이름, 뮤직 라이브러리에 있는 노래 정보 및/또는 위치 정보(GPS가 켜져 있는 경우)가 처리됩니다. 당사의 개인정보 수집이용 관행에 대한 자세한 내용은 https://account.samsung.com/membership/pp에서 확인할 수 있습니다."
+
+msgid "IDS_VOICE_BODY_PRIVACY_NOTICE_LEGALPHRASE_WC1"
+msgstr "개인정보 수집이용 안내"
+
+msgid "IDS_VOICE_BODY_SAMSUNG_S_VOICE_ALLOWS_FOR_VOICE_CONTROL_FOR_CERTAIN_FEATURES_SUCH_AS_S_VOICE_GEAR_INPUT_VOICE_MEMO_AND_FIND_MY_CAR_MSG_LEGALPHRASE_WC1"
+msgstr "Samsung S보이스를 통해 S보이스, Gear 입력기, 음성 메모 및 내 자동차 찾기와 같은 기능을 음성 제어할 수 있습니다. S보이스 기능 사용 시 귀하의 요청에 대한 S보이스의 응답 정확도를 향상시키고 S보이스 기능을 제공하기 위해 음성 명령, 장치 ID 및 기타 관련 정보 즉, 연락처 이름, 뮤직 라이브러리에 있는 노래 정보 및/또는 위치 정보(GPS가 켜져 있는 경우)가 처리됩니다. 당사의 개인정보 수집이용 관행에 대한 자세한 내용은 https://account.samsung.com/membership/pp에서 확인할 수 있습니다."
+
+msgid "WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"
+msgstr "폰에서 상세내용을 확인하세요."
+
+msgid "WDS_IME_ACBUTTON_ADD_TEMPLATE_ABB"
+msgstr "상용구 추가"
+
+msgid "WDS_IME_MBODY_ADD_TEMPLATE_ABB"
+msgstr "상용구 추가"
+
+msgid "WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"
+msgstr "폰에서 상용구를 추가하세요."
+
+msgid "IDS_PB_HEADER_SMILE"
+msgstr "미소"
+
+msgid "IDS_IME_MBODY_VOICE_INPUT"
+msgstr "음성 입력"
+
+msgid "IDS_COM_HEADER_EMOTICON"
+msgstr "이모티콘"
+
+msgid "IDS_COM_OPT_KEYBOARD"
+msgstr "키보드"
+
+msgid "IDS_MSG_HEADER_QUICK_RESPONSES_ABB"
+msgstr "빠른 답장 문구"
+
+msgid "IDS_AMEMO_BUTTON_SEND"
+msgstr "전송"
+
+msgid "IDS_IME_BODY_OK_HAND_SIGN_M_EMOTICON_NAME_TTS"
+msgstr "오케이를 뜻하는 동그란 손 모양"
+
+msgid "IDS_IME_BODY_THUMBS_UP_SIGN_M_EMOTICON_NAME"
+msgstr "엄지 올림"
+
+msgid "IDS_IME_BODY_THUMBS_DOWN_SIGN_M_EMOTICON_NAME"
+msgstr "엄지 내림"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "눈웃음 지으며 입을 벌리고 웃는 얼굴"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_OPEN_MOUTH_AND_TIGHTLY_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "눈을 꼭 감은 채로 입을 벌리고 웃는 얼굴"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "눈웃음 짓는 얼굴"
+
+msgid "IDS_IME_BODY_SMILING_FACE_WITH_HEART_SHAPED_EYES_M_EMOTICON_NAME"
+msgstr "하트 모양 눈으로 웃는 얼굴"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_SMILING_EYES_M_EMOTICON_NAME"
+msgstr "눈웃음 지으며 키스하는 얼굴"
+
+msgid "IDS_IME_BODY_FACE_WITH_STUCK_OUT_TONGUE_AND_WINKING_EYE_M_EMOTICON_NAME"
+msgstr "윙크하며 혀를 내민 얼굴"
+
+msgid "IDS_IME_BODY_ANGRY_FACE_M_EMOTICON_NAME"
+msgstr "화난 얼굴"
+
+msgid "IDS_IME_BODY_ASTONISHED_FACE_M_EMOTICON_NAME"
+msgstr "깜짝 놀란 얼굴"
+
+msgid "IDS_IME_BODY_CRYING_FACE_M_EMOTICON_NAME"
+msgstr "우는 얼굴"
+
+msgid "IDS_IME_BODY_DISAPPOINTED_BUT_RELIEVED_FACE_M_EMOTICON_NAME"
+msgstr "실망했지만 안도한 얼굴"
+
+msgid "IDS_IME_BODY_FACE_SCREAMING_IN_FEAR_M_EMOTICON_NAME"
+msgstr "공포에 떨며 비명을 지르는 얼굴"
+
+msgid "IDS_IME_BODY_FACE_WITH_LOOK_OF_TRIUMPH_M_EMOTICON_NAME"
+msgstr "승리감에 찬 얼굴"
+
+msgid "IDS_IME_BODY_FACE_WITH_MEDICAL_MASK_M_EMOTICON_NAME"
+msgstr "마스크를 쓴 얼굴"
+
+msgid "IDS_IME_BODY_POUTING_FACE_M_EMOTICON_NAME"
+msgstr "입을 삐죽 내민 얼굴"
+
+msgid "IDS_IME_BODY_SLEEPY_FACE_M_EMOTICON_NAME"
+msgstr "졸린 얼굴"
+
+msgid "IDS_IME_BODY_TIRED_FACE_M_EMOTICON_NAME"
+msgstr "피곤한 얼굴"
+
+msgid "IDS_IME_BODY_KISSING_FACE_WITH_CLOSED_EYES_M_EMOTICON_NAME"
+msgstr "눈을 감고 키스하는 얼굴"
+
+msgid "WDS_ST_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING_ABB"
+msgstr "폰에 상세내용 표시 중..."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_SPEAK"
+msgstr "말하려면 두 번 누르세요."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_LEGALPHRASE_WC1"
+msgstr "Nuance의 사용조건"
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P1_LEGALPHRASE_WC1"
+msgstr "1. 기어 입력기는 음성인식 기능을 가지고 있습니다. 기어 입력기의 음성입력은 제3의 서비스 제공업체(Nuance Communications Inc.)를 통해서 제공되는 음성인식 S/W를 활용합니다. 따라서 귀하가 입력한 음성정보 및 사용정보는 불가피하게 Nuance의 서버에 저장되며, Nuance의 사용조건에 따라 사용하셔야 합니다.<br>2. 귀하는 기어 입력기에 자동입력장치를 사용하여서는 안됩니다.<br>3. Nuance는 귀하가 서비스 사용 과정에서 입력한 음성정보(음성, 스크립트, 로그파일 등)를 수집합니다."
+
+msgid "LDS_IME_BODY_GEAR_INPUT_AND_USE_OF_A_SPEECH_RECOGNITION_SERVICE_P2_LEGALPHRASE_WC1"
+msgstr "4. Nuance는 음성인식 서비스 제공 과정에서 귀하의 음성정보를 수집하며, 이는 (a) 음성인식 기능 개선 및 (b) Nuance의 제품 및 서비스 개발을 위하여 Nuance 및 그 협력사들에게 제공될 수 있습니다.<br>5. 음성정보는 Nuance와 그 협력사들의 저장, 운영, 사용을 위하여 미국 및/또는 다른 국가에 전송될 수 있습니다.<br>6. 귀하가 제공한 모든 정보는 관련법을 준수하여 보안관리됩니다. 그러나 법원 또는 정부기관의 명령 등 법률에 근거한 요청이 있는 경우, Nuance가 다른 기관에 양도, 합병, 인수될 경우에는 공개될 수 있습니다."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"
+msgstr "기어 입력기는 제3의 서비스 제공업체(Nuance Communications Inc.)를 통해서 제공되는 음성인식 기술을 사용합니다. 따라서 귀하가 입력한 음성은 불가피하게 Nuance의 서버(미국)에 저장되며, %sNuance의 사용조건%s에 따라 사용하셔야 합니다.<br>Nuance는 귀하가 입력한 음성을 서비스 개선, 기술개발을 위해 사용할 수 있고 Nuance의 협력사에 제공할 수 있습니다. 귀하가 입력한 음성정보는 목적달성시까지 보관되며, %sNuance의 privacy policy%s에 따라 처리됩니다.<br>귀하가 정보제공에 동의하지 않으실 경우 서비스를 사용하실 수 없습니다."
+
+msgid "LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_LEGALPHRASE_WC1"
+msgstr "정보수집 및 제공에 대한 동의"
+
+msgid "IDS_VTR_BODY_RECOGNITION_SERVICE_BUSY"
+msgstr "인식 서비스가 응답하지 않습니다."
+
+msgid "WDS_WMGR_MBODY_CALL_ME_LATER"
+msgstr "나중에 전화해 주세요."
+
+msgid "WDS_VOICE_NPBODY_TAP_TO_PAUSE_ABB"
+msgstr "일시 정지하려면 누르세요"
+
+msgid "LDS_TTS_TO_PROVIDE_PS_SAMSUNG_USES_SPEECH_RECOGNITION_SERVICES_PROVIDED_BY_A_THIRD_PARTY_SERVICE_PROVIDER_MSG_LEGALPHRASE"
+msgstr "%s 서비스를 제공하기 위해, 삼성은 제3의 서비스 제공 업체인 Nuance Communications Inc.(\"Nuance\")에서 개발한 음성인식 기술을 사용합니다. 귀하가 입력한 음성은 Nuance의 서버(미국)에 저장되고, 수집된 정보는 서비스 제공∙개선∙오류수정 목적으로 활용되며 Nuance의 제휴사에 제공될 수 있습니다."
+
+msgid "WDS_WMGR_MBODY_WHEN_CAN_WE_MEET_Q"
+msgstr "언제 만날까요?"
+
+msgid "WDS_WMGR_MBODY_WHERE_ARE_YOU_Q"
+msgstr "어디에 있나요?"
+
+msgid "IDS_IME_BODY_TWO_HEARTS_M_EMOTICON_NAME"
+msgstr "하트 두 개"
+
+msgid "IDS_IME_BODY_PIG_NOSE_M_EMOTICON_NAME"
+msgstr "돼지 코"
+
+msgid "IDS_IME_BODY_DOG_M_EMOTICON_NAME"
+msgstr "개"
+
+msgid "IDS_IME_BODY_CAT_M_EMOTICON_NAME"
+msgstr "고양이"
+
+msgid "IDS_IME_BODY_CHICKEN_M_EMOTICON_NAME"
+msgstr "닭"
+
+msgid "IDS_IME_BODY_SPOUTING_WHALE_M_EMOTICON_NAME"
+msgstr "물을 뿜는 고래"
+
+msgid "IDS_IME_BODY_PANDA_FACE_M_EMOTICON_NAME"
+msgstr "판다 얼굴"
+
+msgid "IDS_IME_BODY_TIGER_FACE_M_EMOTICON_NAME"
+msgstr "호랑이 얼굴"
+
+msgid "WDS_VOICE_BODY_GEAR_INPUT"
+msgstr "Gear 입력"
+
+msgid "WDS_WMGR_POP_MAKE_SURE_THE_PS_APP_IS_ACTIVE_ON_YOUR_PHONE"
+msgstr "폰에서 %s 앱이 실행되어 있는지 확인하세요."
+
