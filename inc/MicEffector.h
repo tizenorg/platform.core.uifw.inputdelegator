@@ -91,7 +91,7 @@ class MicEffector
 		 * @param idx frame index value
 		 *
 		 */
-		void DrawQue(int idx, bool is_start=true);
+		void DrawQue(int idx, bool is_start = true);
 
 		/**
 		 * Draw image to show que animation.
@@ -103,7 +103,7 @@ class MicEffector
 		 * @param is_lastcmd
 		 *
 		 */
-		void DrawWave(unsigned int idx, int amount, int prev_amount, double opacity = 1.0f, bool is_lastcmd=false);
+		void DrawWave(unsigned int idx, int amount, int prev_amount, double opacity = 1.0f, bool is_lastcmd = false);
 
 		/**
 		 * Get ratio for tuned volume value.
@@ -179,7 +179,6 @@ class MicEffector
 		 *
 		 */
 		IMicEffector& ieffect;
-
 };
 
 }} /** end of is::ui */

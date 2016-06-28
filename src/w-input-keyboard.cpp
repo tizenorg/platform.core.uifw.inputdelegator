@@ -212,12 +212,12 @@ void btn_clicked_cb(void *data, Evas_Object *obj, void *event_info)
     const char *getText = elm_entry_entry_get(entry);
     LOGD("button key clicked!! : getText = %s", getText);
 
-    if(getText)
+    if (getText)
         input_smartreply_send_feedback(getText);
 
     char *app_id = NULL;
     app_control_get_caller(app_data->source_app_control, &app_id);
-    if(app_id != NULL)
+    if (app_id != NULL)
 	app_control_set_app_id(app_control, app_id);
 	app_control_set_operation(app_control, APP_CONTROL_OPERATION_DEFAULT);
     set_source_caller_app_id(app_control);

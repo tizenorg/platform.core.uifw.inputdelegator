@@ -64,9 +64,8 @@ char *nuance_support_language[12][2] = {
 
 std::string replaceAll(std::string str, const std::string& from, const std::string& to)
 {
-
     size_t start_pos = 0;
-    while((start_pos = str.find(from, start_pos)) != std::string::npos) {
+    while ((start_pos = str.find(from, start_pos)) != std::string::npos) {
         str.replace(start_pos, from.length(), to);
         start_pos += to.length();
     }
@@ -76,7 +75,6 @@ std::string replaceAll(std::string str, const std::string& from, const std::stri
 
 static void __bt_connection_result_cb(app_control_h request, app_control_h reply, app_control_result_e result, void *user_data)
 {
-
     App_Data* ad = (App_Data*)user_data;
 
     char *val = NULL;
@@ -88,39 +86,31 @@ static void __bt_connection_result_cb(app_control_h request, app_control_h reply
 
     app_control_get_extra_data(reply, "__BT_CONNECTION__", &val);
     if (val) {
-        if( strcmp(val, "Connected") == 0 )
-        {
+        if (strcmp(val, "Connected") == 0) {
             PRINTFUNC(DLOG_ERROR, "BT Connected");
-        }
-        else
-        {
+        } else {
             PRINTFUNC(DLOG_ERROR, "BT Not Connected");
         }
-
         free(val);
     }
 
-    if(ad && ad->app_type == APP_TYPE_STT){
-        PRINTFUNC(DLOG_DEBUG,"APP_TYPE_STT so exit here.");
-		powerUnlock();
+    if (ad && ad->app_type == APP_TYPE_STT) {
+        PRINTFUNC(DLOG_DEBUG, "APP_TYPE_STT so exit here.");
+        powerUnlock();
         elm_exit();
     }
-
-
-
 }
 
-void launch_bt_connection_popup(    App_Data* data){
-
+void launch_bt_connection_popup(App_Data* data){
     App_Data* ad = (App_Data*)data;
 
     PRINTFUNC(DLOG_DEBUG, "Need to launch BT connection popup");
     app_control_h app_control;
     app_control_create(&app_control);
     app_control_set_app_id(app_control, "com.samsung.bt-connection-popup");
-    app_control_add_extra_data(app_control,"msg", "user_defined");
-    app_control_add_extra_data(app_control,"text", gettext("WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"));
-    app_control_add_extra_data(app_control,"title", PACKAGE);
+    app_control_add_extra_data(app_control, "msg", "user_defined");
+    app_control_add_extra_data(app_control, "text", gettext("WDS_ST_TPOP_CONNECT_VIA_BLUETOOTH_TO_REVIEW_AND_ACCEPT_THE_LEGAL_NOTICE_ABB"));
+    app_control_add_extra_data(app_control, "title", PACKAGE);
     app_control_send_launch_request(app_control, __bt_connection_result_cb, NULL);
     app_control_destroy(app_control);
 }
@@ -128,11 +118,9 @@ void launch_bt_connection_popup(    App_Data* data){
 
 Eina_Bool set_tos_N66_agreed(Eina_Bool bSet)
 {
-
-    int ret = vconf_set_bool( VCONFKEY_USER_AGREEMENT, bSet );
-    if ( ret != VCONF_OK )
-    {
-        PRINTFUNC(DLOG_ERROR,"vconf_set_bool failed ... [%d]!!!", ret);
+    int ret = vconf_set_bool(VCONFKEY_USER_AGREEMENT, bSet);
+    if ( ret != VCONF_OK ) {
+        PRINTFUNC(DLOG_ERROR, "vconf_set_bool failed ... [%d]!!!", ret);
         return EINA_FALSE;
     }
 
@@ -141,19 +129,18 @@ Eina_Bool set_tos_N66_agreed(Eina_Bool bSet)
 
 Eina_Bool is_tos_N66_agreed()
 {
-    if(1) return EINA_TRUE;
+    if (1) return EINA_TRUE;
 
     int bVal = 0;
     int ret = 0;
 
     ret = vconf_get_bool(VCONFKEY_USER_AGREEMENT, &bVal);
-    if( ret != VCONF_OK) {
-        PRINTFUNC(DLOG_ERROR,"VCONFKEY_USER_AGREEMENT vconf_get_bool fail: %d", ret);
+    if (ret != VCONF_OK) {
+        PRINTFUNC(DLOG_ERROR, "VCONFKEY_USER_AGREEMENT vconf_get_bool fail: %d", ret);
     }
 
     return bVal? EINA_TRUE : EINA_FALSE;
 }
-
 
 Eina_Bool is_sap_connection()
 {
@@ -162,17 +149,17 @@ Eina_Bool is_sap_connection()
 
     vconf_get_int(VCONFKEY_WMS_WMANAGER_CONNECTED, &wms_connected);
 
-    if(wms_connected) {
+    if (wms_connected) {
         int conn_type = -1;
         vconf_get_int("memory/private/sap/conn_type", &conn_type);
-        if( conn_type == 0 ) {
+        if (conn_type == 0) {
             char *vendor_type = vconf_get_str("db/wms/host_status/vendor");
             if (vendor_type && !strcmp("LO", vendor_type)) {
                 ret = true;
             } else {
                 ret = false;
             }
-            if(vendor_type)
+            if (vendor_type)
                 free(vendor_type);
         } else if (conn_type == 1) {
             ret = true;
@@ -216,28 +203,27 @@ _ise_tos_launch_web_link(std::string url)
 
 static void show_terms(void *data, Evas_Object *obj, void *event_info)
 {
-    if(!obj) return;
-    if(!data) return;
-    if(!event_info) return;
+    if (!obj) return;
+    if (!data) return;
+    if (!event_info) return;
 
     Evas_Object *parent_win = (Evas_Object *)data;
 
     int wms_connected = 0;
     vconf_get_int(VCONFKEY_WMS_WMANAGER_CONNECTED, &wms_connected);
 
-
-    if(wms_connected == 1) {
+    if (wms_connected == 1) {
          // companion mode
         Evas_Smart_Cb_Description * desc = (Evas_Smart_Cb_Description*)event_info;
         std::string tempurl = desc->name;
 
         std::string::size_type n = tempurl.find_first_not_of(" \"");
-        if( n != std::string::npos ){
+        if (n != std::string::npos) {
             tempurl = tempurl.substr(n, tempurl.length());
         }
 
         n = tempurl.find_last_not_of(" \"");
-        if( n != std::string::npos ){
+        if (n != std::string::npos) {
             tempurl = tempurl.substr(0, n + 1);
         }
 
@@ -245,14 +231,13 @@ static void show_terms(void *data, Evas_Object *obj, void *event_info)
 
             int find_it = 0;
             char *locale = vconf_get_str(VCONFKEY_LANGSET);
-            if( locale ) {
-                PRINTFUNC(DLOG_DEBUG,"locale = %s",locale);
+            if (locale) {
+                PRINTFUNC(DLOG_DEBUG, "locale = %s", locale);
 
                 int i = 0;
-                while(nuance_support_language[i][0] != NULL){
-                    if(strstr(locale, nuance_support_language[i][0])){
-
-                        find_it=i;
+                while (nuance_support_language[i][0] != NULL) {
+                    if (strstr(locale, nuance_support_language[i][0])) {
+                        find_it = i;
                         break;
                     }
                     i++;
@@ -262,25 +247,20 @@ static void show_terms(void *data, Evas_Object *obj, void *event_info)
 
         _ise_tos_launch_web_link(tempurl+ "/" + nuance_support_language[find_it][1]);
 
-
         show_popup_toast(gettext("WDS_MYMAG_TPOP_SHOWING_DETAILS_ON_YOUR_PHONE_ING"), true);
-
-    }
-    else {
+    } else {
          // stand alone mode
     }
-
 }
-
 
 static void _response_cb2(void *data, Evas_Object *obj, void *event_info)
 {
     App_Data* ad = (App_Data*)data;
 
-    if(!ad)
+    if (!ad)
         return;
 
-    if(obj)
+    if (obj)
         elm_object_disabled_set(obj, EINA_TRUE);
 
     elm_naviframe_item_pop(ad->naviframe);
@@ -289,37 +269,32 @@ static void _response_cb2(void *data, Evas_Object *obj, void *event_info)
 static Eina_Bool
 _naviframe_pop_cb2(void *data , Elm_Object_Item *it)
 {
-
     PRINTFUNC(DLOG_DEBUG, "");
 
-    if(g_circle_object_first)
+    if (g_circle_object_first)
         eext_rotary_object_event_activated_set(g_circle_object_first, EINA_TRUE);
 
     return EINA_TRUE;
 }
 
-
 static void _response_cb(void *data, Evas_Object *obj, void *event_info)
 {
-
     PRINTFUNC(DLOG_DEBUG, "");
 
     App_Data* ad = (App_Data*)data;
 
-    if(!ad) return;
+    if (!ad) return;
 
     set_tos_N66_agreed(EINA_TRUE);
 
     ise_show_stt_popup(ad);
 
     set_disclaimer_flag();
-
 }
 
 static Eina_Bool
 _naviframe_pop_cb(void *data , Elm_Object_Item *it)
 {
-
     PRINTFUNC(DLOG_DEBUG, "");
 
     _back_to_genlist_for_selector();
@@ -338,7 +313,6 @@ std::string getColorStyle(const char *code)
 
     strRet.append(strColor);
     return strRet;
-
 }
 
 std::string getFontStyle(const char *code)
@@ -354,21 +328,20 @@ std::string getFontStyle(const char *code)
 
 //    ea_theme_font_get(code,&fontStyle,&fontSize);
 
-    if(fontStyle) {
+    if (fontStyle) {
         snprintf(strFont, 256, "<font=Tizen:style=%s><font_size=%d>", fontStyle, fontSize);
-    }else {
+    } else {
         snprintf(strFont, 256, "<font=Tizen:style=Regular><font_size=%d>", fontSize);
     }
     strRet.append(strFont);
     strRet.append(strColor);
-    PRINTFUNC(DLOG_DEBUG,"====strRect==%s",strRet.c_str());
+    PRINTFUNC(DLOG_DEBUG, "====strRect==%s", strRet.c_str());
     //after uifw finish patch, this free must open, otherwise it will have memory leak
-    if(fontStyle) {
+    if (fontStyle) {
         free(fontStyle);
         fontStyle = NULL;
     }
     return strRet;
-
 }
 
 static std::string tagging(const std::string& str)
@@ -384,8 +357,7 @@ static std::string tagging(const std::string& str)
 
     std::string::size_type found = label.find(link_start);
 
-    while (found!=std::string::npos)
-    {
+    while (found != std::string::npos) {
         tag_str.append(label, 0, found);
         tag_str.append(link_color);
 
@@ -405,9 +377,8 @@ static std::string tagging(const std::string& str)
 
 static void _language_changed_cb(void *_data, Evas_Object *_obj, void *_event_info)
 {
-
-    if(!_obj) return ;
-    if(!_data) return ;
+    if (!_obj) return ;
+    if (!_data) return ;
 
     int index = (int)_data;
     std::string terms = "";
@@ -415,7 +386,7 @@ static void _language_changed_cb(void *_data, Evas_Object *_obj, void *_event_in
 
     char body_str[40000];
 
-    switch(index){
+    switch (index) {
         case 1:
             sprintf(body_str, gettext("LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"), " <a href=\"file://local-nuance-tos\">","</a>","<a href=\"http://www.vlingo.com/wap/samsung-asr-privacy-addendum\">","</a>");
             terms = tagging(std::string(body_str));
@@ -430,15 +401,12 @@ static void _language_changed_cb(void *_data, Evas_Object *_obj, void *_event_in
         default:
         break;
     }
-
 }
 
-
 Evas_Object *create_tos_second_page(void* data){
-
     App_Data* ad = (App_Data*)data;
 
-    if(!ad)
+    if (!ad)
         return NULL;
 
     PRINTFUNC(DLOG_DEBUG, "");
@@ -508,7 +476,7 @@ Evas_Object *create_tos_second_page(void* data){
     string path = get_resource_path();
     string path_ic = path + "/images/w_sip_number_btn_ic.png";
     elm_image_file_set(ic, path_ic.c_str(), NULL);
-    elm_object_content_set(btn,ic);
+    elm_object_content_set(btn, ic);
 
     evas_object_smart_callback_add(btn, "clicked", _response_cb2, ad);
 
@@ -517,29 +485,23 @@ Evas_Object *create_tos_second_page(void* data){
     elm_object_signal_emit(inner_layout, "elm,state,visible", "elm");
 
     return outer_layout;
-
-
 }
-
-
 
 static void _ise_voice_tos_anchor_clicked(void *data, Evas_Object *obj, void *event_info)
 {
-
     App_Data* ad = (App_Data*)data;
 
-    if(!ad)
+    if (!ad)
         return;
 
     Elm_Entry_Anchor_Info *ainfo = (Elm_Entry_Anchor_Info*)event_info;
 
     PRINTFUNC(DLOG_DEBUG, "ainfo->name = %s", ainfo->name);
 
-    if (!strncmp(ainfo->name, "\"http://", 8)){
-
+    if (!strncmp(ainfo->name, "\"http://", 8)) {
         show_terms(data, obj, ainfo);
 
-    }else if(!strncmp(ainfo->name, "\"file://", 8)){
+    } else if (!strncmp(ainfo->name, "\"file://", 8)) {
 /*
         Evas_Object *senconds_layout = create_tos_second_page(ad);
 
@@ -553,10 +515,9 @@ static void _ise_voice_tos_anchor_clicked(void *data, Evas_Object *obj, void *ev
 
 Evas_Object *create_tos_popup(void *data)
 {
-
     App_Data* ad = (App_Data*)data;
 
-    if(!ad)
+    if (!ad)
         return NULL;
 
     PRINTFUNC(DLOG_DEBUG, "");
@@ -631,7 +592,6 @@ Evas_Object *create_tos_popup(void *data)
     elm_object_signal_emit(inner_layout, "elm,state,visible", "elm");
 
     return outer_layout;
-
 }
 
 
@@ -639,7 +599,7 @@ void ise_show_tos_popup(void *data)
 {
     App_Data* ad = (App_Data*)data;
 
-    if(!ad)
+    if (!ad)
      return;
 
     Evas_Object *main_layout = create_tos_popup(ad);
@@ -654,10 +614,9 @@ void ise_show_tos_popup(void *data)
 
 static void _ise_voice_tos_n66_anchor_clicked(void *data, Evas_Object *obj, void *event_info)
 {
-
     App_Data* ad = (App_Data*)data;
 
-    if(!ad)
+    if (!ad)
         return;
 
     _ise_tos_launch_web_link(N66_URL);
@@ -666,10 +625,9 @@ static void _ise_voice_tos_n66_anchor_clicked(void *data, Evas_Object *obj, void
 
 static void _response_n66_cb(void *data, Evas_Object *obj, void *event_info)
 {
-
     App_Data* ad = (App_Data*)data;
 
-    if(!ad) return;
+    if (!ad) return;
 
 #if 0
     stt_set_user_agreement(true);
@@ -680,9 +638,7 @@ static void _response_n66_cb(void *data, Evas_Object *obj, void *event_info)
     ise_show_stt_popup(ad);
 
     set_disclaimer_flag();
-
 }
-
 
 static void _n66_language_changed_cb(void *_data, Evas_Object *_obj, void *_event_info)
 {
@@ -697,19 +653,16 @@ static void _n66_language_changed_cb(void *_data, Evas_Object *_obj, void *_even
     // 2. Set String ID depend on Count Code
     char* popup_title_id = NULL;
     char* popup_body_id = NULL;
-    if (country_code)
-    {
-        if(!strcmp(country_code, "CN")) {
+    if (country_code) {
+        if (!strcmp(country_code, "CN")) {
             popup_title_id = TOS_TITLE_CHN;
             popup_body_id = TOS_N66_BODY_CHN;
-        }
-        else{
+        } else {
             popup_title_id = TOS_TITLE;
             popup_body_id = TOS_N66_BODY;
         }
-    }
-    else{
-        PRINTFUNC(DLOG_ERROR,"Getting Count Code is Error!!! Set default TOS Text!");
+    } else {
+        PRINTFUNC(DLOG_ERROR, "Getting Count Code is Error!!! Set default TOS Text!");
         popup_title_id = TOS_TITLE;
         popup_body_id = TOS_N66_BODY;
     }
@@ -733,7 +686,7 @@ static void _n66_language_changed_cb(void *_data, Evas_Object *_obj, void *_even
 //    ea_cutlink_markup_set(cutlink, markup);
 
 //    ea_cutlink_markup_apply(cutlink, gettext(popup_body_id), &txt);
-    PRINTFUNC(DLOG_DEBUG,"%s", txt);
+    PRINTFUNC(DLOG_DEBUG, "%s", txt);
 
     terms = tagging(std::string(gettext(txt)));
     elm_entry_entry_set(entry, terms.c_str());
@@ -745,15 +698,13 @@ static void _n66_language_changed_cb(void *_data, Evas_Object *_obj, void *_even
         free(markup);
     /* destroy cutlink object */
 //    ea_cutlink_destroy(cutlink);
-
 }
 
 Evas_Object *create_tos_n66_popup(void *data)
 {
-
     App_Data* ad = (App_Data*)data;
 
-    if(!ad)
+    if (!ad)
         return NULL;
 
     PRINTFUNC(DLOG_DEBUG, "");
@@ -775,19 +726,16 @@ Evas_Object *create_tos_n66_popup(void *data)
     // 2. Set String ID depend on Count Code
     char* popup_title_id = NULL;
     char* popup_body_id = NULL;
-    if (country_code)
-    {
-        if(!strcmp(country_code, "CN")) {
+    if (country_code) {
+        if (!strcmp(country_code, "CN")) {
             popup_title_id = TOS_TITLE_CHN;
             popup_body_id = TOS_N66_BODY_CHN;
-        }
-        else{
+        } else {
             popup_title_id = TOS_TITLE;
             popup_body_id = TOS_N66_BODY;
         }
-    }
-    else{
-        PRINTFUNC(DLOG_ERROR,"Getting Count Code is Error!!! Set default TOS Text!");
+    } else {
+        PRINTFUNC(DLOG_ERROR, "Getting Count Code is Error!!! Set default TOS Text!");
         popup_title_id = TOS_TITLE;
         popup_body_id = TOS_N66_BODY;
     }
@@ -849,7 +797,7 @@ Evas_Object *create_tos_n66_popup(void *data)
 //    ea_cutlink_markup_set(cutlink, markup);
 
 //    ea_cutlink_markup_apply(cutlink, gettext(popup_body_id), &txt);
-    PRINTFUNC(DLOG_DEBUG,"%s", txt);
+    PRINTFUNC(DLOG_DEBUG, "%s", txt);
 
     terms = tagging(std::string(gettext(txt)));
     elm_entry_entry_set(entry, terms.c_str());
@@ -879,14 +827,13 @@ Evas_Object *create_tos_n66_popup(void *data)
     elm_object_signal_emit(inner_layout, "elm,state,visible", "elm");
 
     return outer_layout;
-
 }
 
 void ise_show_tos_n66_popup(void *data)
 {
     App_Data* ad = (App_Data*)data;
 
-    if(!ad)
+    if (!ad)
      return;
 
     Evas_Object *main_layout = create_tos_n66_popup(ad);

@@ -294,7 +294,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Nuance는 음성인식 서비스 제공 과정에서 귀하의 음성정보를 수집하며, 이는 (a) 음성인식 기능 개선 및 (b) Nuance의 제품 및 서비스 개발을 위하여 Nuance 및 그 협력사들에게 제공될 수 있습니다. ""<br>"
 	"5. 음성정보는 Nuance와 그 협력사들의 저장, 운영, 사용을 위하여 미국 및/또는 다른 국가에 전송될 수 있습니다. ""<br>"
 	"6. 귀하가 제공한 모든 정보는 관련법을 준수하여 보안관리됩니다. 그러나 법원 또는 정부기관의 명령 등 법률에 근거한 요청이 있는 경우, Nuance가 다른 기관에 양도, 합병, 인수될 경우에는 공개될 수 있습니다."
-
 },
 {
 	"az_AZ",
@@ -338,7 +337,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Souhlasíte s tím, že během poskytování služby pro rozpoznávání řeči může společnost Nuance shromažďovat Data rozpoznávání řeči, která mohou být použita společností Nuance a jejími nezávislými partnery k ladění, vylepšení a zdokonalení (a) služby pro rozpoznávání řeči a (b) jiných produktů a služeb společnosti Nuance.""<br>"
 	"5. Souhlasíte s tím, že Data rozpoznávání řeči mohou být přenášena do Spojených států nebo jiných zemí za účelem uložení, zpracování a použití společností Nuance a jejími nezávislými partnery.""<br>"
 	"6. Veškerá poskytnutá Data rozpoznávání řeči zůstanou důvěrná a budou použita ve shodě s platnými zákony, ale mohou být společností Nuance předána, v případě potřeby, aby bylo vyhověno zákonným nebo kontrolním požadavkům, např. na základě soudního příkazu, nebo státnímu úřadu, pokud je vyžaduje nebo je to dáno zákonem, nebo třetí straně, kterou koupí společnost Nuance nebo se s ní sloučí."
-
 },
 {
 	"sr_RS",
@@ -353,7 +351,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Prihvatate i saglasni ste da u cilju pružanja Usluge prepoznavanja govora, Nuance može da prikuplja Govorne podatke i može da ih koristi, zajedno sa svojim nezavisnim partnerima, za doterivanje, pojačavanje i poboljšanje (a) Usluge prepoznavanja govora i (b) drugih Nuance proizvoda i usluga.""<br>"
 	"5. Prihvatate i saglasni ste da se vaši Govorni podaci mogu prenositi u Sjedinjene Američke Države i/ili druge zemlje zbog skladištenja, obrade i korišćenja koje obavlja Nuance i njeni nezavisni partneri.""<br>"
 	"6. Bilo koji i svi delovi Govornih podataka koje dostavite ostaju privatni i koristiće se u skladu sa važećim zakonom, ali ih Nuance može otkriti ukoliko se to od njega traži, kako bi zadovoljio zakonske ili regulativne zahteve, kao u slučaju sudskog naloga, ili ovlašćenoj vladinoj agenciji ako se to traži ili odobrava temeljem zakonaom ili trećoj strani koja prisvaja kompaniju Nuance ili se sa njoim spaja."
-
 },
 {
 	"da_DK",
@@ -368,7 +365,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Du indvilger i og accepterer, at ved at udbyde tjenesten Stemmegenkendelse, kan Nuance indsamle stemmedata, der kan bruges af Nuance og dets tredjeparter til at justere, forbedre og udvikle (a) tjenesten Stemmegenkendelse og (b) andre Nuance-produkter og -tjenester.  ""<br>"
 	"5. Du anerkender og accepterer, at Nuance eller dets tredjepartspartnere kan overføre dine stemmedata til USA og/eller andre lande til opbevaring, behandling eller brug.""<br>"
 	"6. Alle stemmedata, som du leverer, vil forblive fortrolige og brugt i overensstemmelse med gældende lovgivning, men kan, såfremt det kræves, fremlægges af Nuance for at opfylde juridiske eller regulatoriske krav, såsom ved en retskendelse, eller til en statslig myndighed, såfremt det kræves eller bemyndiges af lovgivningen, eller til en tredjepart, der overtager eller fusionerer med Nuance."
-
 },
 {
 	"de_DE",
@@ -383,7 +379,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Sie erklären sich damit einverstanden, dass Nuance bei der Bereitstellung des Spracherkennungsservices Sprachdaten sammeln darf, die von Nuance und dessen dritten Partnern verwendet werden können, um (a) den Spracherkennungsservice und (b) andere Produkte und Services von Nuance zu verbessern und zu erweitern.  ""<br>"
 	"5. Sie bestätigen und erklären sich damit einverstanden, dass Ihre Sprachdaten möglicherweise an die Vereinigten Staaten und/oder andere Länder zur Speicherung, Verarbeitung und Nutzung durch Nuance und dessen dritte Partner weitergeleitet werden.""<br>"
 	"6. Sämtliche von Ihnen bereitgestellten Sprachdaten werden vertraulich behandelt und gemäß geltendem Recht verwendet. Sie dürfen jedoch von Nuance, sofern erforderlich, aufgrund eines Gerichtsbeschlusses oder gegenüber einer Regierungsbehörde offengelegt werden, um ggf. gesetzliche oder behördliche Anforderungen zu erfüllen, bzw. gegenüber einem Dritten, der Nuance übernimmt oder mit Nuance fusioniert."
-
 },
 {
 	"et_EE",
@@ -398,7 +393,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Nõustute, et kõnetuvastusteenuse pakkumisel võib Nuance koguda kõneandmeid, mida võivad kasutada Nuance ja selle kolmanda osapoole partnerid, et häälestada, täiustada ja parandada (a) kõnetuvastusteenust ja (b) teisi Nuance'i tooteid ja teenuseid.""<br>"
 	"5. Kinnitate ja nõustuste, et teie kõneandmeid võidakse edastada Ameerika Ühendriikidesse ja/või teistesse riikidesse, et Nuance ja selle kolmanda osapoole partnerid saaksid andmeid salvestada, töödelda ja kasutada.""<br>"
 	"6. Mis tahes ja kõik esitatud kõneandmed on konfidentsiaalsed ja neid kasutatakse vastavuses kehtivate seadustega, kuid Nuance võib neid avalikustada, kui see on vajalik, et olla vastavuses õiguslike või seadusega sätestatud nõudmistega, näiteks kohtumääruse alusel või riigiasutusele, kui seda näeb ette seadus, või kolmandale osapoolele, mis võtab üle Nuance'i või ühineb sellega."
-
 },
 {
 	"en_GB",
@@ -413,7 +407,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. You consent and agree that in providing the Speech Recognition Service, Nuance may collect Speech Data which may be used by Nuance and its third party partners to tune, enhance and improve (a) the Speech Recognition Service and (b) other Nuance products and services.""<br>"
 	"5. You acknowledge and agree that your Speech Data may be transferred to the United States and/or other countries for storage, processing and use by Nuance and its third party partners.""<br>"
 	"6. Any and all Speech Data that you provide will remain confidential and will be used in accordance with applicable law but may be disclosed by Nuance, if so required, to meet legal or regulatory requirements, such as under a court order or to a government agency if required or authorised by law, or to a third party which acquires or merges with Nuance."
-
 },
 {
 	"es_ES",
@@ -428,7 +421,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Consiente y acepta que, al proporcionar el Servicio de reconocimiento de voz, Nuance puede recoger Datos de voz que Nuance puede utilizar para ajustar, mejorar y perfeccionar (a) el Servicio de reconocimiento de voz y (b) otros productos y servicios de Nuance. ""<br>"
 	"5. Reconoce y acepta que sus Datos de voz se pueden transferir a los Estados Unidos u otros países para su almacenamiento, tratamiento y uso por parte de Nuance.""<br>"
 	"6. Todos y cada uno de los Datos de voz que proporcione seguirán siendo confidenciales y se usarán de acuerdo con lo establecido en la legislación aplicable, pero Nuance podría tener que revelarlos, en caso de ser necesario, para cumplir con determinadas exigencias legales o reglamentarias, como una orden judicial o a solicitud de una administración pública, o si lo autorizase la ley o en el supuesto de que un tercero adquiriese o se fusionara con Nuance."
-
 },
 {
 	"es_US",
@@ -443,7 +435,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Usted consiente y acepta que en la prestación del Servicio de reconocimiento de voz, Nuance puede recopilar Datos de voz que pueden ser utilizados por Nuance y sus terceros asociados para ajustar y mejorar (a) el Servicio de reconocimiento de voz y (b) otros productos y servicios de Nuance. ""<br>"
 	"5. Usted reconoce y acepta que sus datos de voz pueden ser transferidos a los Estados Unidos y/o a otros países para su almacenamiento, procesamiento y uso por parte de Nuance y sus terceros asociados.""<br>"
 	"6. Todos los Datos de voz que usted proporcione se mantendrán confidenciales y se utilizarán de acuerdo con la ley aplicable, pero pueden ser divulgados por Nuance, en caso necesario, para cumplir con requisitos legales o reglamentarios, como en virtud de una orden judicial, ante un organismo gubernamental si la ley lo requiere o autoriza, o ante un tercero que adquiere o se fusiona con Nuance."
-
 },
 {
 	"eu_ES",
@@ -472,7 +463,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Vous convenez et acceptez qu’en tant que fournisseur du service de reconnaissance vocale, Nuance peut recueillir des données vocales et que Nuance et ses partenaires tiers peuvent les utiliser afin d’ajuster, d’affiner et d’améliorer (a) le service de reconnaissance vocale et (b) d’autres produits et services de Nuance.  ""<br>"
 	"5. Vous reconnaissez et acceptez que vos données vocales puissent être transférées aux États-Unis ou à d’autres pays à des fins de stockage, de traitement et d’utilisation par Nuance et ses partenaires tiers.""<br>"
 	"6. Toutes les données vocales que vous fournissez demeureront confidentielles et seront utilisées conformément aux lois applicables. Elles pourront cependant être divulguées par Nuance, s’il y a lieu, pour satisfaire à des exigences de nature légale ou réglementaire, comme une ordonnance d’un tribunal ou d’une agence gouvernementale si la loi l’exige ou l’autorise, ou à une société tierce qui fusionne avec Nuance ou l’acquiert."
-
 },
 //50
 {
@@ -488,7 +478,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Vous consentez et vous acceptez qu'en tant que fournisseur du Service de reconnaissance vocale, Nuance peut recueillir des Données vocales que Nuance et ses partenaires tiers peuvent utiliser pour régler, affiner et améliorer (a) le Service de reconnaissance vocale et (b) d’autres produits et services de Nuance. ""<br>"
 	"5. Vous reconnaissez et acceptez que vos Données vocales puissent être transférées aux Etats-Unis et/ou dans d’autres pays à des fins de stockage, de traitement et d’utilisation par Nuance et ses partenaires tiers.""<br>"
 	"6. Toutes les Données vocales que vous fournissez resteront confidentielles et seront utilisées en accord avec les lois et réglementations applicables. Elles pourront cependant être divulguées par Nuance, si besoin est, pour satisfaire à des exigences réglementaires ou légales, à la demande d’un tribunal ou d’un organisme administratif, par exemple, si la loi l’exige ou l’autorise, ou à la demande d’une société tierce qui rachète ou fusionne avec Nuance."
-
 },
 {
 	"gl_ES",
@@ -517,7 +506,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Pristajete i prihvaćate da pružajući usluge prepoznavanja govora Nuance smije prikupiti Podatke o govoru koje Nuance i njegovi partneri treće strane smiju koristiti radi podešavanja, poboljšavanja i popravljanja (a) Usluge prepoznavanja govora i (b) drugih proizvoda i usluga tvrtke Nuance.""<br>"
 	"5. Prihvaćate i slažete se da se vaši Podaci o govoru smiju prenositi u Sjedinjenje Američke Države i/ili ostale države radi spremanja, obrađivanja i korištenja od strane Nuancea i njegovih partnera trećih strana.""<br>"
 	"6. Bilo kakvi i svi Podaci o govoru koje ponudite povjerljivi su i bit će korišteni u skladu s primjenjivim zakonom, međutimno, Nuance ih, po potrebi, smije otkriti radi pravnih ili regulatornih zahtjeva, primjerice temeljemzbog sudskog naloga ili ovlaštenoj vladinoj agenciji ako je to temeljem zakonanski naloženo ili ovlaštenao, ili trećoj strani koja preuzima kompaniju Nuance ili se spaja s Nuanceom."
-
 },
 {
 	"is_IS",
@@ -532,7 +520,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Þú samþykkir að sem veitanda raddkennslaþjónustunnar er Nuance heimilt að safna saman raddgögnum og nota þau gögn ásamt þriðju aðilum til að stilla og bæta (a) raddkennslaþjónustuna og (b) aðrar vörur og þjónustur Nuance.""<br>"
 	"5. Þú staðfestir og samþykkir að heimilt er að flytja raddgögnin þín til Bandaríkjanna og/eða annarra landa til geymslu og vinnslu og er Nuance og þriðju aðilum heimilt að nota gögnin.""<br>"
 	"6. Öll raddgögn sem þú veitir eru trúnaðargögn og verða notuð í samræmi við gildandi lög en Nuance er heimilt að birta þau, sé þess krafist, til að uppfylla lagalegar kröfur, t.d. samkvæmt dómsúrskurði. Nuance má afhenda gögnin opinberum stofnunum, sé það heimilt samkvæmt lögum, eða þriðja aðila sem sameinast Nuance."
-
 },
 {
 	"it_IT",
@@ -547,7 +534,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. L'utente accetta che, nella fornitura del Servizio di riconoscimento vocale, Nuance potrà raccogliere Dati vocali che possono essere utilizzati da Nuance e da suoi partner commerciali per perfezionare, ottimizzare e migliorare (a) il Servizio di riconoscimento vocale e (b) altri prodotti e servizi Nuance. ""<br>"
 	"5. L’utente accetta inoltre che i Dati vocali potranno essere trasferiti negli Stati Uniti e/o in altri paesi per l'archiviazione, il trattamento  e l'uso da parte di Nuance e di suoi partner commerciali.""<br>"
 	"6. Tutti i Dati vocali forniti dall'utente rimarranno di natura riservata e verranno utilizzati in conformità con le leggi in vigore, ma potranno essere divulgati da Nuance, qualora ciò si rendesse necessario per rispettare la normativa applicabile, ad esempio a seguito di una decisione giudiziale, o di un ente governativo, se così previsto dalla legge, o nel caso di acquisizione o fusione di Nuance con terzi."
-
 },
 {
 	"kk_KZ",
@@ -562,7 +548,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Сіз Сөздерді тану қызметін пайдалану кезінде Nuance корпорациясы (a) Сөздерді тану қызметін және (b) басқа да Nuance өнімдері мен қызметтерін дәлдеу, жетілдіру және жақсарту үшін Nuance корпорациясы мен оның үшінші тараптағы серіктестері пайдалана алатын Сөз деректерін жинай алатынына келісім бересіз және оны қабылдайсыз.""<br>"
 	"5. Сіз Сөз деректеріңізді Nuance және оның үшінші тараптағы серіктестері сақтау, өңдеу және пайдалану үшін Америка Құрама Штаттарына және/немесе басқа елдерге тасымалдауға болатынын растайсыз және оған келісесіз.""<br>"
 	"6. Сіз берген Сөз деректерінің кез келгені және барлығы құпия сақталады және қолданыстағы заңға сәйкес пайдаланылады, бірақ оны Nuance компанияны қажет болған жағдайда заңдық немесе нормативтік талаптарды орындау үшін, мысалы, соттың шешімі бойынша немесе мемлекеттік мекемеге немесе Nuance компаниясын иелігіне алатын немесе онымен бірігетін үшінші тарапқа жариялануы мүмкін."
-
 },
 {
 	"lv_LV",
@@ -577,7 +562,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Jūs piekrītat un apstiprināt, ka Balss atpazīšanas pakalpojuma sniegšanas laikā uzņēmums Nuance drīkst ievākt Balss datus, ko uzņēmums Nuance un tā trešās puses partneri drīkst lietot, lai precizētu, uzlabotu un pilnveidotu (a) Balss atpazīšanas pakalpojumu un (b) citus Nuance produktus un pakalpojumus.""<br>"
 	"5. Jūs piekrītat un apstiprināt, ka jūsu Balss dati var tikt nosūtīti uz Amerikas Savienotajām Valstīm un/vai citām valstīm, kur uzņēmums Nuance un tā trešās puses partneri tos uzglabās, apstrādās un lietos.""<br>"
 	"6. Jebkādi un visi jūsu sniegtie Balss dati būs konfidenciāli un tiks lietoti saskaņā ar piemērojamiem tiesību aktiem, taču uzņēmums Nuance drīkst tos izpaust, ja nepieciešams, lai rīkotos saskaņā ar juridiskām vai normatīvām prasībām, piemēram, izpildot tiesas rīkojumu vai valsts aģentūras pieprasījumu, ja tas ir nepieciešams vai pilnvarots saskaņā ar tiesību aktiem, vai trešai pusei, kura iegādājas uzņēmumu Nuance vai apvienojas ar to."
-
 },
 {
 	"lt_LT",
@@ -592,7 +576,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Jūs sutinkate, kad siekdama suteikti šnekos atpažinimo paslaugą „Nuance“ gali rinkti šnekos duomenis, kuriuos „Nuance“ ir jos trečiosios šalies partneriai galės naudoti, kad reguliuotų, gerintų ir tobulintų a) šnekos atpažinimo paslaugą ir b) kitus „Nuance“ produktus ir paslaugas.""<br>"
 	"5. Jūs pripažįstate ir sutinkate, kad šnekos duomenys gali būti persiųsti į JAV ir (arba) kitas šalis ir ten saugomi, apdorojami ir naudojami „Nuance“ ir jos trečiųjų šalių partnerių.""<br>"
 	"6. Bet kurie ir visi jūsų pateikti šnekos duomenys išliks konfidencialūs ir bus naudojami laikantis atitinkamų įstatymų, tačiau „Nuance“ gali juos atskleisti, jei to prireiktų siekiant įgyvendinti teisinius arba reguliavimo reikalavimus, pvz., pagal teismo nutartį arba jei to reikalauja įstatymas arba trečioji šalis, kuri nori įsigyti arba susijungti su „Nuance“."
-
 },
 {
 	"hu_HU",
@@ -607,7 +590,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Ön hozzájárul és elfogadja, hogy a Nuance a Beszédfelismerő szolgáltatás nyújtásakor Beszédadatokat gyűjthet, amelyeket a Nuance vagy annak külső partnerei felhasználhatnak (a) a Beszédfelismerő szolgáltatás, valamint (b) egyéb Nuance termékek és szolgáltatások hangolásához, továbbfejlesztéséhez és tökéletesítéséhez.  ""<br>"
 	"5. Ön tudomásul veszi és elfogadja, hogy az Ön Beszédadatait továbbíthatják az Egyesült Államokba és/vagy más országokba a Nuance és külső partnerei általi tárolás, feldolgozás és felhasználás céljára.""<br>"
 	"6. Az Ön által rendelkezésre bocsátott minden Beszédadat kezelése bizalmas, használata pedig a vonatkozó jogszabályoknak megfelelő lesz, a Nuance azonban szükség esetén felfedheti ezeket az adatokat a jogi vagy szabályozási előírások alapján, például ha ezt bírósági határozat rendeli el, a törvény által felhatalmazott kormányzati intézmény igénylésére vagy a Nuance céget megvásároló vagy vele fuzionáló harmadik fél részére."
-
 },
 {
 	"nl_NL",
@@ -622,7 +604,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. U stemt ermee in dat Nuance tijdens het leveren van de dienst Spraakherkenning Spraakgegevens verzamelt die door Nuance en haar externe partners kunnen worden gebruikt voor het verfijnen, uitbreiden en verbeteren van (a) de Spraakherkenning en (b) andere producten en diensten van Nuance.""<br>"
 	"5. U erkent en stemt ermee in dat de Spraakgegevens worden verzonden naar de Verenigde Staten en/of andere landen voor opslag, verwerking en gebruik door Nuance en haar externe partners.""<br>"
 	"6. Alle door u verstrekte Spraakgegevens worden vertrouwelijk behandeld en worden gebruikt in overeenstemming met het toepasselijk recht, maar kunnen door Nuance bekend worden gemaakt indien dit noodzakelijk is om te voldoen aan wettelijke of reglementaire vereisten, bijvoorbeeld op gerechtelijk bevel, aan een overheidsinstantie indien dit wettelijk verplicht of voorgeschreven is, of aan een derde partij die Nuance overneemt of met Nuance fuseert."
-
 },
 //60
 {
@@ -638,7 +619,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Du samtykker i og godtar at Nuance kan samle inn Taledata ved tilveiebringelse av Talegjenkjenningstjenesten, og at disse kan brukes av Nuance og deres tredjeparts samarbeidspartnere til finjustering, forsterkning og forbedring av (a) Talegjenkjenningstjenesten og (b) andre produkter og tjenester fra Nuance.""<br>"
 	"5. Du erkjenner og samtykker i at dine Taledata kan bli overført til USA og/eller andre land utenfor EU/EØS for lagring, behandling og bruk av Nuance og deres tredjeparts samarbeidspartnere.Du erkjenner at personvernreglene i disse landene kan gi deg mindre beskyttelse enn etter ditt lands lov.""<br>"
 	"6. Alle eventuelle Taledata du tilveiebringer, vil forbli konfidensielle og vil bli brukt i samsvar med gjeldende lovgivning. Nuance kan imidlertid oppgi disse til tredjepart hvis dette kreves for å overholde juridiske eller regulatoriske krav, for eksempel ved en rettskjennelse eller til et myndighetsorgan hvis krav fremsettes eller loven autoriserer dette eller til en tredjepart som anskaffer eller fusjonerer med Nuance."
-
 },
 {
 	"uz_UZ",
@@ -667,7 +647,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Użytkownik wyraża zgodę i wyraża zgodę na to, że podczas świadczenia Usługi rozpoznawania mowy firma Nuance może gromadzić Dane mowy, które mogą być wykorzystywane przez firmę Nuance oraz jej partnerów zewnętrznych w celu dopracowania, rozszerzenia i ulepszenia (a) Usługi rozpoznawania mowy i (b) innych produktów i usług firmy Nuance.""<br>"
 	"5. Użytkownik przyjmuje do wiadomości i potwierdza, że jego Dane mowy mogą zostać przekazane do Stanów Zjednoczonych Ameryki i/lub do innych krajów w celu ich przechowywania, przetwarzania i wykorzystania przez firmę Nuance i jej partnerów zewnętrznych.""<br>"
 	"6. Wszelkie Dane mowy pochodzące od użytkownika zachowają charakter poufny i będą wykorzystywane zgodnie z przepisami właściwego prawa, jednak mogą być przez firmę Nuance ujawnione, jeśli będzie to wymagane w celu spełnienia wymogów prawnych lub regulacyjnych, takich jak nakaz sądowy lub ujawnienie organom państwa w sytuacji, gdy prawo tego wymaga lub na to zezwala, bądź mogą zostać ujawnione podmiotowi zewnętrznemu dokonującemu przejęcia lub fuzji z firmą Nuance."
-
 },
 {
 	"pt_BR",
@@ -682,7 +661,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Você aceita e concorda que, ao fornecer o Serviço de Reconhecimento de Fala, a Nuance poderá coletar os Dados da Fala que poderão ser utilizados pela Nuance e por seus parceiros para ajustar, aprimorar e melhorar (a) o Serviço de Reconhecimento de Fala e (b) outros produtos e serviços da Nuance. ""<br>"
 	"5. Você aceita e concorda que os seus Dados da Fala poderão ser transferidos para os Estados Unidos e/ou outros países para armazenamento, processamento e utilização pela Nuance e por seus parceiros.""<br>"
 	"6. Todo e qualquer Dado da Fala fornecido por você será mantido em sigilo e será utilizado de acordo com leis aplicáveis, mas poderão ser divulgados pela Nuance, se exigido, para cumprimento de lei ou regulamento, como, por exemplo, por ordem judicial ou de uma instituição governamental, caso seja exigido ou autorizado por lei, ou para terceiros que comprarem ou realizarem fusão com a Nuance."
-
 },
 {
 	"pt_PT",
@@ -695,7 +673,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. O utilizador consente e aceita que ao fornecer o Serviço de Reconhecimento de Voz, a Nuance pode recolher Dados de Voz que podem ser utilizados pela Nuance e pelos seus parceiros para aperfeiçoar, ampliar e melhorar (a) o Serviço de Reconhecimento de Voz e (b) outros produtos e serviços da Nuance.""<br>"
 	"5. O utilizador reconhece e aceita que os seus Dados de Voz podem ser transferidos para os Estados Unidos da América e/ou para outros países para armazenamento, processamento e utilização pela Nuance e pelos seus parceiros.""<br>"
 	"6. Todos e quaisquer Dados de Voz que o utilizador forneça permanecem confidenciais e serão utilizados de acordo com a lei aplicável, mas poderão ser revelados pela Nuance, se assim for exigido, para satisfazer requisitos legais ou regulamentares como, por exemplo, por ordem de um tribunal ou de uma entidade pública, se exigido ou autorizado pela lei, nos casos de alterações na estrutura societária da Nuance, designadamente, como por exemplo em caso de compra ou fusão da Nuance"
-
 },
 {
 	"ru_RU",
@@ -710,7 +687,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Вы согласны на то, чтобы при применении Службы распознавания речи компания Nuance собирала Речевые данные для дальнейшего использования компанией Nuance и ее независимыми партнерами для усовершенствования, отладки и оптимизации (а) Службы распознавания речи и (б) других продуктов и услуг Nuance. ""<br>"
 	"5. Вы признаете и соглашаетесь с тем, что предоставленные Вами Речевые данные могут быть переданы в США и/или другие страны для хранения, обработки и использования компанией Nuance и ее независимыми партнерами.""<br>"
 	"6. Компания Nuance обязуется защищать конфиденциальность всех предоставленных ей Речевых данных и использовать их в соответствии с действующим законодательством; однако при необходимости эти данные могут быть раскрыты для удовлетворения нормативных или правовых требований, например согласно постановлению суда; согласно закону, который требует или дает право на доступ к данным государственному учреждению; при приобретении компании Nuance третьей стороной или слиянии с ней."
-
 },
 {
 	"ro_RO",
@@ -725,7 +701,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Sunteţi de acord şi acceptaţi că, prin furnizarea Serviciului de recunoaştere a vorbirii, Nuance poate colecta Date vocale ce pot fi utilizate de Nuance şi de partenerii săi terţă parte pentru a regla şi a îmbunătăţi (a) Serviciul de recunoaştere a vorbirii şi (b) alte produse şi servicii Nuance.""<br>"
 	"5. Confirmaţi şi sunteţi de acord că Datele dvs. vocale pot fi transferate în Statele Unite ale Americii şi/sau în alte ţări pentru stocarea, procesarea şi utilizarea de către Nuance şi de către partenerii săi terţă parte.""<br>"
 	"6. Oricare şi toate aceste Date vocale pe care le furnizaţi vor rămâne confidenţiale şi vor fi utilizate conform legislaţiei aplicabile, dar pot fi dezvăluite de Nuance, dacă este necesar, pentru a respecta cerinţele legale sau de reglementare, cum ar fi în baza unei decizii judecătoreşti ori unei instituţii guvernamentale, dacă acest lucru este impus sau permis prin lege, ori unei terţe părţi care achiziţionează sau fuzionează cu Nuance."
-
 },
 {
 	"sk_SK",
@@ -740,7 +715,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Povoľujete a súhlasíte, že pri poskytovaní služby rozpoznávania reči môže spoločnosť Nuance zhromažďovať rečové údaje, ktoré môžu byť používané spoločnosťou Nuance a jej nezávislými partnermi na doladenie, zlepšenie a zdokonalenie (a) služby rozpoznávania reči a (b) ďalších produktov a služieb spoločnosti Nuance.""<br>"
 	"5. Potvrdzujete a súhlasíte, že vaše rečové údaje sa môžu prenášať do Spojených štátov amerických a/alebo iných krajín na uloženie, spracovanie a používanie spoločnosťou Nuance a jej nezávislými partnermi.""<br>"
 	"6. Ľubovoľné a všetky rečové údaje, ktoré poskytnete, zostanú dôverné a budú sa používať v súlade s platnými zákonmi, môžu však byť zverejnené spoločnosťou Nuance, ak sa to bude vyžadovať na splnenie zákonných alebo regulačných požiadaviek, napríklad na základe súdneho príkazu alebo vládnej organizácii, ak to vyžadujú alebo povoľujú platné zákony, alebo tretej strane, ktorá prípadne kúpi spoločnosť Nuance alebo sa s ňou zlúči."
-
 },
 {
 	"sl_SI",
@@ -755,7 +729,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Soglašate se in strinjate, da lahko podjetje Nuance pri zagotavljanju storitve prepoznavanja govora zbira podatke o govoru, ki jih lahko podjetje Nuance in njegovi zunanji partnerji uporabijo za nastavitve, okrepitev in izboljšanje,  (a) storitve prepoznavanja govora in (b) drugih izdelkov in storitev podjetja Nuance.""<br>"
 	"5. Potrjujete, da ste seznanjeni in se strinjate, da se lahko vaše podatke o govoru prenese v ZDA in/ali druge države, kjer jih podjetje Nuance in njegovi zunanji partnerji shranjujejo, obdelujejo in uporabljajo.""<br>"
 	"6. Vsak in vsi podatki o govoru, ki jih posredujete, bodo ostali zaupni in bodo uporabljeni v skladu z veljavnim zakonom, vendar pa jih podjetje Nuance lahko razkrije, če je to potrebno za izpolnitev pravnih ali regulatornih zahtev, kot na primer na podlagi odločbe sodišča, ali so lahko razkriti državnim organom, če tako zahteva ali dovoljuje zakon, ali tretji osebi, ki prevzame ali se združi s podjetjem Nuance."
-
 },
 {
 	"fi_FI",
@@ -785,7 +758,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Du samtycker till att Nuance i samband med tillhandahållandet av Talidentifieringstjänsten får samla in Taldata, och till att Taldata får användas av Nuance och dess tredjepartspartner för att justera och förbättra (a) Talidentifieringstjänsten och (b) Nuances andra produkter och tjänster.""<br>"
 	"5. Du samtycker till att din Taldata får överföras till USA och/eller andra länder för lagring, bearbetning och användning av Nuance och dess tredjepartsleverantörer.""<br>"
 	"6. All Taldata som du tillhandahåller hanteras konfidentiellt och används i enlighet med gällande lag, men kan lämnas ut av Nuance (i) om det krävs för att uppfylla krav i lag eller förordning, inklusive enligt domstolsbeslut, (ii) till en myndighet om det krävs eller auktoriseras enligt lag, eller (iii) till en tredje part som förvärvar eller fusioneras med Nuance."
-
 },
 {
 	"tr_TR",
@@ -800,7 +772,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Ses Tanıma Hizmetini sağlama sırasında Nuance şirketinin, (a) Ses Tanıma Hizmetini ve (b) diğer Nuance ürünlerini ve hizmetlerini ayarlamak, geliştirmek ve iyileştirmek üzere Nuance ve onun üçüncü taraf iş ortakları tarafından kullanılabilen Sesli Verileri toplayabileceğini onaylamakta ve kabul etmektesiniz.""<br>"
 	"5. Sesli Verilerinizin Nuance ve onun üçüncü taraf iş ortakları tarafından saklanmak, işlenmek ve kullanılmak üzere Amerika Birleşik Devletleri ve/veya başka ülkelere aktarılabildiğini onaylamakta ve kabul etmektesiniz.""<br>"
 	"6. Sağladığınız herhangi bir ve tüm Sesli Veriler gizli tutulacak ve ilgili yasaya uygun şekilde kullanılacaktır, ancak gerekirse, bir mahkeme emri kapsamında veya yasa tarafından gerektiğinde ya da yetkilendirildiğinde bir resmi daireye veya Nuance şirketini satın alan ya da Nuance ile birleşen üçüncü bir tarafa olmak üzere, yasal veya düzenleyici gerekliliklere uymak için Nuance tarafından açıklanabilir"
-
 },
 {
 	"el_GR",
@@ -815,7 +786,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Συναινείτε και αποδέχεστε ότι κατά την παροχή της Υπηρεσίας αναγνώρισης ομιλίας, η Nuance μπορεί να συλλέγει Δεδομένα ομιλίας τα οποία μπορούν να χρησιμοποιούνται από τη Nuance και τους τρίτους συνεργάτες της για το συντονισμό, την ενίσχυση και τη βελτίωση (α) της Υπηρεσίας αναγνώρισης ομιλίας και (β) άλλων προϊόντων και υπηρεσιών της Nuance.""<br>"
 	"5. Αναγνωρίζετε και αποδέχεστε ότι τα Δεδομένα ομιλίας σας μπορούν να μεταφέρονται προς τις Ηνωμένες Πολιτείες ή/και άλλες χώρες για αποθήκευση, επεξεργασία και χρήση από τη Nuance και τους τρίτους συνεργάτες της.""<br>"
 	"6. Οποιαδήποτε και όλα τα Δεδομένα ομιλίας που παρέχετε θα παραμένουν εμπιστευτικά και θα χρησιμοποιούνται σύμφωνα με την ισχύουσα νομοθεσία, αλλά μπορεί να κοινοποιηθούν από τη Nuance, εφόσον απαιτηθεί, προκειμένου να εκπληρωθούν νομικές ή ρυθμιστικές απαιτήσεις, όπως βάσει δικαστικής παραγγελίας ή προς μια κυβερνητική υπηρεσία, αν υφίσταται απαίτηση ή εξουσιοδότηση βάσει νόμου, ή προς κάποιο τρίτο μέρος που θα εξαγοράσει τη Nuance ή θα συγχωνευθεί με αυτήν."
-
 },
 {
 	"mn_MN",
@@ -830,7 +800,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Та Nuance нь Яриа таних үйлчилгээ үзүүлэхдээ Nuance болон түүний түнш гуравдагч этгээдүүдийн (a) Яриа таних үйлчилгээ болон (b) Nuance-ийн бусад бүтээгдэхүүн, үйлчилгээг тохируулж, өргөтгөж, сайжруулахдаа ашиглаж болох ярианы өгөгдлийг цуглуулж болно гэдгийг зөвшөөрч байна.  ""<br>"
 	"5. Таны ярианы өгөгдлийг Nuance болон түүний түнш гуравдагч этгээдүүдэд хадгалуулах, боловсруулах, ашиглуулахаар Америкийн Нэгдсэн Улс ба/буюу бусад улс руу шилжүүлж болно гэдгийг ойлгож, зөвшөөрч байна.""<br>"
 	"6. Таны бүх ярианы өгөгдөл нууцлалтай хэвээр байх бөгөөд холбогдох хууль тогтоомжийн дагуу ашиглагдах боловч Nuance нь хууль тогтоомжийн дагуу шаардагдсан тохиолдолд, тухайлбал шүүхийн шийдвэрийн дагуу эсвэл хуулиар шаардсан буюу эрх олгосны дагуу төрийн байгууллагад эсвэл Nuance-ийг худалдаж авсан эсвэл түүнтэй нэгдсэн гуравдагч этгээдэд задруулж болно."
-
 },
 {
 	"bg_BG",
@@ -845,7 +814,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Вие се съгласявате и потвърждавате, че при предоставянето на Услугата за разпознаване на реч Nuance може да събира Данни за реч, които може да се използват от Nuance и нейните партньори трети страни за настройване, подобряване и развиване на (a) Услугата за разпознаване на реч и (б) други продукти и услуги на Nuance.""<br>"
 	"5. Вие потвърждавате и се съгласявате, че вашите Данни за реч могат да бъдат прехвърляни до Съединените щати и/или други страни за съхраняване, обработка и използване от Nuance и нейните партньори трети страни.""<br>"
 	"6. Всякакви и всички Данни за реч, които предоставяте, ще остават конфиденциални и ще се използват в съответствие с приложимия закон, но може да се оповестяват от Nuance, ако е необходимо, в отговор на правни или законови изисквания, като например под нареждане на съд или правителствена агенция, ако е изискуемо или упълномощено от закона, или на трети страни, които придобиват или се сливат с Nuance."
-
 },
 {
 	"uk_UA",
@@ -860,7 +828,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	"4. Ви погоджуєтеся, що в рамках надання Служби розпізнавання мовлення компанія Nuance може збирати Дані мовлення, які компанія Nuance та її сторонні партнери можуть використати для вдосконалення та покращення (а) Служби розпізнавання мовлення та (б) інших продуктів і послуг Nuance.""<br>"
 	"5. Ви погоджуєтеся, що ваші Дані мовлення можуть бути передані до США та/або інших країн для зберігання, обробки та використання компанією Nuance і її сторонніми партнерами.""<br>"
 	"6. Усі надані вами Дані мовлення залишатимуться конфіденційними та використовуватимуться згідно з відповідними законами, але можуть бути розкриті компанією Nuance, якщо це необхідно для виконання юридичних вимог, наприклад за рішенням судових або інших компетентних органів та служб, якщо це вимагається або дозволяється законом, або надані третій стороні, що придбала компанію Nuance або об’єдналася з нею."
-
 },
 {
 	"hy_AM",
@@ -906,8 +873,6 @@ const char *voice_tos_mapping_table[][5] = { // Provided by Nuance
 	NULL,
 	NULL
 },
-
-
 };
 
 

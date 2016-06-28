@@ -62,7 +62,6 @@ static InputSmartreplyData *g_input_smartreply_data = NULL;
 static void _input_smartreply_get_reply_callback(int handle, int error,
 						int length)
 {
-
 }
 
 

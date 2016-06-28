@@ -63,20 +63,15 @@ void show_voice_input(Evas_Object *parent, const char *lang, void (*get_string)(
 	}
 
 	vconf_notify_key_changed(VCONFKEY_ISE_STT_LANGUAGE, _stt_lang_changed_cb, my_voicedata);
-
 }
 
-
 void  pause_voice(){
-
 	PRINTFUNC(DLOG_DEBUG, "pause_voice");
 
 	powerUnlock();
 	if (my_voicedata) {
 		on_stt_pause(my_voicedata);
 	}
-
-
 }
 
  void destroy_voice()
@@ -91,7 +86,6 @@ void  pause_voice(){
 		 on_destroy(my_voicedata);
 		 my_voicedata = NULL;
 	 }
-
  }
 
  int is_lang_supported_by_voice_input(const char *lang)
@@ -112,7 +106,7 @@ void ise_show_stt_popup(void *data)
  {
 	 App_Data* ad = (App_Data*)data;
 
-	 if(!ad)
+	 if (!ad)
 		 return;
 
 	 show_voice_input((Evas_Object*)ad->naviframe, NULL, NULL);
@@ -125,7 +119,6 @@ void ise_show_stt_popup(void *data)
 	 if (my_voicedata) {
 		 my_voicedata->disclaimer = 1;
 	 }
-
  }
 
 

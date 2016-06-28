@@ -167,43 +167,42 @@ static void get_stt_default_language(VoiceData *my_voicedata);
 
 char* get_lang_label(char lang[])
 {
-
 	char *str = NULL;
 
-	if(strcmp(lang, "en_US") == 0)
+	if (strcmp(lang, "en_US") == 0)
 		str = disp_lang_array[3];
 
-	else if(strcmp(lang, "ko_KR") == 0)
+	else if (strcmp(lang, "ko_KR") == 0)
 		str = disp_lang_array[12];
 
-	else if(strcmp(lang, "de_DE") == 0)
+	else if (strcmp(lang, "de_DE") == 0)
 		str = disp_lang_array[1];
 
-	else if(strcmp(lang, "fr_FR") == 0)
+	else if (strcmp(lang, "fr_FR") == 0)
 		str = disp_lang_array[6];
 
-	else if(strcmp(lang, "it_IT") == 0)
+	else if (strcmp(lang, "it_IT") == 0)
 		str = disp_lang_array[7];
 
-	else if(strcmp(lang, "en_GB") == 0)
+	else if (strcmp(lang, "en_GB") == 0)
 		str = disp_lang_array[2];
 
-	else if(strcmp(lang, "ja_JP") == 0)
+	else if (strcmp(lang, "ja_JP") == 0)
 		str = disp_lang_array[11];
 
-	else if(strcmp(lang, "zh_CN") == 0)
+	else if (strcmp(lang, "zh_CN") == 0)
 		str = disp_lang_array[10];
 
-	else if(strcmp(lang, "ru_RU") == 0)
+	else if (strcmp(lang, "ru_RU") == 0)
 		str = disp_lang_array[9];
 
-	else if(strcmp(lang, "pt_BR") == 0)
+	else if (strcmp(lang, "pt_BR") == 0)
 		str = disp_lang_array[8];
 
-	else if(strcmp(lang, "es_ES") == 0)
+	else if (strcmp(lang, "es_ES") == 0)
 		str = disp_lang_array[4];
 
-	else if(strcmp(lang, "es_US") == 0)
+	else if (strcmp(lang, "es_US") == 0)
 		str = disp_lang_array[5];
 
 	else
@@ -214,25 +213,24 @@ char* get_lang_label(char lang[])
 
 char* get_lang_label_n66(char lang[])
 {
-
 	char *str = NULL;
 
-	if(strcmp(lang, "en_US") == 0)
+	if (strcmp (lang, "en_US") == 0)
 		str = disp_lang_array_n66[1];
 
-	else if(strcmp(lang, "ko_KR") == 0)
+	else if (strcmp (lang, "ko_KR") == 0)
 		str = disp_lang_array_n66[6];
 
-	else if(strcmp(lang, "fr_FR") == 0)
+	else if (strcmp (lang, "fr_FR") == 0)
 		str = disp_lang_array_n66[3];
 
-	else if(strcmp(lang, "ja_JP") == 0)
+	else if (strcmp (lang, "ja_JP") == 0)
 		str = disp_lang_array_n66[5];
 
-	else if(strcmp(lang, "zh_CN") == 0)
+	else if (strcmp (lang, "zh_CN") == 0)
 		str = disp_lang_array_n66[4];
 
-	else if(strcmp(lang, "es_US") == 0)
+	else if (strcmp (lang, "es_US") == 0)
 		str = disp_lang_array_n66[2];
 
 	else
@@ -245,21 +243,20 @@ char* get_lang_label_n66(char lang[])
 static Eina_Bool
 _bring_in_cb(void *data)
 {
-
 	if(!data)
 		return ECORE_CALLBACK_CANCEL;
 
-	Evas_Coord x, y ,w, h;
+	Evas_Coord x, y, w, h;
 
 	Evas_Object *scroller = (Evas_Object *)data;
 	Evas_Object *inner_layout = NULL;
 
 	inner_layout = (Evas_Object *) evas_object_data_get(scroller, "inner_layout");
 
-	evas_object_geometry_get(inner_layout , &x, &y, &w, &h);
+	evas_object_geometry_get(inner_layout, &x, &y, &w, &h);
 	elm_scroller_region_bring_in(scroller, x, h, w, h);
 
-	PRINTFUNC(NO_PRINT,"scroller %d %d %d %d",x, y, w, h);
+	PRINTFUNC(NO_PRINT, "scroller %d %d %d %d", x, y, w, h);
 
 	return ECORE_CALLBACK_CANCEL;
 }
@@ -302,7 +299,7 @@ static inline Evas_Coord get_text_block_size(Evas_Object *obj, std::string text)
 	return height;
 }
 
-static Eina_Bool _update_textblock_timer_cb (void *data)
+static Eina_Bool _update_textblock_timer_cb(void *data)
 {
 	if(!data)
 		return ECORE_CALLBACK_CANCEL;
@@ -312,7 +309,7 @@ static Eina_Bool _update_textblock_timer_cb (void *data)
 	voicedata->textblock_timer = NULL;
 
 	std::string result_text;
-	for(int i=0;i<voicedata->stt_results.size();i++){
+	for(int i = 0; i < voicedata->stt_results.size(); i++){
 		if(i == voicedata->stt_results.size()-1){
 			result_text += voicedata->stt_results.at(i);
 		} else {
@@ -410,10 +407,9 @@ static Eina_Bool _update_textblock_timer_cb (void *data)
 	Evas_Object *panel_layout = elm_layout_content_get((Evas_Object *)voicedata->layout_main, "left_panel_area");
 	Evas_Object *panel_left = elm_layout_content_get((Evas_Object *)panel_layout, "elm.swallow.right");
 
-	if(result_text.size()>0){
+	if (result_text.size() > 0) {
 		elm_object_signal_emit(panel_left, "elm,state,enabled", "elm");
-	}
-	else {
+	} else {
 		elm_object_signal_emit(panel_left, "elm,state,disabled", "elm");
 	}
 
@@ -431,15 +427,10 @@ static Eina_Bool _update_textblock_timer_cb (void *data)
 	elm_object_signal_emit(inner_layout, "scrolling", "entry");
 
 	return ECORE_CALLBACK_CANCEL;
-
-
-
 }
-
 
 void _update_textblock(void *data)
 {
-
 	if(!data)
 		return;
 
@@ -478,7 +469,6 @@ void voice_get_string(const char *keyValue, _VoiceData *voicedata)
 				voicedata->partial_result = strdup(strbuf);
 			}
 		} else { // partial_result is Null so first case
-
 			PRINTFUNC(DLOG_DEBUG, "first push");
 			voicedata->stt_results.push_back(strbuf);
 			voicedata->partial_result = strdup(strbuf);
@@ -493,7 +483,7 @@ void voice_get_string(const char *keyValue, _VoiceData *voicedata)
 	PRINTFUNC(DLOG_DEBUG, "ends");
 }
 
-static Eina_Bool _recognition_failure_cb (void *data)
+static Eina_Bool _recognition_failure_cb(void *data)
 {
 	if(data) {
 		VoiceData *voicedata = (VoiceData *) data;
@@ -507,30 +497,27 @@ static Eina_Bool _recognition_failure_cb (void *data)
 
 void start_by_press(VoiceData *voicedata)
 {
-
-	PRINTFUNC(DLOG_DEBUG,"");
+	PRINTFUNC(DLOG_DEBUG, "");
 
 	edje_object_signal_emit(_EDJ(voicedata->layout_main), "mouse,clicked,1", "background");
 
 	return;
-
 }
 
 static void on_mic_button_press_cb(void *data, Evas_Object *obj, void *event_info)
 {
-
-	PRINTFUNC(NO_PRINT,"");
+	PRINTFUNC(NO_PRINT, "");
 
 	VoiceData *voicedata = (VoiceData *)data;
 
 	if (elm_config_access_get()){
-		if(	bottom_button_access_state == true){
-			PRINTFUNC(DLOG_DEBUG,"skip until bottom buttom is being read by accessibility");
+		if(bottom_button_access_state == true){
+			PRINTFUNC(DLOG_DEBUG, "skip until bottom buttom is being read by accessibility");
 			return;
 		}
 	}
 
-	edje_object_signal_emit(_EDJ(voicedata->layout_main), "mouse,clicked,1","background");
+	edje_object_signal_emit(_EDJ(voicedata->layout_main), "mouse,clicked,1", "background");
 
 	return;
 }
@@ -546,7 +533,6 @@ static char *_left_cue_access_info_cb(void *data, Evas_Object *obj)
 
 static void _left_cue_access_activate_cb(void * data, Evas_Object *part_obj, Elm_Object_Item *item)
 {
-
     Evas_Object *obj = (Evas_Object *)data;
     elm_layout_signal_emit(obj, "cue,clicked", "elm");
 
@@ -556,8 +542,7 @@ static void _left_cue_access_activate_cb(void * data, Evas_Object *part_obj, Elm
 
 static void _send_button_highlighted_cb(void *data, Evas_Object * obj, void *event_info)
 {
-
-	PRINTFUNC(DLOG_DEBUG,"");
+	PRINTFUNC(DLOG_DEBUG, "");
 	VoiceData* voicedata = (VoiceData*)data;
 
 	if (voicedata->sttmanager->GetCurrent() == STT_STATE_RECORDING ||
@@ -574,8 +559,7 @@ static void _send_button_highlighted_cb(void *data, Evas_Object * obj, void *eve
 
 static Eina_Bool _mic_button_enable_cb(void *data)
 {
-
-	PRINTFUNC(DLOG_DEBUG,"");
+	PRINTFUNC(DLOG_DEBUG, "");
 
 	if(!data)
 		return ECORE_CALLBACK_CANCEL;
@@ -597,11 +581,10 @@ static Eina_Bool _mic_button_enable_cb(void *data)
 
 static void _mic_highlighted_cb(void *data, Evas_Object * obj, void *event_info)
 {
-
-	PRINTFUNC(DLOG_DEBUG,"");
+	PRINTFUNC(DLOG_DEBUG, "");
 	VoiceData* voicedata = (VoiceData*)data;
 
-   if (voicedata->sttmanager->GetCurrent() == STT_STATE_RECORDING ||
+	if (voicedata->sttmanager->GetCurrent() == STT_STATE_RECORDING ||
 	voicedata->sttmanager->GetCurrent() == STT_STATE_PROCESSING)
 	   return;
 
@@ -618,11 +601,7 @@ static void _mic_highlighted_cb(void *data, Evas_Object * obj, void *event_info)
 	}
 	voicedata->btn_disabling_timer = ecore_timer_add(3.0, _mic_button_enable_cb, voicedata);
 
-
 	elm_access_say(gettext(SK_DOUBLE_TAP_TO_SPEAK));
-
-
-
 }
 
 static char *_mic_access_info_cb(void *data, Evas_Object *obj)
@@ -634,9 +613,8 @@ static char *_mic_access_info_cb(void *data, Evas_Object *obj)
 
 static void on_confirm_button_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 {
-
 	if(g_send_button_clicked == true){
-		PRINTFUNC(DLOG_DEBUG,"skipped seding STT result");
+		PRINTFUNC(DLOG_DEBUG, "skipped seding STT result");
 		return;
 	}
 
@@ -648,13 +626,13 @@ static void on_confirm_button_clicked_cb(void *data, Evas_Object *obj, void *eve
 	VoiceData* voicedata = (VoiceData*)data;
 
 	std::string result_text;
-	for(int i=0;i<voicedata->stt_results.size();i++){
+	for(int i = 0; i < voicedata->stt_results.size(); i++){
 		result_text += voicedata->stt_results.at(i);
 		if(i != voicedata->stt_results.size()-1)
 			result_text += " ";
 	}
 
-	PRINTFUNC(DLOG_DEBUG,"result_text = %s", result_text.c_str());
+	PRINTFUNC(DLOG_DEBUG, "result_text = %s", result_text.c_str());
 	input_smartreply_send_feedback(result_text.c_str());
 
 	if(app_data->reply_type == REPLY_APP_CONTROL){
@@ -672,7 +650,7 @@ static void on_confirm_button_clicked_cb(void *data, Evas_Object *obj, void *eve
 static void
 _panel_cue_clicked_cb(void *data, Evas_Object *obj, const char *emission, const char *source)
 {
-	PRINTFUNC(DLOG_DEBUG,"left cue clicked!!");
+	PRINTFUNC(DLOG_DEBUG, "left cue clicked!!");
 
 	on_confirm_button_clicked_cb(data, NULL, NULL);
 }
@@ -703,9 +681,9 @@ void stt_feedback(FeedbackType type)
 		return;
 	}
 
-	if(type == VIBRATION_START){
+	if (type == VIBRATION_START){
 //		feedback_play(FEEDBACK_PATTERN_VOICE_START);
-	} else if(type == VIBRATION_STOP){
+	} else if (type == VIBRATION_STOP){
 //		feedback_play(FEEDBACK_PATTERN_VOICE_STOP);
 	}
 
@@ -715,7 +693,6 @@ void stt_feedback(FeedbackType type)
 		PRINTFUNC(DLOG_ERROR, "feedback_initialize failed!");
 		return;
 	}
-
 }
 
 void stt_feedback_deinitialize()
@@ -731,25 +708,22 @@ void stt_feedback_deinitialize()
 	return;
 }
 
-
 static Eina_Bool _idler_cb(void *data)
 {
-
 	if(!data) return ECORE_CALLBACK_CANCEL;
 
 	VoiceData *voicedata = (VoiceData *)data;
 
-	PRINTFUNC(DLOG_DEBUG,"");
+	PRINTFUNC(DLOG_DEBUG, "");
 
 
 	if(true == _app_stt_initialize(voicedata)) {
-		PRINTFUNC(NO_PRINT,"_app_stt_initialize None Error");
+		PRINTFUNC(NO_PRINT, "_app_stt_initialize None Error");
 		voicedata->voicefw_state = 1;
 		voicedata->state = STT_STATE_VAL_INIT;
-	}
-	else {
+	} else {
 		voicedata->voicefw_state = 0;
-		PRINTFUNC(DLOG_ERROR,"Initialization Fail!<br>Check STT-daemon is running");
+		PRINTFUNC(DLOG_ERROR, "Initialization Fail!<br>Check STT-daemon is running");
 	}
 
 	Evas_Object *canvas = elm_object_part_content_get(voicedata->layout_main, "EFFECT_BG");
@@ -760,7 +734,7 @@ static Eina_Bool _idler_cb(void *data)
 
 	is::ui::MicEffector *effector = new is::ui::MicEffector(canvas, voicedata->layout_main, *ieffect);
 	voicedata->ieffect = ieffect;
-	voicedata->effector= effector;
+	voicedata->effector = effector;
 
 	ieffect->SetProgressBar(voicedata->progressbar);
 	ieffect->SetSttHandle(voicedata->sttmanager->GetSttHandle());
@@ -775,8 +749,7 @@ static Eina_Bool _idler_cb(void *data)
 
 
 static Eina_Bool _power_delayed_unlock(void *data){
-
-	PRINTFUNC(DLOG_DEBUG,"POWER Unlock");
+	PRINTFUNC(DLOG_DEBUG, "POWER Unlock");
 
 	VoiceData *voicedata = (VoiceData *) data;
 	device_power_release_lock(POWER_LOCK_DISPLAY);
@@ -787,39 +760,36 @@ static Eina_Bool _power_delayed_unlock(void *data){
 
 void powerUnlock()
 {
-	PRINTFUNC(DLOG_DEBUG,"POWER Unlock directly.");
+	PRINTFUNC(DLOG_DEBUG, "POWER Unlock directly.");
 	device_power_release_lock(POWER_LOCK_DISPLAY);
 }
 
 void powerLock(void *data, bool enable)
 {
-
 	int ret = DEVICE_ERROR_NONE;
 
 	VoiceData *voicedata = (VoiceData *) data;
 
 	if(enable) {
-
 		ret = device_power_wakeup(false);
-		PRINTFUNC(DLOG_DEBUG,"LCD Wakeup");
+		PRINTFUNC(DLOG_DEBUG, "LCD Wakeup");
 
 		if(ret != DEVICE_ERROR_NONE)
-			PRINTFUNC(DLOG_ERROR,"LCD Wakeup ERROR =%d",ret);
+			PRINTFUNC(DLOG_ERROR, "LCD Wakeup ERROR = %d", ret);
 
 		ret = device_power_request_lock(POWER_LOCK_DISPLAY, 0);
-		PRINTFUNC(DLOG_DEBUG,"POWER LOCK");
+		PRINTFUNC(DLOG_DEBUG, "POWER LOCK");
 		power_state = enable;
 
 		if(ret != DEVICE_ERROR_NONE)
-			PRINTFUNC(DLOG_ERROR,"ERROR =%d",ret);
+			PRINTFUNC(DLOG_ERROR, "ERROR = %d", ret);
 
 		if(voicedata->power_unlock_timer != NULL){
 			ecore_timer_del(voicedata->power_unlock_timer);
 			voicedata->power_unlock_timer = NULL;
-
 		}
 	} else {
-		PRINTFUNC(DLOG_DEBUG,"POWER Unlock Delayed(5 sec)");
+		PRINTFUNC(DLOG_DEBUG, "POWER Unlock Delayed(5 sec)");
 
 		if(voicedata->power_unlock_timer != NULL){
 			ecore_timer_del(voicedata->power_unlock_timer);
@@ -827,22 +797,18 @@ void powerLock(void *data, bool enable)
 		}
 		voicedata->power_unlock_timer = ecore_timer_add(5.0, _power_delayed_unlock, voicedata);
 	}
-
 }
 
 
 static Eina_Bool hide_guide_text(void *data){
-
-
 	if(data) {
 		VoiceData *voicedata = (VoiceData *) data;
 
 		voicedata->guide_text_timer = NULL;
 
 
-		PRINTFUNC(DLOG_ERROR,"");
+		PRINTFUNC(DLOG_ERROR, "");
 		elm_object_part_text_set(voicedata->layout_main, "elm.text", "");
-
 	}
 	return ECORE_CALLBACK_CANCEL;
 }
@@ -869,7 +835,7 @@ static void set_guide_text(VoiceData *vd, const char* text, bool translatable)
  */
 void set_animation_state(VoiceData *voicedata)
 {
-	PRINTFUNC(DLOG_DEBUG,"");
+	PRINTFUNC(DLOG_DEBUG, "");
 
 	PRINTFUNC(DLOG_ERROR, "voicedata->state == %s",
 		voicedata->state == STT_STATE_VAL_INIT ?
@@ -886,14 +852,12 @@ void set_animation_state(VoiceData *voicedata)
 			"STT_STATE_VAL_TERMINATING" : "STT_STATE_VAL_NOT_RECOGNISED");
 
 	if (voicedata->state == STT_STATE_VAL_INIT) {
-
 #if 0
 		if (voicedata->sttmanager->GetCurrent() == STT_STATE_READY) {
 			set_guide_text(voicedata, "", false);
 			//_elm_access_say(voicedata->layout_main, _(SK_INIT));
-		}
-		else {
-			PRINTFUNC(DLOG_DEBUG,"SK_NETWORK_ERROR [%d]", voicedata->sttmanager->GetCurrent());
+		} else {
+			PRINTFUNC(DLOG_DEBUG, "SK_NETWORK_ERROR [%d]", voicedata->sttmanager->GetCurrent());
 			set_guide_text(voicedata, _(SK_NETWORK_ERROR));
 			//_elm_access_say(voicedata->layout_main, _(SK_NETWORK_CONNECTION_ERROR));
 		}
@@ -904,28 +868,23 @@ void set_animation_state(VoiceData *voicedata)
 
 		set_guide_text(voicedata, "");
 
-		PRINTFUNC(DLOG_DEBUG,"%d", voicedata->stt_results.size());
+		PRINTFUNC(DLOG_DEBUG, "%d", voicedata->stt_results.size());
 		powerLock((void*)voicedata, false);
-	}
-	else if (voicedata->state == STT_STATE_VAL_LISTENING) {
-
+	} else if (voicedata->state == STT_STATE_VAL_LISTENING) {
 		set_guide_text(voicedata, SK_SPEAK_NOW, true);
 
 		if(voicedata->effector)
 			voicedata->effector->Start();
 
 		powerLock((void*)voicedata, true);
-	}
-	else if (voicedata->state == STT_STATE_VAL_PROCESSING) {
-
+	} else if (voicedata->state == STT_STATE_VAL_PROCESSING) {
 		set_guide_text(voicedata, "");
 		if(voicedata->effector)
 			voicedata->effector->Stop();
 
 		stt_feedback(VIBRATION_STOP);
-	}
-	else {
-		PRINTFUNC(DLOG_DEBUG,"SK_NETWORK_ERROR");
+	} else {
+		PRINTFUNC(DLOG_DEBUG, "SK_NETWORK_ERROR");
 		set_guide_text(voicedata, _(SK_RECOGNITION_FAILED));
 		//_elm_access_say(voicedata->layout_main, _(SK_RECOGNITION_FAILED));
 
@@ -948,18 +907,18 @@ void show_error_message(VoiceData *vd, stt_error_e reason)
 {
 	if(reason == STT_ERROR_OUT_OF_NETWORK)
 	{
-		PRINTFUNC(DLOG_DEBUG,"SK_NETWORK_ERROR");
+		PRINTFUNC(DLOG_DEBUG, "SK_NETWORK_ERROR");
 
 		int ancs_connected = 0;
 		int ret = 0;
 		ret = vconf_get_int("file/private/weconn/ancs_connected", &ancs_connected);
 
 		if (ret == 0)
-			PRINTFUNC(DLOG_ERROR, "ancs connected status : %d" ,ancs_connected);
+			PRINTFUNC(DLOG_ERROR, "ancs connected status : %d", ancs_connected);
 		else
 			PRINTFUNC(DLOG_ERROR, "vconf for ancs connection ERROR - %d", ret);
 
-		if (ancs_connected){
+		if (ancs_connected) {
 			char text[512];
 			snprintf(text, sizeof(text), _(SK_NETWORK_ERROR_FOR_IOS), _(SK_SAMSUNG_GEAR));
 
@@ -970,12 +929,12 @@ void show_error_message(VoiceData *vd, stt_error_e reason)
 
 		vd->state = STT_STATE_VAL_INIT;
 
-	} else if(reason == STT_ERROR_RECORDER_BUSY) {
-		PRINTFUNC(DLOG_WARN,"STT is used by another application");
+	} else if (reason == STT_ERROR_RECORDER_BUSY) {
+		PRINTFUNC(DLOG_WARN, "STT is used by another application");
 		show_popup_toast(_(SK_STT_BUSY), false);
 		vd->state = STT_STATE_VAL_INIT;
 	} else {
-		PRINTFUNC(DLOG_WARN,"Check error code");
+		PRINTFUNC(DLOG_WARN, "Check error code");
 		show_popup_toast(_(SK_STT_BUSY), false);
 		vd->state = STT_STATE_VAL_INIT;
 	}
@@ -993,17 +952,17 @@ static Eina_Bool _start_timer_cb(void* data)
 		catch (is::stt::SttException &e) {
 			PRINTFUNC(DLOG_ERROR, "%s", e.what());
 
-			if(e.GetEcode() == STT_ERROR_OUT_OF_NETWORK)
+			if (e.GetEcode() == STT_ERROR_OUT_OF_NETWORK)
 			{
-				PRINTFUNC(DLOG_DEBUG,"SK_NETWORK_ERROR");
+				PRINTFUNC(DLOG_DEBUG, "SK_NETWORK_ERROR");
 				set_guide_text(voicedata, _(SK_NETWORK_ERROR));
 				voicedata->state = STT_STATE_VAL_INIT;
-			} else if(e.GetEcode() == STT_ERROR_RECORDER_BUSY) {
-				PRINTFUNC(DLOG_WARN,"STT is used by another application");
+			} else if (e.GetEcode() == STT_ERROR_RECORDER_BUSY) {
+				PRINTFUNC(DLOG_WARN, "STT is used by another application");
 				show_popup_toast(_(SK_STT_BUSY), false);
 				voicedata->state = STT_STATE_VAL_INIT;
 			} else {
-				PRINTFUNC(DLOG_WARN,"Check error code");
+				PRINTFUNC(DLOG_WARN, "Check error code");
 				show_popup_toast(_(SK_STT_BUSY), false);
 				voicedata->state = STT_STATE_VAL_INIT;
 			}
@@ -1020,7 +979,7 @@ static Eina_Bool _start_timer_cb(void* data)
 
 void on_initial_anim_press_cb(void *data, Evas_Object *obj, const char *emission, const char *source)
 {
-	PRINTFUNC(NO_PRINT,"");
+	PRINTFUNC(NO_PRINT, "");
 
 	VoiceData *vd = (VoiceData *)data;
 
@@ -1034,7 +993,6 @@ void on_initial_anim_press_cb(void *data, Evas_Object *obj, const char *emission
 	PRINTFUNC(DLOG_DEBUG, "Ui Voice State : %d", vd->state);
 
 	switch(vd->state) {
-
 		case STT_STATE_VAL_INIT:
 
 			PRINTFUNC(DLOG_DEBUG, "%s", "STT_STATE_VAL_INIT");
@@ -1069,9 +1027,8 @@ void on_initial_anim_press_cb(void *data, Evas_Object *obj, const char *emission
 			catch (is::stt::SttException &e) {
 				PRINTFUNC(DLOG_ERROR, "%s", e.what());
 
-				if(e.GetEcode() != STT_ERROR_INVALID_STATE)
-				{
-					PRINTFUNC(DLOG_DEBUG,"SK_NETWORK_ERROR");
+				if(e.GetEcode() != STT_ERROR_INVALID_STATE) {
+					PRINTFUNC(DLOG_DEBUG, "SK_NETWORK_ERROR");
 					set_guide_text(vd, _(SK_RECOGNITION_FAILED));
 					vd->state = STT_STATE_VAL_INIT;
 
@@ -1123,8 +1080,6 @@ static inline void ea_naviframe_back(void *data, Evas_Object *obj, void *event_i
 			eext_more_option_opened_set(g_more_option_layout, EINA_FALSE);
 		}
 	}
-
-
 }
 
 static char *__get_genlist_title_label(void *data, Evas_Object *obj, const char *part)
@@ -1134,14 +1089,13 @@ static char *__get_genlist_title_label(void *data, Evas_Object *obj, const char 
 
 char *__get_genlist_item_label(void *data, Evas_Object *obj, const char *part)
 {
-	char text[128] = {0,};
+	char text[128] = {0, };
 
 	if(!strcmp(part, "elm.text"))
 	{
 		if((int)data == 0) {
 			return strdup(_("IDS_VC_BODY_AUTOMATIC"));
-		}
-		else {
+		} else {
 			char *s = NULL;
 			if(g_is_n66) {
 				s = (char *)disp_lang_array_n66[(int)data];
@@ -1151,23 +1105,18 @@ char *__get_genlist_item_label(void *data, Evas_Object *obj, const char *part)
 
 			if(s) {
 				char *p = strchr(s, '(');
-				if(p){
+				if(p) {
 					strncpy(text, s, p-s);
-				}else{
+				} else {
 					strncpy(text, s, strlen(s));
 				}
-			}
-			else{
+			} else {
 				strncpy(text, "", strlen(""));
 			}
 		}
-
 		return strdup(text);
-	} else if(!strcmp(part, "elm.text.1")) {
-
-
-		if((int)data == 0) {
-
+	} else if (!strcmp(part, "elm.text.1")) {
+		if ((int)data == 0) {
 			char* value = NULL;
 			value = vconf_get_str(VCONFKEY_LANGSET);
 			if (NULL == value) {
@@ -1176,7 +1125,7 @@ char *__get_genlist_item_label(void *data, Evas_Object *obj, const char *part)
 			}
 			PRINTFUNC(DLOG_DEBUG, "system language (%s)", value);
 
-			char system_lang[6] = {0,};
+			char system_lang[6] = {0, };
 			strncpy(system_lang, value , 5);
 			free(value);
 
@@ -1196,22 +1145,19 @@ char *__get_genlist_item_label(void *data, Evas_Object *obj, const char *part)
 				s = (char *)disp_lang_array[(int)data];
 			}
 
-			if(s){
+			if(s) {
 				char *p = strchr(s, '(');
-				if(p){
-					strncpy(text,p+1,strlen(s)-(p-s)-2);
-				}else{
+				if(p) {
+					strncpy(text, p+1, strlen(s)-(p-s)-2);
+				} else {
 					strncpy(text, s, strlen(s));
 				}
-			}else{
+			} else {
 				strncpy(text, "", strlen(""));
 			}
 			return strdup(text);
 		}
-
 	}
-
-
 	return NULL;
 }
 
@@ -1231,17 +1177,12 @@ static Evas_Object *__get_genlist_item_content(void *data, Evas_Object *obj, con
 
 		if (elm_config_access_get())
 			elm_access_object_unregister(content);
-
 	}
 	return content;
-
-
 }
 
 static int get_language_value()
 {
-
-
 #if 0
 	int lang = 0, ret = 0;
 
@@ -1265,8 +1206,7 @@ static int get_language_value()
 			lang = 0;
 		}
 		PRINTFUNC(DLOG_DEBUG, "n66 current language value for stt (%s).", disp_lang_array_n66[lang]);
-	}
-	else {
+	} else {
 		PRINTFUNC(DLOG_DEBUG, "current language value for stt (%s).", disp_lang_array[lang]);
 	}
 
@@ -1294,7 +1234,6 @@ static void set_language_value(int type)
 	PRINTFUNC(DLOG_DEBUG, "language type (%d)", type);
 
 	// Update string
-
 }
 
 static void get_stt_default_language(VoiceData *my_voicedata)
@@ -1330,7 +1269,7 @@ static void get_stt_default_language(VoiceData *my_voicedata)
 			}
 			PRINTFUNC(DLOG_DEBUG, "system language (%s)", value);
 
-			char system_lang[6] = {0,};
+			char system_lang[6] = {0, };
 			strncpy(system_lang, value , 5);
 			free(value);
 
@@ -1380,7 +1319,7 @@ static void get_stt_default_language(VoiceData *my_voicedata)
 			}
 			PRINTFUNC(DLOG_DEBUG, "system language (%s)", value);
 
-			char system_lang[6] = {0,};
+			char system_lang[6] = {0, };
 			strncpy(system_lang, value , 5);
 			free(value);
 
@@ -1419,7 +1358,6 @@ static void get_stt_default_language(VoiceData *my_voicedata)
 	}
 
 	PRINTFUNC(DLOG_DEBUG, "stt language (%s)", my_voicedata->kbd_lang);
-
 }
 
 static Eina_Bool close_setting_window_idler_cb(void *data)
@@ -1470,7 +1408,7 @@ Eina_Bool _ise_keydown_cb(void *data, int type, void *event)
 
 char *_language_list_access_info_cb(void *data, Evas_Object *obj)
 {
-	PRINTFUNC(DLOG_DEBUG,"%s", __func__);
+	PRINTFUNC(DLOG_DEBUG, "%s", __func__);
 
 	int value;
 	int index;
@@ -1498,7 +1436,7 @@ char *_language_list_access_info_cb(void *data, Evas_Object *obj)
 
 static void _language_list_item_realized(void *data, Evas_Object *obj, void *event_info) //called when list scrolled
 {
-	PRINTFUNC(DLOG_DEBUG,"%s", __func__);
+	PRINTFUNC(DLOG_DEBUG, "%s", __func__);
 	if (elm_config_access_get()) {
 		Elm_Object_Item *item = (Elm_Object_Item *)event_info;
 		Evas_Object *item_access = elm_object_item_access_object_get(item);
@@ -1529,7 +1467,7 @@ static Evas_Object *create_language_list(Evas_Object *parent)
 	Elm_Object_Item * item = NULL;
 	Elm_Object_Item * item_title = NULL;
 
-	evas_object_size_hint_weight_set(genlist, EVAS_HINT_EXPAND,EVAS_HINT_EXPAND);
+	evas_object_size_hint_weight_set(genlist, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_size_hint_align_set(genlist, EVAS_HINT_FILL, EVAS_HINT_FILL);
 
 	radio_gp = elm_radio_add(genlist);
@@ -1569,7 +1507,6 @@ static Evas_Object *create_language_list(Evas_Object *parent)
 	if(g_is_n66) {
 		for (i = 1; i < 7; i++)
 		{
-
 			char *s = (char *)disp_lang_array_n66[i];
 
 			if(strchr(s, '(')){
@@ -1591,7 +1528,6 @@ static Evas_Object *create_language_list(Evas_Object *parent)
 	} else {
 		for (i = 1; i < 13; i++)
 		{
-
 			char *s = (char *)disp_lang_array[i];
 
 			if(strchr(s, '(')){
@@ -1693,7 +1629,7 @@ void create_setting_window(Evas_Object *more_option_layout)
 	 * Naviframe
 	 *
 	 */
-	naviframe= elm_naviframe_add(layout);
+	naviframe = elm_naviframe_add(layout);
 	if (naviframe == NULL){
 		PRINTFUNC(DLOG_DEBUG, "create navi_frame failed");
 	}
@@ -1718,11 +1654,10 @@ void create_setting_window(Evas_Object *more_option_layout)
 
 static void language_changed_cb(void *data, Evas_Object * obj, void *event_info)
 {
-	PRINTFUNC(DLOG_DEBUG,"");
+	PRINTFUNC(DLOG_DEBUG, "");
 
 	if(!obj) return;
 	if(!data) return;
-
 }
 
 static void get_text_part_width(Evas_Object *window, const char *text, Evas_Coord *calculated_width)
@@ -1773,12 +1708,11 @@ void _stt_lang_changed_cb(keynode_t *key, void* data)
 	vd->mo->Update();
 
 	return;
-
 }
 
-static void __done_key_cb( void *data, Evas_Object *obj, void *event_info )
+static void __done_key_cb(void *data, Evas_Object *obj, void *event_info )
 {
-	PRINTFUNC(DLOG_DEBUG,"");
+	PRINTFUNC(DLOG_DEBUG, "");
 
 	if(!obj) return;
 	if(!data) return;
@@ -1790,7 +1724,6 @@ static void __done_key_cb( void *data, Evas_Object *obj, void *event_info )
 
 static void __stt_detailed_entry_input_panel_event_cb(void *data, Ecore_IMF_Context *imf_context,  int value)
 {
-
 	if(!data) return;
 
 	VoiceData *voicedata = (VoiceData *)data;
@@ -1800,27 +1733,25 @@ static void __stt_detailed_entry_input_panel_event_cb(void *data, Ecore_IMF_Cont
 		elm_naviframe_item_pop(voicedata->naviframe);
 		break;
 	case ECORE_IMF_INPUT_PANEL_STATE_WILL_SHOW: // 2
-		PRINTFUNC(DLOG_DEBUG,"keypad state will show.");
+		PRINTFUNC(DLOG_DEBUG, "keypad state will show.");
 		break;
 	case ECORE_IMF_INPUT_PANEL_STATE_SHOW: // 0
-		PRINTFUNC(DLOG_DEBUG,"keypad state show.");
+		PRINTFUNC(DLOG_DEBUG, "keypad state show.");
 		break;
 	}
 }
 
 static void __stt_detailed_entry_del_cb(void *data, Evas *e, Evas_Object *obj, void *event_info)
 {
-
 	if (obj) {
 		Ecore_IMF_Context *imf_context = (Ecore_IMF_Context *)elm_entry_imf_context_get(obj);
 		ecore_imf_context_input_panel_event_callback_del(imf_context, ECORE_IMF_INPUT_PANEL_STATE_EVENT, __stt_detailed_entry_input_panel_event_cb);
-		PRINTFUNC(DLOG_DEBUG,"input_panel_event_cb is deleted.");
+		PRINTFUNC(DLOG_DEBUG, "input_panel_event_cb is deleted.");
 	}
 }
 
 static Evas_Object *create_text_detiled_view(Evas_Object *parent)
 {
-
 	string edj_path = get_resource_path();
 	edj_path = edj_path + STT_EDJ_FILE;
 
@@ -1847,7 +1778,6 @@ static Evas_Object *create_text_detiled_view(Evas_Object *parent)
 
 	elm_object_part_content_set(layout, "contents", entry);
 	return layout;
-
 }
 
 static Eina_Bool _idler_cb2(void *data)
@@ -1886,9 +1816,9 @@ static Eina_Bool __stt_entry_detailed_view_pop_cb(void *data, Elm_Object_Item *i
 	elm_entry_entry_set(main_entry, str);
 	elm_entry_cursor_pos_set(main_entry, pos);
 
-	int x,y,w,h;
-	elm_entry_cursor_geometry_get(main_entry,&x,&y,&w,&h);
-	PRINTFUNC(DLOG_DEBUG, "%d %d %d %d",x,y,w,h);
+	int x, y, w, h;
+	elm_entry_cursor_geometry_get(main_entry, &x, &y, &w, &h);
+	PRINTFUNC(DLOG_DEBUG, "%d %d %d %d", x, y, w, h);
 
 	elm_scroller_region_bring_in(voicedata->scroller, 0, y+h, 300, 168);
 
@@ -1899,7 +1829,6 @@ static Eina_Bool __stt_entry_detailed_view_pop_cb(void *data, Elm_Object_Item *i
 
 static void _stt_entry_clicked_cb(void *data, Evas_Object * obj, void *event_info)
 {
-
 	PRINTFUNC(DLOG_DEBUG, "");
 
 	if(!obj) return;
@@ -1916,7 +1845,6 @@ static void _stt_entry_clicked_cb(void *data, Evas_Object * obj, void *event_inf
 	str =  elm_entry_markup_to_utf8(elm_entry_entry_get(obj));
 
 	if (str && strlen(str) > 0) {
-
 		try {
 			if (voicedata->sttmanager->GetCurrent() == STT_STATE_RECORDING ||
 				voicedata->sttmanager->GetCurrent() == STT_STATE_PROCESSING) {
@@ -1935,7 +1863,7 @@ static void _stt_entry_clicked_cb(void *data, Evas_Object * obj, void *event_inf
 		Evas_Object *detailed_entry = elm_object_part_content_get(ly_detailed_view, "contents");
 		elm_entry_entry_set(detailed_entry, str);
 		elm_entry_cursor_pos_set(detailed_entry, pos);
-		evas_object_smart_callback_add( detailed_entry, "activated", __done_key_cb, voicedata ); // Register callback for Done key
+		evas_object_smart_callback_add(detailed_entry, "activated", __done_key_cb, voicedata); // Register callback for Done key
 
 		Ecore_IMF_Context *imf_context = (Ecore_IMF_Context *)elm_entry_imf_context_get(detailed_entry);
 		ecore_imf_context_input_panel_event_callback_add(imf_context, ECORE_IMF_INPUT_PANEL_STATE_EVENT, __stt_detailed_entry_input_panel_event_cb, voicedata);
@@ -1943,7 +1871,7 @@ static void _stt_entry_clicked_cb(void *data, Evas_Object * obj, void *event_inf
 
 		// Navi Push
 		Elm_Object_Item *navi_it = elm_naviframe_item_push(voicedata->naviframe, NULL, NULL, NULL, ly_detailed_view, NULL);
-		elm_naviframe_item_pop_cb_set(navi_it, __stt_entry_detailed_view_pop_cb,(void *)voicedata);
+		elm_naviframe_item_pop_cb_set(navi_it, __stt_entry_detailed_view_pop_cb, (void *)voicedata);
 		elm_naviframe_item_title_enabled_set(navi_it, EINA_FALSE, EINA_FALSE);
 		free(str);
 	}
@@ -1954,8 +1882,7 @@ static void _stt_entry_clicked_cb(void *data, Evas_Object * obj, void *event_inf
 
 void activate_circle_scroller_for_stt_textbox(void* data, Eina_Bool bActivate)
 {
-
-	PRINTFUNC(DLOG_DEBUG,"");
+	PRINTFUNC(DLOG_DEBUG, "");
 
 	if(!data) return;
 	VoiceData *voicedata = (VoiceData *)data;
@@ -1970,7 +1897,6 @@ void activate_circle_scroller_for_stt_textbox(void* data, Eina_Bool bActivate)
 
 static Evas_Object *create_textblock(void* data)
 {
-
 	if(!data) return NULL;
 
 	VoiceData *voicedata = (VoiceData *)data;
@@ -2021,7 +1947,7 @@ static Evas_Object *create_textblock(void* data)
 
 #define FORMAT_TEXT_AREA_FONT_STYLE \
 	"DEFAULT='font=Tizen:style=Regular font_size=32 color=#%02x%02x%02x%02x text_class=tizen wrap=mixed align=center' newline='br' b='+ font=Tizen:style=Bold'link='+ underline=on underline_color=#%02x%02x%02x%02x'"
-	int a,r,g,b;
+	int a, r, g, b;
 	char customStyle[512];
 //	ea_theme_color_get("AT02112", &r, &g, &b, &a, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 	snprintf(customStyle, 512, FORMAT_TEXT_AREA_FONT_STYLE, r, g, b, a, r, g, b, a);
@@ -2041,12 +1967,10 @@ static Evas_Object *create_textblock(void* data)
 	evas_object_show(inner_layout);
 
 	return scroller;
-
 }
 
 static Evas_Object *create_progressbar(Evas_Object *parent)
 {
-
 	Evas_Object *progressbar = NULL;
 
 	progressbar = elm_progressbar_add(parent);
@@ -2061,12 +1985,11 @@ static Evas_Object *create_progressbar(Evas_Object *parent)
 	evas_object_show(progressbar);
 
 	return progressbar;
-
 }
 
 static Evas_Object *create_fullview(Evas_Object *parent, VoiceData *r_voicedata)
 {
-	PRINTFUNC(NO_PRINT,"");
+	PRINTFUNC(NO_PRINT, "");
 
 	Evas_Object *more_option_layout = NULL;
 	Evas_Object *layout_main = NULL;
@@ -2103,30 +2026,30 @@ static Evas_Object *create_fullview(Evas_Object *parent, VoiceData *r_voicedata)
 	edj_path = edj_path + STT_EDJ_FILE;
 
 	if (vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &is_screen_reader_on) == -1) {
-		PRINTFUNC(DLOG_ERROR,"Cannot read value of screen reader from vconf");
+		PRINTFUNC(DLOG_ERROR, "Cannot read value of screen reader from vconf");
 	}
 
-	evas_object_size_hint_weight_set (layout_main, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-	evas_object_size_hint_align_set (layout_main, EVAS_HINT_FILL, EVAS_HINT_FILL);
+	evas_object_size_hint_weight_set(layout_main, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+	evas_object_size_hint_align_set(layout_main, EVAS_HINT_FILL, EVAS_HINT_FILL);
 
-	elm_layout_file_set (layout_main, edj_path.c_str(), "mic_control");
+	elm_layout_file_set(layout_main, edj_path.c_str(), "mic_control");
 
 	//elm_object_content_set(parent, layout_main);
 
 	//Canvas for Cairo effect
 	Evas_Object *canvas = evas_object_image_filled_add(evas_object_evas_get(layout_main));
 //	evas_object_image_alpha_set(canvas, EINA_TRUE);
-	evas_object_size_hint_align_set (canvas, EVAS_HINT_FILL, EVAS_HINT_FILL);
-	evas_object_size_hint_weight_set (canvas, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-	evas_object_move (canvas, 0, 0);
+	evas_object_size_hint_align_set(canvas, EVAS_HINT_FILL, EVAS_HINT_FILL);
+	evas_object_size_hint_weight_set(canvas, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+	evas_object_move(canvas, 0, 0);
 
 	Evas_Coord CanvasW, CanvasH;
 	CanvasW = 360;
 	CanvasH = 74;
-	evas_object_image_size_set (canvas, CanvasW, CanvasH);
-	evas_object_resize (canvas, CanvasW, CanvasH);
-	evas_object_size_hint_min_set (canvas, CanvasW, CanvasH);
-	evas_object_show (canvas);
+	evas_object_image_size_set(canvas, CanvasW, CanvasH);
+	evas_object_resize(canvas, CanvasW, CanvasH);
+	evas_object_size_hint_min_set(canvas, CanvasW, CanvasH);
+	evas_object_show(canvas);
 
 	elm_object_part_content_set(layout_main, "EFFECT_BG", canvas);
 
@@ -2213,15 +2136,15 @@ static Evas_Object *create_fullview(Evas_Object *parent, VoiceData *r_voicedata)
 
 		Evas_Object *panel_right = elm_object_part_content_get(mo->getMoreOptionLayout(), "elm.swallow.right");
 		if (!panel_right) {
-		    PRINTFUNC(DLOG_DEBUG,"panel_right == NULL");
+		    PRINTFUNC(DLOG_DEBUG, "panel_right == NULL");
 		}
 		Evas_Object *cue_right = (Evas_Object *)edje_object_part_object_get(elm_layout_edje_get(panel_right), "cue.event");
 		if (!cue_right) {
-		    PRINTFUNC(DLOG_DEBUG,"cue_right == NULL");
+		    PRINTFUNC(DLOG_DEBUG, "cue_right == NULL");
 		}
 		Evas_Object *_access_right = elm_access_object_get(cue_right);
 		if (!_access_right){
-		    PRINTFUNC(DLOG_DEBUG,"_access_right == NULL");
+		    PRINTFUNC(DLOG_DEBUG, "_access_right == NULL");
 		}
 		cue_access_right = _access_right;
 
@@ -2230,15 +2153,15 @@ static Evas_Object *create_fullview(Evas_Object *parent, VoiceData *r_voicedata)
 		Evas_Object *panel_layout = elm_layout_content_get(layout_main, "left_panel_area");
 		Evas_Object *panel_left = elm_layout_content_get(panel_layout, "elm.swallow.right");
 		if (!panel_left) {
-		    PRINTFUNC(DLOG_DEBUG,"panel_left == NULL");
+		    PRINTFUNC(DLOG_DEBUG, "panel_left == NULL");
 		}
 		Evas_Object *cue_left = (Evas_Object *)edje_object_part_object_get(elm_layout_edje_get(panel_left), "cue.event");
 		if (!cue_left) {
-		    PRINTFUNC(DLOG_DEBUG,"cue_left == NULL");
+		    PRINTFUNC(DLOG_DEBUG, "cue_left == NULL");
 		}
 		Evas_Object *_access_left = elm_access_object_register(cue_left, panel_left);
 		if (!_access_left){
-		    PRINTFUNC(DLOG_DEBUG,"_access_left == NULL");
+		    PRINTFUNC(DLOG_DEBUG, "_access_left == NULL");
 		}
 		elm_access_info_cb_set(_access_left, ELM_ACCESS_INFO, _left_cue_access_info_cb, panel_left);
 		elm_access_activate_cb_set(_access_left, _left_cue_access_activate_cb, panel_left);
@@ -2253,7 +2176,6 @@ static Evas_Object *create_fullview(Evas_Object *parent, VoiceData *r_voicedata)
 
 		elm_access_highlight_next_set(cue_access_left, ELM_HIGHLIGHT_DIR_NEXT, m_mic_button);
 		elm_access_highlight_next_set(m_mic_button, ELM_HIGHLIGHT_DIR_PREVIOUS, cue_access_left);
-
 	}
 
 	return layout_main;
@@ -2266,19 +2188,19 @@ int is_lang_supported_by_stt(char lang[])
 	for (index = (sizeof(supported_language) / sizeof(supported_language[0]))-1; index != 0; index--)
 	{
 		if (!strcmp(lang, supported_language[index])) {
-			PRINTFUNC(DLOG_DEBUG,"current lang supported (%s)", supported_language[index]);
+			PRINTFUNC(DLOG_DEBUG, "current lang supported (%s)", supported_language[index]);
 			return TRUE;
 		}
 	}
 
-	PRINTFUNC(DLOG_DEBUG,"current lang not supported (%s)", lang);
+	PRINTFUNC(DLOG_DEBUG, "current lang not supported (%s)", lang);
 
 	return FALSE;
 }
 
 int init_voice(Evas_Object *parent, const char *lang, VoiceData *r_voicedata)
 {
-	PRINTFUNC(DLOG_DEBUG,"[init_voice]");
+	PRINTFUNC(DLOG_DEBUG, "[init_voice]");
 
 //	stt_is_samsung_asr(&g_is_n66);
 
@@ -2288,11 +2210,10 @@ int init_voice(Evas_Object *parent, const char *lang, VoiceData *r_voicedata)
 	}
 
 	if (!parent) {
-		PRINTFUNC(DLOG_ERROR,"Parent is NULL\n");
+		PRINTFUNC(DLOG_ERROR, "Parent is NULL\n");
 		return FALSE;
-	}
-	else {
-		PRINTFUNC(NO_PRINT,"Parent is there");
+	} else {
+		PRINTFUNC(NO_PRINT, "Parent is there");
 	}
 
 	voicedata->voicefw_state = 0;
@@ -2309,7 +2230,7 @@ int init_voice(Evas_Object *parent, const char *lang, VoiceData *r_voicedata)
 		voicedata->kbd_lang = strdup("en_US");
 	}
 
-	PRINTFUNC(DLOG_DEBUG,"Voice input active language is : %s", voicedata->kbd_lang);
+	PRINTFUNC(DLOG_DEBUG, "Voice input active language is : %s", voicedata->kbd_lang);
 
 	voicedata->naviframe = parent;
 
@@ -2339,7 +2260,7 @@ static Eina_Bool init_view(void *data)
 
 Evas_Object *show_voice_window(Evas_Object *parent, VoiceData *r_voicedata)
 {
-	PRINTFUNC(NO_PRINT,"[show_voice_window]");
+	PRINTFUNC(NO_PRINT, "[show_voice_window]");
 
 	VoiceData *voicedata = (VoiceData *)r_voicedata;
 	if (!voicedata) {
@@ -2347,11 +2268,10 @@ Evas_Object *show_voice_window(Evas_Object *parent, VoiceData *r_voicedata)
 	}
 
 	if (!parent) {
-		PRINTFUNC(NO_PRINT,"Parent is NULL\n");
+		PRINTFUNC(NO_PRINT, "Parent is NULL\n");
 		return NULL;
-	}
-	else {
-		PRINTFUNC(NO_PRINT,"Parent is there");
+	} else {
+		PRINTFUNC(NO_PRINT, "Parent is there");
 	}
 
 	if (NULL != voicedata->layout_main) {
@@ -2383,8 +2303,7 @@ Evas_Object *show_voice_window(Evas_Object *parent, VoiceData *r_voicedata)
 
 
 void on_stt_pause(VoiceData *r_voicedata){
-
-	PRINTFUNC(DLOG_DEBUG,"");
+	PRINTFUNC(DLOG_DEBUG, "");
 
 	VoiceData *voicedata = (VoiceData *)r_voicedata;
 
@@ -2405,14 +2324,11 @@ void on_stt_pause(VoiceData *r_voicedata){
 			}
 		}
 	}
-
-
 }
-
 
 void on_destroy(VoiceData *r_voicedata)
 {
-	PRINTFUNC(NO_PRINT,"");
+	PRINTFUNC(NO_PRINT, "");
 
 	VoiceData *voicedata = (VoiceData *)r_voicedata;
 
@@ -2421,7 +2337,6 @@ void on_destroy(VoiceData *r_voicedata)
 	powerUnlock();
 
 	if (NULL != voicedata) {
-
 		if (NULL != voicedata->layout_main) {
 			voicedata->layout_main = NULL;
 		}

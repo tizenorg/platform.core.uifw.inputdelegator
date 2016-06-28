@@ -68,6 +68,5 @@ class MoreOption
 		 *
 		 */
 		Evas_Object *AddLanguageIcon(Evas_Object *parent);
-
 };
 

@@ -32,7 +32,7 @@ static float timeout_s = 1.0f / 60.0f;
 
 #define MATH_PI (3.141592)
 
-double cubic_easy_in_out (double index, double start, double end, double duration)
+double cubic_easy_in_out(double index, double start, double end, double duration)
 {
 	index /= duration/2;
 	if (index < 1)
@@ -145,10 +145,9 @@ void MicEffector::DrawQue(int idx, bool is_start)
 
 	double opacity;
 
-	if(is_start) {
+	if (is_start) {
 		opacity = cubic_easy_out(idx, 0.0, 1.0, 26.0);
-	}
-	else {
+	} else {
 		opacity = cubic_easy_out(idx, 0, 1.0, 26.0);
 	}
 
@@ -222,7 +221,7 @@ float MicEffector::GetAmplifyValue(unsigned int idx)
  * Center of effect area, it applies amplified value.
  *
  */
-void MicEffector::DrawWave(unsigned int idx, int amount, int prev_amount, double opacity,bool is_lastcmd)
+void MicEffector::DrawWave(unsigned int idx, int amount, int prev_amount, double opacity, bool is_lastcmd)
 {
 	float ratio = GetAmplifyValue(idx);
 
@@ -241,10 +240,9 @@ void MicEffector::DrawWave(unsigned int idx, int amount, int prev_amount, double
 //	ea_vector_path_move_to(path, posx, (37.0f - (height / 2.0)));
 //	ea_vector_path_line_to(path, posx, (38.0f + (height / 2.0)));
 
-	if(is_lastcmd) {
+	if (is_lastcmd) {
 //		ea_vector_paint_set_color(paint, 0.1451f, 0.204f, 0.255f, opacity);//RGB = 37:52:65
-	}
-	else {
+	} else {
 //		ea_vector_paint_set_color(paint, 1.0f, 1.0f, 1.0f, opacity);//RGB: 255 255 255
 	}
 }
@@ -279,20 +277,17 @@ void MicEffector::Start()
 	 * Que animation
 	 *
 	 */
-	timer = ecore_timer_add ( timeout_s,
+	timer = ecore_timer_add(timeout_s,
 				[](void *data)->Eina_Bool
 				{
 					MicEffector *effector = static_cast<MicEffector*>(data);
 
 					effector->DrawQue(effector->drawcount);
 
-					if(effector->drawcount < (int) start_stop_anim_count)
-					{
+					if(effector->drawcount < (int) start_stop_anim_count) {
 						effector->drawcount += 2;
 						return ECORE_CALLBACK_RENEW;
-					}
-					else
-					{
+					} else {
 						for(unsigned int i = 0; i < spectrum_count; i++)
 							effector->DrawWave(i, 0, 0);
 
@@ -307,8 +302,6 @@ void MicEffector::Start()
 				},
 				this);
 }
-
-
 
 /**
  * Volume effect
@@ -325,10 +318,9 @@ void MicEffector::Effect(bool fake)
 			timer = NULL;
 	}
 
-	timer = ecore_timer_add ( timeout_s,
+	timer = ecore_timer_add(timeout_s,
 				[](void *data)->Eina_Bool
 				{
-
 					MicEffector *effector = static_cast<MicEffector *>(data);
 
 					bool is_empty_prev = effector->prev.empty();
@@ -338,17 +330,16 @@ void MicEffector::Effect(bool fake)
 
 					for(unsigned int i = 0; i < effector->current.size(); i++)
 					{
-						if(is_empty_prev)
+						if (is_empty_prev)
 							effector->DrawWave(i, effector->current.at(i), 0);
 						else
 							effector->DrawWave(i, effector->current.at(i), effector->prev.at(i));
 					}
 //					ea_vector_canvas_draw(effector->canvas, effector->path, effector->paint);
 
-					if(effector->drawcount < 7)	{
+					if (effector->drawcount < 7)	{
 						effector->drawcount++;
-					}
-					else {
+					} else {
 						effector->drawcount = 0;
 						effector->VolumeCheck(effector->fake);
 					}
@@ -386,17 +377,13 @@ void MicEffector::Stop(bool forced)
 
 			effector->DrawQue(start_stop_anim_count - effector->drawcount, false);
 
-			if(effector->drawcount < (int) start_stop_anim_count)
-			{
+			if(effector->drawcount < (int) start_stop_anim_count) {
 				effector->drawcount += 2;
 				return ECORE_CALLBACK_RENEW;
-			}
-			else
-			{
+			} else {
 				if(!effector->forcestop) {
 					effector->Processing();
-				}
-				else {
+				} else {
 					effector->Idle();
 				}
 
@@ -405,11 +392,8 @@ void MicEffector::Stop(bool forced)
 				effector->timer = NULL;
 				return ECORE_CALLBACK_CANCEL;
 			}
-
 		}, this);
 }
-
-
 
 /**
  * Signal. Refresh volume effect
@@ -423,8 +407,7 @@ void MicEffector::VolumeCheck(bool fake)
 
 	if(!fake) {
 		volumes = ieffect.GetVolume();
-	}
-	else {
+	} else {
 		for(unsigned int i = 0; i < spectrum_count; i++) {
 			volumes.push_back(rand() % 2);
 		}

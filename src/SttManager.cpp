@@ -31,30 +31,27 @@ enum {
 };
 
 static inline const char *stt_state_str(stt_state_e cur) {
-
-	if(cur == STT_STATE_CREATED)
+	if (cur == STT_STATE_CREATED)
 		return (const char *) "STT_STATE_CREATED";
 
-	else if(cur == STT_STATE_READY)
+	else if (cur == STT_STATE_READY)
 		return (const char *) "STT_STATE_READY";
 
-	else if(cur == STT_STATE_RECORDING)
+	else if (cur == STT_STATE_RECORDING)
 		return (const char *) "STT_STATE_RECORDING";
 
-	else if(cur == STT_STATE_PROCESSING)
+	else if (cur == STT_STATE_PROCESSING)
 		return (const char *) "STT_STATE_PROCESSING";
 
 	else
 		return (const char *) "ABNORMAL CASE";
 }
 
-
 SttManager::SttManager(ISttFeedback& feedback)
 : ifeedback(feedback),
   iscancelled(false)
 {
-
-   try {
+	try {
 		/**
 		* Create stt handle.
 		*
@@ -76,10 +73,7 @@ SttManager::SttManager(ISttFeedback& feedback)
 	}
 }
 
-
-
 SttManager::~SttManager() {
-
 	try {
 		EnableFeedback(false);
 
@@ -93,7 +87,6 @@ SttManager::~SttManager() {
 }
 
 void SttManager::Prepare() {
-
 	/**
 	* Prepare stt service.
 	*
@@ -104,24 +97,18 @@ void SttManager::Prepare() {
 		throw SttException(ret, ErrorString((stt_error_e)ret));
 }
 
-
-
 void SttManager::UnPrepare() {
-
    /**
     * UnPrepare stt service.
     *
     */
    int ret = stt_unprepare(handle);
 
-   if(ret != STT_ERROR_NONE)
+   if (ret != STT_ERROR_NONE)
 	   throw SttException(ret, ErrorString((stt_error_e)ret));
 }
 
-
-
 void SttManager::Start() {
-
 	if(!Validate((int) READY)) {
 	    throw SttException((int) STT_ERROR_INVALID_STATE, "INVALID STATE - !STT_STATE_READY");
 	}
@@ -152,10 +139,7 @@ void SttManager::Start() {
 		throw SttException(ret, ErrorString((stt_error_e)ret));
 }
 
-
-
 void SttManager::Stop() {
-
 	if(!Validate((int) RECORDING)) {
 		throw SttException((int) STT_ERROR_INVALID_STATE, "INVALID STATE - !STT_STATE_RECORDING");
 	}
@@ -170,10 +154,7 @@ void SttManager::Stop() {
 		throw SttException(ret, ErrorString((stt_error_e)ret));
 }
 
-
-
 void SttManager::Cancel() {
-
 	if(iscancelled) {
 		PRINTFUNC(DLOG_WARN, "iscancelled (%d)", iscancelled);
 		return;
@@ -200,11 +181,10 @@ void SttManager::Cancel() {
 
 
 bool SttManager::Validate(int state) {
-
 	stt_state_e cur;
 
 	int ret = stt_get_state(handle, &cur);
-	if(ret != STT_ERROR_NONE) {
+	if (ret != STT_ERROR_NONE) {
 		return false;
 	}
 
@@ -217,16 +197,16 @@ bool SttManager::Validate(int state) {
 
 	switch(cur) {
 		case STT_STATE_CREATED :
-			if(state & CREATE) return true;
+			if (state & CREATE) return true;
 			break;
 		case STT_STATE_READY :
-			if(state & READY) return true;
+			if (state & READY) return true;
 			break;
 		case STT_STATE_RECORDING :
-			if(state & RECORDING) return true;
+			if (state & RECORDING) return true;
 			break;
 		case STT_STATE_PROCESSING :
-			if(state & PROCESSING) return true;
+			if (state & PROCESSING) return true;
 			break;
 		default :
 			break;
@@ -235,10 +215,7 @@ bool SttManager::Validate(int state) {
 	return false;
 }
 
-
-
 void SttManager::Initialize() {
-
    /** Todo. add routine to intialize */
 }
 
@@ -260,9 +237,7 @@ void SttManager::PrintResultState(stt_result_event_e result_type)
 			result = "UNKNOWN";
 			break;
 	}
-
 	PRINTFUNC(DLOG_INFO, "result type : %s", result.c_str());
-
 }
 
 void SttManager::on_result(
@@ -272,10 +247,9 @@ void SttManager::on_result(
    int size,
    const char* msg,
    void *user_data) {
-
    PrintResultState(event);
 
-   if(!user_data) {
+   if (!user_data) {
 		PRINTFUNC(DLOG_ERROR, "user_data null");
 		throw SttException((int)STT_ERROR_INVALID_PARAMETER, "invalid self reference");
    }
@@ -286,17 +260,16 @@ void SttManager::on_result(
 
    PRINTFUNC(DLOG_INFO, "result size : %d, msg : %s", size, msg);
 
-   for(size_t i = 0; i < (size_t) size; i++) {
-	if(data[i]) {
+   for (size_t i = 0; i < (size_t) size; i++) {
+	if (data[i]) {
 		results.push_back(std::string(data[i]));
 	}
 
-	if(msg)
+	if (msg)
 	   manager.ifeedback.OnResult(manager.asrtype, event, results, std::string(msg));
 	else
 	   manager.ifeedback.OnResult(manager.asrtype, event, results, std::string(""));
    }
-
 }
 
 void SttManager::PrintState(stt_state_e previous, stt_state_e current)
@@ -339,9 +312,7 @@ void SttManager::PrintState(stt_state_e previous, stt_state_e current)
 			curr = "UNKNOWN";
 			break;
 	}
-
 	PRINTFUNC(DLOG_INFO, "previous: %s(%d), current: %s(%d)", prev.c_str(), previous, curr.c_str(), current);
-
 }
 
 void SttManager::on_state_changed(
@@ -349,37 +320,31 @@ void SttManager::on_state_changed(
 	stt_state_e previous,
 	stt_state_e current,
 	void *user_data) {
-
 	PrintState(previous, current);
 
-	if(!user_data)
+	if (!user_data)
 		throw SttException((int)STT_ERROR_INVALID_PARAMETER, "invalid self reference");
 
 	SttManager& manager = *((SttManager *) user_data);
 
-	if(current== STT_STATE_READY) {
-		if(previous == STT_STATE_CREATED) {
+	if (current== STT_STATE_READY) {
+		if (previous == STT_STATE_CREATED) {
 			manager.EnableSilenceDetection();
 			manager.ifeedback.AutoStart();
-		}
-		else if(previous == STT_STATE_RECORDING) {
+		} else if (previous == STT_STATE_RECORDING) {
 			std::string msg;
 			std::vector<std::string> results;
 			manager.ifeedback.OnResult(manager.asrtype, STT_RESULT_EVENT_ERROR, results, msg);
-		}
-		else {
+		} else {
 			manager.ifeedback.SttIdle();
 		}
-	}
-	else if(current == STT_STATE_RECORDING) {
+	} else if (current == STT_STATE_RECORDING) {
 			manager.ifeedback.SttRecording();
-	}
-	else if(current == STT_STATE_PROCESSING) {
-		if(!manager.iscancelled) {
+	} else if (current == STT_STATE_PROCESSING) {
+		if (!manager.iscancelled) {
 			PRINTFUNC(DLOG_INFO, "iscancelled (%d)", manager.iscancelled);
 			manager.ifeedback.SttProcessing();
-		}
-		else {
+		} else {
 			manager.iscancelled = false;
 			PRINTFUNC(DLOG_INFO, "iscancelled (%d)", manager.iscancelled);
 		}
@@ -434,73 +399,59 @@ void SttManager::PrintErrorState(stt_error_e reason)
 			res = "UNKNOWN ERROR REASON";
 			break;
 	}
-
 	PRINTFUNC(DLOG_INFO, "Error reason %s(%d)", res.c_str(), reason);
-
 }
-
 
 void SttManager::on_error(
    stt_h handle,
    stt_error_e reason,
    void *user_data) {
-
    PRINTFUNC(DLOG_INFO, "stt-daemon error (%d)", reason);
 
-   if(!user_data)
+   if (!user_data)
 		throw SttException((int)STT_ERROR_INVALID_PARAMETER, "invalid self reference");
 
    SttManager& manager = *((SttManager *) user_data);
    manager.ifeedback.OnError(reason);
 }
 
-
-
 void SttManager::SetLanguage(std::string language) {
-
    this->language = language;
 }
 
-
-
 void SttManager::EnableFeedback(bool enabled) {
-
    int ret = STT_ERROR_NONE;
 
    void *udata = static_cast<void *>(this);
 
-   if(enabled) {
+   if (enabled) {
       ret = stt_set_recognition_result_cb(handle, on_result, udata);
-      if(STT_ERROR_NONE != ret)
+      if (STT_ERROR_NONE != ret)
 		throw SttException(ret, ErrorString((stt_error_e)ret));
 
       ret = stt_set_error_cb(handle, on_error, udata);
-      if(STT_ERROR_NONE != ret)
+      if (STT_ERROR_NONE != ret)
 		throw SttException(ret, ErrorString((stt_error_e)ret));
 
       ret = stt_set_state_changed_cb(handle, on_state_changed, udata);
-      if(STT_ERROR_NONE != ret)
+      if (STT_ERROR_NONE != ret)
 		throw SttException(ret, ErrorString((stt_error_e)ret));
-   }
-   else {
+   } else {
       ret = stt_unset_error_cb(handle);
-      if(STT_ERROR_NONE != ret)
+      if (STT_ERROR_NONE != ret)
 		throw SttException(ret, ErrorString((stt_error_e)ret));
 
       ret = stt_unset_state_changed_cb(handle);
-      if(STT_ERROR_NONE != ret)
+      if (STT_ERROR_NONE != ret)
 		throw SttException(ret, ErrorString((stt_error_e)ret));
 
       ret = stt_unset_recognition_result_cb(handle);
-      if(STT_ERROR_NONE != ret)
+      if (STT_ERROR_NONE != ret)
 		throw SttException(ret, ErrorString((stt_error_e)ret));
    }
 }
 
-
-
 const char* SttManager::ErrorString(int ecode) {
-
    const char *str = NULL;
 
    switch (ecode) {
@@ -538,30 +489,25 @@ const char* SttManager::ErrorString(int ecode) {
          str = (const char *) "STT_ERROR_NOT_SUPPORTED_FEATURE";
          break;
    }
-
    return str;
 }
 
-
-
 void SttManager::SoundFeedback() {
-
    int is_sound = 0;
    int is_sound_vibe = 0;
 
-   if(vconf_get_bool(VCONFKEY_SETAPPL_SOUND_STATUS_BOOL, &is_sound)) {
+   if (vconf_get_bool(VCONFKEY_SETAPPL_SOUND_STATUS_BOOL, &is_sound)) {
       PRINTFUNC(DLOG_ERROR, "get sound status failed.");
    }
 
-   if(vconf_get_bool(VCONFKEY_SETAPPL_VIBRATION_STATUS_BOOL, &is_sound_vibe)) {
+   if (vconf_get_bool(VCONFKEY_SETAPPL_VIBRATION_STATUS_BOOL, &is_sound_vibe)) {
       PRINTFUNC(DLOG_ERROR, "get vibe status failed.");
    }
 
-   if(is_sound || is_sound_vibe) {
+   if (is_sound || is_sound_vibe) {
       stt_set_start_sound(handle, "/usr/share/ise-voice-input/audio/voice_start.wav");
       stt_set_stop_sound(handle, "/usr/share/ise-voice-input/audio/voice_stop.wav");
-   }
-   else {
+   } else {
       stt_unset_start_sound(handle);
       stt_unset_stop_sound(handle);
    }
@@ -570,10 +516,9 @@ void SttManager::SoundFeedback() {
 
 
 void SttManager::EnableSilenceDetection(bool enabled) {
-
 	stt_option_silence_detection_e s_option;
 
-	if(enabled)
+	if (enabled)
 		s_option = STT_OPTION_SILENCE_DETECTION_TRUE;
 	else
 		s_option = STT_OPTION_SILENCE_DETECTION_FALSE;
@@ -584,10 +529,8 @@ void SttManager::EnableSilenceDetection(bool enabled) {
 			DLOG_ERROR,
 			"error(%d) = %s",
 			ret,
-			ErrorString((stt_error_e) ret)
-		);
-	}
-	else {
+			ErrorString((stt_error_e) ret));
+	} else {
 		PRINTFUNC(NO_PRINT, "stt_set_silence_detection Successful");
 	}
 }

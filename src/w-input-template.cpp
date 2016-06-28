@@ -49,9 +49,9 @@ static bool input_template_init_default(void);
 
 static void _input_template_db_vconf_changed(keynode_t *key, void *data)
 {
-	bool db_status = vconf_keynode_get_bool (key);
+	bool db_status = vconf_keynode_get_bool(key);
 
-	PRINTFUNC(DLOG_DEBUG,"starts :: db_status = %d", db_status);
+	PRINTFUNC(DLOG_DEBUG, "starts :: db_status = %d", db_status);
 
 	if(db_status != 0)
 		return;
@@ -280,7 +280,6 @@ void input_template_set_notify(input_template_changed callback,
 
 void input_template_unset_notify(void)
 {
-
 	g_input_template.callback = NULL;
 	g_input_template.user_data = NULL;
 }

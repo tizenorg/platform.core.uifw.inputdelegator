@@ -55,7 +55,6 @@ enum {
 
 
 typedef struct appdata{
-
 	Evas_Object* win_main;
 	Evas_Object* layout_main;
 	Evas_Object* conform;
@@ -68,7 +67,6 @@ typedef struct appdata{
 	int reply_type;
 	char* res_path;
 	char* shared_res_path;
-
 } App_Data;
 
 

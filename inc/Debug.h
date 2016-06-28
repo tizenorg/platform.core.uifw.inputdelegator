@@ -52,7 +52,7 @@
 
 #define PRINTFUNC_NO_PRINT(fmt, arg...) LOGE(fmt, ##arg)
 
-#define PRINTFUNC(level,fmt, arg...) PRINTFUNC_##level (fmt, ##arg)
+#define PRINTFUNC(level, fmt, arg...) PRINTFUNC_##level (fmt, ##arg)
 
 /*****************************************************************************************************/
 

@@ -161,8 +161,7 @@ static void _stt_clicked_cb(void *data, Evas_Object * obj, void *event_info)
 		} else {
 			launch_bt_connection_popup(ad);
 		}
-	}
-	else {
+	} else {
 		ise_show_stt_popup(ad);
 	}
 
@@ -214,10 +213,10 @@ static void _keyboard_clicked_cb(void *data, Evas_Object * obj, void *event_info
 	log_manager_set("IM01", "Keypad", NULL);
 #endif
 
-    if(app_data->app_type == APP_TYPE_KEYBOARD_FROM_SMS)
+    if (app_data->app_type == APP_TYPE_KEYBOARD_FROM_SMS)
         input_keyboard_launch(ad->win_main);
     else
-	    input_keyboard_launch_with_ui(ad->win_main, data);
+        input_keyboard_launch_with_ui(ad->win_main, data);
 }
 
 static void __bt_connection_result_cb(app_control_h request, app_control_h reply, app_control_result_e result, void *user_data)
@@ -231,12 +230,9 @@ static void __bt_connection_result_cb(app_control_h request, app_control_h reply
 
     app_control_get_extra_data(reply, "__BT_CONNECTION__", &val);
     if (val) {
-        if( strcmp(val, "Connected") == 0 )
-        {
+        if ( strcmp(val, "Connected") == 0 ) {
             PRINTFUNC(DLOG_ERROR, "BT Connected");
-        }
-        else
-        {
+        } else {
             PRINTFUNC(DLOG_ERROR, "BT Not Connected");
         }
 
@@ -270,7 +266,6 @@ static void __ise_smartreply_gl_sel(void *data, Evas_Object *obj, void *event_in
 				free(reply);
 				elm_exit();
 			}
-
 		}
 	}
 }
@@ -289,7 +284,7 @@ static void __ise_template_add_gl_sel(void *data, Evas_Object *obj, void *event_
 
 			// send message to Host
 			app_control_h appctrl;
-			app_control_create( &appctrl );
+			app_control_create(&appctrl);
 			app_control_set_app_id(appctrl, "com.samsung.w-manager-service");
 			app_control_add_extra_data(appctrl, "type", "gm_setting");
 			app_control_add_extra_data(appctrl, "data/setting_menu", "texttemplate_setting");
@@ -299,7 +294,7 @@ static void __ise_template_add_gl_sel(void *data, Evas_Object *obj, void *event_
 			app_control_h app_control;
 			app_control_create(&app_control);
 			app_control_set_app_id(app_control, "com.samsung.bt-connection-popup");
-			app_control_add_extra_data(app_control,"msg", "perform");
+			app_control_add_extra_data(app_control, "msg", "perform");
 			app_control_send_launch_request(app_control, __bt_connection_result_cb, NULL);
 			app_control_destroy(app_control);
 		}
@@ -337,18 +332,18 @@ static void __ise_template_gl_sel(void *data, Evas_Object *obj, void *event_info
 
 static Evas_Object * __ise_gl_3button_content_get(void *data, Evas_Object *obj, const char *part)
 {
-    if (!strcmp(part,"elm.icon.1") ||  (!strcmp(part,"elm.icon.2")) ||  (!strcmp(part,"elm.icon.3"))) {
+    if (!strcmp(part, "elm.icon.1") ||  (!strcmp(part, "elm.icon.2")) ||  (!strcmp(part, "elm.icon.3"))) {
 		Evas_Object* btn = elm_button_add(obj);
 		evas_object_size_hint_weight_set(btn, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 		evas_object_size_hint_align_set(btn, EVAS_HINT_FILL, EVAS_HINT_FILL);
 		Evas_Object* ic = elm_image_add(btn);
 		elm_image_resizable_set(ic, EINA_TRUE, EINA_TRUE);
 		string path = get_resource_path();
-		if (!strcmp(part,"elm.icon.1")) {
+		if (!strcmp(part, "elm.icon.1")) {
   			elm_object_style_set(btn, "anchor");
 			string path_ic = path + "images/w_mode_stt_ic.png";
 			elm_image_file_set(ic, path_ic.c_str(), NULL);
-			elm_object_content_set(btn,ic);
+			elm_object_content_set(btn, ic);
 			evas_object_layer_set(btn, 32000);
 			if (elm_config_access_get())
 				elm_access_object_unregister(btn);
@@ -359,55 +354,52 @@ static Evas_Object * __ise_gl_3button_content_get(void *data, Evas_Object *obj, 
 			ret = vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &powerSavingMode);
 			if ( ret != 0 )
 			{
-				PRINTFUNC(DLOG_ERROR,"VCONFKEY_SETAPPL_PSMODE FAILED");
+				PRINTFUNC(DLOG_ERROR, "VCONFKEY_SETAPPL_PSMODE FAILED");
 			}
 
 			if (powerSavingMode == SETTING_PSMODE_WEARABLE_ENHANCED) {
-				PRINTFUNC(DLOG_ERROR,"Power Saving mode, disable stt !!!");
+				PRINTFUNC(DLOG_ERROR, "Power Saving mode, disable stt !!!");
 				elm_object_disabled_set(btn, EINA_TRUE);
 			}
-		} else if (!strcmp(part,"elm.icon.2")){
+		} else if (!strcmp(part, "elm.icon.2")){
 			elm_object_style_set(btn, "anchor");
 			string path_ic = path + "images/Delta_w_mode_emoticon_ic.png";
 			elm_image_file_set(ic, path_ic.c_str(), NULL);
-			elm_object_content_set(btn,ic);
+			elm_object_content_set(btn, ic);
 			evas_object_layer_set(btn, 32000);
 			if (elm_config_access_get())
 				elm_access_object_unregister(btn);
 
-		} else if (!strcmp(part,"elm.icon.3")){
+		} else if (!strcmp(part, "elm.icon.3")){
 			elm_object_style_set(btn, "anchor");
 			string path_ic = path + "images/w_mode_keyboard_ic.png";
 			elm_image_file_set(ic, path_ic.c_str(), NULL);
-			elm_object_content_set(btn,ic);
+			elm_object_content_set(btn, ic);
 			evas_object_layer_set(btn, 32000);
 			evas_object_propagate_events_set(btn, EINA_FALSE);
 			if (elm_config_access_get())
 				elm_access_object_unregister(btn);
-
 		}
 
 		return btn;
-	}
-	else if (!strcmp(part,"elm.icon.1.touch_area") ||  (!strcmp(part,"elm.icon.2.touch_area")) ||  (!strcmp(part,"elm.icon.3.touch_area"))) {
+	} else if (!strcmp(part, "elm.icon.1.touch_area") ||  (!strcmp(part, "elm.icon.2.touch_area")) ||  (!strcmp(part, "elm.icon.3.touch_area"))) {
 		Evas_Object* btn = elm_button_add(obj);
 		elm_object_style_set(btn, "touch_area");
 		evas_object_size_hint_weight_set(btn, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 		evas_object_size_hint_align_set(btn, EVAS_HINT_FILL, EVAS_HINT_FILL);
 		string path = get_resource_path();
-		if (!strcmp(part,"elm.icon.1.touch_area")) {
-
+		if (!strcmp(part, "elm.icon.1.touch_area")) {
 			int powerSavingMode = -1;
 			int ret;
 			// Power Saving mode check
 			ret = vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &powerSavingMode);
 			if ( ret != 0 )
 			{
-				PRINTFUNC(DLOG_ERROR,"VCONFKEY_SETAPPL_PSMODE FAILED");
+				PRINTFUNC(DLOG_ERROR, "VCONFKEY_SETAPPL_PSMODE FAILED");
 			}
 
 			if (powerSavingMode == SETTING_PSMODE_WEARABLE_ENHANCED) {
-				PRINTFUNC(DLOG_ERROR,"Power Saving mode, disable stt !!!");
+				PRINTFUNC(DLOG_ERROR, "Power Saving mode, disable stt !!!");
 				elm_object_disabled_set(btn, EINA_TRUE);
 			}
 
@@ -418,12 +410,12 @@ static Evas_Object * __ise_gl_3button_content_get(void *data, Evas_Object *obj, 
 //				elm_access_chain_end_set(btn, ELM_HIGHLIGHT_DIR_PREVIOUS);
 			}
 
-		} else if (!strcmp(part,"elm.icon.2.touch_area")){
+		} else if (!strcmp(part, "elm.icon.2.touch_area")){
 			evas_object_layer_set(btn, 32000);
 			evas_object_smart_callback_add(btn, "clicked", _emoticon_clicked_cb, app_data);
 			if (elm_config_access_get())
 				elm_access_info_set(btn, ELM_ACCESS_INFO, gettext("IDS_COM_HEADER_EMOTICON"));
-		} else if (!strcmp(part,"elm.icon.3.touch_area")){
+		} else if (!strcmp(part, "elm.icon.3.touch_area")) {
 			evas_object_layer_set(btn, 32000);
 			evas_object_propagate_events_set(btn, EINA_FALSE);
 			evas_object_smart_callback_add(btn, "clicked", _keyboard_clicked_cb, app_data);
@@ -432,8 +424,7 @@ static Evas_Object * __ise_gl_3button_content_get(void *data, Evas_Object *obj, 
 		}
 
 		return btn;
-	}
-	else if(!strcmp(part,"base")){
+	} else if (!strcmp(part, "base")) {
 		Evas_Object* btn = elm_button_add(obj);
 		if (elm_config_access_get())
 			elm_access_object_unregister(btn);
@@ -461,9 +452,9 @@ static char * __ise_smartreply_gl_text_get(void *data, Evas_Object *obj, const c
 		if (index < 3) {
 			char *colored = _genlist_text_set_theme_color(reply, "AT0113");
 
-			if (colored == NULL)
+			if (colored == NULL) {
 				return reply;
-			else {
+			} else {
 				free(reply);
 				return colored;
 			}
@@ -481,9 +472,9 @@ static char * __ise_template_gl_text_get(void *data, Evas_Object *obj, const cha
 		const std::vector<TemplateData>  template_list = input_template_get_list();
 
 		if(index < template_list.size()) {
-			if(template_list[index].use_gettext)
+			if(template_list[index].use_gettext) {
 				return strdup(gettext(template_list[index].text.c_str()));
-			else {
+			} else {
 				Eina_Strbuf *buf = NULL;
 				const char *str = NULL;
 				char *markup = NULL;
@@ -505,7 +496,6 @@ static char * __ise_template_gl_text_get(void *data, Evas_Object *obj, const cha
 				return markup;
 			}
 		}
-
 	}
 	return NULL;
 }
@@ -520,7 +510,7 @@ static char * __ise_addtemplate_gl_text_get(void *data, Evas_Object *obj, const 
 
 static Evas_Object * __ise_gl_1button_content_get(void *data, Evas_Object *obj, const char *part)
 {
-	if (!strcmp(part,"elm.icon")) {
+	if (!strcmp(part, "elm.icon")) {
 		Evas_Object* btn = elm_button_add(obj);
 		evas_object_size_hint_weight_set(btn, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 		evas_object_size_hint_align_set(btn, EVAS_HINT_FILL, EVAS_HINT_FILL);
@@ -530,7 +520,7 @@ static Evas_Object * __ise_gl_1button_content_get(void *data, Evas_Object *obj, 
 		elm_object_style_set(btn, "ime_button_template");
 		string path_ic = path + "/images/w_list_add_ic.png";
 		elm_image_file_set(ic, path_ic.c_str(), NULL);
-		elm_object_content_set(btn,ic);
+		elm_object_content_set(btn, ic);
 		evas_object_layer_set(btn, 32000);
 		if (elm_config_access_get())
 			elm_access_object_unregister(btn);
@@ -594,7 +584,7 @@ static void _app_control_send_reply_cb(app_control_h request, app_control_h repl
 void set_source_caller_app_id(app_control_h app_control)
 {
 	if(!app_control){
-		PRINTFUNC(DLOG_ERROR,"can't get app_control");
+		PRINTFUNC(DLOG_ERROR, "can't get app_control");
 		return;
 	}
 
@@ -607,17 +597,15 @@ void set_source_caller_app_id(app_control_h app_control)
 		app_control_get_caller(app_data->source_app_control, &caller);
 
 		if(caller){
-			PRINTFUNC(DLOG_DEBUG,"caller = %s", caller);
+			PRINTFUNC(DLOG_DEBUG, "caller = %s", caller);
 			app_control_add_extra_data(app_control, "caller_appid", caller);
 			free(caller);
 		}
 //	}
-
 }
 
 void reply_to_sender_by_appcontrol(void *data, const char *value, const char *type)
 {
-
 	PRINTFUNC(DLOG_DEBUG, "");
 
 	int ret;
@@ -628,7 +616,7 @@ void reply_to_sender_by_appcontrol(void *data, const char *value, const char *ty
 	App_Data *appdata = (App_Data *)data;
 
 	if(!appdata){
-		PRINTFUNC(DLOG_ERROR,"Null pointer");
+		PRINTFUNC(DLOG_ERROR, "Null pointer");
 		return;
 	}
 
@@ -686,13 +674,10 @@ void reply_to_sender_by_appcontrol(void *data, const char *value, const char *ty
 	app_control_destroy(app_control);
 
 	return;
-
-
 }
 
 void reply_to_sender_by_callback(const char *value, const char *type)
 {
-
 	PRINTFUNC(DLOG_DEBUG, "");
 
 	app_control_h app_control;
@@ -708,7 +693,7 @@ void reply_to_sender_by_callback(const char *value, const char *type)
 
 		set_source_caller_app_id(app_control);
 
-		ret = app_control_reply_to_launch_request( app_control, app_data->source_app_control, APP_CONTROL_RESULT_SUCCEEDED);
+		ret = app_control_reply_to_launch_request(app_control, app_data->source_app_control, APP_CONTROL_RESULT_SUCCEEDED);
 		if (ret != APP_CONTROL_ERROR_NONE)
 			PRINTFUNC(DLOG_ERROR, "reply failed : %d", ret);
 
@@ -720,7 +705,6 @@ void reply_to_sender_by_callback(const char *value, const char *type)
 
 void reply_to_sender_by_callback_for_back()
 {
-
 	PRINTFUNC(DLOG_DEBUG, "");
 
 	app_control_h app_control;
@@ -730,7 +714,7 @@ void reply_to_sender_by_callback_for_back()
 
 		app_control_add_extra_data(app_control, "back_to_composer", "yes");
 
-		ret = app_control_reply_to_launch_request( app_control, app_data->source_app_control, APP_CONTROL_RESULT_SUCCEEDED);
+		ret = app_control_reply_to_launch_request(app_control, app_data->source_app_control, APP_CONTROL_RESULT_SUCCEEDED);
 		if (ret != APP_CONTROL_ERROR_NONE)
 			PRINTFUNC(DLOG_ERROR, "reply failed : %d", ret);
 
@@ -739,7 +723,6 @@ void reply_to_sender_by_callback_for_back()
 		app_data->source_app_control = NULL;
 	}
 }
-
 
 char* get_resource_path()
 {
@@ -760,7 +743,6 @@ char* get_shared_resource_path()
 }
 
 void show_gl_focus(Eina_Bool bVisible){
-
 	if(app_data->genlist == NULL)
 		return;
 
@@ -777,7 +759,6 @@ void show_gl_focus(Eina_Bool bVisible){
 
 void show_popup_toast(const char *text, bool check_img)
 {
-
 	PRINTFUNC(DLOG_ERROR, "show_popup_toast");
 
 	Evas_Object *popup;
@@ -795,16 +776,16 @@ void show_popup_toast(const char *text, bool check_img)
 		elm_object_part_content_set(popup, "toast,icon", img);
 	}
 	if(text) {
-		elm_object_part_text_set(popup,"elm.text", text);
+		elm_object_part_text_set(popup, "elm.text", text);
 	}
 
 	eext_object_event_callback_add(popup, EEXT_CALLBACK_BACK, _popup_back_cb, NULL);
 	evas_object_smart_callback_add(popup, "dismissed", _popup_close_cb, NULL);
 	evas_object_smart_callback_add(popup, "block,clicked", _popup_back_cb, NULL);
 
-	if(elm_config_access_get() == EINA_FALSE)
+	if(elm_config_access_get() == EINA_FALSE) {
 		elm_popup_timeout_set(popup, 2.0);
-	else {
+	} else {
 		elm_object_access_info_set(popup, text);
 //		Evas_Object *ao = elm_object_part_access_object_get(popup, "access.outline");
 //		elm_access_info_cb_set(ao, ELM_ACCESS_INFO, _toast_delete_popup_access_info_cb, popup);
@@ -831,7 +812,7 @@ static void _popup_back_cb(void *data, Evas_Object *obj, void *event_info)
 char * _toast_delete_popup_access_info_cb(void *data, Evas_Object *obj)
 {
 	PRINTFUNC(DLOG_ERROR, "%s", __func__);
-	const char * info = elm_object_part_text_get((Evas_Object*)data,"elm.text");
+	const char * info = elm_object_part_text_get((Evas_Object*)data, "elm.text");
 
 	return strdup(info);
 }
@@ -839,13 +820,12 @@ char * _toast_delete_popup_access_info_cb(void *data, Evas_Object *obj)
 
 void _back_to_genlist_for_selector()
 {
-
-	PRINTFUNC(DLOG_DEBUG,"");
+	PRINTFUNC(DLOG_DEBUG, "");
 
 	if(!app_data) return;
 
 	if(app_data->app_type == APP_TYPE_STT || app_data->app_type == APP_TYPE_EMOTICON){
-		PRINTFUNC(DLOG_DEBUG,"launched as STT/EMOTICON mode, So exit here.");
+		PRINTFUNC(DLOG_DEBUG, "launched as STT/EMOTICON mode, So exit here.");
 		reply_to_sender_by_callback(NULL, NULL);
 		elm_exit();
 	}
@@ -853,13 +833,12 @@ void _back_to_genlist_for_selector()
 	Evas_Object *circle_genlist = (Evas_Object *) evas_object_data_get(app_data->genlist, "circle");
 
 	eext_rotary_object_event_activated_set(circle_genlist, EINA_TRUE);
-
 }
 
 
 char *_it_plus_access_info_cb(void *data, Evas_Object *obj)
 {
-	PRINTFUNC(DLOG_DEBUG,"%s", __func__);
+	PRINTFUNC(DLOG_DEBUG, "%s", __func__);
 	std::string text = 	std::string(gettext("IDS_ACCS_BODY_BUTTON_TTS"));
 
 	return strdup(text.c_str());
@@ -867,7 +846,7 @@ char *_it_plus_access_info_cb(void *data, Evas_Object *obj)
 
 char *_access_info_cb(void *data, Evas_Object *obj)
 {
-	PRINTFUNC(DLOG_DEBUG,"%s", __func__);
+	PRINTFUNC(DLOG_DEBUG, "%s", __func__);
 	return strdup(gettext("WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"));
 }
 
@@ -891,13 +870,13 @@ Eina_Bool _access_action_prev_cb(void *data, Evas_Object *obj, Elm_Access_Action
 	Elm_Object_Item *it = elm_genlist_last_item_get(genlist);//plus button item
 	PRINTFUNC(DLOG_ERROR, "[TNT] get last item:%p", it);
 	elm_genlist_item_show(it, ELM_GENLIST_ITEM_SCROLLTO_IN);
-	force_highlight_to_bottom= EINA_TRUE;
+	force_highlight_to_bottom = EINA_TRUE;
 	return EINA_TRUE;
 }
 
 static void _item_realized(void *data, Evas_Object *obj, void *event_info) //called when list scrolled
 {
-	PRINTFUNC(DLOG_DEBUG,"%s", __func__);
+	PRINTFUNC(DLOG_DEBUG, "%s", __func__);
 	if (elm_config_access_get()) {
 		Elm_Object_Item *item = (Elm_Object_Item *)event_info;
 		Evas_Object *item_access = elm_object_item_access_object_get(item);
@@ -907,13 +886,13 @@ static void _item_realized(void *data, Evas_Object *obj, void *event_info) //cal
 			if (item == it_title)
 			{
 				Evas_Object *btn = elm_object_item_part_content_get(item, "elm.icon.1.touch_area");
-				PRINTFUNC(DLOG_ERROR, "[TNT] 1st button(%p), type:%s",btn, evas_object_type_get(btn));
+				PRINTFUNC(DLOG_ERROR, "[TNT] 1st button(%p), type:%s", btn, evas_object_type_get(btn));
 				Evas_Object *btn_access = btn;//elm_access_object_get(btn);
-				PRINTFUNC(DLOG_ERROR, "[TNT] title item realized!!!!, force_highlight_to_top:%d, is_genlist_highlighed:%d",force_highlight_to_top,  is_genlist_highlighed);
+				PRINTFUNC(DLOG_ERROR, "[TNT] title item realized!!!!, force_highlight_to_top:%d, is_genlist_highlighed:%d", force_highlight_to_top, is_genlist_highlighed);
 				if (force_highlight_to_top || !is_genlist_highlighed)
 				{
 					//highlight to first button.
-					PRINTFUNC(DLOG_ERROR, "[TNT] force highlight to 1st button(%p), acces_obj:%p",btn, btn_access);
+					PRINTFUNC(DLOG_ERROR, "[TNT] force highlight to 1st button(%p), acces_obj:%p", btn, btn_access);
 					elm_access_highlight_set(btn_access);
 					force_highlight_to_top = EINA_FALSE;
 					is_genlist_highlighed = EINA_TRUE;
@@ -921,21 +900,18 @@ static void _item_realized(void *data, Evas_Object *obj, void *event_info) //cal
 				PRINTFUNC(DLOG_ERROR, "[TNT] set highlight pre callback on btn");
 				elm_access_action_cb_set(btn_access, ELM_ACCESS_ACTION_HIGHLIGHT_PREV, _access_action_prev_cb, obj);
 			}
-		}
-		else if (item == it_plus) {
+		} else if (item == it_plus) {
 			//elm_access_object_unregister(item_access); // there is no guide line
 			elm_access_info_cb_set(item_access, ELM_ACCESS_CONTEXT_INFO, _it_plus_access_info_cb, NULL);
 			PRINTFUNC(DLOG_ERROR, "[TNT] set highlight next callback on plus item");
 			elm_access_action_cb_set(item_access, ELM_ACCESS_ACTION_HIGHLIGHT_NEXT, _access_action_next_cb, obj);
-			if (force_highlight_to_bottom)
-			{
+			if (force_highlight_to_bottom) {
 				PRINTFUNC(DLOG_ERROR, "[TNT] Forcely set highlight on plus item!!");
 				elm_access_highlight_set(item_access);
 				force_highlight_to_bottom = EINA_FALSE;
 				is_genlist_highlighed = EINA_TRUE;
 			}
-		}
-		else {
+		} else {
 			elm_access_info_cb_set(item_access, ELM_ACCESS_CONTEXT_INFO, _access_info_cb, NULL);
 		}
 	}
@@ -943,7 +919,6 @@ static void _item_realized(void *data, Evas_Object *obj, void *event_info) //cal
 
 Evas_Object* _create_genlist(Evas_Object* navi)
 {
-
 	Evas_Object* genlist = elm_genlist_add(navi);
 	if(NULL == genlist)
 		return NULL;
@@ -991,24 +966,22 @@ static void _item_position_changed_cb(void *data, Evas_Object *obj, void *event_
 
 //	PRINTFUNC(DLOG_DEBUG,"y=%d",y);
 
-	if( 250 > y && y >= 100 ){
-		if(last_step == 0) return;
+	if (250 > y && y >= 100){
+		if (last_step == 0) return;
 		last_step = 0;
 		elm_object_item_signal_emit(gen_item, "elm,action,ime,0.0", "elm");
 		show_gl_focus(EINA_TRUE);
-	} else if( 100 > y && y >= 50 ){
-		if(last_step == 1) return;
+	} else if (100 > y && y >= 50){
+		if (last_step == 1) return;
 		last_step = 1;
 		elm_object_item_signal_emit(gen_item, "elm,action,ime,0.1", "elm");
 		show_gl_focus(EINA_TRUE);
-	} else if( y < 50 && y >=0){
-		if(last_step == 2) return;
+	} else if (y < 50 && y >=0){
+		if (last_step == 2) return;
 		last_step = 2;
 		elm_object_item_signal_emit(gen_item, "elm,action,ime,0.9", "elm");
 		show_gl_focus(EINA_FALSE);
 	}
-
-
 }
 
 static char *
@@ -1046,7 +1019,7 @@ void _create_genlist_items(void* user_data, bool is_type_reply)
 	itc1->item_style = "3button";
 	itc1->func.text_get = NULL;
 	itc1->func.content_get = __ise_gl_3button_content_get;
-	itc1->func.state_get = NULL;    
+	itc1->func.state_get = NULL;
 	itc1->func.del = NULL;
 
 
@@ -1056,7 +1029,7 @@ void _create_genlist_items(void* user_data, bool is_type_reply)
 			ELM_GENLIST_ITEM_NONE,
 			NULL, NULL);
 
-	if(!is_type_reply) {
+	if (!is_type_reply) {
 		// 3 Buttons
 		it_title = elm_genlist_item_append(app_data->genlist, itc1,
 				NULL, NULL,
@@ -1065,7 +1038,6 @@ void _create_genlist_items(void* user_data, bool is_type_reply)
 
 		elm_genlist_item_select_mode_set(it_title, ELM_OBJECT_SELECT_MODE_NONE);
 	}
-    
 	if (input_smartreply_is_enabled() == false) {
 		_update_template_items(app_data);
 		if(g_template_current_number > 0) {
@@ -1073,8 +1045,7 @@ void _create_genlist_items(void* user_data, bool is_type_reply)
 			eext_circle_object_genlist_scroller_policy_set(circle_genlist,
 					ELM_SCROLLER_POLICY_OFF, ELM_SCROLLER_POLICY_AUTO);
 		}
-	}
-	else {
+	} else {
 		// dummy title for bottom
 		Elm_Object_Item *dummy;
 
@@ -1094,7 +1065,7 @@ void _create_genlist_items(void* user_data, bool is_type_reply)
 
 	elm_genlist_item_class_free(itc0);
 	elm_genlist_item_class_free(itc1);
-}    
+}
 
 void _update_genlist_items(void *user_data)
 {
@@ -1361,7 +1332,7 @@ void _update_template_items(void *user_data)
 
 bool _app_create(void* user_data)
 {
-	int width=1000, height=1000;
+	int width = 1000, height = 1000;
 //	App_Data* app_data = NULL;
 	Evas_Object* layout = NULL;
 	Evas_Object* conform = NULL;
@@ -1391,8 +1362,7 @@ bool _app_create(void* user_data)
 //		ecore_x_window_size_get(ecore_x_window_root_first_get(), &width, &height);
 		evas_object_resize(window, width, height);
 		elm_win_indicator_mode_set(window, ELM_WIN_INDICATOR_SHOW);
-	}
-	else {
+	} else {
 		LOGE("elm_win_add() is failed.");
 		return false;
 	}
@@ -1456,32 +1426,31 @@ void _app_service(app_control_h service, void* user_data)
 			app_data->reply_type = REPLY_APP_NORMAL;
 		}
 	}
- 
-	if(app_id)
+ 	if (app_id)
 		free(app_id);
 
     bool is_type_reply = false;
 	ret = app_control_get_extra_data(service, APP_CONTROL_DATA_INPUT_TYPE, &context);
 	if (ret == APP_CONTROL_ERROR_NONE) {
-		if(!strcmp(context, "input_voice")) {
+		if (!strcmp(context, "input_voice")) {
 			app_data->app_type = APP_TYPE_STT;
-			_stt_clicked_cb( (void *)app_data, NULL, NULL );
+			_stt_clicked_cb((void *)app_data, NULL, NULL);
 			goto ACTIVATE;
-		} else if(!strcmp(context, "input_emoticon")) {
+		} else if (!strcmp(context, "input_emoticon")) {
 			app_data->app_type = APP_TYPE_EMOTICON;
-			_emoticon_clicked_cb( (void *)app_data, NULL, NULL);
+			_emoticon_clicked_cb((void *)app_data, NULL, NULL);
 			goto ACTIVATE;
-        } else if(!strcmp(context, "input_keyboard")) {
+        } else if (!strcmp(context, "input_keyboard")) {
 			app_data->app_type = APP_TYPE_KEYBOARD;
-            input_keyboard_init(service);
-			_keyboard_clicked_cb( (void *)app_data, NULL, NULL);
+			input_keyboard_init(service);
+			_keyboard_clicked_cb((void *)app_data, NULL, NULL);
 			goto ACTIVATE;
-		} else if(!strcmp(context, "keyboard_input_from_sms")) {
+		} else if (!strcmp(context, "keyboard_input_from_sms")) {
 			app_data->app_type = APP_TYPE_KEYBOARD_FROM_SMS;
-            input_keyboard_init(service);
-			_keyboard_clicked_cb( (void *)app_data, NULL, NULL);
+			input_keyboard_init(service);
+			_keyboard_clicked_cb((void *)app_data, NULL, NULL);
 			goto ACTIVATE;
-		} else if(!strcmp(context, "input_reply")) {
+		} else if (!strcmp(context, "input_reply")) {
 			app_data->app_type = APP_TYPE_REPLY;
             is_type_reply = true;
 		}
@@ -1553,7 +1522,7 @@ void _app_terminate(void* user_data)
 static int init_i18n(const char *domain, const char *dir, char *lang_str)
 {
 	if (setlocale(LC_ALL, "") == NULL) {
-		PRINTFUNC(DLOG_INFO,"Some environment variable is invalid, setlocale(LC_ALL, \"\") has returns\ed a null pointer");
+		PRINTFUNC(DLOG_INFO, "Some environment variable is invalid, setlocale(LC_ALL, \"\") has returns\ed a null pointer");
 		if (setlocale(LC_ALL, lang_str) == NULL)
 			return -1;
 	}
@@ -1594,9 +1563,9 @@ static void _app_language_changed(app_event_info_h event_info, void *user_data)
 
 int main(int argc, char* argv[])
 {
-	App_Data app_data = {0,};
-	ui_app_lifecycle_callback_s event_callback = {0,};
-    app_event_handler_h handlers[5] = {NULL, };
+	App_Data app_data = {0, };
+	ui_app_lifecycle_callback_s event_callback = {0, };
+	app_event_handler_h handlers[5] = {NULL, };
 
 	event_callback.create = _app_create;
 	event_callback.terminate = _app_terminate;
@@ -1604,7 +1573,7 @@ int main(int argc, char* argv[])
 	event_callback.resume = _app_resume;
 	event_callback.app_control = _app_service;
 
-    ui_app_add_event_handler(&handlers[APP_EVENT_LOW_BATTERY], APP_EVENT_LOW_BATTERY, NULL, &app_data);
+	ui_app_add_event_handler(&handlers[APP_EVENT_LOW_BATTERY], APP_EVENT_LOW_BATTERY, NULL, &app_data);
 	ui_app_add_event_handler(&handlers[APP_EVENT_LOW_MEMORY], APP_EVENT_LOW_MEMORY, NULL, &app_data);
 	ui_app_add_event_handler(&handlers[APP_EVENT_DEVICE_ORIENTATION_CHANGED], APP_EVENT_DEVICE_ORIENTATION_CHANGED, NULL, &app_data);
 	ui_app_add_event_handler(&handlers[APP_EVENT_LANGUAGE_CHANGED], APP_EVENT_LANGUAGE_CHANGED, _app_language_changed, &app_data);

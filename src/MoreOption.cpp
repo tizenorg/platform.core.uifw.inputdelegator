@@ -32,25 +32,21 @@ extern Evas_Object *g_setting_window;
 
 MoreOption::MoreOption(Evas_Object *naviframe, void* voicedata)
 	: nf(naviframe)
-	, more_option_layout (NULL)
-	, item (NULL)
-	, option_opened (EINA_FALSE)
+	, more_option_layout(NULL)
+	, item(NULL)
+	, option_opened(EINA_FALSE)
 	, voicedata(voicedata) {
-
 	/** todo. implement constructor */
 }
 
 MoreOption::~MoreOption() {
-
 	/** todo. implement destructor */
 
 //	if(more_option_layout)
 //		evas_object_del(more_option_layout);
-
 }
 
 void MoreOption::Create() {
-
 	try {
 		AddLayout();
 		AddMorePage();
@@ -62,7 +58,6 @@ void MoreOption::Create() {
 }
 
 void MoreOption::AddLayout() {
-
 	/** validation */
 	if(!nf)
 		PRINTFUNC(DLOG_ERROR, "Invalid naviframe.");
@@ -75,7 +70,6 @@ void MoreOption::AddLayout() {
 
 	evas_object_smart_callback_add(more_option_layout, "more,option,opened",
 		[](void *data, Evas_Object *obj, void *event_info){
-
 			PRINTFUNC(DLOG_DEBUG, "more option is opened!!! \n");
 
 			if(!data) return;
@@ -97,12 +91,10 @@ void MoreOption::AddLayout() {
 			}
 
 			opt->option_opened = EINA_TRUE;
-
 	}, this);
 
 	evas_object_smart_callback_add(more_option_layout, "more,option,closed",
 		[](void *data, Evas_Object *obj, void *event_info){
-
 		PRINTFUNC(DLOG_DEBUG, "more option is closed!!! \n");
 
 		MoreOption *opt = (MoreOption *)data;
@@ -111,17 +103,12 @@ void MoreOption::AddLayout() {
 		activate_circle_scroller_for_stt_textbox(vd, EINA_TRUE);
 
 		opt->option_opened = EINA_FALSE;
-
-
 	}, this);
 
 	evas_object_show(more_option_layout);
-
-
 }
 
 void MoreOption::SetContentLayout(Evas_Object *content) {
-
 	/**
 	 * Set content layout
 	 *
@@ -149,7 +136,7 @@ void MoreOption::SetContentLayout(Evas_Object *content) {
 								   vd->sttmanager->GetCurrent() == STT_STATE_READY) {
 							PRINTFUNC(DLOG_DEBUG, "STT_STATE_CREATED || STT_STATE_READY\n");
 
-						} else if(vd->sttmanager->GetCurrent() == STT_STATE_RECORDING) {
+						} else if (vd->sttmanager->GetCurrent() == STT_STATE_RECORDING) {
 							PRINTFUNC(DLOG_DEBUG, "STT_STATE_RECORDING\n");
 							vd->effector->Stop();
 							try{
@@ -158,7 +145,7 @@ void MoreOption::SetContentLayout(Evas_Object *content) {
 								PRINTFUNC(DLOG_ERROR, "reason : %s", e.what());
 							}
 
-						} else if(vd->sttmanager->GetCurrent() == STT_STATE_PROCESSING) {
+						} else if (vd->sttmanager->GetCurrent() == STT_STATE_PROCESSING) {
 							PRINTFUNC(DLOG_DEBUG, "STT_STATE_RECORDING\n");
 							try{
 								vd->sttmanager->Cancel();
@@ -187,7 +174,7 @@ void MoreOption::SetContentLayout(Evas_Object *content) {
 							   vd->sttmanager->GetCurrent() == STT_STATE_READY) {
 						PRINTFUNC(DLOG_DEBUG, "STT_STATE_CREATED || STT_STATE_READY\n");
 
-					} else if(vd->sttmanager->GetCurrent() == STT_STATE_RECORDING) {
+					} else if (vd->sttmanager->GetCurrent() == STT_STATE_RECORDING) {
 						PRINTFUNC(DLOG_DEBUG, "STT_STATE_RECORDING\n");
 						vd->effector->Stop();
 						try{
@@ -196,7 +183,7 @@ void MoreOption::SetContentLayout(Evas_Object *content) {
 							PRINTFUNC(DLOG_ERROR, "reason : %s", e.what());
 						}
 
-					} else if(vd->sttmanager->GetCurrent() == STT_STATE_PROCESSING) {
+					} else if (vd->sttmanager->GetCurrent() == STT_STATE_PROCESSING) {
 						PRINTFUNC(DLOG_DEBUG, "STT_STATE_RECORDING\n");
 						try{
 							vd->sttmanager->Cancel();
@@ -221,18 +208,14 @@ void MoreOption::SetContentLayout(Evas_Object *content) {
 
 void MoreOption::Update()
 {
+	char lang[6] = {0, };
+	strncpy(lang, ((VoiceData *)voicedata)->kbd_lang , 5);
 
-	   char lang[6] = {0,};
-	   strncpy(lang, ((VoiceData *)voicedata)->kbd_lang , 5);
-
-       char* display_lang = get_lang_label(lang);
-	   eext_more_option_item_part_text_set(item, "selector,sub_text", display_lang);
-
+	char* display_lang = get_lang_label(lang);
+	eext_more_option_item_part_text_set(item, "selector,sub_text", display_lang);
 }
 
-
 Evas_Object* MoreOption::AddLanguageIcon(Evas_Object *parent) {
-
 	Evas_Object *icon = elm_image_add(parent);
 	if (!icon) {
 		PRINTFUNC(DLOG_ERROR, "It's failed to add image.");
@@ -255,9 +238,7 @@ Evas_Object* MoreOption::AddLanguageIcon(Evas_Object *parent) {
 	return icon;
 }
 
-
 void MoreOption::AddMorePage() {
-
 	Evas_Object *img;
 
 	item  = eext_more_option_item_append(more_option_layout);
@@ -272,16 +253,14 @@ void MoreOption::AddMorePage() {
 	evas_object_smart_callback_add(more_option_layout, "item,clicked",
 	[](void *data, Evas_Object *obj, void *event_info)
 	{
-
 		PRINTFUNC(DLOG_DEBUG, "item,clicked");
 		if(g_setting_window == NULL)
 			create_setting_window(obj);
-	},NULL);
+	}, NULL);
 
 	evas_object_smart_callback_add(more_option_layout, "item,selected",
 	[](void *data, Evas_Object *obj, void *event_info)
 	{
-
 		PRINTFUNC(DLOG_DEBUG, "item,selected");
 
 		Eext_Object_Item *selected_item = (Eext_Object_Item *)event_info;
@@ -313,8 +292,6 @@ void MoreOption::AddMorePage() {
 				elm_access_info_set(content_access, ELM_ACCESS_INFO, text.c_str());
 			}
 		}
-	},NULL);
-
-
+	}, NULL);
 }
 

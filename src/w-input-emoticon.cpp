@@ -71,7 +71,7 @@ const char * get_emoticon_file_name(int index)
     int ipos = path.size()-9;
     char str_emoticon_code[10] = {0};
     sprintf(str_emoticon_code, "%x", emoticon_info[index].code);
-    path.erase(ipos,5);
+    path.erase(ipos, 5);
     path.insert(ipos, str_emoticon_code);
     return path.c_str();
 }
@@ -85,7 +85,7 @@ static Eina_Bool _custom_back_cb(void *data, Elm_Object_Item *it)
 static Eina_Bool
 _rotary_selector_rotary_cb(void *data, Evas_Object *obj, Eext_Rotary_Event_Info *info)
 {
-    PRINTFUNC(DLOG_DEBUG,"%s", __func__);
+    PRINTFUNC(DLOG_DEBUG, "%s", __func__);
 
    if (info->direction == EEXT_ROTARY_DIRECTION_CLOCKWISE){
 		evas_object_smart_callback_call(obj, "item,selected", (void*)data);
@@ -97,12 +97,11 @@ _rotary_selector_rotary_cb(void *data, Evas_Object *obj, Eext_Rotary_Event_Info 
 
 static char *_access_info_prepend_cb(void *data, Evas_Object *obj)
 {
-
-   PRINTFUNC(DLOG_DEBUG,"%s", __func__);
+   PRINTFUNC(DLOG_DEBUG, "%s", __func__);
 
    std::string text;
 
-   if(previous_icon == 10 || previous_icon == 11){
+   if (previous_icon == 10 || previous_icon == 11){
 		text = std::string("Page") + " " +std::string(dgettext(PACKAGE, emoticon_info[previous_icon].name));
 		text = text + " " + gettext("WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND");
    } else {
@@ -113,7 +112,7 @@ static char *_access_info_prepend_cb(void *data, Evas_Object *obj)
 
 static void _rotary_selector_item_clicked(void *data, Evas_Object *obj, void *event_info)
 {
-    PRINTFUNC(DLOG_DEBUG,"%s", __func__);
+    PRINTFUNC(DLOG_DEBUG, "%s", __func__);
     App_Data* ad = (App_Data*) data;
     if (!ad)
         return;
@@ -125,7 +124,7 @@ static void _rotary_selector_item_clicked(void *data, Evas_Object *obj, void *ev
     Eina_List *l = rotary_selector_list;
     Eext_Object_Item *item = (Eext_Object_Item *)eina_list_data_get(l);
 
-    for (i=0; l!=NULL; i++) {
+    for (i = 0; l != NULL; i++) {
         if (selected_item == item)
             break;
 
@@ -143,8 +142,8 @@ static void _rotary_selector_item_clicked(void *data, Evas_Object *obj, void *ev
 	else
         reply_to_sender_by_callback((const char*)utf_8, "emoticon");
 
-    PRINTFUNC(SECURE_DEBUG,"[%d]%s", i, utf_8);
-    if(utf_8)
+    PRINTFUNC(SECURE_DEBUG, "[%d]%s", i, utf_8);
+    if (utf_8)
         free(utf_8);
 
 	if(ad->reply_type == REPLY_APP_NORMAL)
@@ -153,7 +152,7 @@ static void _rotary_selector_item_clicked(void *data, Evas_Object *obj, void *ev
 
 static void _rotary_selector_item_selected(void *data, Evas_Object *obj, void *event_info)
 {
-    PRINTFUNC(DLOG_DEBUG,"%s", __func__);
+    PRINTFUNC(DLOG_DEBUG, "%s", __func__);
     if (elm_config_access_get())
     {
         Eext_Object_Item *selected_item = (Eext_Object_Item *)event_info;
@@ -163,7 +162,7 @@ static void _rotary_selector_item_selected(void *data, Evas_Object *obj, void *e
         Eina_List *l = rotary_selector_list;
         Eext_Object_Item *item = (Eext_Object_Item *)eina_list_data_get(l);
 
-        for (i=0; l!=NULL; i++) {
+        for (i = 0; l != NULL; i++) {
             if (selected_item == item)
                 break;
 
@@ -181,34 +180,31 @@ static void _rotary_selector_item_selected(void *data, Evas_Object *obj, void *e
         if (!content_access)
             return;
 
-
-		std::string text = std::string(dgettext(PACKAGE, emoticon_info[i].name));
-        PRINTFUNC(DLOG_DEBUG,"[%d]%s",i,text.c_str());
-		text = text + " " + gettext("WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND");
-		elm_access_say(text.c_str());
-
+        std::string text = std::string(dgettext(PACKAGE, emoticon_info[i].name));
+        PRINTFUNC(DLOG_DEBUG, "[%d]%s", i, text.c_str());
+        text = text + " " + gettext("WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND");
+        elm_access_say(text.c_str());
     }
 }
 
 void ise_show_emoticon_popup_rotary(void *data)
 {
-    PRINTFUNC(DLOG_DEBUG,"%s", __func__);
+    PRINTFUNC(DLOG_DEBUG, "%s", __func__);
     App_Data* ad = (App_Data*) data;
     if (!ad)
         return;
 
-
-	Eext_Object_Item *first_it;
+    Eext_Object_Item *first_it;
 
     Evas_Object *rotary_selector = eext_rotary_selector_add(ad->naviframe);
 //    uxt_theme_object_replace_color(rotary_selector, "B01153", "AO0117");
-    PRINTFUNC(DLOG_DEBUG,"replace color");
+    PRINTFUNC(DLOG_DEBUG, "replace color");
     for (int i = 0; i < EMOTICON_CNT; ++i)
     {
         Evas_Object *img = NULL;
         Eext_Object_Item *item = eext_rotary_selector_item_append(rotary_selector);
 
-        if(i==0) first_it=item;
+        if (i == 0) first_it = item;
 
         img = elm_image_add(rotary_selector);
         elm_image_file_set(img, get_emoticon_file_name(i), NULL);
@@ -232,8 +228,7 @@ void ise_show_emoticon_popup_rotary(void *data)
 		eext_rotary_object_event_callback_add(rotary_selector, _rotary_selector_rotary_cb, first_it);
 
 //		ea_screen_reader_access_info_append_cb_set(selector_access, ELM_ACCESS_CONTEXT_INFO, _access_info_prepend_cb, NULL);
-
     }
 
-    PRINTFUNC(DLOG_DEBUG,"%s", __func__);
+    PRINTFUNC(DLOG_DEBUG, "%s", __func__);
 }

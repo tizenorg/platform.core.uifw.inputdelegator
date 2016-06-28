@@ -27,26 +27,20 @@ SttFeedback::SttFeedback()
 	owner = NULL;
 }
 
-
-
 SttFeedback::~SttFeedback()
 {
-
 }
 
-
-
-void SttFeedback::OnResult (
+void SttFeedback::OnResult(
 	std::string asrtype,
 	stt_result_event_e event,
 	std::vector<std::string> results,
 	std::string msg) {
-
-	if(!owner) return;
+	if (!owner) return;
 
 	VoiceData& vd = *((VoiceData *) owner);
 
-	if(vd.state == STT_STATE_VAL_TERMINATING) {
+	if (vd.state == STT_STATE_VAL_TERMINATING) {
 		PRINTFUNC(DLOG_WARN, "STT_STATE_VAL_TERMINATING");
 		return;
 	}
@@ -59,24 +53,23 @@ void SttFeedback::OnResult (
 		PRINTFUNC(DLOG_ERROR, "Result size : %d", results.size());
 		vd.state = STT_STATE_VAL_NOT_RECOGNISED;
 		set_animation_state(&vd);
-	}
-	else {
+	} else {
 		PRINTFUNC(DLOG_INFO, "Meaningful result : size (%d)", results.size());
 
 		for(auto result : results) {
 			PRINTFUNC(DLOG_INFO, "Results");
 			if(!result.empty() && result.length() > 0) {
-				PRINTFUNC(DLOG_INFO,"%s\n", result.c_str());
+				PRINTFUNC(DLOG_INFO, "%s\n", result.c_str());
 				switch(event){
 					case STT_RESULT_EVENT_FINAL_RESULT:
-						PRINTFUNC(DLOG_DEBUG,"STT_RESULT_EVENT_FINAL_RESULT");
+						PRINTFUNC(DLOG_DEBUG, "STT_RESULT_EVENT_FINAL_RESULT");
 						vd.state = STT_STATE_VAL_INIT;
 						set_animation_state(&vd);
 						vd.result_type = STT_RESULT_EVENT_FINAL_RESULT;
 						voice_get_string(result.c_str(), &vd);
 						break;
 					case STT_RESULT_EVENT_PARTIAL_RESULT:
-						PRINTFUNC(DLOG_DEBUG,"STT_RESULT_EVENT_PARTIAL_RESULT");
+						PRINTFUNC(DLOG_DEBUG, "STT_RESULT_EVENT_PARTIAL_RESULT");
 						vd.result_type = STT_RESULT_EVENT_PARTIAL_RESULT;
 						voice_get_string(result.c_str(), &vd);
 						break;
@@ -104,7 +97,6 @@ void SttFeedback::OnResult (
 	}
 }
 
-
 void SttFeedback::AutoStart(void) {
 	PRINTFUNC(DLOG_DEBUG, "start");
 
@@ -115,10 +107,9 @@ void SttFeedback::AutoStart(void) {
 	}
 }
 
-
 void SttFeedback::SttIdle(void)
 {
-	if(!owner) {
+	if (!owner) {
 		PRINTFUNC(DLOG_WARN, "no owner");
 		return;
 	}
@@ -135,7 +126,7 @@ void SttFeedback::SttIdle(void)
 	 * using 2 sec timer, it will change as idle state.
 	 *
 	 */
-	if(vd.state == STT_STATE_VAL_NOT_RECOGNISED) {
+	if (vd.state == STT_STATE_VAL_NOT_RECOGNISED) {
 		PRINTFUNC(DLOG_INFO, "Ignore when state was STT_STATE_VAL_NOT_RECOGNISED");
 		return;
 	}
@@ -145,8 +136,6 @@ void SttFeedback::SttIdle(void)
 	vd.state = STT_STATE_VAL_INIT;
 	set_animation_state(&vd);
 }
-
-
 
 void SttFeedback::SttRecording(void)
 {
@@ -167,8 +156,6 @@ void SttFeedback::SttRecording(void)
 	vd.state = STT_STATE_VAL_LISTENING;
 	set_animation_state(&vd);
 }
-
-
 
 void SttFeedback::SttProcessing(void)
 {
@@ -196,7 +183,7 @@ void SttFeedback::OnError(stt_error_e reason)
 
 	VoiceData& vd = *((VoiceData *) owner);
 
-	PRINTFUNC(DLOG_ERROR,"error = %d\n", reason);
+	PRINTFUNC(DLOG_ERROR, "error = %d\n", reason);
 	vd.state = STT_STATE_VAL_INIT;
 	set_animation_state(&vd);
 	show_error_message(&vd, reason);
@@ -204,11 +191,9 @@ void SttFeedback::OnError(stt_error_e reason)
 
 
 void SttFeedback::SetVoiceData(void *data) {
-
 	if(!data) {
 		PRINTFUNC(DLOG_WARN, "no data");
 		return;
 	}
-
 	owner = data;
 }

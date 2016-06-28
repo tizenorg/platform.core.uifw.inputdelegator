@@ -37,27 +37,19 @@ unsigned int sample_count = SAMPLE_COUNT;
 using namespace is::ui;
 
 
-
 WInputSttMicEffect::WInputSttMicEffect()
 	: processing_effect_timer(NULL)
 	, progressbar(NULL)
-	, count (5)
-	, square_sum (0)
-	, handle (NULL) {
-
+	, count(5)
+	, square_sum(0)
+	, handle(NULL) {
 }
 
-
-
 WInputSttMicEffect::~WInputSttMicEffect() {
-
 	ProcessingAnimationStop();
 }
 
-
-
 std::vector<int> WInputSttMicEffect::GetVolume() {
-
 	std::vector<int> result;
 
 	short pcm[512] = {0};
@@ -65,14 +57,11 @@ std::vector<int> WInputSttMicEffect::GetVolume() {
 	int ret = 0;
 
 //	ret = stt_get_spectrum(handle, (void *) pcm, &size);
-
-
 	count = 5;
 
-	if(STT_ERROR_NONE != ret) {
+	if (STT_ERROR_NONE != ret) {
 		PRINTFUNC(DLOG_ERROR, "stt_audio_snapshot invalid (%d)", ret);
-	}
-	else {
+	} else {
 		unsigned int level = 0;
 		unsigned int step = (unsigned int) (size/2/sample_count);
 
@@ -82,19 +71,14 @@ std::vector<int> WInputSttMicEffect::GetVolume() {
 			result.push_back(level);
 		}
 	}
-
 	return result;
 }
 
-
-
 float WInputSttMicEffect::GetDecibel() const
 {
-	float rms = std::sqrt( square_sum/count );
+	float rms = std::sqrt(square_sum/count);
 	return 20.0*log10(rms);
 }
-
-
 
 int WInputSttMicEffect::ConvertLevel()
 {
@@ -102,46 +86,33 @@ int WInputSttMicEffect::ConvertLevel()
 
 	if ( db <= 30.0 ){
 		return 0;
-	}
-	else if ( db <= 33.3 ){
+	} else if ( db <= 33.3 ){
 		return 1;
-	}
-	else if ( db <= 36.6 ){
+	} else if ( db <= 36.6 ){
 		return 2;
-	}
-	else if ( db <= 40 ){
+	} else if ( db <= 40 ){
 		return 3;
-	}
-	else if ( db <= 43.3 ){
+	} else if ( db <= 43.3 ){
 		return 4;
-	}
-	else if ( db <= 46.6 ){
+	} else if ( db <= 46.6 ){
 		return 5;
-	}
-	else if ( db <= 50 ){
+	} else if ( db <= 50 ){
 		return 6;
-	}
-	else if ( db <= 53.3 ){
+	} else if ( db <= 53.3 ){
 		return 7;
-	}
-	else if ( db <= 56.6 ){
+	} else if ( db <= 56.6 ){
 		return 8;
-	}
-	else if ( db <= 60 ){
+	} else if ( db <= 60 ){
 		return 9;
-	}
-	else{
+	} else {
 		return 10;
 	}
 }
 
-
-
 void WInputSttMicEffect::ProcessingAnimationStart() {
-
 	elm_progressbar_pulse(progressbar, EINA_TRUE);
 
-	processing_effect_timer = ecore_timer_add ( 0.1,
+	processing_effect_timer = ecore_timer_add(0.1,
 		[](void *data)->Eina_Bool
 		{
 			if(!data) return ECORE_CALLBACK_CANCEL;
@@ -162,10 +133,7 @@ void WInputSttMicEffect::ProcessingAnimationStart() {
 		}, this);
 }
 
-
-
 void WInputSttMicEffect::ProcessingAnimationStop() {
-
 	if(processing_effect_timer)
 	{
 		ecore_timer_del(processing_effect_timer);
@@ -177,14 +145,11 @@ void WInputSttMicEffect::ProcessingAnimationStop() {
 
 
 void WInputSttMicEffect::SetSttHandle(stt_h handle) {
-
 	this->handle = handle;
 }
 
 
 
 void WInputSttMicEffect::SetProgressBar(Evas_Object *progress) {
-
 	this->progressbar = progress;
-
 }

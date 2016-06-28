@@ -30,14 +30,12 @@ namespace is {
 namespace stt {
 
 class SttException : public std::runtime_error {
-
 	public :
 		SttException(int code, const char *reason)
 			: std::runtime_error(reason)
 			, ecode(code) { };
 
 		int GetEcode() {
-
 			return ecode;
 		};
 
@@ -211,7 +209,6 @@ class SttManager
 		const char *ErrorString(int ecode);
 
 		stt_state_e GetCurrent(void) {
-
 			stt_state_e cur;
 			stt_get_state(handle, &cur);
 

@@ -130,11 +130,10 @@ void voice_stt_set_silence_detection_func(bool bEnable)
 
 	ret = stt_set_silence_detection(g_stt, s_option);
 	if (STT_ERROR_NONE != ret) {
-		PRINTFUNC(DLOG_ERROR,"stt_set_silence_detection Failed : error(%d) = %s", ret, error_string((stt_error_e)ret));
+		PRINTFUNC(DLOG_ERROR, "stt_set_silence_detection Failed : error(%d) = %s", ret, error_string((stt_error_e)ret));
 	} else {
-		PRINTFUNC(NO_PRINT,"stt_set_silence_detection Successful");
+		PRINTFUNC(NO_PRINT, "stt_set_silence_detection Successful");
 	}
-
 }
 
 
@@ -155,10 +154,10 @@ void on_feedback(stt_h handle)
 		PRINTFUNC(DLOG_ERROR, "get vibe status failed.");
 	}
 
-	if(is_sound || is_sound_vibe) {
+	if (is_sound || is_sound_vibe) {
 		stt_set_start_sound(handle, "/usr/share/ise-voice-input/audio/voice_start.wav");
 		stt_set_stop_sound(handle, "/usr/share/ise-voice-input/audio/voice_stop.wav");
-	}else{
+	} else {
 		stt_unset_start_sound(handle);
 		stt_unset_stop_sound(handle);
 	}
@@ -170,7 +169,7 @@ void on_feedback(stt_h handle)
 
 bool _app_stt_initialize(VoiceData *voice_data)
 {
-	PRINTFUNC(NO_PRINT,"_app_stt_initialize");
+	PRINTFUNC(NO_PRINT, "_app_stt_initialize");
 	VoiceData *vd = (VoiceData *)voice_data;
 
 	try {
@@ -190,7 +189,6 @@ bool _app_stt_initialize(VoiceData *voice_data)
 
 		vd->sttmanager = new is::stt::SttManager(*(vd->sttfeedback));
 		vd->sttmanager->Prepare();
-
 	} catch(std::exception &e) {
 		PRINTFUNC(DLOG_ERROR, "%s", e.what());
 		return false;

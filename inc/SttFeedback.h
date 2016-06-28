@@ -33,8 +33,7 @@ class SttFeedback : public ISttFeedback
 			std::string asrtype,
 			stt_result_event_e event,
 			std::vector<std::string> results,
-			std::string msg
-		);
+			std::string msg);
 
 		virtual void AutoStart(void);
 
