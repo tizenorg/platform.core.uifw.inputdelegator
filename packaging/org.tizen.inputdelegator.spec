@@ -1,6 +1,6 @@
 Name: org.tizen.inputdelegator
 Summary: Input Delegator Application
-Version: 0.0.160616
+Version: 0.0.160629
 Release: 1
 Group: Applications
 License: Apache-2.0
