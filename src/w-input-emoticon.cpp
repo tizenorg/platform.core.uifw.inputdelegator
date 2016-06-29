@@ -70,7 +70,7 @@ const char * get_emoticon_file_name(int index)
 
     int ipos = path.size()-9;
     char str_emoticon_code[10] = {0};
-    sprintf(str_emoticon_code, "%x", emoticon_info[index].code);
+    snprintf(str_emoticon_code, sizeof(str_emoticon_code), "%x", emoticon_info[index].code);
     path.erase(ipos, 5);
     path.insert(ipos, str_emoticon_code);
     return path.c_str();

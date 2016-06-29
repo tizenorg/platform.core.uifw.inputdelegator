@@ -123,17 +123,7 @@ void SttManager::Start() {
 	*/
 	asrtype = STT_RECOGNITION_TYPE_FREE_PARTIAL;
 	int ret;
-
-	bool bval = false;
-
-//	stt_is_samsung_asr(&bval);
-
-	if( bval == true && !language.compare("en_GB")) {
-		PRINTFUNC(DLOG_DEBUG, "en_GB requested, change to en_US");
-        ret = stt_start(handle, "en_US", asrtype.c_str());
-	} else {
         ret = stt_start(handle, language.c_str(), asrtype.c_str());
-	}
 
 	if(ret != STT_ERROR_NONE)
 		throw SttException(ret, ErrorString((stt_error_e)ret));

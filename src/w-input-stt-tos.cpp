@@ -327,7 +327,7 @@ std::string getFontStyle(const char *code)
     snprintf(strColor, 256, "<color=#%02x%02x%02x%02x>", r, g, b, a);
 
 //    ea_theme_font_get(code,&fontStyle,&fontSize);
-
+/*
     if (fontStyle) {
         snprintf(strFont, 256, "<font=Tizen:style=%s><font_size=%d>", fontStyle, fontSize);
     } else {
@@ -341,6 +341,7 @@ std::string getFontStyle(const char *code)
         free(fontStyle);
         fontStyle = NULL;
     }
+*/
     return strRet;
 }
 
@@ -388,7 +389,7 @@ static void _language_changed_cb(void *_data, Evas_Object *_obj, void *_event_in
 
     switch (index) {
         case 1:
-            sprintf(body_str, gettext("LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"), " <a href=\"file://local-nuance-tos\">","</a>","<a href=\"http://www.vlingo.com/wap/samsung-asr-privacy-addendum\">","</a>");
+            snprintf(body_str, sizeof(body_str), gettext("LDS_IME_BODY_INFORMATION_PROVISION_AGREEMENT_P1_LEGALPHRASE_WC1"), " <a href=\"file://local-nuance-tos\">","</a>","<a href=\"http://www.vlingo.com/wap/samsung-asr-privacy-addendum\">","</a>");
             terms = tagging(std::string(body_str));
             terms = replaceAll(terms , std::string("\n"), std::string("<br>"));
             elm_entry_entry_set(elm_layout_content_get(_obj, "elm.swallow.content"), terms.c_str());
@@ -653,19 +654,19 @@ static void _n66_language_changed_cb(void *_data, Evas_Object *_obj, void *_even
     // 2. Set String ID depend on Count Code
     char* popup_title_id = NULL;
     char* popup_body_id = NULL;
-    if (country_code) {
-        if (!strcmp(country_code, "CN")) {
-            popup_title_id = TOS_TITLE_CHN;
-            popup_body_id = TOS_N66_BODY_CHN;
-        } else {
-            popup_title_id = TOS_TITLE;
-            popup_body_id = TOS_N66_BODY;
-        }
-    } else {
+//    if (country_code) {
+//        if (!strcmp(country_code, "CN")) {
+//            popup_title_id = TOS_TITLE_CHN;
+//            popup_body_id = TOS_N66_BODY_CHN;
+//        } else {
+//            popup_title_id = TOS_TITLE;
+//            popup_body_id = TOS_N66_BODY;
+//        }
+//    } else {
         PRINTFUNC(DLOG_ERROR, "Getting Count Code is Error!!! Set default TOS Text!");
         popup_title_id = TOS_TITLE;
         popup_body_id = TOS_N66_BODY;
-    }
+//    }
 
 //    ea_cutlink_h cutlink;
 //    ea_cutlink_create(&cutlink, entry, EA_CUTLINK_USER);
@@ -691,8 +692,8 @@ static void _n66_language_changed_cb(void *_data, Evas_Object *_obj, void *_even
     terms = tagging(std::string(gettext(txt)));
     elm_entry_entry_set(entry, terms.c_str());
 
-    if (txt)
-        free(txt);
+//    if (txt)
+//        free(txt);
 
     if (markup)
         free(markup);
@@ -726,19 +727,19 @@ Evas_Object *create_tos_n66_popup(void *data)
     // 2. Set String ID depend on Count Code
     char* popup_title_id = NULL;
     char* popup_body_id = NULL;
-    if (country_code) {
-        if (!strcmp(country_code, "CN")) {
-            popup_title_id = TOS_TITLE_CHN;
-            popup_body_id = TOS_N66_BODY_CHN;
-        } else {
-            popup_title_id = TOS_TITLE;
-            popup_body_id = TOS_N66_BODY;
-        }
-    } else {
+//    if (country_code) {
+//        if (!strcmp(country_code, "CN")) {
+//            popup_title_id = TOS_TITLE_CHN;
+//            popup_body_id = TOS_N66_BODY_CHN;
+//        } else {
+//            popup_title_id = TOS_TITLE;
+//            popup_body_id = TOS_N66_BODY;
+//        }
+//    } else {
         PRINTFUNC(DLOG_ERROR, "Getting Count Code is Error!!! Set default TOS Text!");
         popup_title_id = TOS_TITLE;
         popup_body_id = TOS_N66_BODY;
-    }
+//    }
 
 
 //------------outer layout----------------------
@@ -802,8 +803,8 @@ Evas_Object *create_tos_n66_popup(void *data)
     terms = tagging(std::string(gettext(txt)));
     elm_entry_entry_set(entry, terms.c_str());
 
-    if (txt)
-        free(txt);
+//    if (txt)
+//        free(txt);
 
     if (markup)
         free(markup);

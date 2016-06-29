@@ -409,7 +409,7 @@ void MicEffector::VolumeCheck(bool fake)
 		volumes = ieffect.GetVolume();
 	} else {
 		for(unsigned int i = 0; i < spectrum_count; i++) {
-			volumes.push_back(rand() % 2);
+			volumes.push_back(rand_r((unsigned int*)time(NULL)) % 2);
 		}
 	}
 

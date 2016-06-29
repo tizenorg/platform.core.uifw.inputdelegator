@@ -49,7 +49,7 @@ void SttFeedback::OnResult(
 	// Partial result case : STT_RECOGNITION_TYPE_FREE_PARTIAL
 	// Normal result case : STT_RECOGNITION_TYPE_FREE
 
-	if(results.size() < 0) {
+	if(results.size() < 1) {
 		PRINTFUNC(DLOG_ERROR, "Result size : %d", results.size());
 		vd.state = STT_STATE_VAL_NOT_RECOGNISED;
 		set_animation_state(&vd);
