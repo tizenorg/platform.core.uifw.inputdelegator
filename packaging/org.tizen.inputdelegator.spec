@@ -46,6 +46,14 @@ ExcludeArch: %{arm} %ix86 x86_64
 ExcludeArch: %{arm} %ix86 x86_64
 %endif
 
+%if "%{?profile}" == "common"
+ExcludeArch: %{arm} %ix86 x86_64
+%endif
+
+%if "%{?profile}" == "ivi"
+ExcludeArch: %{arm} %ix86 x86_64
+%endif
+
 %define _appdir		/usr/apps
 %define _app_destdir	%{_appdir}/%{name}
 
