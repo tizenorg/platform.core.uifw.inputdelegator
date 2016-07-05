@@ -51,15 +51,17 @@ void show_voice_input(Evas_Object *parent, const char *lang, void (*get_string)(
 		memset(my_voicedata, 0, sizeof(VoiceData));
 	}
 
-	init = init_voice(parent, lang, my_voicedata);
-	if (init) {
-		if (my_voicedata->naviframe) {
-			show_voice_window(my_voicedata->naviframe, my_voicedata);
+	if (my_voicedata) {
+		init = init_voice(parent, lang, my_voicedata);
+		if (init) {
+			if (my_voicedata->naviframe) {
+				show_voice_window(my_voicedata->naviframe, my_voicedata);
+			}
+		} else {
+			destroy_voice();
+			PRINTFUNC(DLOG_ERROR, "%d::::Fail to create Voice window!", __LINE__);
+			return;
 		}
-	} else {
-		destroy_voice();
-		PRINTFUNC(DLOG_ERROR, "%d::::Fail to create Voice window!", __LINE__);
-		return;
 	}
 
 	vconf_notify_key_changed(VCONFKEY_ISE_STT_LANGUAGE, _stt_lang_changed_cb, my_voicedata);
