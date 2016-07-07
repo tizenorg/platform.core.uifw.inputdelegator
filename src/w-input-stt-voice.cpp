@@ -1183,7 +1183,7 @@ static Evas_Object *__get_genlist_item_content(void *data, Evas_Object *obj, con
 
 static int get_language_value()
 {
-#if 0
+#if 1
 	int lang = 0, ret = 0;
 
 	ret = preference_get_int(PREFERENCE_ISE_STT_LANGUAGE, &lang);
@@ -1218,7 +1218,7 @@ static void set_language_value(int type)
 	// Add implementation to store language type.
 	int ret = 0;
 
-#if 0
+#if 1
 	ret = preference_set_int(PREFERENCE_ISE_STT_LANGUAGE, (int)type);
 	if(PREFERENCE_ERROR_NONE != ret){
 		PRINTFUNC(DLOG_ERROR, "preference_set_int error!(%d)", ret);
