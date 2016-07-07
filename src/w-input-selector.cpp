@@ -923,6 +923,7 @@ Evas_Object* _create_genlist(Evas_Object* navi)
 	if(NULL == genlist)
 		return NULL;
 
+	elm_genlist_mode_set(genlist, ELM_LIST_COMPRESS);
 	elm_genlist_scroller_policy_set(genlist, ELM_SCROLLER_POLICY_OFF, ELM_SCROLLER_POLICY_OFF);
 
 	Evas_Object* circle_object_genlist = eext_circle_object_genlist_add(genlist, app_data->circle_surface);
