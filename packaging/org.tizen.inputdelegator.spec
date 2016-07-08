@@ -102,7 +102,7 @@ cp -rf org.tizen.inputdelegator.xml %{buildroot}%{_datadir}/packages
 %files
 %manifest org.tizen.inputdelegator.manifest
 %defattr(-,app,app,-)
-
+%license LICENSE
 %{_datadir}/packages/org.tizen.inputdelegator.xml
 %{_app_destdir}%{_app_prefix}/bin/inputdelegator
 %{_app_destdir}%{_app_prefix}/res/edje/w-input-selector.edj
