@@ -39,19 +39,19 @@ BuildRequires:  pkgconfig(bundle)
 %endif
 
 %if "%{?profile}" == "mobile"
-ExcludeArch: %{arm} %ix86 x86_64
+ExcludeArch: %{arm} aarch64 %ix86 x86_64
 %endif
 
 %if "%{?profile}" == "tv"
-ExcludeArch: %{arm} %ix86 x86_64
+ExcludeArch: %{arm} aarch64 %ix86 x86_64
 %endif
 
 %if "%{?profile}" == "common"
-ExcludeArch: %{arm} %ix86 x86_64
+ExcludeArch: %{arm} aarch64 %ix86 x86_64
 %endif
 
 %if "%{?profile}" == "ivi"
-ExcludeArch: %{arm} %ix86 x86_64
+ExcludeArch: %{arm} aarch64 %ix86 x86_64
 %endif
 
 %define _appdir		/usr/apps
