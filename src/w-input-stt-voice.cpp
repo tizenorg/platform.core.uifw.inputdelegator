@@ -1207,6 +1207,10 @@ static int get_language_value()
 		}
 		PRINTFUNC(DLOG_DEBUG, "n66 current language value for stt (%s).", disp_lang_array_n66[lang]);
 	} else {
+		if(lang < 0 || lang > 12) {
+			PRINTFUNC(DLOG_WARN, "vconf lang orig(%d) to be 0", lang);
+			lang = 0;
+		}
 		PRINTFUNC(DLOG_DEBUG, "current language value for stt (%s).", disp_lang_array[lang]);
 	}
 
@@ -2104,6 +2108,7 @@ static Evas_Object *create_fullview(Evas_Object *parent, VoiceData *r_voicedata)
 			free(app_id);
 		}
 	}
+
 	elm_layout_signal_callback_add(panel, "cue,clicked", "elm", _panel_cue_clicked_cb, (void *) voicedata);
 	evas_object_show(panel);
 
