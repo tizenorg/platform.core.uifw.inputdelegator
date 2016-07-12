@@ -1207,6 +1207,10 @@ static int get_language_value()
 		}
 		PRINTFUNC(DLOG_DEBUG, "n66 current language value for stt (%s).", disp_lang_array_n66[lang]);
 	} else {
+		if(lang < 0 || lang > 12) {
+			PRINTFUNC(DLOG_WARN, "vconf lang orig(%d) to be 0", lang);
+			lang = 0;
+		}
 		PRINTFUNC(DLOG_DEBUG, "current language value for stt (%s).", disp_lang_array[lang]);
 	}
 
@@ -2104,6 +2108,7 @@ static Evas_Object *create_fullview(Evas_Object *parent, VoiceData *r_voicedata)
 			free(app_id);
 		}
 	}
+    elm_layout_theme_set(panel, "panel", "left_sending", "default");
 	elm_layout_signal_callback_add(panel, "cue,clicked", "elm", _panel_cue_clicked_cb, (void *) voicedata);
 	evas_object_show(panel);
 
@@ -2185,10 +2190,10 @@ int is_lang_supported_by_stt(char lang[])
 {
 	/* to check if the language is supported by stt */
 	int index;
-	for (index = (sizeof(supported_language) / sizeof(supported_language[0]))-1; index != 0; index--)
+	for (index = (sizeof(supported_language_n66) / sizeof(supported_language_n66[0]))-1; index != 0; index--)
 	{
-		if (!strcmp(lang, supported_language[index])) {
-			PRINTFUNC(DLOG_DEBUG, "current lang supported (%s)", supported_language[index]);
+		if (!strcmp(lang, supported_language_n66[index])) {
+			PRINTFUNC(DLOG_DEBUG, "current lang supported (%s)", supported_language_n66[index]);
 			return TRUE;
 		}
 	}
