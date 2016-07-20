@@ -33,20 +33,12 @@
 #include "w-input-emoticon.h"
 #include "w-input-stt-tos.h"
 
-#ifdef SUPPORT_LOG_MANAGER
-#include <samsung_log_manager.h>
-#include <samsung_log_manager_uri.h>
-#endif
-
 #include <stt.h>
 
 
 using namespace std;
 
 App_Data* app_data = NULL;
-#ifdef SUPPORT_LOG_MANAGER
-static samsung_log_manager_h g_log_manager = NULL;
-#endif
 
 InputKeyboardData g_input_keyboard_data;
 
@@ -65,11 +57,6 @@ static Eina_Bool is_genlist_highlighed = EINA_FALSE;
 void _init_app_data(App_Data* app_data);
 static void _app_language_changed(app_event_info_h event_info, void *user_data);
 static int _app_control_request_transient_app_cb(void *data);
-#ifdef SUPPORT_LOG_MANAGER
-static void log_manager_init(void);
-static void log_manager_exit(void);
-static void log_manager_set(const char *feature, const char *extra, const char *value);
-#endif
 
 static char *_genlist_text_set_theme_color(const char *str, const char *code);
 
@@ -164,11 +151,6 @@ static void _stt_clicked_cb(void *data, Evas_Object * obj, void *event_info)
 	} else {
 		ise_show_stt_popup(ad);
 	}
-
-
-#ifdef SUPPORT_LOG_MANAGER
-	log_manager_set("IM01", "STT", NULL);
-#endif
 }
 
 static void _input_smartreply_notify_cb(void *user_data)
@@ -194,10 +176,6 @@ static void _emoticon_clicked_cb(void *data, Evas_Object * obj, void *event_info
 
 //	ise_show_emoticon_popup(ad);
 	ise_show_emoticon_popup_rotary(ad);
-
-#ifdef SUPPORT_LOG_MANAGER
-        log_manager_set("IM01", "Emoticon", NULL);
-#endif
 }
 
 static void _keyboard_clicked_cb(void *data, Evas_Object * obj, void *event_info)
@@ -208,10 +186,6 @@ static void _keyboard_clicked_cb(void *data, Evas_Object * obj, void *event_info
 
 	if (!ad)
 		return;
-
-#ifdef SUPPORT_LOG_MANAGER
-	log_manager_set("IM01", "Keypad", NULL);
-#endif
 
     if (app_data->app_type == APP_TYPE_KEYBOARD_FROM_SMS)
         input_keyboard_launch(ad->win_main);
@@ -251,10 +225,6 @@ static void __ise_smartreply_gl_sel(void *data, Evas_Object *obj, void *event_in
 
 		int index = (unsigned int) elm_object_item_data_get(item);
 
-#ifdef SUPPORT_LOG_MANAGER
-		log_manager_set("IM01", "Preset", NULL);
-		log_manager_set("IM02", "Smart Reply", NULL);
-#endif
 		char *reply = input_smartreply_get_nth_item(index);
 		if (reply) {
 			input_smartreply_send_feedback(reply);
@@ -316,10 +286,6 @@ static void __ise_template_gl_sel(void *data, Evas_Object *obj, void *event_info
 		//@ToDo : should call reply function when any template string is selected and confirmed.
 		// Here reply string will be template_list[index].text.c_str();
 		if( index < template_list.size()) {
-#ifdef SUPPORT_LOG_MANAGER
-			log_manager_set("IM01", "Preset", NULL);
-			log_manager_set("IM02", "Preset except smart reply", NULL);
-#endif
 			if(app_data->reply_type == REPLY_APP_CONTROL){
 				reply_to_sender_by_appcontrol((void*)app_data, gettext(template_list[index].text.c_str()), "template");
 			} else {
@@ -1255,9 +1221,6 @@ bool _app_create(void* user_data)
 	}
 
 	_app_language_changed(NULL, NULL);
-#ifdef SUPPORT_LOG_MANAGER
-	log_manager_init();
-#endif
 
 	app_data = (App_Data*)user_data;
 
@@ -1423,10 +1386,6 @@ void _app_terminate(void* user_data)
 
 	input_template_unset_notify();
 	input_template_deinit();
-
-#ifdef SUPPORT_LOG_MANAGER
-	log_manager_exit();
-#endif
 }
 
 static int init_i18n(const char *domain, const char *dir, char *lang_str)
@@ -1498,52 +1457,3 @@ int main(int argc, char* argv[])
 
 	return ret;
 }
-
-#ifdef SUPPORT_LOG_MANAGER
-static void log_manager_init(void)
-{
-	if (g_log_manager)
-		return;
-
-	samsung_log_manager_create(&g_log_manager);
-}
-
-static void log_manager_exit(void)
-{
-	samsung_log_manager_destroy(g_log_manager);
-	g_log_manager = NULL;
-}
-
-static void log_manager_set(const char *feature, const char *extra, const char *value)
-{
-	const char *uri = USE_APP_FEATURE_SURVEY_URI;
-
-	unsigned int request_id;
-	bundle *log_data;
-
-	if (g_log_manager == NULL) {
-		PRINTFUNC(DLOG_ERROR, "log manager doesn't initialized");
-		return;
-	}
-
-	if (feature == NULL) {
-		PRINTFUNC(DLOG_ERROR, "feature is empty");
-		return;
-	}
-
-	log_data = bundle_create();
-
-	bundle_add(log_data, "app_id", PACKAGE);
-	bundle_add(log_data, "feature", feature);
-
-	if (extra)
-		bundle_add(log_data, "extra", extra);
-	if (value)
-		bundle_add(log_data, "value", value);
-
-	samsung_log_manager_insert(g_log_manager, uri, log_data, NULL, NULL, &request_id);
-
-	bundle_free(log_data);
-}
-#endif
-
