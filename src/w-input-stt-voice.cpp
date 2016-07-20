@@ -73,23 +73,7 @@ static bool g_mic_clicked = false;
 
 static void set_guide_text(VoiceData *vd, const char* text, bool translatable = false);
 
-char *supported_language[13] = {
-		"auto",
-		"de_DE",
-		"en_GB",
-		"en_US",
-		"es_ES",
-		"es_US",
-		"fr_FR",
-		"it_IT",
-		"pt_BR",
-		"ru_RU",
-		"zh_CN",
-		"ja_JP",
-		"ko_KR",
-};
-
-char *supported_language_n66[7] = {
+char *supported_language[7] = {
                 "auto",
                 "en_US",
                 "es_US",
@@ -100,23 +84,7 @@ char *supported_language_n66[7] = {
 };
 
 
-char *disp_lang_array[13] = {
-		"",
-		"Deutsch",
-		"English (United Kingdom)",
-		"English (United States)",
-		"Español (España)",
-		"Español (América Latina)",
-		"Français (France)",
-		"Italiano",
-		"Português (Brasil)",
-		"Pусский",
-		"简体中文",
-		"日本語",
-		"한국어",
-};
-
-char *disp_lang_array_n66[7] = {
+char *disp_lang_array[7] = {
                 "",
                 "English (United States)",
                 "Español (América Latina)",
@@ -169,72 +137,26 @@ char* get_lang_label(char lang[])
 {
 	char *str = NULL;
 
-	if (strcmp(lang, "en_US") == 0)
-		str = disp_lang_array[3];
-
-	else if (strcmp(lang, "ko_KR") == 0)
-		str = disp_lang_array[12];
-
-	else if (strcmp(lang, "de_DE") == 0)
+	if (strcmp (lang, "en_US") == 0)
 		str = disp_lang_array[1];
 
-	else if (strcmp(lang, "fr_FR") == 0)
+	else if (strcmp (lang, "ko_KR") == 0)
 		str = disp_lang_array[6];
 
-	else if (strcmp(lang, "it_IT") == 0)
-		str = disp_lang_array[7];
-
-	else if (strcmp(lang, "en_GB") == 0)
-		str = disp_lang_array[2];
-
-	else if (strcmp(lang, "ja_JP") == 0)
-		str = disp_lang_array[11];
-
-	else if (strcmp(lang, "zh_CN") == 0)
-		str = disp_lang_array[10];
-
-	else if (strcmp(lang, "ru_RU") == 0)
-		str = disp_lang_array[9];
-
-	else if (strcmp(lang, "pt_BR") == 0)
-		str = disp_lang_array[8];
-
-	else if (strcmp(lang, "es_ES") == 0)
-		str = disp_lang_array[4];
-
-	else if (strcmp(lang, "es_US") == 0)
-		str = disp_lang_array[5];
-
-	else
+	else if (strcmp (lang, "fr_FR") == 0)
 		str = disp_lang_array[3];
 
-	return str;
-}
-
-char* get_lang_label_n66(char lang[])
-{
-	char *str = NULL;
-
-	if (strcmp (lang, "en_US") == 0)
-		str = disp_lang_array_n66[1];
-
-	else if (strcmp (lang, "ko_KR") == 0)
-		str = disp_lang_array_n66[6];
-
-	else if (strcmp (lang, "fr_FR") == 0)
-		str = disp_lang_array_n66[3];
-
 	else if (strcmp (lang, "ja_JP") == 0)
-		str = disp_lang_array_n66[5];
+		str = disp_lang_array[5];
 
 	else if (strcmp (lang, "zh_CN") == 0)
-		str = disp_lang_array_n66[4];
+		str = disp_lang_array[4];
 
 	else if (strcmp (lang, "es_US") == 0)
-		str = disp_lang_array_n66[2];
+		str = disp_lang_array[2];
 
 	else
-		str = disp_lang_array_n66[1];
+		str = disp_lang_array[1];
 
 	return str;
 }
@@ -514,40 +436,6 @@ static void on_mic_button_press_cb(void *data, Evas_Object *obj, void *event_inf
 	return;
 }
 
-static char *_left_cue_access_info_cb(void *data, Evas_Object *obj)
-{
-   char text[512];
-
-   snprintf(text, sizeof(text), "%s, %s", gettext(TTS_SEND), gettext(TTS_BUTTON));
-
-   return strdup(text);
-}
-
-static void _left_cue_access_activate_cb(void * data, Evas_Object *part_obj, Elm_Object_Item *item)
-{
-    Evas_Object *obj = (Evas_Object *)data;
-    elm_layout_signal_emit(obj, "cue,clicked", "elm");
-
-    elm_panel_toggle(obj);
-}
-
-
-static void _send_button_highlighted_cb(void *data, Evas_Object * obj, void *event_info)
-{
-	PRINTFUNC(DLOG_DEBUG, "");
-	VoiceData* voicedata = (VoiceData*)data;
-
-	if (voicedata->sttmanager->GetCurrent() == STT_STATE_RECORDING ||
-	 voicedata->sttmanager->GetCurrent() == STT_STATE_PROCESSING)
-		return;
-
-	std::string text = std::string(gettext(TTS_SEND));
-	text = text +" "+ gettext(TTS_BUTTON);
-	if (elm_object_disabled_get(obj))
-		text = text + " " + gettext(TTS_DISABLED);
-
-	elm_access_say(text.c_str());
-}
 
 static Eina_Bool _mic_button_enable_cb(void *data)
 {
@@ -565,31 +453,6 @@ static Eina_Bool _mic_button_enable_cb(void *data)
 	elm_object_disabled_set(button, EINA_FALSE);
 
 	return ECORE_CALLBACK_CANCEL;
-}
-
-static void _mic_highlighted_cb(void *data, Evas_Object * obj, void *event_info)
-{
-	PRINTFUNC(DLOG_DEBUG, "");
-	VoiceData* voicedata = (VoiceData*)data;
-
-	if (voicedata->sttmanager->GetCurrent() == STT_STATE_RECORDING ||
-	voicedata->sttmanager->GetCurrent() == STT_STATE_PROCESSING)
-	   return;
-
-	elm_object_disabled_set(voicedata->mic_button, EINA_TRUE);
-
-	if(voicedata->btn_disabling_timer == NULL){
-		ecore_timer_del(voicedata->btn_disabling_timer);
-	}
-	voicedata->btn_disabling_timer = ecore_timer_add(3.0, _mic_button_enable_cb, voicedata);
-
-	elm_access_say(gettext(SK_DOUBLE_TAP_TO_SPEAK));
-}
-
-static char *_mic_access_info_cb(void *data, Evas_Object *obj)
-{
-	if (data) return strdup((const char*)data);
-	return NULL;
 }
 
 
@@ -1079,11 +942,7 @@ char *__get_genlist_item_label(void *data, Evas_Object *obj, const char *part)
 			return strdup(_("IDS_VC_BODY_AUTOMATIC"));
 		} else {
 			char *s = NULL;
-			if(g_is_n66) {
-				s = (char *)disp_lang_array_n66[(int)data];
-			} else {
-				s = (char *)disp_lang_array[(int)data];
-			}
+			s = (char *)disp_lang_array[(int)data];
 
 			if(s) {
 				char *p = strchr(s, '(');
@@ -1114,18 +973,11 @@ char *__get_genlist_item_label(void *data, Evas_Object *obj, const char *part)
 			// confirm whether the system language is supported by stt engine or not.
 			// if supported, set the language
 			// otherwise, set language to en_US
-			if(g_is_n66) {
-				return strdup(get_lang_label_n66(system_lang));
-			} else {
-				return strdup(get_lang_label(system_lang));
-			}
+			return strdup(get_lang_label(system_lang));
+
 		} else {
 			char *s = NULL;
-			if(g_is_n66) {
-				s = (char *)disp_lang_array_n66[(int)data];
-			} else {
-				s = (char *)disp_lang_array[(int)data];
-			}
+			s = (char *)disp_lang_array[(int)data];
 
 			if(s) {
 				char *p = strchr(s, '(');
@@ -1184,13 +1036,7 @@ static int get_language_value()
 			PRINTFUNC(DLOG_WARN, "vconf lang orig(%d) to be 0", lang);
 			lang = 0;
 		}
-		PRINTFUNC(DLOG_DEBUG, "n66 current language value for stt (%s).", disp_lang_array_n66[lang]);
-	} else {
-		if(lang < 0 || lang > 12) {
-			PRINTFUNC(DLOG_WARN, "vconf lang orig(%d) to be 0", lang);
-			lang = 0;
-		}
-		PRINTFUNC(DLOG_DEBUG, "current language value for stt (%s).", disp_lang_array[lang]);
+		PRINTFUNC(DLOG_DEBUG, "n66 current language value for stt (%s).", disp_lang_array[lang]);
 	}
 
 	return lang;
@@ -1275,62 +1121,6 @@ static void get_stt_default_language(VoiceData *my_voicedata)
 		case STT_VOICE_N66_KO_KR :
 		case STT_VOICE_N66_ZH_CN :
 		{
-			my_voicedata->kbd_lang = strdup(supported_language_n66[stt_lang]);
-		}
-		break;
-		default :
-			my_voicedata->kbd_lang = strdup("en_US");
-			break;
-		}
-	} else {
-		STT_VOICE_LANGUAGE_I stt_lang;
-		stt_lang = (STT_VOICE_LANGUAGE_I)get_language_value();
-
-		PRINTFUNC(DLOG_DEBUG, "language type (%d)", stt_lang);
-
-		switch(stt_lang) {
-		case STT_VOICE_AUTO :
-		{
-			stt_get_default_language(my_voicedata->voicefw_handle, &my_voicedata->kbd_lang);
-
-			// get system display language
-			char* value = NULL;
-			value = vconf_get_str(VCONFKEY_LANGSET);
-			if (NULL == value) {
-				PRINTFUNC(DLOG_ERROR, "Fail to get display language");
-				return;
-			}
-			PRINTFUNC(DLOG_DEBUG, "system language (%s)", value);
-
-			char system_lang[6] = {0, };
-			strncpy(system_lang, value , 5);
-			free(value);
-
-			// confirm whether the system language is supported by stt engine or not.
-			// if supported, set the language
-			// otherwise, set language to en_US
-			if(is_lang_supported_by_stt(system_lang) == TRUE) {
-				my_voicedata->kbd_lang = strdup(system_lang);
-				PRINTFUNC(DLOG_DEBUG, "Set auto language (%s)", system_lang);
-			} else {
-				my_voicedata->kbd_lang = strdup("en_US");
-				PRINTFUNC(DLOG_DEBUG, "System language is not supported by STT (%s), en_US will be set", system_lang);
-			}
-		}
-		break;
-		case STT_VOICE_DE_DE :
-		case STT_VOICE_EN_GB :
-		case STT_VOICE_EN_US :
-		case STT_VOICE_ES_ES :
-		case STT_VOICE_ES_US :
-		case STT_VOICE_FR_FR :
-		case STT_VOICE_IT_IT :
-		case STT_VOICE_JA_JP :
-		case STT_VOICE_KO_KR :
-		case STT_VOICE_RU_RU :
-		case STT_VOICE_ZH_CN :
-		case STT_VOICE_PT_BR :
-		{
 			my_voicedata->kbd_lang = strdup(supported_language[stt_lang]);
 		}
 		break;
@@ -1389,33 +1179,6 @@ Eina_Bool _ise_keydown_cb(void *data, int type, void *event)
 	return ECORE_CALLBACK_DONE;
 }
 
-char *_language_list_access_info_cb(void *data, Evas_Object *obj)
-{
-	PRINTFUNC(DLOG_DEBUG, "%s", __func__);
-
-	int value;
-	int index;
-	std::string text = std::string(gettext(TTS_RADIO_BUTTON));
-	const Elm_Object_Item *item = (Elm_Object_Item *)data;
-
-	Evas_Object* radio = elm_object_item_part_content_get(item, "elm.icon");
-
-	index = elm_genlist_item_index_get(item);
-
-	if(index == 1) // title
-		return NULL;
-
-
-	value = elm_radio_value_get(radio);
-	//PRINTFUNC(DLOG_DEBUG,"index=%d value = %d", index, value);
-	if(index == value + 2 ){
-		text = text + std::string(" ") + std::string(gettext(TTS_SELECTED));
-	} else {
-		text = text + std::string(" ") + std::string(gettext(TTS_NOT_SELECTED));
-	}
-
-	return strdup(text.c_str());
-}
 
 static void _language_list_item_realized(void *data, Evas_Object *obj, void *event_info) //called when list scrolled
 {
@@ -1483,27 +1246,6 @@ static Evas_Object *create_language_list(Evas_Object *parent)
 
 	if(g_is_n66) {
 		for (i = 1; i < 7; i++)
-		{
-			char *s = (char *)disp_lang_array_n66[i];
-
-			if(strchr(s, '(')){
-				item = item_append(genlist, itc_2text, i, language_set_genlist_radio_cb, genlist);
-			} else {
-				item = item_append(genlist, itc_1text, i, language_set_genlist_radio_cb, genlist);
-			}
-
-			if(lang_val == i) {
-				PRINTFUNC(DLOG_DEBUG, "%d item is choiced.", i);
-				elm_genlist_item_show(item, ELM_GENLIST_ITEM_SCROLLTO_MIDDLE);
-			}
-
-			if ( item == NULL ) {
-				PRINTFUNC(DLOG_DEBUG, "elm_genlist_item_append was failed");
-				break;
-			}
-		}
-	} else {
-		for (i = 1; i < 13; i++)
 		{
 			char *s = (char *)disp_lang_array[i];
 
@@ -1637,42 +1379,6 @@ static void language_changed_cb(void *data, Evas_Object * obj, void *event_info)
 	if(!data) return;
 }
 
-static void get_text_part_width(Evas_Object *window, const char *text, Evas_Coord *calculated_width)
-{
-	if(!window) return;
-	if(!text) return;
-	if(!calculated_width) return;
-
-	Evas_Coord width, height;
-
-	char *strbuf = NULL;
-	Evas_Object *tb = NULL;
-	Evas_Textblock_Style *st = NULL;
-	Evas_Textblock_Cursor *cur = NULL;
-
-	tb = evas_object_textblock_add(evas_object_evas_get(window));
-	evas_object_textblock_legacy_newline_set(tb, EINA_FALSE);
-
-	st = evas_textblock_style_new();
-	evas_textblock_style_set(st, VIRTUAL_TEXT_AREA_FONT_STYLE);
-	evas_object_textblock_style_set(tb, st);
-
-	cur = evas_object_textblock_cursor_new(tb);
-	strbuf = elm_entry_utf8_to_markup(text);
-	evas_object_resize(tb, 360, 47);
-
-	evas_object_textblock_text_markup_set(tb, strbuf);
-	evas_textblock_cursor_format_prepend(cur, "+ wrap=mixed");
-	evas_object_textblock_size_formatted_get(tb, &width, &height);
-	evas_object_resize(tb, width, 47);
-
-	*calculated_width = width;
-
-	if(strbuf) free(strbuf);
-	if(tb) evas_object_del(tb);
-	if(st) evas_textblock_style_free(st);
-	if(cur) evas_textblock_cursor_free(cur);
-}
 
 void _stt_lang_changed_cb(keynode_t *key, void* data)
 {

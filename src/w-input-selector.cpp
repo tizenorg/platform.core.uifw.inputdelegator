@@ -67,7 +67,6 @@ void _update_smartreply_items(void *user_data);
 void _update_template_items(void *user_data);
 static void _popup_close_cb(void *data, Evas_Object *obj, void *event_info);
 static void _popup_back_cb(void *data, Evas_Object *obj, void *event_info);
-char * _toast_delete_popup_access_info_cb(void *data, Evas_Object *obj);
 
 
 
@@ -716,14 +715,6 @@ static void _popup_back_cb(void *data, Evas_Object *obj, void *event_info)
 		elm_popup_dismiss(obj);
 }
 
-char * _toast_delete_popup_access_info_cb(void *data, Evas_Object *obj)
-{
-	PRINTFUNC(DLOG_ERROR, "%s", __func__);
-	const char * info = elm_object_part_text_get((Evas_Object*)data, "elm.text");
-
-	return strdup(info);
-}
-
 
 void _back_to_genlist_for_selector()
 {
@@ -740,45 +731,6 @@ void _back_to_genlist_for_selector()
 	Evas_Object *circle_genlist = (Evas_Object *) evas_object_data_get(app_data->genlist, "circle");
 
 	eext_rotary_object_event_activated_set(circle_genlist, EINA_TRUE);
-}
-
-
-char *_it_plus_access_info_cb(void *data, Evas_Object *obj)
-{
-	PRINTFUNC(DLOG_DEBUG, "%s", __func__);
-	std::string text = 	std::string(gettext("IDS_ACCS_BODY_BUTTON_TTS"));
-
-	return strdup(text.c_str());
-}
-
-char *_access_info_cb(void *data, Evas_Object *obj)
-{
-	PRINTFUNC(DLOG_DEBUG, "%s", __func__);
-	return strdup(gettext("WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND"));
-}
-
-Eina_Bool _access_action_next_cb(void *data, Evas_Object *obj, Elm_Access_Action_Info *action_info)
-{
-	Evas_Object *genlist = (Evas_Object*)data;
-	PRINTFUNC(DLOG_ERROR, "[TNT] _access_action_next_cb called, genlist type:%s", evas_object_type_get(genlist));
-	Elm_Object_Item *it = elm_genlist_first_item_get(genlist);//emptry item?
-	PRINTFUNC(DLOG_ERROR, "[TNT] get first item:%p", it);
-	it = elm_genlist_item_next_get(it);//title item(3 button?)
-	PRINTFUNC(DLOG_ERROR, "[TNT] get Second item:%p, title_item:%p", it, it_title);
-	elm_genlist_item_show(it, ELM_GENLIST_ITEM_SCROLLTO_IN);
-	force_highlight_to_top = EINA_TRUE;
-	return EINA_TRUE;
-}
-
-Eina_Bool _access_action_prev_cb(void *data, Evas_Object *obj, Elm_Access_Action_Info *action_info)
-{
-	Evas_Object *genlist = (Evas_Object*)data;
-	PRINTFUNC(DLOG_ERROR, "[TNT] _access_action_prev_cb called, genlist type:%s", evas_object_type_get(genlist));
-	Elm_Object_Item *it = elm_genlist_last_item_get(genlist);//plus button item
-	PRINTFUNC(DLOG_ERROR, "[TNT] get last item:%p", it);
-	elm_genlist_item_show(it, ELM_GENLIST_ITEM_SCROLLTO_IN);
-	force_highlight_to_bottom = EINA_TRUE;
-	return EINA_TRUE;
 }
 
 static void _item_realized(void *data, Evas_Object *obj, void *event_info) //called when list scrolled
