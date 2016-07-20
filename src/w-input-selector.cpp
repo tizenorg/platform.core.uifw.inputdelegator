@@ -509,20 +509,14 @@ void set_source_caller_app_id(app_control_h app_control)
 		return;
 	}
 
-//	CscFeatureBool is_security_permission_manager = CSC_FEATURE_BOOL_FALSE;
-//	is_security_permission_manager = csc_feature_get_bool(CSC_FEATURE_DEF_BOOL_SECURITY_PERMISSION_MANAGER);
+	char *caller = NULL;
+	app_control_get_caller(app_data->source_app_control, &caller);
 
-//	if(is_security_permission_manager == CSC_FEATURE_BOOL_TRUE){
-
-		char *caller = NULL;
-		app_control_get_caller(app_data->source_app_control, &caller);
-
-		if(caller){
-			PRINTFUNC(DLOG_DEBUG, "caller = %s", caller);
-			app_control_add_extra_data(app_control, "caller_appid", caller);
-			free(caller);
-		}
-//	}
+	if(caller){
+		PRINTFUNC(DLOG_DEBUG, "caller = %s", caller);
+		app_control_add_extra_data(app_control, "caller_appid", caller);
+		free(caller);
+	}
 }
 
 void reply_to_sender_by_appcontrol(void *data, const char *value, const char *type)
