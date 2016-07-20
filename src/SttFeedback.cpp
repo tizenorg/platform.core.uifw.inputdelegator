@@ -99,12 +99,7 @@ void SttFeedback::OnResult(
 
 void SttFeedback::AutoStart(void) {
 	PRINTFUNC(DLOG_DEBUG, "start");
-
-	if (elm_config_access_get()){
-		PRINTFUNC(DLOG_DEBUG, "accessbility on: It will not start automatically.");
-	} else {
-		start_by_press((VoiceData *) owner);
-	}
+	start_by_press((VoiceData *) owner);
 }
 
 void SttFeedback::SttIdle(void)

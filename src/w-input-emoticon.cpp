@@ -153,38 +153,6 @@ static void _rotary_selector_item_clicked(void *data, Evas_Object *obj, void *ev
 static void _rotary_selector_item_selected(void *data, Evas_Object *obj, void *event_info)
 {
     PRINTFUNC(DLOG_DEBUG, "%s", __func__);
-    if (elm_config_access_get())
-    {
-        Eext_Object_Item *selected_item = (Eext_Object_Item *)event_info;
-        Eina_List *rotary_selector_list = (Eina_List *)eext_rotary_selector_items_get(obj);
-
-        int i = 0;
-        Eina_List *l = rotary_selector_list;
-        Eext_Object_Item *item = (Eext_Object_Item *)eina_list_data_get(l);
-
-        for (i = 0; l != NULL; i++) {
-            if (selected_item == item)
-                break;
-
-            l = eina_list_next(l);
-            item = (Eext_Object_Item *)eina_list_data_get(l);
-        }
-
-
-		previous_icon = i;
-
-        Evas_Object *content = (Evas_Object *)edje_object_part_object_get(elm_layout_edje_get(obj), "content");
-        if (!content) return;
-
-        Evas_Object *content_access = elm_access_object_get(content);
-        if (!content_access)
-            return;
-
-        std::string text = std::string(dgettext(PACKAGE, emoticon_info[i].name));
-        PRINTFUNC(DLOG_DEBUG, "[%d]%s", i, text.c_str());
-        text = text + " " + gettext("WDS_TTS_TBBODY_DOUBLE_TAP_TO_SEND");
-        elm_access_say(text.c_str());
-    }
 }
 
 void ise_show_emoticon_popup_rotary(void *data)
@@ -221,14 +189,6 @@ void ise_show_emoticon_popup_rotary(void *data)
     Elm_Object_Item *nf_item = elm_naviframe_item_push(ad->naviframe, NULL, NULL, NULL, rotary_selector, "empty");
     elm_naviframe_item_pop_cb_set(nf_item, _custom_back_cb, NULL);
     eext_rotary_object_event_activated_set(rotary_selector, EINA_TRUE);
-
-    if (elm_config_access_get()){
-		Evas_Object *selector_access = elm_access_object_get(rotary_selector);
-        elm_access_highlight_set(selector_access);
-		eext_rotary_object_event_callback_add(rotary_selector, _rotary_selector_rotary_cb, first_it);
-
-//		ea_screen_reader_access_info_append_cb_set(selector_access, ELM_ACCESS_CONTEXT_INFO, _access_info_prepend_cb, NULL);
-    }
 
     PRINTFUNC(DLOG_DEBUG, "%s", __func__);
 }

@@ -509,14 +509,6 @@ static void on_mic_button_press_cb(void *data, Evas_Object *obj, void *event_inf
 	PRINTFUNC(NO_PRINT, "");
 
 	VoiceData *voicedata = (VoiceData *)data;
-
-	if (elm_config_access_get()){
-		if(bottom_button_access_state == true){
-			PRINTFUNC(DLOG_DEBUG, "skip until bottom buttom is being read by accessibility");
-			return;
-		}
-	}
-
 	edje_object_signal_emit(_EDJ(voicedata->layout_main), "mouse,clicked,1", "background");
 
 	return;
@@ -572,10 +564,6 @@ static Eina_Bool _mic_button_enable_cb(void *data)
 
 	elm_object_disabled_set(button, EINA_FALSE);
 
-	if (elm_config_access_get()){
-		bottom_button_access_state = false;
-	}
-
 	return ECORE_CALLBACK_CANCEL;
 }
 
@@ -588,13 +576,7 @@ static void _mic_highlighted_cb(void *data, Evas_Object * obj, void *event_info)
 	voicedata->sttmanager->GetCurrent() == STT_STATE_PROCESSING)
 	   return;
 
-
-	if (elm_config_access_get()){
-		bottom_button_access_state = true;
-	} else {
-		elm_object_disabled_set(voicedata->mic_button, EINA_TRUE);
-	}
-
+	elm_object_disabled_set(voicedata->mic_button, EINA_TRUE);
 
 	if(voicedata->btn_disabling_timer == NULL){
 		ecore_timer_del(voicedata->btn_disabling_timer);
@@ -1174,9 +1156,6 @@ static Evas_Object *__get_genlist_item_content(void *data, Evas_Object *obj, con
 		evas_object_propagate_events_set(content, EINA_TRUE);
 		evas_object_size_hint_align_set(content, EVAS_HINT_FILL, EVAS_HINT_FILL);
 		elm_object_style_set(content, "list");
-
-		if (elm_config_access_get())
-			elm_access_object_unregister(content);
 	}
 	return content;
 }
@@ -1441,12 +1420,6 @@ char *_language_list_access_info_cb(void *data, Evas_Object *obj)
 static void _language_list_item_realized(void *data, Evas_Object *obj, void *event_info) //called when list scrolled
 {
 	PRINTFUNC(DLOG_DEBUG, "%s", __func__);
-	if (elm_config_access_get()) {
-		Elm_Object_Item *item = (Elm_Object_Item *)event_info;
-		Evas_Object *item_access = elm_object_item_access_object_get(item);
-
-		elm_access_info_cb_set(item_access, ELM_ACCESS_CONTEXT_INFO, _language_list_access_info_cb, (void*)item);
-	}
 }
 
 static Evas_Object *create_language_list(Evas_Object *parent)
@@ -2062,12 +2035,6 @@ static Evas_Object *create_fullview(Evas_Object *parent, VoiceData *r_voicedata)
 	Evas_Object *m_mic_button = elm_button_add(layout_main);
 	elm_object_style_set(m_mic_button, "vic/micbutton");
 	elm_object_part_content_set(layout_main, "MIC", m_mic_button);
-	if (elm_config_access_get()){
-		elm_access_info_cb_set(m_mic_button, ELM_ACCESS_INFO, _mic_access_info_cb, NULL);
-		elm_access_info_cb_set(m_mic_button, ELM_ACCESS_TYPE, _mic_access_info_cb, NULL);
-		elm_access_info_cb_set(m_mic_button, ELM_ACCESS_STATE, _mic_access_info_cb, NULL);
-		evas_object_smart_callback_add(m_mic_button, "access,highlighted", _mic_highlighted_cb, voicedata);
-	}
 
 	elm_object_disabled_set(m_mic_button, EINA_TRUE);
 	evas_object_smart_callback_add(m_mic_button, "clicked", on_mic_button_press_cb, (void *) voicedata);
@@ -2133,55 +2100,6 @@ static Evas_Object *create_fullview(Evas_Object *parent, VoiceData *r_voicedata)
 	elm_object_signal_callback_add(layout_main, "idle,state,pulse,visible", "", on_initial_anim_press_cb, voicedata);
 
 	mo->SetContentLayout(layout_main);
-
-	//accesbility chaining
-	if (elm_config_access_get()) {
-		//right cue
-		Evas_Object *cue_access_right = NULL;
-
-		Evas_Object *panel_right = elm_object_part_content_get(mo->getMoreOptionLayout(), "elm.swallow.right");
-		if (!panel_right) {
-		    PRINTFUNC(DLOG_DEBUG, "panel_right == NULL");
-		}
-		Evas_Object *cue_right = (Evas_Object *)edje_object_part_object_get(elm_layout_edje_get(panel_right), "cue.event");
-		if (!cue_right) {
-		    PRINTFUNC(DLOG_DEBUG, "cue_right == NULL");
-		}
-		Evas_Object *_access_right = elm_access_object_get(cue_right);
-		if (!_access_right){
-		    PRINTFUNC(DLOG_DEBUG, "_access_right == NULL");
-		}
-		cue_access_right = _access_right;
-
-		//left cue
-		Evas_Object *cue_access_left = NULL;
-		Evas_Object *panel_layout = elm_layout_content_get(layout_main, "left_panel_area");
-		Evas_Object *panel_left = elm_layout_content_get(panel_layout, "elm.swallow.right");
-		if (!panel_left) {
-		    PRINTFUNC(DLOG_DEBUG, "panel_left == NULL");
-		}
-		Evas_Object *cue_left = (Evas_Object *)edje_object_part_object_get(elm_layout_edje_get(panel_left), "cue.event");
-		if (!cue_left) {
-		    PRINTFUNC(DLOG_DEBUG, "cue_left == NULL");
-		}
-		Evas_Object *_access_left = elm_access_object_register(cue_left, panel_left);
-		if (!_access_left){
-		    PRINTFUNC(DLOG_DEBUG, "_access_left == NULL");
-		}
-		elm_access_info_cb_set(_access_left, ELM_ACCESS_INFO, _left_cue_access_info_cb, panel_left);
-		elm_access_activate_cb_set(_access_left, _left_cue_access_activate_cb, panel_left);
-
-		cue_access_left = _access_left;
-
-		elm_access_highlight_next_set(m_mic_button, ELM_HIGHLIGHT_DIR_NEXT, cue_access_right);
-		elm_access_highlight_next_set(cue_access_right, ELM_HIGHLIGHT_DIR_PREVIOUS, m_mic_button);
-
-		elm_access_highlight_next_set(cue_access_right, ELM_HIGHLIGHT_DIR_NEXT, cue_access_left);
-		elm_access_highlight_next_set(cue_access_left, ELM_HIGHLIGHT_DIR_PREVIOUS, cue_access_right);
-
-		elm_access_highlight_next_set(cue_access_left, ELM_HIGHLIGHT_DIR_NEXT, m_mic_button);
-		elm_access_highlight_next_set(m_mic_button, ELM_HIGHLIGHT_DIR_PREVIOUS, cue_access_left);
-	}
 
 	return layout_main;
 }

@@ -262,36 +262,7 @@ void MoreOption::AddMorePage() {
 	[](void *data, Evas_Object *obj, void *event_info)
 	{
 		PRINTFUNC(DLOG_DEBUG, "item,selected");
-
 		Eext_Object_Item *selected_item = (Eext_Object_Item *)event_info;
-
-		//for custom accessibility
-		if (elm_config_access_get())
-		{
-			Evas_Object *panel = elm_object_part_content_get(obj, "elm.swallow.right");
-			if (!panel) return;
-
-			Evas_Object *rotary_selector = elm_object_content_get(panel);
-			if (!rotary_selector) return;
-
-			Evas_Object *content = (Evas_Object *)edje_object_part_object_get(elm_layout_edje_get(rotary_selector), "content");
-			if (!content) return;
-
-			Evas_Object *content_access = elm_access_object_get(content);
-			if (!content_access) return;
-
-			if (eext_more_option_item_part_text_get(selected_item, "selector,main_text"))
-			{
-				std::string text;
-				if(eext_more_option_item_part_text_get(selected_item, "selector,main_text"))
-					text = text + std::string(eext_more_option_item_part_text_get(selected_item, "selector,main_text")) + " ";
-
-				if(eext_more_option_item_part_text_get(selected_item, "selector,main_text"))
-					text = text + std::string(eext_more_option_item_part_text_get(selected_item, "selector,sub_text"));
-
-				elm_access_info_set(content_access, ELM_ACCESS_INFO, text.c_str());
-			}
-		}
 	}, NULL);
 }
 

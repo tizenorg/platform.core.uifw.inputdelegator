@@ -345,8 +345,6 @@ static Evas_Object * __ise_gl_3button_content_get(void *data, Evas_Object *obj, 
 			elm_image_file_set(ic, path_ic.c_str(), NULL);
 			elm_object_content_set(btn, ic);
 			evas_object_layer_set(btn, 32000);
-			if (elm_config_access_get())
-				elm_access_object_unregister(btn);
 
 			int powerSavingMode = -1;
 			int ret;
@@ -367,8 +365,6 @@ static Evas_Object * __ise_gl_3button_content_get(void *data, Evas_Object *obj, 
 			elm_image_file_set(ic, path_ic.c_str(), NULL);
 			elm_object_content_set(btn, ic);
 			evas_object_layer_set(btn, 32000);
-			if (elm_config_access_get())
-				elm_access_object_unregister(btn);
 
 		} else if (!strcmp(part, "elm.icon.3")){
 			elm_object_style_set(btn, "anchor");
@@ -377,8 +373,6 @@ static Evas_Object * __ise_gl_3button_content_get(void *data, Evas_Object *obj, 
 			elm_object_content_set(btn, ic);
 			evas_object_layer_set(btn, 32000);
 			evas_object_propagate_events_set(btn, EINA_FALSE);
-			if (elm_config_access_get())
-				elm_access_object_unregister(btn);
 		}
 
 		return btn;
@@ -405,29 +399,19 @@ static Evas_Object * __ise_gl_3button_content_get(void *data, Evas_Object *obj, 
 
 			evas_object_layer_set(btn, 32000);
 			evas_object_smart_callback_add(btn, "clicked", _stt_clicked_cb, app_data);
-			if (elm_config_access_get()){
-				elm_access_info_set(btn, ELM_ACCESS_INFO, gettext("IDS_IME_MBODY_VOICE_INPUT"));
-//				elm_access_chain_end_set(btn, ELM_HIGHLIGHT_DIR_PREVIOUS);
-			}
 
 		} else if (!strcmp(part, "elm.icon.2.touch_area")){
 			evas_object_layer_set(btn, 32000);
 			evas_object_smart_callback_add(btn, "clicked", _emoticon_clicked_cb, app_data);
-			if (elm_config_access_get())
-				elm_access_info_set(btn, ELM_ACCESS_INFO, gettext("IDS_COM_HEADER_EMOTICON"));
 		} else if (!strcmp(part, "elm.icon.3.touch_area")) {
 			evas_object_layer_set(btn, 32000);
 			evas_object_propagate_events_set(btn, EINA_FALSE);
 			evas_object_smart_callback_add(btn, "clicked", _keyboard_clicked_cb, app_data);
-			if (elm_config_access_get())
-				elm_access_info_set(btn, ELM_ACCESS_INFO, gettext("IDS_COM_OPT_KEYBOARD"));
 		}
 
 		return btn;
 	} else if (!strcmp(part, "base")) {
 		Evas_Object* btn = elm_button_add(obj);
-		if (elm_config_access_get())
-			elm_access_object_unregister(btn);
 		elm_object_style_set(btn, "ime_transparent");
 		return btn;
 	}
@@ -522,8 +506,6 @@ static Evas_Object * __ise_gl_1button_content_get(void *data, Evas_Object *obj, 
 		elm_image_file_set(ic, path_ic.c_str(), NULL);
 		elm_object_content_set(btn, ic);
 		evas_object_layer_set(btn, 32000);
-		if (elm_config_access_get())
-			elm_access_object_unregister(btn);
 
 		return btn;
 	}
@@ -783,15 +765,7 @@ void show_popup_toast(const char *text, bool check_img)
 	evas_object_smart_callback_add(popup, "dismissed", _popup_close_cb, NULL);
 	evas_object_smart_callback_add(popup, "block,clicked", _popup_back_cb, NULL);
 
-	if(elm_config_access_get() == EINA_FALSE) {
-		elm_popup_timeout_set(popup, 2.0);
-	} else {
-		elm_object_access_info_set(popup, text);
-//		Evas_Object *ao = elm_object_part_access_object_get(popup, "access.outline");
-//		elm_access_info_cb_set(ao, ELM_ACCESS_INFO, _toast_delete_popup_access_info_cb, popup);
-		elm_popup_timeout_set(popup, 8.0);
-	}
-
+	elm_popup_timeout_set(popup, 2.0);
 	evas_object_show(popup);
 }
 
@@ -877,44 +851,6 @@ Eina_Bool _access_action_prev_cb(void *data, Evas_Object *obj, Elm_Access_Action
 static void _item_realized(void *data, Evas_Object *obj, void *event_info) //called when list scrolled
 {
 	PRINTFUNC(DLOG_DEBUG, "%s", __func__);
-	if (elm_config_access_get()) {
-		Elm_Object_Item *item = (Elm_Object_Item *)event_info;
-		Evas_Object *item_access = elm_object_item_access_object_get(item);
-
-		if (item == it_empty || item == it_title) {
-			elm_access_object_unregister(item_access);
-			if (item == it_title)
-			{
-				Evas_Object *btn = elm_object_item_part_content_get(item, "elm.icon.1.touch_area");
-				PRINTFUNC(DLOG_ERROR, "[TNT] 1st button(%p), type:%s", btn, evas_object_type_get(btn));
-				Evas_Object *btn_access = btn;//elm_access_object_get(btn);
-				PRINTFUNC(DLOG_ERROR, "[TNT] title item realized!!!!, force_highlight_to_top:%d, is_genlist_highlighed:%d", force_highlight_to_top, is_genlist_highlighed);
-				if (force_highlight_to_top || !is_genlist_highlighed)
-				{
-					//highlight to first button.
-					PRINTFUNC(DLOG_ERROR, "[TNT] force highlight to 1st button(%p), acces_obj:%p", btn, btn_access);
-					elm_access_highlight_set(btn_access);
-					force_highlight_to_top = EINA_FALSE;
-					is_genlist_highlighed = EINA_TRUE;
-				}
-				PRINTFUNC(DLOG_ERROR, "[TNT] set highlight pre callback on btn");
-				elm_access_action_cb_set(btn_access, ELM_ACCESS_ACTION_HIGHLIGHT_PREV, _access_action_prev_cb, obj);
-			}
-		} else if (item == it_plus) {
-			//elm_access_object_unregister(item_access); // there is no guide line
-			elm_access_info_cb_set(item_access, ELM_ACCESS_CONTEXT_INFO, _it_plus_access_info_cb, NULL);
-			PRINTFUNC(DLOG_ERROR, "[TNT] set highlight next callback on plus item");
-			elm_access_action_cb_set(item_access, ELM_ACCESS_ACTION_HIGHLIGHT_NEXT, _access_action_next_cb, obj);
-			if (force_highlight_to_bottom) {
-				PRINTFUNC(DLOG_ERROR, "[TNT] Forcely set highlight on plus item!!");
-				elm_access_highlight_set(item_access);
-				force_highlight_to_bottom = EINA_FALSE;
-				is_genlist_highlighed = EINA_TRUE;
-			}
-		} else {
-			elm_access_info_cb_set(item_access, ELM_ACCESS_CONTEXT_INFO, _access_info_cb, NULL);
-		}
-	}
 }
 
 Evas_Object* _create_genlist(Evas_Object* navi)
