@@ -346,19 +346,6 @@ static Evas_Object * __ise_gl_3button_content_get(void *data, Evas_Object *obj, 
 			elm_object_content_set(btn, ic);
 			evas_object_layer_set(btn, 32000);
 
-			int powerSavingMode = -1;
-			int ret;
-			// Power Saving mode check
-			ret = vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &powerSavingMode);
-			if ( ret != 0 )
-			{
-				PRINTFUNC(DLOG_ERROR, "VCONFKEY_SETAPPL_PSMODE FAILED");
-			}
-
-			if (powerSavingMode == SETTING_PSMODE_WEARABLE_ENHANCED) {
-				PRINTFUNC(DLOG_ERROR, "Power Saving mode, disable stt !!!");
-				elm_object_disabled_set(btn, EINA_TRUE);
-			}
 		} else if (!strcmp(part, "elm.icon.2")){
 			elm_object_style_set(btn, "anchor");
 			string path_ic = path + "images/Delta_w_mode_emoticon_ic.png";
@@ -383,20 +370,6 @@ static Evas_Object * __ise_gl_3button_content_get(void *data, Evas_Object *obj, 
 		evas_object_size_hint_align_set(btn, EVAS_HINT_FILL, EVAS_HINT_FILL);
 		string path = get_resource_path();
 		if (!strcmp(part, "elm.icon.1.touch_area")) {
-			int powerSavingMode = -1;
-			int ret;
-			// Power Saving mode check
-			ret = vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &powerSavingMode);
-			if ( ret != 0 )
-			{
-				PRINTFUNC(DLOG_ERROR, "VCONFKEY_SETAPPL_PSMODE FAILED");
-			}
-
-			if (powerSavingMode == SETTING_PSMODE_WEARABLE_ENHANCED) {
-				PRINTFUNC(DLOG_ERROR, "Power Saving mode, disable stt !!!");
-				elm_object_disabled_set(btn, EINA_TRUE);
-			}
-
 			evas_object_layer_set(btn, 32000);
 			evas_object_smart_callback_add(btn, "clicked", _stt_clicked_cb, app_data);
 
