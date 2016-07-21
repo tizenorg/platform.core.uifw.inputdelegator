@@ -480,14 +480,10 @@ static void on_confirm_button_clicked_cb(void *data, Evas_Object *obj, void *eve
 	PRINTFUNC(DLOG_DEBUG, "result_text = %s", result_text.c_str());
 	input_smartreply_send_feedback(result_text.c_str());
 
-	if(app_data->reply_type == REPLY_APP_CONTROL){
-		reply_to_sender_by_appcontrol((void*)app_data, result_text.c_str(), "voice");
-	} else {
-		reply_to_sender_by_callback(result_text.c_str(), "voice");
-		destroy_voice();
-		powerUnlock();
-		elm_exit();
-	}
+	reply_to_sender_by_callback(result_text.c_str(), "voice");
+	destroy_voice();
+	powerUnlock();
+	elm_exit();
 
 	return;
 }
@@ -1765,22 +1761,7 @@ static Evas_Object *create_fullview(Evas_Object *parent, VoiceData *r_voicedata)
 	panel = elm_panel_add(panel_layout);
 	elm_panel_orient_set(panel, ELM_PANEL_ORIENT_LEFT);
 	elm_layout_theme_set(panel, "panel", "left_confirm", "default");
-	if(app_data->source_app_control){
-		int ret;
-		char *app_id = NULL;
-		ret = app_control_get_extra_data(app_data->source_app_control, "selector_keyboard_app_id", &app_id);
-		if (ret == APP_CONTROL_ERROR_NONE) {
-			PRINTFUNC(DLOG_DEBUG, "app_id = %s", app_id);
-		}
-
-		if(app_id){
-			if(!strcmp(app_id, "com.samsung.message.appcontrol.compose")
-				|| !strcmp(app_id, "com.samsung.wemail-send")){
-				elm_layout_theme_set(panel, "panel", "left_sending", "default");
-			}
-			free(app_id);
-		}
-	}
+	elm_layout_theme_set(panel, "panel", "left_sending", "default");
 
 	elm_layout_signal_callback_add(panel, "cue,clicked", "elm", _panel_cue_clicked_cb, (void *) voicedata);
 	evas_object_show(panel);

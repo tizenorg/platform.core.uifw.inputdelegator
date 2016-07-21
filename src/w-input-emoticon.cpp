@@ -137,10 +137,7 @@ static void _rotary_selector_item_clicked(void *data, Evas_Object *obj, void *ev
     char* utf_8 = eina_unicode_unicode_to_utf8(unicode_event, &length);
 
     input_smartreply_send_feedback(utf_8);
-	if(ad->reply_type == REPLY_APP_CONTROL)
-        reply_to_sender_by_appcontrol(data, (const char*)utf_8, "emoticon");
-	else
-        reply_to_sender_by_callback((const char*)utf_8, "emoticon");
+    reply_to_sender_by_callback((const char*)utf_8, "emoticon");
 
     PRINTFUNC(SECURE_DEBUG, "[%d]%s", i, utf_8);
     if (utf_8)
