@@ -186,10 +186,7 @@ static void _keyboard_clicked_cb(void *data, Evas_Object * obj, void *event_info
 	if (!ad)
 		return;
 
-    if (app_data->app_type == APP_TYPE_KEYBOARD_FROM_SMS)
-        input_keyboard_launch(ad->win_main);
-    else
-        input_keyboard_launch_with_ui(ad->win_main, data);
+    input_keyboard_launch(ad->win_main, data);
 }
 
 static void __bt_connection_result_cb(app_control_h request, app_control_h reply, app_control_result_e result, void *user_data)
@@ -227,14 +224,9 @@ static void __ise_smartreply_gl_sel(void *data, Evas_Object *obj, void *event_in
 		char *reply = input_smartreply_get_nth_item(index);
 		if (reply) {
 			input_smartreply_send_feedback(reply);
-			if(app_data->reply_type == REPLY_APP_CONTROL){
-				reply_to_sender_by_appcontrol((void*)app_data, reply, "smartreply");
-				free(reply);
-			} else {
-				reply_to_sender_by_callback(reply, "smartreply");
-				free(reply);
-				elm_exit();
-			}
+			reply_to_sender_by_callback(reply, "smartreply");
+			free(reply);
+			elm_exit();
 		}
 	}
 }
@@ -285,12 +277,8 @@ static void __ise_template_gl_sel(void *data, Evas_Object *obj, void *event_info
 		//@ToDo : should call reply function when any template string is selected and confirmed.
 		// Here reply string will be template_list[index].text.c_str();
 		if( index < template_list.size()) {
-			if(app_data->reply_type == REPLY_APP_CONTROL){
-				reply_to_sender_by_appcontrol((void*)app_data, gettext(template_list[index].text.c_str()), "template");
-			} else {
-				reply_to_sender_by_callback(gettext(template_list[index].text.c_str()), "template");
-				elm_exit();
-			}
+			reply_to_sender_by_callback(gettext(template_list[index].text.c_str()), "template");
+			elm_exit();
 		}
 	}
 }
@@ -516,78 +504,6 @@ void set_source_caller_app_id(app_control_h app_control)
 		app_control_add_extra_data(app_control, "caller_appid", caller);
 		free(caller);
 	}
-}
-
-void reply_to_sender_by_appcontrol(void *data, const char *value, const char *type)
-{
-	PRINTFUNC(DLOG_DEBUG, "");
-
-	int ret;
-	char *app_id;
-
-	app_control_h app_control;
-
-	App_Data *appdata = (App_Data *)data;
-
-	if(!appdata){
-		PRINTFUNC(DLOG_ERROR, "Null pointer");
-		return;
-	}
-
-	ret = app_control_create(&app_control);
-	if (ret != APP_CONTROL_ERROR_NONE) {
-		PRINTFUNC(DLOG_ERROR, "Can not create app_control : %d", ret);
-		return;
-	}
-
-	app_id = g_input_keyboard_data.app_id;
-	if (app_id == NULL) {
-		PRINTFUNC(DLOG_INFO, "app id is undefined, use defualt");
-		app_id = "com.samsung.message.appcontrol.compose";
-	}
-
-	if(!strcmp(app_id, "com.samsung.message.appcontrol.compose")){
-		app_id = "com.samsung.msg-send";
-	}
-
-	app_control_set_app_id(app_control, app_id);
-	app_control_set_operation(app_control, APP_CONTROL_OPERATION_DEFAULT);
-/*
-	ret =  app_control_set_window(app_control,
-				elm_win_xwindow_get(appdata->win_main));
-	if (ret != APP_CONTROL_ERROR_NONE) {
-		PRINTFUNC(DLOG_ERROR, "Can not app control set window : %d", ret);
-		app_control_destroy(app_control);
-		return;
-	}
-*/
-	if (g_input_keyboard_data.data_array && g_input_keyboard_data.data_array_len > 0) {
-		 app_control_add_extra_data_array(app_control,
-						 "selector_keyboard_data_array",
-						 (const char**)(g_input_keyboard_data.data_array),
-						 g_input_keyboard_data.data_array_len);
-	}
-
-	app_control_add_extra_data(app_control, "selector_send_data_array", "sending_popup");
-
-	if (value)
-		app_control_add_extra_data(app_control, "selected_context", value);
-
-	if (type)
-		app_control_add_extra_data(app_control, "reply_type", type);
-
-	set_source_caller_app_id(app_control);
-
-	ret = app_control_send_launch_request(app_control,
-					_app_control_send_reply_cb,
-					NULL);
-
-	if (ret != APP_CONTROL_ERROR_NONE)
-		PRINTFUNC(DLOG_ERROR, "Can not launch app_control: %d", ret);
-
-	app_control_destroy(app_control);
-
-	return;
 }
 
 void reply_to_sender_by_callback(const char *value, const char *type)
@@ -1228,25 +1144,9 @@ void _app_service(app_control_h service, void* user_data)
 	int ret;
 	bool b_ret;
 	char *context = NULL;
-	char *app_id = NULL;
 
 	app_control_clone(&(app_data->source_app_control), service);
-
 	app_data->reply_type = REPLY_APP_NORMAL;
-	ret = app_control_get_extra_data(service, "selector_keyboard_app_id", &app_id);
-	if (ret == APP_CONTROL_ERROR_NONE) {
-		PRINTFUNC(DLOG_DEBUG, "app_id = %s", app_id);
- 	}
-
-	if(app_id){
-		if(!strcmp(app_id, "com.samsung.message.appcontrol.compose") || !strcmp(app_id, "com.samsung.wemail-send")) {
-			app_data->reply_type = REPLY_APP_CONTROL;
-		} else {
-			app_data->reply_type = REPLY_APP_NORMAL;
-		}
-	}
- 	if (app_id)
-		free(app_id);
 
     bool is_type_reply = false;
 	ret = app_control_get_extra_data(service, APP_CONTROL_DATA_INPUT_TYPE, &context);
@@ -1261,11 +1161,6 @@ void _app_service(app_control_h service, void* user_data)
 			goto ACTIVATE;
         } else if (!strcmp(context, "input_keyboard")) {
 			app_data->app_type = APP_TYPE_KEYBOARD;
-			input_keyboard_init(service);
-			_keyboard_clicked_cb((void *)app_data, NULL, NULL);
-			goto ACTIVATE;
-		} else if (!strcmp(context, "keyboard_input_from_sms")) {
-			app_data->app_type = APP_TYPE_KEYBOARD_FROM_SMS;
 			input_keyboard_init(service);
 			_keyboard_clicked_cb((void *)app_data, NULL, NULL);
 			goto ACTIVATE;

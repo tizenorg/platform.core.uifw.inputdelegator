@@ -23,7 +23,6 @@
 
 bool input_keyboard_init(app_control_h app_control);
 void input_keyboard_deinit(void);
-bool input_keyboard_launch(Evas_Object *window);
-bool input_keyboard_launch_with_ui(Evas_Object *window, void * data);
+bool input_keyboard_launch(Evas_Object *window, void * data);
 
 #endif

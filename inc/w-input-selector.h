@@ -45,7 +45,6 @@ enum {
 	APP_TYPE_REPLY,
 	APP_TYPE_HANDWRITING,
 	APP_TYPE_KEYBOARD,
-	APP_TYPE_KEYBOARD_FROM_SMS,
 };
 
 enum {
@@ -80,9 +79,6 @@ typedef enum
 
 struct _InputKeyboardData
 {
-	char *app_id;
-	char **data_array;
-	int data_array_len;
 	char *guide_text;
 	char *default_text;
 };
@@ -94,7 +90,6 @@ typedef struct _InputKeyboardData InputKeyboardData;
 void _app_terminate(void* user_data);
 void reply_to_sender_by_callback_for_back();
 void reply_to_sender_by_callback(const char *value, const char *type);
-void reply_to_sender_by_appcontrol(void *data, const char *value, const char *type);
 char* get_resource_path();
 char* get_shared_resource_path();
 void show_gl_focus(Eina_Bool bVisible);
