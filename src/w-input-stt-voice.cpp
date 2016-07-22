@@ -194,7 +194,7 @@ static inline Evas_Coord get_text_block_size(Evas_Object *obj, std::string text)
 	if(strbuf) free(strbuf);
 	if(tb) evas_object_del(tb);
 	if(st) evas_textblock_style_free(st);
-	if(cur) evas_textblock_cursor_free(cur);
+//	if(cur) evas_textblock_cursor_free(cur);
 
 	return height;
 }
@@ -1817,6 +1817,12 @@ int init_voice(Evas_Object *parent, const char *lang, VoiceData *r_voicedata)
 
 	if (NULL == voicedata->naviframe) {
 		return FALSE;
+	}
+
+	if (NULL != voicedata->textblock_timer) {
+		PRINTFUNC(DLOG_DEBUG, "delete previous textblock");
+		delete (voicedata->textblock_timer);
+		voicedata->textblock_timer = NULL;
 	}
 
 	return TRUE;
