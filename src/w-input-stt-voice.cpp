@@ -194,7 +194,7 @@ static inline Evas_Coord get_text_block_size(Evas_Object *obj, std::string text)
 	if(strbuf) free(strbuf);
 	if(tb) evas_object_del(tb);
 	if(st) evas_textblock_style_free(st);
-	if(cur) evas_textblock_cursor_free(cur);
+//	if(cur) evas_textblock_cursor_free(cur);
 
 	return height;
 }
@@ -335,12 +335,7 @@ void _update_textblock(void *data)
 		return;
 
 	VoiceData *voicedata = (VoiceData *) data;
-
-	if(voicedata->textblock_timer == NULL){
-		voicedata->textblock_timer = ecore_timer_add(1.0, _update_textblock_timer_cb, voicedata);
-	} else {
-		PRINTFUNC(DLOG_DEBUG, "skip : the timer is not expired.");
-	}
+	voicedata->textblock_timer = ecore_timer_add(1.0, _update_textblock_timer_cb, voicedata);
 
 	return;
 }
