@@ -50,13 +50,8 @@ static unsigned int g_template_current_number = 0;	/* currnetly loaded template 
 
 Evas_Coord last_step; // 0 ~ 9 for gesture, 10~11 for rotary
 
-static Eina_Bool force_highlight_to_top = EINA_FALSE;
-static Eina_Bool force_highlight_to_bottom = EINA_FALSE;
-static Eina_Bool is_genlist_highlighed = EINA_FALSE;
-
 void _init_app_data(App_Data* app_data);
 static void _app_language_changed(app_event_info_h event_info, void *user_data);
-static int _app_control_request_transient_app_cb(void *data);
 
 static char *_genlist_text_set_theme_color(const char *str, const char *code);
 
@@ -441,11 +436,6 @@ static void __ise_gl_lang_changed(void *data, Evas_Object *obj, void *event_info
 {
 	//Update genlist items. The Item texts will be translated in the _gl_text_get().
 	elm_genlist_realized_items_update(obj);
-}
-
-static int _app_control_request_transient_app_cb(void *data)
-{
-	return 0;
 }
 
 
@@ -1189,7 +1179,6 @@ void _app_service(app_control_h service, void* user_data)
 ACTIVATE :
 	elm_win_activate(app_data->win_main);
 
-//	app_control_request_transient_app(service, elm_win_xwindow_get(app_data->win_main), _app_control_request_transient_app_cb,  NULL);
 	if(context)
 		free(context);
 }

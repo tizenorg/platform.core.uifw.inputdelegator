@@ -52,8 +52,6 @@ extern VoiceData *my_voicedata;
 
 static bool power_state = false;
 
-static bool bottom_button_access_state = false;
-
 static Evas_Object *radio_gp = NULL;
 Evas_Object *g_setting_window = NULL;
 static Evas_Object *g_setting_naviframe = NULL;
@@ -67,9 +65,6 @@ static Elm_Genlist_Item_Class itc_title;
 static Elm_Genlist_Item_Class itc_1text;
 static Elm_Genlist_Item_Class itc_2text;
 
-static bool g_send_button_clicked = false;
-//accessbility
-static bool g_mic_clicked = false;
 
 static void set_guide_text(VoiceData *vd, const char* text, bool translatable = false);
 
@@ -93,23 +88,6 @@ char *disp_lang_array[7] = {
                 "日本語",
                 "한국어",
 };
-
-
-typedef enum {
-	STT_VOICE_AUTO,
-	STT_VOICE_DE_DE,
-	STT_VOICE_EN_GB,
-	STT_VOICE_EN_US,
-	STT_VOICE_ES_ES,
-	STT_VOICE_ES_US,
-	STT_VOICE_FR_FR,
-	STT_VOICE_IT_IT,
-	STT_VOICE_PT_BR,
-	STT_VOICE_RU_RU,
-	STT_VOICE_ZH_CN,
-	STT_VOICE_JA_JP,
-	STT_VOICE_KO_KR
-}STT_VOICE_LANGUAGE_I;
 
 typedef enum {
         STT_VOICE_N66_AUTO,
@@ -458,13 +436,6 @@ static Eina_Bool _mic_button_enable_cb(void *data)
 
 static void on_confirm_button_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 {
-	if(g_send_button_clicked == true){
-		PRINTFUNC(DLOG_DEBUG, "skipped seding STT result");
-		return;
-	}
-
-	g_send_button_clicked = true;
-
 	if(!data)
 		return;
 
@@ -1597,8 +1568,8 @@ static Evas_Object *create_textblock(void* data)
 	evas_object_size_hint_align_set(scroller, EVAS_HINT_FILL, EVAS_HINT_FILL);
 	evas_object_size_hint_weight_set(scroller, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 
-//	elm_scroller_page_size_set(scroller, 0, 50);
-//	elm_scroller_page_scroll_limit_set(scroller, 0, 1);
+	elm_scroller_page_size_set(scroller, 0, 50);
+	elm_scroller_page_scroll_limit_set(scroller, 0, 1);
 
 	elm_object_scroll_lock_x_set(scroller, EINA_TRUE);
 
@@ -1654,7 +1625,7 @@ static Evas_Object *create_progressbar(Evas_Object *parent)
 
 	progressbar = elm_progressbar_add(parent);
 	elm_object_style_set(progressbar, "voice_input/process/small");
-	//elm_progressbar_pulse(progressbar, EINA_TRUE);
+	elm_progressbar_pulse(progressbar, EINA_TRUE);
 
 	evas_object_size_hint_align_set(progressbar, EVAS_HINT_FILL, EVAS_HINT_FILL);
 	evas_object_size_hint_weight_set(progressbar, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
@@ -1713,11 +1684,11 @@ static Evas_Object *create_fullview(Evas_Object *parent, VoiceData *r_voicedata)
 
 	elm_layout_file_set(layout_main, edj_path.c_str(), "mic_control");
 
-	//elm_object_content_set(parent, layout_main);
+	elm_object_content_set(parent, layout_main);
 
 	//Canvas for Cairo effect
 	Evas_Object *canvas = evas_object_image_filled_add(evas_object_evas_get(layout_main));
-//	evas_object_image_alpha_set(canvas, EINA_TRUE);
+	evas_object_image_alpha_set(canvas, EINA_TRUE);
 	evas_object_size_hint_align_set(canvas, EVAS_HINT_FILL, EVAS_HINT_FILL);
 	evas_object_size_hint_weight_set(canvas, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_move(canvas, 0, 0);
