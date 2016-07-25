@@ -21,7 +21,6 @@
 
 #include "Debug.h"
 #include "w-input-selector.h"
-#include "w-input-smartreply.h"
 
 #define EMOTICON_CNT 27
 
@@ -136,7 +135,6 @@ static void _rotary_selector_item_clicked(void *data, Evas_Object *obj, void *ev
     const Eina_Unicode unicode_event[2] = { emoticon_info[i].code, 0 };
     char* utf_8 = eina_unicode_unicode_to_utf8(unicode_event, &length);
 
-    input_smartreply_send_feedback(utf_8);
     reply_to_sender_by_callback((const char*)utf_8, "emoticon");
 
     PRINTFUNC(SECURE_DEBUG, "[%d]%s", i, utf_8);

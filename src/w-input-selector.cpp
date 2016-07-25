@@ -26,8 +26,6 @@
 
 //#include "ui_extension.h"
 #include "w-input-selector.h"
-#include "w-input-template.h"
-#include "w-input-smartreply.h"
 #include "w-input-keyboard.h"
 #include "w-input-stt-ise.h"
 #include "w-input-emoticon.h"
@@ -45,8 +43,6 @@ InputKeyboardData g_input_keyboard_data;
 static Elm_Object_Item *it_empty;
 static Elm_Object_Item *it_title;
 static Elm_Object_Item *it_plus;
-static int g_smartreply_current_number = 0;	/* currently loaded smartreply number */
-static unsigned int g_template_current_number = 0;	/* currnetly loaded template number */
 
 Evas_Coord last_step; // 0 ~ 9 for gesture, 10~11 for rotary
 
@@ -57,9 +53,6 @@ static char *_genlist_text_set_theme_color(const char *str, const char *code);
 
 Evas_Object* _create_genlist(Evas_Object* parent);
 void _create_genlist_items(void* user_data, bool is_type_reply);
-void _update_genlist_items(void *user_data);
-void _update_smartreply_items(void *user_data);
-void _update_template_items(void *user_data);
 static void _popup_close_cb(void *data, Evas_Object *obj, void *event_info);
 static void _popup_back_cb(void *data, Evas_Object *obj, void *event_info);
 
@@ -147,18 +140,6 @@ static void _stt_clicked_cb(void *data, Evas_Object * obj, void *event_info)
 	}
 }
 
-static void _input_smartreply_notify_cb(void *user_data)
-{
-	ecore_main_loop_iterate();
-	_update_genlist_items((void *)app_data);
-}
-
-static void _input_template_notify_cb(void *user_data)
-{
-	_update_genlist_items((void *)app_data);
-}
-
-
 static void _emoticon_clicked_cb(void *data, Evas_Object * obj, void *event_info)
 {
 	App_Data* ad = (App_Data*)data;
@@ -204,78 +185,6 @@ static void __bt_connection_result_cb(app_control_h request, app_control_h reply
 	}
 }
 
-
-static void __ise_smartreply_gl_sel(void *data, Evas_Object *obj, void *event_info)
-{
-	App_Data* app_data = (App_Data*) data;
-	Elm_Object_Item *item = (Elm_Object_Item *) event_info;
-
-	if (item) {
-		elm_genlist_item_selected_set(item, EINA_FALSE);
-
-		int index = (unsigned int) elm_object_item_data_get(item);
-
-		char *reply = input_smartreply_get_nth_item(index);
-		if (reply) {
-			input_smartreply_send_feedback(reply);
-			reply_to_sender_by_callback(reply, "smartreply");
-			free(reply);
-			elm_exit();
-		}
-	}
-}
-
-static void __ise_template_add_gl_sel(void *data, Evas_Object *obj, void *event_info)
-{
-	App_Data* app_data = (App_Data*) data;
-	Elm_Object_Item *item = (Elm_Object_Item *) event_info;
-
-	if (item) {
-		elm_genlist_item_selected_set(item, EINA_FALSE);
-
-		if(is_sap_connection() == EINA_TRUE){
-			// Show toast popup
-			show_popup_toast(gettext("WDS_IME_TPOP_ADD_TEMPLATE_ON_YOUR_PHONE_ABB"), true);
-
-			// send message to Host
-			app_control_h appctrl;
-			app_control_create(&appctrl);
-			app_control_set_app_id(appctrl, "com.samsung.w-manager-service");
-			app_control_add_extra_data(appctrl, "type", "gm_setting");
-			app_control_add_extra_data(appctrl, "data/setting_menu", "texttemplate_setting");
-			app_control_send_launch_request(appctrl, NULL, NULL);
-			app_control_destroy(appctrl);
-		} else {
-			app_control_h app_control;
-			app_control_create(&app_control);
-			app_control_set_app_id(app_control, "com.samsung.bt-connection-popup");
-			app_control_add_extra_data(app_control, "msg", "perform");
-			app_control_send_launch_request(app_control, __bt_connection_result_cb, NULL);
-			app_control_destroy(app_control);
-		}
-	}
-}
-
-static void __ise_template_gl_sel(void *data, Evas_Object *obj, void *event_info)
-{
-	App_Data* app_data = (App_Data*) data;
-	Elm_Object_Item *item = (Elm_Object_Item *) event_info;
-	int index = 0;
-
-	if (item) {
-		elm_genlist_item_selected_set(item, EINA_FALSE);
-
-		index = (unsigned int) elm_object_item_data_get(item);
-		const std::vector<TemplateData>  template_list = input_template_get_list();
-
-		//@ToDo : should call reply function when any template string is selected and confirmed.
-		// Here reply string will be template_list[index].text.c_str();
-		if( index < template_list.size()) {
-			reply_to_sender_by_callback(gettext(template_list[index].text.c_str()), "template");
-			elm_exit();
-		}
-	}
-}
 
 static Evas_Object * __ise_gl_3button_content_get(void *data, Evas_Object *obj, const char *part)
 {
@@ -338,99 +247,6 @@ static Evas_Object * __ise_gl_3button_content_get(void *data, Evas_Object *obj, 
 	return NULL;
 }
 
-static char * __ise_smartreply_gl_text_get(void *data, Evas_Object *obj, const char *part)
-{
-	if(!strcmp(part, "elm.text")) {
-		int index;
-		char *reply = NULL;
-
-		index = (int)data;
-		if (index < 0)
-			return NULL;
-
-		reply = input_smartreply_get_nth_item(index);
-		if (reply == NULL)
-			return NULL;
-
-		/* Set hightlight color on first 3 smartreply items */
-		if (index < 3) {
-			char *colored = _genlist_text_set_theme_color(reply, "AT0113");
-
-			if (colored == NULL) {
-				return reply;
-			} else {
-				free(reply);
-				return colored;
-			}
-		}
-
-		return reply;
-	}
-	return NULL;
-}
-
-static char * __ise_template_gl_text_get(void *data, Evas_Object *obj, const char *part)
-{
-	if(!strcmp(part, "elm.text")) {
-		unsigned int index = (unsigned int)data;
-		const std::vector<TemplateData>  template_list = input_template_get_list();
-
-		if(index < template_list.size()) {
-			if(template_list[index].use_gettext) {
-				return strdup(gettext(template_list[index].text.c_str()));
-			} else {
-				Eina_Strbuf *buf = NULL;
-				const char *str = NULL;
-				char *markup = NULL;
-
-				buf = eina_strbuf_new();
-				if(buf) {
-					eina_strbuf_append(buf, template_list[index].text.c_str());
-					eina_strbuf_replace_all(buf, "\n", "");
-					eina_strbuf_replace_all(buf, "\r", "");
-
-					str = eina_strbuf_string_get(buf);
-
-					if (str) {
-						markup = elm_entry_utf8_to_markup(str);
-					}
-					eina_strbuf_free(buf);
-				}
-
-				return markup;
-			}
-		}
-	}
-	return NULL;
-}
-
-static char * __ise_addtemplate_gl_text_get(void *data, Evas_Object *obj, const char *part)
-{
-	if(!strcmp(part, "elm.text")) {
-		return(strdup(gettext("WDS_IME_MBODY_ADD_TEMPLATE_ABB")));
-	}
-	return NULL;
-}
-
-static Evas_Object * __ise_gl_1button_content_get(void *data, Evas_Object *obj, const char *part)
-{
-	if (!strcmp(part, "elm.icon")) {
-		Evas_Object* btn = elm_button_add(obj);
-		evas_object_size_hint_weight_set(btn, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-		evas_object_size_hint_align_set(btn, EVAS_HINT_FILL, EVAS_HINT_FILL);
-		Evas_Object* ic = elm_image_add(btn);
-		elm_image_resizable_set(ic, EINA_TRUE, EINA_TRUE);
-		string path = get_resource_path();
-		elm_object_style_set(btn, "ime_button_template");
-		string path_ic = path + "/images/w_list_add_ic.png";
-		elm_image_file_set(ic, path_ic.c_str(), NULL);
-		elm_object_content_set(btn, ic);
-		evas_object_layer_set(btn, 32000);
-
-		return btn;
-	}
-	return NULL;
-}
 
 static void __ise_gl_lang_changed(void *data, Evas_Object *obj, void *event_info)
 {
@@ -733,7 +549,6 @@ void _create_genlist_items(void* user_data, bool is_type_reply)
 	}
 
 	elm_genlist_clear(app_data->genlist);
-	g_smartreply_current_number = 0;	/* reset previous smartreply size to 0 */
 
 	Elm_Genlist_Item_Class * itc0 = elm_genlist_item_class_new();
 	itc0->item_style = "title";
@@ -765,25 +580,6 @@ void _create_genlist_items(void* user_data, bool is_type_reply)
 
 		elm_genlist_item_select_mode_set(it_title, ELM_OBJECT_SELECT_MODE_NONE);
 	}
-	if (input_smartreply_is_enabled() == false) {
-		_update_template_items(app_data);
-		if(g_template_current_number > 0) {
-			Evas_Object *circle_genlist = (Evas_Object *) evas_object_data_get(app_data->genlist, "circle");
-			eext_circle_object_genlist_scroller_policy_set(circle_genlist,
-					ELM_SCROLLER_POLICY_OFF, ELM_SCROLLER_POLICY_AUTO);
-		}
-	} else {
-		// dummy title for bottom
-		Elm_Object_Item *dummy;
-
-		dummy = elm_genlist_item_append(app_data->genlist, itc0,
-				NULL, NULL,
-				ELM_GENLIST_ITEM_NONE,
-				NULL, NULL);
-
-		elm_genlist_item_select_mode_set(dummy, ELM_OBJECT_SELECT_MODE_NONE);
-	}
-
 
 	Elm_Object_Item *item = elm_genlist_item_next_get(it_title);
 	elm_genlist_item_show(item, ELM_GENLIST_ITEM_SCROLLTO_MIDDLE);
@@ -793,269 +589,6 @@ void _create_genlist_items(void* user_data, bool is_type_reply)
 	elm_genlist_item_class_free(itc0);
 	elm_genlist_item_class_free(itc1);
 }
-
-void _update_genlist_items(void *user_data)
-{
-	int len = 0;
-
-	if (input_smartreply_is_enabled())
-		len = input_smartreply_get_reply_num();
-
-	if (g_smartreply_current_number != len)
-		_update_smartreply_items(user_data);
-
-	_update_template_items(user_data);
-
-	g_smartreply_current_number = len;
-
-	if (g_smartreply_current_number > 0 || g_template_current_number > 0) {
-		Evas_Object *circle_genlist = (Evas_Object *) evas_object_data_get(app_data->genlist, "circle");
-		eext_circle_object_genlist_scroller_policy_set(circle_genlist,
-							ELM_SCROLLER_POLICY_OFF, ELM_SCROLLER_POLICY_AUTO);
-	}
-}
-
-void _update_smartreply_items(void *user_data)
-{
-	App_Data* app_data;
-
-	Elm_Object_Item *first;
-	Elm_Object_Item *menu;
-	Elm_Object_Item *pos;
-
-	int len = 0;
-	int i = 0;
-
-	app_data = (App_Data *)user_data;
-
-	if (app_data == NULL) {
-		PRINTFUNC(DLOG_ERROR, "Can not get app_data");
-		return;
-	}
-
-	if (app_data->genlist == NULL) {
-		/* smartreply will update when genlist is exist only */
-		PRINTFUNC(DLOG_ERROR, "Can not get getlist");
-		return;
-	}
-
-	if (input_smartreply_is_enabled())
-		len = input_smartreply_get_reply_num();
-
-	if (g_smartreply_current_number == len)
-		return;
-
-	first = elm_genlist_first_item_get(app_data->genlist);
-	menu = elm_genlist_item_next_get(first);
-
-	/* Remove current smartreply list */
-	pos = elm_genlist_item_next_get(menu);
-	for (i = 0; i < g_smartreply_current_number; i++) {
-		Elm_Object_Item *next;
-
-		if (pos == NULL)
-			break;
-
-		next = elm_genlist_item_next_get(pos);
-		elm_object_item_del(pos);
-		pos = next;
-	}
-
-	/* Append newly added smartreply list */
-	if (len > 0) {
-		Elm_Genlist_Item_Class *itc;
-
-		itc = elm_genlist_item_class_new();
-
-		itc->item_style = "1text";
-		itc->func.text_get = __ise_smartreply_gl_text_get;
-		itc->func.content_get = NULL;
-		itc->func.state_get = NULL;
-		itc->func.del = NULL;
-
-		pos = menu;
-		for (i = 0; i < len; i++) {
-			pos = elm_genlist_item_insert_after(app_data->genlist,
-							itc,
-							(void *)i,
-							NULL,
-							pos,
-							ELM_GENLIST_ITEM_NONE,
-							__ise_smartreply_gl_sel,
-							app_data);
-		}
-
-		if (menu)
-			elm_genlist_item_show(menu, ELM_GENLIST_ITEM_SCROLLTO_TOP);
-
-		elm_genlist_item_class_free(itc);
-	}
-
-	g_smartreply_current_number = len;
-}
-
-
-void _update_template_items(void *user_data)
-{
-	App_Data* app_data;
-
-	Elm_Object_Item *first;
-	Elm_Object_Item *menu;
-	Elm_Object_Item *pos;
-	Elm_Object_Item *template_pos;
-
-	unsigned int template_len = 0;
-	unsigned int i = 0;
-
-	app_data = (App_Data *)user_data;
-
-	if (app_data == NULL) {
-		PRINTFUNC(DLOG_ERROR, "Can not get app_data");
-		return;
-	}
-
-	if (app_data->genlist == NULL) {
-		/* smartreply will update when genlist is exist only */
-		PRINTFUNC(DLOG_ERROR, "Can not get getlist");
-		return;
-	}
-
-	if (app_data->app_type == APP_TYPE_REPLY) {
-		menu = elm_genlist_first_item_get(app_data->genlist);
-	} else {
-		first = elm_genlist_first_item_get(app_data->genlist);
-		menu = elm_genlist_item_next_get(first);
-	}
-
-	pos = menu;
-	/* move to smartreply next if it need */
-	if (input_smartreply_is_enabled()) {
-		int smartreply_len = 0;
-
-		smartreply_len = input_smartreply_get_reply_num();
-		if (smartreply_len > 0) {
-			int j = 0;
-
-			for (j = 0; j < smartreply_len; j++) {
-				if (pos == NULL)
-					break;
-
-				pos = elm_genlist_item_next_get(pos);
-			}
-		}
-	}
-
-	/* Remove Current template list */
-	template_pos = elm_genlist_item_next_get(pos);
-	for (i = 0 ; i < g_template_current_number; i++) {
-		Elm_Object_Item *next;
-
-		if (template_pos == NULL) {
-			PRINTFUNC(DLOG_ERROR, "Template mismatched, iter : %d, current num: %d",
-					i, g_template_current_number);
-			break;
-		}
-
-		next = elm_genlist_item_next_get(template_pos);
-		elm_object_item_del(template_pos);
-		template_pos = next;
-	}
-
-	/* Remove Add or dummpy button */
-	if(template_pos) {
-		Elm_Object_Item *next;
-
-		next = elm_genlist_item_next_get(template_pos);
-		elm_object_item_del(template_pos);
-		template_pos = next;
-	}
-
-	/* Append New Template list */
-	const std::vector<TemplateData> template_list = input_template_get_list();
-	template_len = 0;
-
-	if (template_list.size() > 0) {
-		Elm_Genlist_Item_Class *itc;
-
-		itc = elm_genlist_item_class_new();
-
-		itc->item_style = "1text";
-		itc->func.text_get = __ise_template_gl_text_get;
-		itc->func.content_get = NULL;
-		itc->func.state_get = NULL;
-		itc->func.del = NULL;
-
-		for (i = 0; i < template_list.size(); i++) {
-			bool matched = false;
-
-			if(!template_list[i].use_gettext) {
-				int smartreply_len = 0;
-				int j = 0;
-
-				smartreply_len = input_smartreply_get_reply_num();
-				for (j = 0; j < smartreply_len; j++) {
-					char *reply = NULL;
-
-					reply = input_smartreply_get_nth_item(j);
-					if (reply) {
-						if (!strcmp(reply, template_list[i].text.c_str())) {
-							matched = true;
-							free(reply);
-							break;
-						}
-						free(reply);
-					}
-				}
-			}
-
-			if (matched == false) {
-				pos = elm_genlist_item_insert_after(app_data->genlist,
-						itc,
-						(void *)i,
-						NULL,
-						pos,
-						ELM_GENLIST_ITEM_NONE,
-						__ise_template_gl_sel,
-						app_data);
-				template_len++;
-			}
-		}
-
-		elm_genlist_item_class_free(itc);
-	}
-
-
-	// template add button (+)
-/*	if (!input_template_is_user_template()) {
-		Elm_Genlist_Item_Class *itc;
-
-		itc = elm_genlist_item_class_new();
-
-		itc->item_style = "1text.1icon";
-		itc->func.text_get = __ise_addtemplate_gl_text_get;;
-		itc->func.content_get = __ise_gl_1button_content_get;
-		itc->func.state_get = NULL;
-		itc->func.del = NULL;
-
-
-		pos = elm_genlist_item_insert_after(app_data->genlist,
-				itc,
-				NULL,
-				NULL,
-				pos,
-				ELM_GENLIST_ITEM_NONE,
-				__ise_template_add_gl_sel,
-				app_data);
-
-		elm_genlist_item_class_free(itc);
-	}
-*/
-	if (menu)
-		elm_genlist_item_show(menu, ELM_GENLIST_ITEM_SCROLLTO_TOP);
-
-	g_template_current_number = template_len;
-}
-
 
 bool _app_create(void* user_data)
 {
@@ -1164,16 +697,6 @@ void _app_service(app_control_h service, void* user_data)
 
 	input_keyboard_init(service);
 
-//	input_smartreply_init(service);
-//	input_smartreply_set_notify(_input_smartreply_notify_cb, NULL);
-
-//	if (input_smartreply_is_enabled())
-//		input_smartreply_get_reply_async();
-
-
-	input_template_init(service);
-	input_template_set_notify(_input_template_notify_cb,  NULL);
-
 	_create_genlist_items(app_data, is_type_reply);
 
 ACTIVATE :
@@ -1211,10 +734,6 @@ void _app_terminate(void* user_data)
 		free(app_data->shared_res_path);
 
 	input_keyboard_deinit();
-	input_smartreply_deinit();
-
-	input_template_unset_notify();
-	input_template_deinit();
 }
 
 static int init_i18n(const char *domain, const char *dir, char *lang_str)

@@ -23,7 +23,6 @@
 
 #include "w-input-keyboard.h"
 #include "w-input-selector.h"
-#include "w-input-smartreply.h"
 
 extern InputKeyboardData g_input_keyboard_data;
 extern App_Data* app_data;
@@ -42,12 +41,6 @@ static void input_keyboard_app_control_send_reply_cb(app_control_h request, app_
 			int ret;
 			ret = app_control_get_extra_data(reply,
 					"template_feedback", &feedback);
-
-			if (ret == APP_CONTROL_ERROR_NONE) {
-				if (feedback) {
-					input_smartreply_send_feedback(feedback);
-				}
-			}
 		}
 		reply_to_sender_by_callback(feedback, "keyboard");
 		free(feedback);
@@ -101,9 +94,6 @@ void btn_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 
 	const char *getText = elm_entry_entry_get(entry);
 	LOGD("button key clicked!! : getText = %s", getText);
-
-	if (getText)
-		input_smartreply_send_feedback(getText);
 
 	char *app_id = NULL;
 	app_control_get_caller(app_data->source_app_control, &app_id);

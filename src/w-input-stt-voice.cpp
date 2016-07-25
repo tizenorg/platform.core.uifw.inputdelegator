@@ -28,7 +28,6 @@
 
 #include "Debug.h"
 #include "w-input-selector.h"
-#include "w-input-smartreply.h"
 #include "w-input-stt-voice.h"
 #include "w-input-stt-engine.h"
 #include "w-input-stt-ise.h"
@@ -449,7 +448,6 @@ static void on_confirm_button_clicked_cb(void *data, Evas_Object *obj, void *eve
 	}
 
 	PRINTFUNC(DLOG_DEBUG, "result_text = %s", result_text.c_str());
-	input_smartreply_send_feedback(result_text.c_str());
 
 	reply_to_sender_by_callback(result_text.c_str(), "voice");
 	destroy_voice();

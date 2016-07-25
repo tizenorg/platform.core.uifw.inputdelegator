@@ -31,7 +31,6 @@ BuildRequires: pkgconfig(stt)
 BuildRequires: pkgconfig(vconf)
 BuildRequires: pkgconfig(db-util)
 BuildRequires: pkgconfig(sqlite3)
-#BuildRequires: pkgconfig(smartreply)
 
 
 %if %{enable_log_manager}
