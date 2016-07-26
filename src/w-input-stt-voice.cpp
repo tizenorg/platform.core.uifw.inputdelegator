@@ -1595,7 +1595,7 @@ static Evas_Object *create_textblock(void* data)
 
 #define FORMAT_TEXT_AREA_FONT_STYLE \
 	"DEFAULT='font=Tizen:style=Regular font_size=32 color=#%02x%02x%02x%02x text_class=tizen wrap=mixed align=center' newline='br' b='+ font=Tizen:style=Bold'link='+ underline=on underline_color=#%02x%02x%02x%02x'"
-	int a, r, g, b;
+	int a = 0xFF, r = 0xFF, g = 0xFF, b = 0xFF;
 	char customStyle[512];
 //	ea_theme_color_get("AT02112", &r, &g, &b, &a, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 	snprintf(customStyle, 512, FORMAT_TEXT_AREA_FONT_STYLE, r, g, b, a, r, g, b, a);
