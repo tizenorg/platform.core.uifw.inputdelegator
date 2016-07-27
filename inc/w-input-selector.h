@@ -82,10 +82,14 @@ struct _InputKeyboardData
 	char *guide_text;
 	char *default_text;
 };
-
 typedef struct _InputKeyboardData InputKeyboardData;
 
-
+struct _InputTypeData
+{
+	char **input_type_array;
+	int input_type_array_len;
+};
+typedef struct _InputTypeData InputTypeData;
 
 void _app_terminate(void* user_data);
 void reply_to_sender_by_callback_for_back();
