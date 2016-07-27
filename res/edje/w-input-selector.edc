@@ -580,6 +580,7 @@ collections {
 				}
 			)
 		}
+
 //Gesture VI
 		program { name: "do_start_expand_0.0";
 			action: STATE_SET "default" 0.0;
@@ -670,5 +671,161 @@ collections {
 		}
 
 	}
+
+	group {
+		name: "elm/genlist/item/2button/default";
+		data.item: "treesize" 0;
+		data.item: "flips" "elm.flip.icon elm.flip.content";
+		data.item: "contents" "base elm.icon.1.touch_area elm.icon.2.touch_area elm.icon.1 elm.icon.2 elm.swallow.center_check";
+		data.item: "vi_effect" "off";
+
+		parts {
+			PART_LIST_BG
+			PART_LIST_PADDINGS(
+				LIST_BUTTON_PADDING_LEFT_SIZE_INC, LIST_BUTTON_PADDING_RIGHT_SIZE_INC,
+				LIST_BUTTON_PADDING_2BUTTON_TOP_SIZE_INC, LIST_BUTTON_PADDING_BOTTOM_SIZE_INC
+			)
+			PART(SWALLOW, "base",
+				DESC_LRTB("elm.padding.left", "elm.padding.right", "elm.padding.top", "elm.padding.bottom",
+					min: 360 0;
+					fixed: 1 0;
+					visible: 1;
+				)
+			)
+			part { name: "elm.icon.1.touch_area";
+//			   type: RECT;
+			   type: SWALLOW;
+			   repeat_events, 0;
+			   description {
+				  state: "default" 0.0;
+				  color: 255 0 0 100;
+				  visible: 1;
+				  align: 0.5 0.5;
+				  fixed: 1 1;
+				  rel1 { relative: 0.0 0.0; to: "elm.icon.1"; offset: -5 -5;}
+				  rel2 { relative: 1.0 1.0; to: "elm.icon.1"; offset: +5 +5;}
+			   }
+			   description {
+				  state: "default" 0.1;
+				  inherit: "default" 0.0;
+				  rel1 { relative: 0.0 0.0; to: "elm.icon.1"; offset: -7 -7;}
+				  rel2 { relative: 1.0 1.0; to: "elm.icon.1"; offset: +7 +7;}
+			   }
+			   description {
+				  state: "default" 0.9;
+				  inherit: "default" 0.0;
+				  rel1 { relative: 0.0 0.0; to: "elm.icon.1"; offset: -8 -8;}
+				  rel2 { relative: 1.0 1.0; to: "elm.icon.1"; offset: +8 +8;}
+			   }
+			}
+			part { name: "elm.icon.2.touch_area";
+//			   type: RECT;
+			   type: SWALLOW;
+			   repeat_events, 0;
+			   description {
+				  state: "default" 0.0;
+				  color: 0 0 255 100;
+				  visible: 1;
+				  align: 0.5 0.5;
+				  fixed: 1 1;
+				  rel1 { relative: 0.0 0.0; to: "elm.icon.2"; offset: -6 -5;}
+				  rel2 { relative: 1.0 1.0; to: "elm.icon.2"; offset: +6 +5;}
+			   }
+			   description {
+				  state: "default" 0.1;
+				  inherit: "default" 0.0;
+				  rel1 { relative: 0.0 0.0; to: "elm.icon.2"; offset: -7 -7;}
+				  rel2 { relative: 1.0 1.0; to: "elm.icon.2"; offset: +7 +7;}
+			   }
+			   description {
+				  state: "default" 0.9;
+				  inherit: "default" 0.0;
+				  rel1 { relative: 0.0 0.0; to: "elm.icon.2"; offset: -9 -8;}
+				  rel2 { relative: 1.0 1.0; to: "elm.icon.2"; offset: +9 +8;}
+			   }
+			}
+			part { name: "elm.icon.1";
+			   type: SWALLOW;
+			   repeat_events, 1;
+			   description {
+				  state: "default" 0.0;
+				  //color: 255 0 0 255;
+				  visible: 1;
+				  align: 0.5 0;
+				  fixed: 1 1;
+				  min: 114 114;
+				  max: 114 114;
+				  rel1 { relative: 112/360 0; to: "base"; offset: 0 35;}
+				  rel2 { relative: 112/360 0; to: "base"; offset: 0 35;}
+			   }
+			   description {
+				  state: "default" 0.1;
+				  inherit: "default" 0.0;
+				  min: 114+(198-114)/2 114+(198-114)/2;
+				  max: 114+(198-114)/2 114+(198-114)/2;
+				  rel1 { relative: ((64+112)/2)/360 0; to: "base"; offset: 0 (35+12)/2;}
+				  rel2 { relative: ((64+112)/2)/360 0; to: "base"; offset: 0 (35+12)/2;}
+			   }
+			   description {
+				  state: "default" 0.9;
+				  inherit: "default" 0.0;
+				  min: 198 198;
+				  max: 198 198;
+				  rel1 { relative: 128/360 0; to: "base"; offset: 0 12;}
+				  rel2 { relative: 128/360 0; to: "base"; offset: 0 12;}
+			   }
+			}
+			part { name: "elm.icon.2";
+			   type: SWALLOW;
+			   repeat_events, 1;
+			   description {
+				  state: "default" 0.0;
+				  //color: 255 0 0 255;
+				  visible: 1;
+				  align: 0.5 0;
+				  fixed: 1 1;
+				  min: 114 114;
+				  max: 114 114;
+				  rel1 { relative: 249/360 0; to: "base"; offset: 0 35;}
+				  rel2 { relative: 249/360 0; to: "base"; offset: 0 35;}
+			   }
+			   description {
+				  state: "default" 0.1;
+				  inherit: "default" 0.0;
+				  min: 114+(198-114)/2 114+(99-114)/2;
+				  max: 114+(198-114)/2 114+(198-114)/2;
+				  rel1 { relative: ((249+297)/2)/360 0; to: "base"; offset: 0 (35+12)/2;}
+				  rel2 { relative: ((249+297)/2)/360 0; to: "base"; offset: 0 (35+12)/2;}
+			   }
+			   description {
+				  state: "default" 0.9;
+				  inherit: "default" 0.0;
+				  min: 198 198;
+				  max: 198 198;
+				  rel1 { relative: 297/360 0; to: "base"; offset: 0 12;}
+				  rel2 { relative: 297/360 0; to: "base"; offset: 0 12;}
+			   }
+			}
+
+			PART(SPACER, "elm.padding.fake",
+				DESC_TB("elm.padding.top","elm.padding.bottom",
+					min: LIST_BUTTON_PADDING_CENTER_SIZE_INC 0;
+					max: LIST_BUTTON_PADDING_CENTER_SIZE_INC -1;
+					fixed: 1 0;
+				)
+			)
+			PART(SPACER, "elm.padding.center",
+				DESC_LTB("elm.padding.fake", "elm.padding.top", "elm.padding.bottom",
+					min: LIST_BUTTON_PADDING_CENTER_SIZE_INC 0;
+					max: LIST_BUTTON_PADDING_CENTER_SIZE_INC -1;
+					fixed: 1 0;
+				)
+			)
+			PART(SWALLOW, "elm.swallow.center_check",
+				description { state: "default" 0.0;
+					align: 0.5 0.5;
+				}
+			)
+		}
 
 }

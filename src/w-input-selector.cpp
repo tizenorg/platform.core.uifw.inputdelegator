@@ -39,6 +39,7 @@ using namespace std;
 App_Data* app_data = NULL;
 
 InputKeyboardData g_input_keyboard_data;
+InputTypeData g_input_type_data;
 
 static Elm_Object_Item *it_empty;
 static Elm_Object_Item *it_title;
@@ -52,9 +53,10 @@ static void _app_language_changed(app_event_info_h event_info, void *user_data);
 static char *_genlist_text_set_theme_color(const char *str, const char *code);
 
 Evas_Object* _create_genlist(Evas_Object* parent);
-void _create_genlist_items(void* user_data, bool is_type_reply);
+void _create_genlist_items(void* user_data);
 static void _popup_close_cb(void *data, Evas_Object *obj, void *event_info);
 static void _popup_back_cb(void *data, Evas_Object *obj, void *event_info);
+void input_type_deinit(void);
 
 
 
@@ -185,6 +187,91 @@ static void __bt_connection_result_cb(app_control_h request, app_control_h reply
 	}
 }
 
+static Evas_Object * __ise_gl_2button_content_get(void *data, Evas_Object *obj, const char *part)
+{
+	char *first_input_type = *(g_input_type_data.input_type_array + 0);
+	char *second_input_type = *(g_input_type_data.input_type_array + 1);
+
+	if (!strcmp(part, "elm.icon.1") ||  (!strcmp(part, "elm.icon.2"))) {
+		Evas_Object* btn = elm_button_add(obj);
+		evas_object_size_hint_weight_set(btn, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+		evas_object_size_hint_align_set(btn, EVAS_HINT_FILL, EVAS_HINT_FILL);
+		Evas_Object* ic = elm_image_add(btn);
+		elm_image_resizable_set(ic, EINA_TRUE, EINA_TRUE);
+		string path = get_resource_path();
+		if (!strcmp(part, "elm.icon.1")) {
+			elm_object_style_set(btn, "anchor");
+			string path_ic;
+			if(!strcmp(first_input_type, "input_voice")) {
+				path_ic = path + "images/w_mode_stt_ic.png";
+			}
+			else if(!strcmp(first_input_type, "input_emoticon")) {
+				path_ic = path + "images/Delta_w_mode_emoticon_ic.png";
+			}
+			else if(!strcmp(first_input_type, "input_keyboard")) {
+				path_ic = path + "images/w_mode_keyboard_ic.png";
+				evas_object_propagate_events_set(btn, EINA_FALSE);
+			}
+			elm_image_file_set(ic, path_ic.c_str(), NULL);
+			elm_object_content_set(btn, ic);
+			evas_object_layer_set(btn, 32000);
+		} else if (!strcmp(part, "elm.icon.2")){
+			elm_object_style_set(btn, "anchor");
+			string path_ic;
+			if(!strcmp(second_input_type, "input_voice")) {
+				path_ic = path + "images/w_mode_stt_ic.png";
+			}
+			else if(!strcmp(second_input_type, "input_emoticon")) {
+				path_ic = path + "images/Delta_w_mode_emoticon_ic.png";
+			}
+			else if(!strcmp(second_input_type, "input_keyboard")) {
+				path_ic = path + "images/w_mode_keyboard_ic.png";
+				evas_object_propagate_events_set(btn, EINA_FALSE);
+			}
+			elm_image_file_set(ic, path_ic.c_str(), NULL);
+			elm_object_content_set(btn, ic);
+			evas_object_layer_set(btn, 32000);
+		}
+		return btn;
+	} else if (!strcmp(part, "elm.icon.1.touch_area") ||  (!strcmp(part, "elm.icon.2.touch_area"))) {
+		Evas_Object* btn = elm_button_add(obj);
+		elm_object_style_set(btn, "touch_area");
+		evas_object_size_hint_weight_set(btn, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+		evas_object_size_hint_align_set(btn, EVAS_HINT_FILL, EVAS_HINT_FILL);
+		string path = get_resource_path();
+		if (!strcmp(part, "elm.icon.1.touch_area")) {
+			evas_object_layer_set(btn, 32000);
+			if(!strcmp(first_input_type, "input_voice")) {
+				evas_object_smart_callback_add(btn, "clicked", _stt_clicked_cb, app_data);
+			}
+			else if(!strcmp(first_input_type, "input_emoticon")) {
+				evas_object_smart_callback_add(btn, "clicked", _emoticon_clicked_cb, app_data);
+			}
+			else if(!strcmp(first_input_type, "input_keyboard")) {
+				evas_object_propagate_events_set(btn, EINA_FALSE);
+				evas_object_smart_callback_add(btn, "clicked", _keyboard_clicked_cb, app_data);
+			}
+		} else if (!strcmp(part, "elm.icon.2.touch_area")){
+			evas_object_layer_set(btn, 32000);
+			if(!strcmp(second_input_type, "input_voice")) {
+				evas_object_smart_callback_add(btn, "clicked", _stt_clicked_cb, app_data);
+			}
+			else if(!strcmp(second_input_type, "input_emoticon")) {
+				evas_object_smart_callback_add(btn, "clicked", _emoticon_clicked_cb, app_data);
+			}
+			else if(!strcmp(second_input_type, "input_keyboard")) {
+				evas_object_propagate_events_set(btn, EINA_FALSE);
+				evas_object_smart_callback_add(btn, "clicked", _keyboard_clicked_cb, app_data);
+			}
+		}
+		return btn;
+	} else if (!strcmp(part, "base")) {
+		Evas_Object* btn = elm_button_add(obj);
+		elm_object_style_set(btn, "ime_transparent");
+		return btn;
+	}
+	return NULL;
+}
 
 static Evas_Object * __ise_gl_3button_content_get(void *data, Evas_Object *obj, const char *part)
 {
@@ -536,7 +623,7 @@ _main_menu_title_text_get(void *data, Evas_Object *obj, const char *part)
 	return strdup(buf);
 }
 
-void _create_genlist_items(void* user_data, bool is_type_reply)
+void _create_genlist_items(void* user_data)
 {
 	LOGD("[psw] _create_genlist_items");
 
@@ -558,12 +645,19 @@ void _create_genlist_items(void* user_data, bool is_type_reply)
 	itc0->func.del = NULL;
 
 	Elm_Genlist_Item_Class * itc1 = elm_genlist_item_class_new();
-	itc1->item_style = "3button";
-	itc1->func.text_get = NULL;
-	itc1->func.content_get = __ise_gl_3button_content_get;
-	itc1->func.state_get = NULL;
-	itc1->func.del = NULL;
-
+	if(g_input_type_data.input_type_array_len == 2){
+		itc1->item_style = "2button";
+		itc1->func.text_get = NULL;
+		itc1->func.content_get = __ise_gl_2button_content_get;
+		itc1->func.state_get = NULL;
+		itc1->func.del = NULL;
+	}else{
+		itc1->item_style = "3button";
+		itc1->func.text_get = NULL;
+		itc1->func.content_get = __ise_gl_3button_content_get;
+		itc1->func.state_get = NULL;
+		itc1->func.del = NULL;
+	}
 
 	// dummy title for empty space
 	it_empty = elm_genlist_item_append(app_data->genlist, itc0,
@@ -571,15 +665,13 @@ void _create_genlist_items(void* user_data, bool is_type_reply)
 			ELM_GENLIST_ITEM_NONE,
 			NULL, NULL);
 
-	if (!is_type_reply) {
-		// 3 Buttons
-		it_title = elm_genlist_item_append(app_data->genlist, itc1,
-				NULL, NULL,
-				ELM_GENLIST_ITEM_NONE,
-				NULL, NULL);
+	// 3 Buttons
+	it_title = elm_genlist_item_append(app_data->genlist, itc1,
+			NULL, NULL,
+			ELM_GENLIST_ITEM_NONE,
+			NULL, NULL);
 
-		elm_genlist_item_select_mode_set(it_title, ELM_OBJECT_SELECT_MODE_NONE);
-	}
+	elm_genlist_item_select_mode_set(it_title, ELM_OBJECT_SELECT_MODE_NONE);
 
 	Elm_Object_Item *item = elm_genlist_item_next_get(it_title);
 	elm_genlist_item_show(item, ELM_GENLIST_ITEM_SCROLLTO_MIDDLE);
@@ -666,29 +758,37 @@ void _app_service(app_control_h service, void* user_data)
 	int ret;
 	bool b_ret;
 	char *context = NULL;
+	char **input_type_array = NULL;
+	int input_type_array_len = -1;
+	bool is_extra_data_array = false;
 
 	app_control_clone(&(app_data->source_app_control), service);
 	app_data->reply_type = REPLY_APP_NORMAL;
 
-    bool is_type_reply = false;
-	ret = app_control_get_extra_data(service, APP_CONTROL_DATA_INPUT_TYPE, &context);
-	if (ret == APP_CONTROL_ERROR_NONE) {
-		if (!strcmp(context, "input_voice")) {
-			app_data->app_type = APP_TYPE_STT;
-			_stt_clicked_cb((void *)app_data, NULL, NULL);
-			goto ACTIVATE;
-		} else if (!strcmp(context, "input_emoticon")) {
-			app_data->app_type = APP_TYPE_EMOTICON;
-			_emoticon_clicked_cb((void *)app_data, NULL, NULL);
-			goto ACTIVATE;
-        } else if (!strcmp(context, "input_keyboard")) {
-			app_data->app_type = APP_TYPE_KEYBOARD;
-			input_keyboard_init(service);
-			_keyboard_clicked_cb((void *)app_data, NULL, NULL);
-			goto ACTIVATE;
-		} else if (!strcmp(context, "input_reply")) {
-			app_data->app_type = APP_TYPE_REPLY;
-            is_type_reply = true;
+	ret = app_control_is_extra_data_array(service, APP_CONTROL_DATA_INPUT_TYPE, &is_extra_data_array);
+	if( is_extra_data_array == true) {
+		ret = app_control_get_extra_data_array(service, APP_CONTROL_DATA_INPUT_TYPE, &input_type_array, &input_type_array_len);
+		g_input_type_data.input_type_array = input_type_array;
+		g_input_type_data.input_type_array_len = input_type_array_len;
+	}else{
+		ret = app_control_get_extra_data(service, APP_CONTROL_DATA_INPUT_TYPE, &context);
+		if (ret == APP_CONTROL_ERROR_NONE) {
+			if (!strcmp(context, "input_voice")) {
+				app_data->app_type = APP_TYPE_STT;
+				_stt_clicked_cb((void *)app_data, NULL, NULL);
+				goto ACTIVATE;
+			} else if (!strcmp(context, "input_emoticon")) {
+				app_data->app_type = APP_TYPE_EMOTICON;
+				_emoticon_clicked_cb((void *)app_data, NULL, NULL);
+				goto ACTIVATE;
+			} else if (!strcmp(context, "input_keyboard")) {
+				app_data->app_type = APP_TYPE_KEYBOARD;
+				input_keyboard_init(service);
+				_keyboard_clicked_cb((void *)app_data, NULL, NULL);
+				goto ACTIVATE;
+			} else if (!strcmp(context, "input_reply")) {
+				app_data->app_type = APP_TYPE_REPLY;
+			}
 		}
 	}
 
@@ -697,7 +797,7 @@ void _app_service(app_control_h service, void* user_data)
 
 	input_keyboard_init(service);
 
-	_create_genlist_items(app_data, is_type_reply);
+	_create_genlist_items(app_data);
 
 ACTIVATE :
 	elm_win_activate(app_data->win_main);
@@ -734,6 +834,7 @@ void _app_terminate(void* user_data)
 		free(app_data->shared_res_path);
 
 	input_keyboard_deinit();
+	input_type_deinit();
 }
 
 static int init_i18n(const char *domain, const char *dir, char *lang_str)
@@ -776,7 +877,22 @@ static void _app_language_changed(app_event_info_h event_info, void *user_data)
 	}
 }
 
+void input_type_deinit(void)
+{
+	int i = 0;
+	char **data_array = NULL;
 
+	data_array = g_input_type_data.input_type_array;
+	if (data_array) {
+		for (i = 0; i < g_input_type_data.input_type_array_len; i++) {
+			if (*(data_array + i))
+				free(*(data_array + i));
+		}
+		free(data_array);
+	}
+	g_input_type_data.input_type_array = NULL;
+	g_input_type_data.input_type_array_len = 0;
+}
 
 int main(int argc, char* argv[])
 {
